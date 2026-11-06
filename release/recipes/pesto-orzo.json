@@ -1,0 +1,540 @@
+{
+  "id": "pesto-orzo",
+  "added": "2026-11-06",
+  "equipment": [
+    "Baking tray",
+    "Frying pan",
+    "Large saucepan",
+    "Sieve"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Wheat and gluten",
+    "Cashew nuts"
+  ],
+  "cautions": [
+    "Check the actual packaging for allergens and cross-contact. The card lists potential cross-contact with peanuts, nuts, sesame, fish, crustaceans, molluscs, milk, egg, mustard, celery, soya, cereals containing gluten and sulphites.",
+    "Wash hands before and after prep. Rinse fruit and vegetables. Use separate utensils for raw and cooked meat or wash them between uses. Defrost any frozen products fully before cooking. Ingredients printed in red on the card are hot."
+  ],
+  "defaultServings": 2,
+  "variants": [],
+  "tagSource": "reviewed",
+  "slug": "pesto-orzo",
+  "title": "Mediterranean Style Chicken and Creamy Pesto Orzo",
+  "subtitle": "For adults, add spring onion and pumpkin seeds",
+  "aliases": [
+    "pesto orzo",
+    "chicken pesto orzo",
+    "creamy chicken orzo"
+  ],
+  "provider": "HelloFresh",
+  "cuisine": "Mediterranean",
+  "themes": [
+    "Family favourites",
+    "Comfort food"
+  ],
+  "description": "Golden roast chicken over creamy basil pesto orzo with tender leeks and carrots.",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2026-W39 · Card 8",
+    "url": "https://www.hellofresh.co.uk/recipes/mediterranean-style-chicken-and-creamy-pesto-orzo-69f21377d52e296f6a387fb7"
+  },
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": {
+      "minMinutes": 25,
+      "maxMinutes": 25,
+      "sourceLabel": "25 Minutes",
+      "provenance": "Same-edition HelloFresh recipe page labels this Total"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "hero": {
+    "id": "pesto-orzo",
+    "path": "media/pesto-orzo.webp",
+    "width": 1120,
+    "height": 717,
+    "alt": "",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/pesto-orzo-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "chicken-breast",
+      "label": "British Chicken Breasts",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "leek",
+      "label": "Leek",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "carrot",
+      "label": "Carrot",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "spring-onion",
+      "label": "Spring Onion",
+      "group": "box",
+      "optional": true,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "orzo",
+      "label": "Orzo",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "180 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "270 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "360 g"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken Stock Paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "creme-fraiche",
+      "label": "Crème Fraîche",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "mediterranean-seasoning",
+      "label": "Mediterranean Style Seasoning",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "cashew-basil-pesto",
+      "label": "Basil Pesto with Cashew Nuts",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "60 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "90 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "120 g"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "pumpkin-seeds",
+      "label": "Pumpkin Seeds",
+      "group": "box",
+      "optional": true,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "22.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      }
+    },
+    {
+      "id": "line-11",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "125 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "200 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 ml"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-13",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-14",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Fry the chicken",
+      "blocks": [
+        "Heat the oven to 240°C / 220°C fan / gas mark 9. Bring a large saucepan of water to the boil with ½ tsp salt for the orzo.",
+        "Heat a drizzle of oil in a frying pan over high heat. Lay in the chicken and season with salt and pepper.",
+        "Fry until golden, 3–4 minutes, then turn and fry for 1 minute more."
+      ],
+      "notes": [
+        "A stronger smell when first opened can come from the packaging. Wash your hands and equipment after handling raw chicken and its packaging."
+      ],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Sear chicken",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "pesto-orzo-1",
+        "path": "media/pesto-orzo-1.webp",
+        "width": 620,
+        "height": 282,
+        "alt": "Card photograph for step 1",
+        "credit": "HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Roast the chicken",
+      "blocks": [
+        "Transfer the chicken to a baking tray, skin-side up. Sprinkle half the Mediterranean style seasoning over it.",
+        "Roast on the top shelf for 12–15 minutes, until cooked through and no longer pink in the middle."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast chicken",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "pesto-orzo-2",
+        "path": "media/pesto-orzo-2.webp",
+        "width": 620,
+        "height": 285,
+        "alt": "Card photograph for step 2",
+        "credit": "HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Cook the veg",
+      "blocks": [
+        "While the chicken fries, remove the root and dark leaves of the leek. Halve it lengthways and slice thinly.",
+        "Trim the carrot, quarter lengthways without peeling and chop it across into small pieces. Trim and thinly slice the spring onion.",
+        "While the chicken roasts, put the same frying pan over medium-high heat with a drizzle of oil. Stir-fry the carrot and leek for 6–8 minutes until tender."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Soften vegetables",
+          "seconds": [
+            360,
+            480
+          ]
+        }
+      ],
+      "image": {
+        "id": "pesto-orzo-3",
+        "path": "media/pesto-orzo-3.webp",
+        "width": 620,
+        "height": 295,
+        "alt": "Card photograph for step 3",
+        "credit": "HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Boil the orzo",
+      "blocks": [
+        "While the vegetables cook, add orzo to the boiling water and bring it back to a boil. Cook for 10 minutes until tender.",
+        "Drain in a sieve, return to the saucepan and stir through a little oil to prevent sticking."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Boil orzo",
+          "seconds": [
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "pesto-orzo-4",
+        "path": "media/pesto-orzo-4.webp",
+        "width": 620,
+        "height": 287,
+        "alt": "Card photograph for step 4",
+        "credit": "HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Finish the orzo",
+      "blocks": [
+        "When the vegetables are tender, stir in the chicken stock paste, crème fraîche, {{sauce-water}} water and the remaining seasoning.",
+        "Simmer for 2–3 minutes, then take off the heat. Stir in the pesto and cooked orzo to coat.",
+        "If the sauce is thick, loosen with a splash of water. Season to taste."
+      ],
+      "notes": [],
+      "quantities": {
+        "sauce-water": {
+          "2": "125 ml",
+          "3": "200 ml",
+          "4": "250 ml"
+        }
+      },
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the sauce",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "pesto-orzo-5",
+        "path": "media/pesto-orzo-5.webp",
+        "width": 620,
+        "height": 291,
+        "alt": "Card photograph for step 5",
+        "credit": "HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Finish and serve",
+      "blocks": [
+        "Rest the cooked chicken on a board for a couple of minutes, then slice thinly.",
+        "Divide the orzo between bowls and top with sliced chicken. For anyone who wants them, add the sliced spring onion and pumpkin seeds."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "pesto-orzo-6",
+        "path": "media/pesto-orzo-6.webp",
+        "width": 620,
+        "height": 300,
+        "alt": "Card photograph for step 6",
+        "credit": "HelloFresh recipe card"
+      }
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "id": "salmon-tagliatelle",
+  "added": "2026-11-06",
+  "equipment": [
+    "Kettle",
+    "Large wide frying pan",
+    "Saucepan",
+    "Jug",
+    "Colander"
+  ],
+  "before": [
+    "Portion the ingredients for the selected serving size. Wash fresh herbs, fruit and vegetables, and check use-by dates."
+  ],
+  "allergens": [
+    "Gluten",
+    "Fish",
+    "Milk"
+  ],
+  "cautions": [
+    "Check ingredient packaging for current allergen information. The card image may differ if your box contained alternative ingredients."
+  ],
+  "defaultServings": 2,
+  "variants": [],
+  "tagSource": "reviewed",
+  "slug": "salmon-tagliatelle",
+  "title": "Creamy Salmon & Courgette Sauce With Fresh Tagliatelle",
+  "aliases": [
+    "salmon tagliatelle",
+    "creamy salmon pasta",
+    "salmon courgette"
+  ],
+  "provider": "Gousto",
+  "cuisine": "Italian-style",
+  "themes": [
+    "Comfort food",
+    "Family favourites"
+  ],
+  "description": "Fresh tagliatelle with salmon flakes and tender courgettes in a crème fraîche sauce.",
+  "source": {
+    "label": "Gousto",
+    "edition": "R-6681"
+  },
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 10,
+      "maxMinutes": 20,
+      "sourceLabel": "10–20 min",
+      "provenance": "Gousto card cover. Time meaning unconfirmed."
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "hero": {
+    "id": "salmon-tagliatelle",
+    "path": "media/salmon-tagliatelle.webp",
+    "width": 1120,
+    "height": 726,
+    "alt": "",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/salmon-tagliatelle-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "courgette",
+      "label": "Courgette",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "creme-fraiche",
+      "label": "Crème fraîche",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 × 80 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 80 g"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "fresh-tagliatelle",
+      "label": "Fresh tagliatelle",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 250 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 250 g"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "salmon-flakes",
+      "label": "Salmon flakes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 100 g"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "shallot",
+      "label": "Shallot",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "intense-vegetable-stock-mix",
+      "label": "Vegetable stock mix (intense)",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 5.5 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "vegetable-stock-mix",
+      "label": "Vegetable stock mix",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unused"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "unused"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "A knob"
+        },
+        "3": {
+          "status": "printed",
+          "text": "A knob"
+        },
+        "4": {
+          "status": "printed",
+          "text": "A knob"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "flour",
+      "label": "Flour",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "3 tsp"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-11",
+      "ingredientId": "black-pepper",
+      "label": "Pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-13",
+      "ingredientId": "water",
+      "label": "Water for stock",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "200 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Get ready",
+      "blocks": [
+        "Set out your ingredients and equipment, skim the steps and wash your fruit and vegetables."
+      ],
+      "notes": [
+        "Equipment and pan sizes vary. Cook the food thoroughly even if it takes longer than the card’s headline time."
+      ],
+      "timers": []
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Slice the vegetables",
+      "blocks": [
+        "Boil a kettle. Trim the courgettes, halve lengthways and slice finely. Peel and finely slice the shallots."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "salmon-tagliatelle-2",
+        "path": "media/salmon-tagliatelle-2.webp",
+        "width": 373,
+        "height": 533,
+        "alt": "Card photograph for step 2",
+        "credit": "Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Soften the vegetables",
+      "blocks": [
+        "Heat a drizzle of olive oil over high heat in a wide pan, preferably non-stick. Add the courgettes and shallots with a generous pinch of pepper and salt.",
+        "Cook for 5–6 minutes until they begin to soften."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Soften courgettes",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "salmon-tagliatelle-3",
+        "path": "media/salmon-tagliatelle-3.webp",
+        "width": 352,
+        "height": 540,
+        "alt": "Card photograph for step 3",
+        "credit": "Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Mix the stock",
+      "blocks": [
+        "Meanwhile mix the vegetable stock mix with {{stock-water}} boiled water."
+      ],
+      "notes": [],
+      "quantities": {
+        "stock-water": {
+          "2": "150 ml",
+          "3": "200 ml",
+          "4": "250 ml"
+        }
+      },
+      "timers": [],
+      "image": {
+        "id": "salmon-tagliatelle-4",
+        "path": "media/salmon-tagliatelle-4.webp",
+        "width": 323,
+        "height": 533,
+        "alt": "Card photograph for step 4",
+        "credit": "Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Cook the tagliatelle",
+      "blocks": [
+        "When the vegetables have softened, stir in a knob of butter and {{flour}} flour.",
+        "Meanwhile add the fresh tagliatelle to a pan of boiled water and bring it to a boil over high heat. Cook for 4–6 minutes until cooked with a slight bite.",
+        "Drain the pasta, saving a cup of the starchy cooking water."
+      ],
+      "notes": [],
+      "quantities": {
+        "flour": {
+          "2": "2 tsp",
+          "3": "2½ tsp",
+          "4": "3 tsp"
+        }
+      },
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook tagliatelle",
+          "seconds": [
+            240,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "salmon-tagliatelle-5",
+        "path": "media/salmon-tagliatelle-5.webp",
+        "width": 352,
+        "height": 483,
+        "alt": "Card photograph for step 5",
+        "credit": "Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Thicken the sauce",
+      "blocks": [
+        "Add the stock, salmon flakes and a pinch of salt to the frying pan. Cook for 2–3 minutes until the sauce thickens slightly."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Thicken sauce",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "salmon-tagliatelle-6",
+        "path": "media/salmon-tagliatelle-6.webp",
+        "width": 348,
+        "height": 522,
+        "alt": "Card photograph for step 6",
+        "credit": "Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "heading": "Finish the pasta",
+      "blocks": [
+        "Stir the drained tagliatelle and crème fraîche into the sauce."
+      ],
+      "notes": [
+        "If the sauce looks dry, loosen it with a splash of the reserved pasta water."
+      ],
+      "timers": [],
+      "image": {
+        "id": "salmon-tagliatelle-7",
+        "path": "media/salmon-tagliatelle-7.webp",
+        "width": 370,
+        "height": 515,
+        "alt": "Card photograph for step 7",
+        "credit": "Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "heading": "Serve",
+      "blocks": [
+        "Serve in bowls with plenty of freshly cracked black pepper and a drizzle of olive oil."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "salmon-tagliatelle-8",
+        "path": "media/salmon-tagliatelle-8.webp",
+        "width": 377,
+        "height": 586,
+        "alt": "Card photograph for step 8",
+        "credit": "Gousto recipe card"
+      }
+    }
+  ]
+}

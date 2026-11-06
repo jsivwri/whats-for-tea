@@ -1,0 +1,1021 @@
+{
+  "id": "beef-moussaka",
+  "added": "2026-11-06",
+  "equipment": [
+    "Grater",
+    "Garlic press (or grater)",
+    "Baking tray",
+    "Saucepan",
+    "Colander",
+    "Frying pan",
+    "Ovenproof dish"
+  ],
+  "before": [
+    "Wash your hands before and after prep. Wash fruit and vegetables. Check the ingredient packaging matches the card."
+  ],
+  "allergens": [
+    "Milk"
+  ],
+  "cautions": [
+    "Card may contain milk and celery. Check packaging for current allergen information. Use separate or washed boards and utensils for raw and ready-to-eat food. Add water carefully to hot pans. Defrost previously frozen ingredients fully."
+  ],
+  "defaultServings": 2,
+  "variants": [
+    {
+      "id": "pork",
+      "label": "British pork mince",
+      "ingredients": [
+        {
+          "id": "line-1",
+          "ingredientId": "cheddar",
+          "label": "Mature Cheddar Cheese",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "30 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "60 g"
+            }
+          }
+        },
+        {
+          "id": "line-2",
+          "ingredientId": "garlic",
+          "label": "Garlic Clove",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "line-3",
+          "ingredientId": "aubergine",
+          "label": "Aubergine",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "line-4",
+          "ingredientId": "mixed-herbs-sachet",
+          "label": "Mixed Herbs",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          }
+        },
+        {
+          "id": "line-5",
+          "ingredientId": "baking-potato",
+          "label": "Baking Potato",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "line-6",
+          "ingredientId": "pork-mince",
+          "label": "British Pork Mince",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "300 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "600 g"
+            }
+          }
+        },
+        {
+          "id": "line-7",
+          "ingredientId": "passata",
+          "label": "Passata di Pomodoro",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 carton"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 cartons"
+            }
+          }
+        },
+        {
+          "id": "line-8",
+          "ingredientId": "ground-cinnamon",
+          "label": "Ground Cinnamon",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          }
+        },
+        {
+          "id": "line-9",
+          "ingredientId": "beef-stock-paste",
+          "label": "Beef Stock Paste",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "15 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "30 g"
+            }
+          }
+        },
+        {
+          "id": "line-10",
+          "ingredientId": "creme-fraiche",
+          "label": "Crème Fraîche",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "75 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "150 g"
+            }
+          }
+        },
+        {
+          "id": "line-11",
+          "ingredientId": "wild-rocket",
+          "label": "Wild Rocket",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "40 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "80 g"
+            }
+          }
+        },
+        {
+          "id": "line-12",
+          "ingredientId": "sugar",
+          "label": "Sugar",
+          "group": "bring",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 tsp"
+            }
+          }
+        },
+        {
+          "id": "line-13",
+          "ingredientId": "water",
+          "label": "Water for the sauce",
+          "group": "bring",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "30 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "60 ml"
+            }
+          }
+        },
+        {
+          "id": "line-14",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "group": "bring",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          }
+        },
+        {
+          "id": "line-15",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "group": "bring",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          }
+        },
+        {
+          "id": "line-16",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "group": "bring",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          }
+        },
+        {
+          "id": "line-17",
+          "ingredientId": "olive-oil",
+          "label": "Olive oil",
+          "group": "bring",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          }
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "number": 1,
+          "heading": "Roast the aubergine",
+          "blocks": [
+            "Preheat the oven to 220°C / 200°C fan / gas mark 7. Grate the cheese. Peel and grate or press the garlic.",
+            "Trim the aubergine and cut it into rounds about 1 cm thick. Toss on a large tray with a drizzle of oil, mixed herbs, salt and pepper. Spread in one layer.",
+            "Roast on the top shelf for 20–25 minutes, turning halfway, until soft and golden."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Roast aubergine",
+              "seconds": [
+                1200,
+                1500
+              ]
+            }
+          ],
+          "image": {
+            "id": "beef-moussaka-1",
+            "path": "media/beef-moussaka-1.webp",
+            "width": 620,
+            "height": 371,
+            "alt": "Card photograph for step 1",
+            "credit": "Green Chef recipe card"
+          }
+        },
+        {
+          "id": "step-2",
+          "number": 2,
+          "heading": "Boil the potatoes",
+          "blocks": [
+            "Meanwhile, boil a large saucepan of water with ½ tsp salt. Peel the potato and slice into 1 cm rounds.",
+            "Simmer the slices for 8–12 minutes, until you can slip a knife through easily. Drain in a colander and set aside."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Simmer potatoes",
+              "seconds": [
+                480,
+                720
+              ]
+            }
+          ],
+          "image": {
+            "id": "beef-moussaka-2",
+            "path": "media/beef-moussaka-2.webp",
+            "width": 620,
+            "height": 406,
+            "alt": "Card photograph for step 2",
+            "credit": "Green Chef recipe card"
+          }
+        },
+        {
+          "id": "step-3",
+          "number": 3,
+          "heading": "Brown the pork",
+          "blocks": [
+            "Heat a drizzle of oil in a large frying pan over medium-high heat. Fry the porkmince for 5–6 minutes until browned, breaking it up with a spoon. Season with salt and pepper."
+          ],
+          "notes": [
+            "Wash hands and equipment after handling raw meat. It is cooked when there is no pink in the middle. The card uses the same browning method for pork mince."
+          ],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Brown mince",
+              "seconds": [
+                300,
+                360
+              ]
+            }
+          ],
+          "image": {
+            "id": "beef-moussaka-3",
+            "path": "media/beef-moussaka-3.webp",
+            "width": 620,
+            "height": 388,
+            "alt": "Card photograph for step 3",
+            "credit": "Green Chef recipe card"
+          }
+        },
+        {
+          "id": "step-4",
+          "number": 4,
+          "heading": "Finish the sauce",
+          "blocks": [
+            "When the porkis cooked, stir in the garlic for 30 seconds.",
+            "Add the passata, cinnamon, beef stock paste, {{sugar}} sugar and {{sauce-water}} water. Simmer for 4–5 minutes until slightly thickened.",
+            "Remove the tender, golden aubergine from the oven and preheat the grill to high."
+          ],
+          "notes": [],
+          "quantities": {
+            "sugar": {
+              "2": "1 tsp",
+              "4": "2 tsp"
+            },
+            "sauce-water": {
+              "2": "30 ml",
+              "4": "60 ml"
+            }
+          },
+          "timers": [
+            {
+              "id": "garlic",
+              "label": "Cook garlic",
+              "seconds": [
+                30
+              ]
+            },
+            {
+              "id": "timer-1",
+              "label": "Thicken sauce",
+              "seconds": [
+                240,
+                300
+              ]
+            }
+          ],
+          "image": {
+            "id": "beef-moussaka-4",
+            "path": "media/beef-moussaka-4.webp",
+            "width": 620,
+            "height": 413,
+            "alt": "Card photograph for step 4",
+            "credit": "Green Chef recipe card"
+          }
+        },
+        {
+          "id": "step-5",
+          "number": 5,
+          "heading": "Layer and grill",
+          "blocks": [
+            "Spoon half the porkmixture into an ovenproof dish. Layer on the roasted aubergine, then the remaining porkmixture. Add the potato slices and spread over the crème fraîche.",
+            "Scatter over the cheddar and season with pepper. Grill for 5–6 minutes until the cheese is golden and bubbling.",
+            "Meanwhile put rocket on the serving plates, drizzle with olive oil and season with salt and pepper."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Grill the topping",
+              "seconds": [
+                300,
+                360
+              ]
+            }
+          ],
+          "image": {
+            "id": "beef-moussaka-5",
+            "path": "media/beef-moussaka-5.webp",
+            "width": 620,
+            "height": 458,
+            "alt": "Card photograph for step 5",
+            "credit": "Green Chef recipe card"
+          }
+        },
+        {
+          "id": "step-6",
+          "number": 6,
+          "heading": "Serve the moussaka",
+          "blocks": [
+            "Divide the porkmoussaka between the plates and serve with the rocket salad."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "beef-moussaka-6",
+            "path": "media/beef-moussaka-6.webp",
+            "width": 620,
+            "height": 466,
+            "alt": "Card photograph for step 6",
+            "credit": "Green Chef recipe card"
+          }
+        }
+      ]
+    }
+  ],
+  "tagSource": "reviewed",
+  "slug": "beef-moussaka",
+  "title": "Beef Moussaka",
+  "subtitle": "with a Rocket Salad",
+  "aliases": [
+    "moussaka",
+    "aubergine bake",
+    "mother’s day beef moussaka"
+  ],
+  "provider": "Green Chef",
+  "cuisine": "Greek-style",
+  "themes": [
+    "Comfort food",
+    "Family favourites"
+  ],
+  "description": "Layers of roasted aubergine and cinnamon-spiced mince under golden cheddar, with a peppery rocket salad.",
+  "source": {
+    "label": "Green Chef UK",
+    "edition": "2026-W12 · Card 30"
+  },
+  "servings": [
+    2,
+    4
+  ],
+  "timings": {
+    "prep": null,
+    "cook": {
+      "minMinutes": 45,
+      "maxMinutes": 45,
+      "sourceLabel": "Cook time: 45 mins",
+      "provenance": "Green Chef card cover"
+    },
+    "total": null
+  },
+  "hero": {
+    "id": "beef-moussaka",
+    "path": "media/beef-moussaka.webp",
+    "width": 1120,
+    "height": 623,
+    "alt": "",
+    "credit": "Green Chef recipe card",
+    "sizes": [
+      {
+        "path": "media/beef-moussaka-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "cheddar",
+      "label": "Mature Cheddar Cheese",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "garlic",
+      "label": "Garlic Clove",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "aubergine",
+      "label": "Aubergine",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "mixed-herbs-sachet",
+      "label": "Mixed Herbs",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "baking-potato",
+      "label": "Baking Potato",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "beef-mince",
+      "label": "British Beef Mince",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "300 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "600 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "passata",
+      "label": "Passata di Pomodoro",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 carton"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 cartons"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "ground-cinnamon",
+      "label": "Ground Cinnamon",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "beef-stock-paste",
+      "label": "Beef Stock Paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "creme-fraiche",
+      "label": "Crème Fraîche",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g"
+        }
+      }
+    },
+    {
+      "id": "line-11",
+      "ingredientId": "wild-rocket",
+      "label": "Wild Rocket",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "80 g"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      }
+    },
+    {
+      "id": "line-13",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 ml"
+        }
+      }
+    },
+    {
+      "id": "line-14",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-15",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-16",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-17",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Roast the aubergine",
+      "blocks": [
+        "Preheat the oven to 220°C / 200°C fan / gas mark 7. Grate the cheese. Peel and grate or press the garlic.",
+        "Trim the aubergine and cut it into rounds about 1 cm thick. Toss on a large tray with a drizzle of oil, mixed herbs, salt and pepper. Spread in one layer.",
+        "Roast on the top shelf for 20–25 minutes, turning halfway, until soft and golden."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast aubergine",
+          "seconds": [
+            1200,
+            1500
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-moussaka-1",
+        "path": "media/beef-moussaka-1.webp",
+        "width": 620,
+        "height": 371,
+        "alt": "Card photograph for step 1",
+        "credit": "Green Chef recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Boil the potatoes",
+      "blocks": [
+        "Meanwhile, boil a large saucepan of water with ½ tsp salt. Peel the potato and slice into 1 cm rounds.",
+        "Simmer the slices for 8–12 minutes, until you can slip a knife through easily. Drain in a colander and set aside."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer potatoes",
+          "seconds": [
+            480,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-moussaka-2",
+        "path": "media/beef-moussaka-2.webp",
+        "width": 620,
+        "height": 406,
+        "alt": "Card photograph for step 2",
+        "credit": "Green Chef recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Brown the beef",
+      "blocks": [
+        "Heat a drizzle of oil in a large frying pan over medium-high heat. Fry the beef mince for 5–6 minutes until browned, breaking it up with a spoon. Season with salt and pepper."
+      ],
+      "notes": [
+        "Wash hands and equipment after handling raw meat. It is cooked when there is no pink in the middle. The card also offers a pork mince variant."
+      ],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown mince",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-moussaka-3",
+        "path": "media/beef-moussaka-3.webp",
+        "width": 620,
+        "height": 388,
+        "alt": "Card photograph for step 3",
+        "credit": "Green Chef recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Finish the sauce",
+      "blocks": [
+        "When the beef is cooked, stir in the garlic for 30 seconds.",
+        "Add the passata, cinnamon, beef stock paste, {{sugar}} sugar and {{sauce-water}} water. Simmer for 4–5 minutes until slightly thickened.",
+        "Remove the tender, golden aubergine from the oven and preheat the grill to high."
+      ],
+      "notes": [],
+      "quantities": {
+        "sugar": {
+          "2": "1 tsp",
+          "4": "2 tsp"
+        },
+        "sauce-water": {
+          "2": "30 ml",
+          "4": "60 ml"
+        }
+      },
+      "timers": [
+        {
+          "id": "garlic",
+          "label": "Cook garlic",
+          "seconds": [
+            30
+          ]
+        },
+        {
+          "id": "timer-1",
+          "label": "Thicken sauce",
+          "seconds": [
+            240,
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-moussaka-4",
+        "path": "media/beef-moussaka-4.webp",
+        "width": 620,
+        "height": 413,
+        "alt": "Card photograph for step 4",
+        "credit": "Green Chef recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Layer and grill",
+      "blocks": [
+        "Spoon half the beef mixture into an ovenproof dish. Layer on the roasted aubergine, then the remaining beef mixture. Add the potato slices and spread over the crème fraîche.",
+        "Scatter over the cheddar and season with pepper. Grill for 5–6 minutes until the cheese is golden and bubbling.",
+        "Meanwhile put rocket on the serving plates, drizzle with olive oil and season with salt and pepper."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Grill the topping",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-moussaka-5",
+        "path": "media/beef-moussaka-5.webp",
+        "width": 620,
+        "height": 458,
+        "alt": "Card photograph for step 5",
+        "credit": "Green Chef recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Serve the moussaka",
+      "blocks": [
+        "Divide the beef moussaka between the plates and serve with the rocket salad."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "beef-moussaka-6",
+        "path": "media/beef-moussaka-6.webp",
+        "width": 620,
+        "height": 466,
+        "alt": "Card photograph for step 6",
+        "credit": "Green Chef recipe card"
+      }
+    }
+  ]
+}

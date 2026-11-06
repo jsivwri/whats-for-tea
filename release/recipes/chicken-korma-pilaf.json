@@ -1,0 +1,661 @@
+{
+  "id": "chicken-korma-pilaf",
+  "added": "2026-11-06",
+  "equipment": [
+    "Large wide lidded pan",
+    "Mixing bowl",
+    "Knife and board"
+  ],
+  "before": [
+    "Portion the ingredients for the selected serving size. Wash fresh herbs, fruit and vegetables, and check use-by dates."
+  ],
+  "allergens": [
+    "Milk",
+    "Almonds"
+  ],
+  "cautions": [
+    "Check ingredient packaging for current allergen information. The card image may differ if your box contained alternative ingredients."
+  ],
+  "defaultServings": 2,
+  "variants": [],
+  "tagSource": "reviewed",
+  "slug": "chicken-korma-pilaf",
+  "title": "One Pan Creamy Chicken Thigh Korma-Style Pilaf With Almonds",
+  "aliases": [
+    "chicken korma pilaf",
+    "one pan chicken pilaf",
+    "korma rice"
+  ],
+  "provider": "Gousto",
+  "cuisine": "Indian-style",
+  "themes": [
+    "One pan",
+    "Comfort food",
+    "Family favourites"
+  ],
+  "description": "Turmeric chicken thighs and spiced basmati rice with peas, toasted almonds and a drizzle of yoghurt.",
+  "source": {
+    "label": "Gousto",
+    "edition": "R-15105"
+  },
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 30,
+      "maxMinutes": 40,
+      "sourceLabel": "30–40 min",
+      "provenance": "Gousto card cover. Time meaning unconfirmed."
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "hero": {
+    "id": "chicken-korma-pilaf",
+    "path": "media/chicken-korma-pilaf.webp",
+    "width": 1120,
+    "height": 885,
+    "alt": "",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/chicken-korma-pilaf-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "blanched-peas",
+      "label": "Blanched peas",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "160 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 160 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 160 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "brown-onion",
+      "label": "Brown onion",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "intense-chicken-stock-mix",
+      "label": "Chicken stock mix (intense)",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 5.5 g"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "chicken-stock-mix",
+      "label": "Chicken stock mix",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unused"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "unused"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "curry-powder",
+      "label": "Curry powder",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "0.5 tbsp & 1 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "chicken-thigh",
+      "label": "Diced chicken thigh",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 250 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 250 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "flaked-almonds",
+      "label": "Flaked almonds",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 × 15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 15 g"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "garlic",
+      "label": "Garlic clove",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "ginger-paste",
+      "label": "Ginger paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 15 g"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "ground-turmeric",
+      "label": "Ground turmeric",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 1 tsp"
+        }
+      }
+    },
+    {
+      "id": "line-11",
+      "ingredientId": "natural-yoghurt",
+      "label": "Natural yoghurt",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 80 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 80 g"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "ingredientId": "creamed-coconut",
+      "label": "Solid creamed coconut",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 25 g"
+        }
+      }
+    },
+    {
+      "id": "line-13",
+      "ingredientId": "white-basmati-rice",
+      "label": "White basmati rice",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "130 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "130 g & 65 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 130 g"
+        }
+      }
+    },
+    {
+      "id": "line-14",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "A knob"
+        },
+        "3": {
+          "status": "printed",
+          "text": "A knob"
+        },
+        "4": {
+          "status": "printed",
+          "text": "A knob"
+        }
+      }
+    },
+    {
+      "id": "line-15",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-16",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "A pinch"
+        },
+        "3": {
+          "status": "printed",
+          "text": "A pinch"
+        },
+        "4": {
+          "status": "printed",
+          "text": "A pinch"
+        }
+      }
+    },
+    {
+      "id": "line-17",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-18",
+      "ingredientId": "water",
+      "label": "Cold water",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "300 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "390 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "600 ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Toast the almonds",
+      "blocks": [
+        "Take the chicken out of the fridge, open the packet and let it air while you heat a large, dry, wide pan over medium heat.",
+        "Toast the flaked almonds for 2–3 minutes until lightly golden. Watch closely so they don’t burn. Set aside and keep the pan."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Toast almonds",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-korma-pilaf-1",
+        "path": "media/chicken-korma-pilaf-1.webp",
+        "width": 394,
+        "height": 568,
+        "alt": "Card photograph for step 1",
+        "credit": "Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Season the chicken",
+      "blocks": [
+        "Meanwhile, mix the diced chicken in a bowl with half the turmeric and a generous pinch of salt. Save the other half of the turmeric for later."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chicken-korma-pilaf-2",
+        "path": "media/chicken-korma-pilaf-2.webp",
+        "width": 384,
+        "height": 629,
+        "alt": "Card photograph for step 2",
+        "credit": "Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Prepare the aromatics",
+      "blocks": [
+        "Peel and finely dice the onion. Peel and finely chop or grate the garlic. Roughly chop the creamed coconut if needed."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chicken-korma-pilaf-3",
+        "path": "media/chicken-korma-pilaf-3.webp",
+        "width": 377,
+        "height": 654,
+        "alt": "Card photograph for step 3",
+        "credit": "Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Brown the chicken",
+      "blocks": [
+        "Return the pan to high heat with a drizzle of vegetable oil. Add the turmeric chicken and cook for 3–4 minutes on each side, until lightly browned."
+      ],
+      "notes": [
+        "Use two pans if you doubled the protein."
+      ],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown each side",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-korma-pilaf-4",
+        "path": "media/chicken-korma-pilaf-4.webp",
+        "width": 409,
+        "height": 640,
+        "alt": "Card photograph for step 4",
+        "credit": "Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Add the spices",
+      "blocks": [
+        "Lower the heat to medium. Add the diced onion and a pinch of sugar. Cook for 4–5 minutes until slightly softened.",
+        "Stir in a knob of butter, the garlic, ginger paste, curry powder and remaining turmeric. Cook for 1–2 minutes until fragrant."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Soften onion",
+          "seconds": [
+            240,
+            300
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Cook spices",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-korma-pilaf-5",
+        "path": "media/chicken-korma-pilaf-5.webp",
+        "width": 373,
+        "height": 537,
+        "alt": "Card photograph for step 5",
+        "credit": "Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Cook the pilaf",
+      "blocks": [
+        "Stir the basmati rice through the oil and spices. Pour in {{rice-water}} cold water and add the chopped creamed coconut. Bring to the boil over high heat.",
+        "Reduce to very low, cover and cook for 10–12 minutes until the water has been absorbed, the rice is done and the chicken is cooked through with no pink meat."
+      ],
+      "notes": [],
+      "quantities": {
+        "rice-water": {
+          "2": "300 ml",
+          "3": "390 ml",
+          "4": "600 ml"
+        }
+      },
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook pilaf",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-korma-pilaf-6",
+        "path": "media/chicken-korma-pilaf-6.webp",
+        "width": 398,
+        "height": 547,
+        "alt": "Card photograph for step 6",
+        "credit": "Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "heading": "Warm the peas",
+      "blocks": [
+        "When the rice and chicken are cooked, stir in the blanched peas, chicken stock mix and a pinch of salt.",
+        "Cover and cook for 1–2 minutes until the peas are warmed through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Warm peas",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-korma-pilaf-7",
+        "path": "media/chicken-korma-pilaf-7.webp",
+        "width": 391,
+        "height": 551,
+        "alt": "Card photograph for step 7",
+        "credit": "Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "heading": "Add the toppings",
+      "blocks": [
+        "Serve the pilaf with a drizzle of natural yoghurt and the toasted almonds."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chicken-korma-pilaf-8",
+        "path": "media/chicken-korma-pilaf-8.webp",
+        "width": 405,
+        "height": 622,
+        "alt": "Card photograph for step 8",
+        "credit": "Gousto recipe card"
+      }
+    }
+  ]
+}

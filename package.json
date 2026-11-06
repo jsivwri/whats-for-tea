@@ -1,0 +1,30 @@
+{
+  "name": "whats-for-tea",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "node scripts/release.mjs && vite",
+    "build": "node scripts/release.mjs && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/release.mjs --check",
+    "test": "node --disable-warning=ExperimentalWarning --test scripts/*.test.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "inventory": "python3 scripts/inventory.py"
+  },
+  "dependencies": {
+    "lucide-react": "0.511.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "typescript": "5.8.3",
+    "vite": "6.4.1"
+  }
+}

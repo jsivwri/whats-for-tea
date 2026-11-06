@@ -1,0 +1,7 @@
+node_modules/
+dist/
+public/library/
+private/
+*.zip
+*.pdf
+.DS_Store

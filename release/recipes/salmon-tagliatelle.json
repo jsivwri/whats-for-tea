@@ -367,11 +367,11 @@
       "timers": [],
       "image": {
         "id": "salmon-tagliatelle-2",
-        "path": "media/salmon-tagliatelle-2.webp",
-        "width": 373,
-        "height": 533,
-        "alt": "Card photograph for step 2",
-        "credit": "Gousto recipe card"
+        "path": "media/salmon-tagliatelle-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of sliced courgette half-moons and separate shallot rings on a board",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -395,11 +395,11 @@
       ],
       "image": {
         "id": "salmon-tagliatelle-3",
-        "path": "media/salmon-tagliatelle-3.webp",
-        "width": 352,
-        "height": 540,
-        "alt": "Card photograph for step 3",
-        "credit": "Gousto recipe card"
+        "path": "media/salmon-tagliatelle-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of courgette and shallot softening in a pale pan",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -413,11 +413,11 @@
       "timers": [],
       "image": {
         "id": "salmon-tagliatelle-4",
-        "path": "media/salmon-tagliatelle-4.webp",
-        "width": 323,
-        "height": 533,
-        "alt": "Card photograph for step 4",
-        "credit": "Gousto recipe card"
+        "path": "media/salmon-tagliatelle-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of glass measuring jug of pale vegetable stock",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -442,11 +442,11 @@
       ],
       "image": {
         "id": "salmon-tagliatelle-5",
-        "path": "media/salmon-tagliatelle-5.webp",
-        "width": 352,
-        "height": 483,
-        "alt": "Card photograph for step 5",
-        "credit": "Gousto recipe card"
+        "path": "media/salmon-tagliatelle-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of plain wide ribbons of tagliatelle cooking in a round pot",
+        "credit": "Illustration based on the Gousto recipe card"
       },
       "quantities": {
         "pasta-water": {
@@ -476,11 +476,11 @@
       ],
       "image": {
         "id": "salmon-tagliatelle-6",
-        "path": "media/salmon-tagliatelle-6.webp",
-        "width": 348,
-        "height": 522,
-        "alt": "Card photograph for step 6",
-        "credit": "Gousto recipe card"
+        "path": "media/salmon-tagliatelle-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of same pale pan of creamy sauce with courgette and flaked salmon, before adding pasta",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -496,11 +496,11 @@
       "timers": [],
       "image": {
         "id": "salmon-tagliatelle-7",
-        "path": "media/salmon-tagliatelle-7.webp",
-        "width": 370,
-        "height": 515,
-        "alt": "Card photograph for step 7",
-        "credit": "Gousto recipe card"
+        "path": "media/salmon-tagliatelle-7-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of tagliatelle ribbons mixed through the creamy sauce and courgettes in the pan",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -514,11 +514,11 @@
       "timers": [],
       "image": {
         "id": "salmon-tagliatelle-8",
-        "path": "media/salmon-tagliatelle-8.webp",
-        "width": 377,
-        "height": 586,
-        "alt": "Card photograph for step 8",
-        "credit": "Gousto recipe card"
+        "path": "media/salmon-tagliatelle-8-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of finished creamy tagliatelle with flaked salmon and courgette on a blue plate",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     }
   ]

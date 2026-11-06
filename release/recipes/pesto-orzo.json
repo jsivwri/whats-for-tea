@@ -390,11 +390,11 @@
       ],
       "image": {
         "id": "pesto-orzo-1",
-        "path": "media/pesto-orzo-1.webp",
-        "width": 620,
-        "height": 282,
-        "alt": "Card photograph for step 1",
-        "credit": "HelloFresh recipe card"
+        "path": "media/pesto-orzo-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of two chicken breasts in a black frying pan, diagonal handle",
+        "credit": "Illustration based on the HelloFresh recipe card"
       },
       "quantities": {
         "orzo-salt": {
@@ -425,11 +425,11 @@
       ],
       "image": {
         "id": "pesto-orzo-2",
-        "path": "media/pesto-orzo-2.webp",
-        "width": 620,
-        "height": 285,
-        "alt": "Card photograph for step 2",
-        "credit": "HelloFresh recipe card"
+        "path": "media/pesto-orzo-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of two browned chicken breasts spaced apart on a rectangular baking tray",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     },
     {
@@ -454,11 +454,11 @@
       ],
       "image": {
         "id": "pesto-orzo-3",
-        "path": "media/pesto-orzo-3.webp",
-        "width": 620,
-        "height": 295,
-        "alt": "Card photograph for step 3",
-        "credit": "HelloFresh recipe card"
+        "path": "media/pesto-orzo-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of finely chopped orange carrot and green leek in the frying pan",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     },
     {
@@ -481,11 +481,11 @@
       ],
       "image": {
         "id": "pesto-orzo-4",
-        "path": "media/pesto-orzo-4.webp",
-        "width": 620,
-        "height": 287,
-        "alt": "Card photograph for step 4",
-        "credit": "HelloFresh recipe card"
+        "path": "media/pesto-orzo-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of two-handled saucepan full of plain cooked orzo",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     },
     {
@@ -510,11 +510,11 @@
       ],
       "image": {
         "id": "pesto-orzo-5",
-        "path": "media/pesto-orzo-5.webp",
-        "width": 620,
-        "height": 291,
-        "alt": "Card photograph for step 5",
-        "credit": "HelloFresh recipe card"
+        "path": "media/pesto-orzo-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of same two-handled saucepan of sauced creamy orzo",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     },
     {
@@ -529,11 +529,11 @@
       "timers": [],
       "image": {
         "id": "pesto-orzo-6",
-        "path": "media/pesto-orzo-6.webp",
-        "width": 620,
-        "height": 300,
-        "alt": "Card photograph for step 6",
-        "credit": "HelloFresh recipe card"
+        "path": "media/pesto-orzo-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of bowl of vegetable orzo topped with sliced chicken",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     }
   ]

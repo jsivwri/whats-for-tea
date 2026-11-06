@@ -338,11 +338,11 @@
           ],
           "image": {
             "id": "beef-moussaka-1",
-            "path": "media/beef-moussaka-1.webp",
-            "width": 620,
-            "height": 371,
-            "alt": "Card photograph for step 1",
-            "credit": "Green Chef recipe card"
+            "path": "media/beef-moussaka-1-sketch.webp",
+            "width": 640,
+            "height": 480,
+            "alt": "Sketch of aubergine rounds arranged in rows on a baking tray",
+            "credit": "Illustration based on the Green Chef recipe card"
           }
         },
         {
@@ -366,11 +366,11 @@
           ],
           "image": {
             "id": "beef-moussaka-2",
-            "path": "media/beef-moussaka-2.webp",
-            "width": 620,
-            "height": 406,
-            "alt": "Card photograph for step 2",
-            "credit": "Green Chef recipe card"
+            "path": "media/beef-moussaka-2-sketch.webp",
+            "width": 640,
+            "height": 480,
+            "alt": "Sketch of sliced potato rounds in a pile on a wooden board",
+            "credit": "Illustration based on the Green Chef recipe card"
           },
           "quantities": {
             "potato-salt": {
@@ -401,11 +401,11 @@
           ],
           "image": {
             "id": "beef-moussaka-3",
-            "path": "media/beef-moussaka-3.webp",
-            "width": 620,
-            "height": 388,
-            "alt": "Card photograph for step 3",
-            "credit": "Green Chef recipe card"
+            "path": "media/beef-moussaka-3-sketch.webp",
+            "width": 640,
+            "height": 480,
+            "alt": "Sketch of dark frying pan full of browned crumbled mince",
+            "credit": "Illustration based on the Green Chef recipe card"
           }
         },
         {
@@ -437,11 +437,11 @@
           ],
           "image": {
             "id": "beef-moussaka-4",
-            "path": "media/beef-moussaka-4.webp",
-            "width": 620,
-            "height": 413,
-            "alt": "Card photograph for step 4",
-            "credit": "Green Chef recipe card"
+            "path": "media/beef-moussaka-4-sketch.webp",
+            "width": 640,
+            "height": 480,
+            "alt": "Sketch of same frying pan with red tomato mince sauce",
+            "credit": "Illustration based on the Green Chef recipe card"
           }
         },
         {
@@ -466,11 +466,11 @@
           ],
           "image": {
             "id": "beef-moussaka-5",
-            "path": "media/beef-moussaka-5.webp",
-            "width": 620,
-            "height": 458,
-            "alt": "Card photograph for step 5",
-            "credit": "Green Chef recipe card"
+            "path": "media/beef-moussaka-5-sketch.webp",
+            "width": 640,
+            "height": 480,
+            "alt": "Sketch of square handled baking dish of golden cheese-topped moussaka",
+            "credit": "Illustration based on the Green Chef recipe card"
           }
         },
         {
@@ -484,11 +484,11 @@
           "timers": [],
           "image": {
             "id": "beef-moussaka-6",
-            "path": "media/beef-moussaka-6.webp",
-            "width": 620,
-            "height": 466,
-            "alt": "Card photograph for step 6",
-            "credit": "Green Chef recipe card"
+            "path": "media/beef-moussaka-6-sketch.webp",
+            "width": 640,
+            "height": 480,
+            "alt": "Sketch of single slice of moussaka with a pile of rocket on a round plate",
+            "credit": "Illustration based on the Green Chef recipe card"
           }
         }
       ]
@@ -856,11 +856,11 @@
       ],
       "image": {
         "id": "beef-moussaka-1",
-        "path": "media/beef-moussaka-1.webp",
-        "width": 620,
-        "height": 371,
-        "alt": "Card photograph for step 1",
-        "credit": "Green Chef recipe card"
+        "path": "media/beef-moussaka-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of aubergine rounds arranged in rows on a baking tray",
+        "credit": "Illustration based on the Green Chef recipe card"
       }
     },
     {
@@ -884,11 +884,11 @@
       ],
       "image": {
         "id": "beef-moussaka-2",
-        "path": "media/beef-moussaka-2.webp",
-        "width": 620,
-        "height": 406,
-        "alt": "Card photograph for step 2",
-        "credit": "Green Chef recipe card"
+        "path": "media/beef-moussaka-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of sliced potato rounds in a pile on a wooden board",
+        "credit": "Illustration based on the Green Chef recipe card"
       },
       "quantities": {
         "potato-salt": {
@@ -919,11 +919,11 @@
       ],
       "image": {
         "id": "beef-moussaka-3",
-        "path": "media/beef-moussaka-3.webp",
-        "width": 620,
-        "height": 388,
-        "alt": "Card photograph for step 3",
-        "credit": "Green Chef recipe card"
+        "path": "media/beef-moussaka-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of dark frying pan full of browned crumbled mince",
+        "credit": "Illustration based on the Green Chef recipe card"
       }
     },
     {
@@ -955,11 +955,11 @@
       ],
       "image": {
         "id": "beef-moussaka-4",
-        "path": "media/beef-moussaka-4.webp",
-        "width": 620,
-        "height": 413,
-        "alt": "Card photograph for step 4",
-        "credit": "Green Chef recipe card"
+        "path": "media/beef-moussaka-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of same frying pan with red tomato mince sauce",
+        "credit": "Illustration based on the Green Chef recipe card"
       }
     },
     {
@@ -984,11 +984,11 @@
       ],
       "image": {
         "id": "beef-moussaka-5",
-        "path": "media/beef-moussaka-5.webp",
-        "width": 620,
-        "height": 458,
-        "alt": "Card photograph for step 5",
-        "credit": "Green Chef recipe card"
+        "path": "media/beef-moussaka-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of square handled baking dish of golden cheese-topped moussaka",
+        "credit": "Illustration based on the Green Chef recipe card"
       }
     },
     {
@@ -1002,11 +1002,11 @@
       "timers": [],
       "image": {
         "id": "beef-moussaka-6",
-        "path": "media/beef-moussaka-6.webp",
-        "width": 620,
-        "height": 466,
-        "alt": "Card photograph for step 6",
-        "credit": "Green Chef recipe card"
+        "path": "media/beef-moussaka-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of single slice of moussaka with a pile of rocket on a round plate",
+        "credit": "Illustration based on the Green Chef recipe card"
       }
     }
   ]

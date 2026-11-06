@@ -501,11 +501,11 @@
       "timers": [],
       "image": {
         "id": "classic-chilli-1",
-        "path": "media/classic-chilli-1.webp",
-        "width": 535,
-        "height": 838,
-        "alt": "Card photograph for step 1",
-        "credit": "Gousto recipe card"
+        "path": "media/classic-chilli-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of two separate piles of chopped onion and red pepper on a wooden board",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -529,11 +529,11 @@
       ],
       "image": {
         "id": "classic-chilli-2",
-        "path": "media/classic-chilli-2.webp",
-        "width": 552,
-        "height": 914,
-        "alt": "Card photograph for step 2",
-        "credit": "Gousto recipe card"
+        "path": "media/classic-chilli-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of softened red pepper and translucent onion in a pale pan",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -565,11 +565,11 @@
       ],
       "image": {
         "id": "classic-chilli-3",
-        "path": "media/classic-chilli-3.webp",
-        "width": 557,
-        "height": 957,
-        "alt": "Card photograph for step 3",
-        "credit": "Gousto recipe card"
+        "path": "media/classic-chilli-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of rice in a saucepan with a metal lid partially covering it",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -590,11 +590,11 @@
       "timers": [],
       "image": {
         "id": "classic-chilli-4",
-        "path": "media/classic-chilli-4.webp",
-        "width": 530,
-        "height": 919,
-        "alt": "Card photograph for step 4",
-        "credit": "Gousto recipe card"
+        "path": "media/classic-chilli-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of small jug of red stock above a sieve of drained beans",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -620,11 +620,11 @@
       ],
       "image": {
         "id": "classic-chilli-5",
-        "path": "media/classic-chilli-5.webp",
-        "width": 546,
-        "height": 881,
-        "alt": "Card photograph for step 5",
-        "credit": "Gousto recipe card"
+        "path": "media/classic-chilli-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of crumbled browned mince with red pepper strips in a pale pan",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -648,11 +648,11 @@
       ],
       "image": {
         "id": "classic-chilli-6",
-        "path": "media/classic-chilli-6.webp",
-        "width": 557,
-        "height": 860,
-        "alt": "Card photograph for step 6",
-        "credit": "Gousto recipe card"
+        "path": "media/classic-chilli-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of thick dark chilli with beans and peppers in the same pan",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -668,11 +668,11 @@
       "timers": [],
       "image": {
         "id": "classic-chilli-7",
-        "path": "media/classic-chilli-7.webp",
-        "width": 541,
-        "height": 854,
-        "alt": "Card photograph for step 7",
-        "credit": "Gousto recipe card"
+        "path": "media/classic-chilli-7-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of two separate piles of grated cheddar and sliced spring onion on a board",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -686,11 +686,11 @@
       "timers": [],
       "image": {
         "id": "classic-chilli-8",
-        "path": "media/classic-chilli-8.webp",
-        "width": 514,
-        "height": 914,
-        "alt": "Card photograph for step 8",
-        "credit": "Gousto recipe card"
+        "path": "media/classic-chilli-8-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of chilli and rice on a plate topped with yoghurt, cheddar and spring onion",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     }
   ]

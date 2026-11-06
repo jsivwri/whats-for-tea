@@ -129,7 +129,7 @@ export function RecipePage({ recipe, catalogue, data, setData, tools, saved, onS
         {recipe.before.map(note => <p key={note} className="step-note">{note}</p>)}
         <ol className="method-list">{current.steps.map(step => <li key={step.id}><div className="method-number" aria-hidden>{String(step.number).padStart(2, '0')}</div>
           <div className="method-step"><h3>{step.heading || `Step ${step.number}`}</h3><StepText step={step} lines={current.ingredients} servings={servings} />
-            {step.image && <button className="step-thumb" aria-label={`Enlarge photo for step ${step.number}`} onClick={() => setExpanded(step)}><Photo asset={step.image} catalogue={catalogue} title={step.heading || `Step ${step.number}`} sizes="260px" /><Maximize2 size={17} /></button>}</div>
+            {step.image && <button className="step-thumb" aria-label={`Enlarge image for step ${step.number}`} onClick={() => setExpanded(step)}><Photo asset={step.image} catalogue={catalogue} title={step.heading || `Step ${step.number}`} sizes="260px" /><Maximize2 size={17} /></button>}</div>
         </li>)}</ol>
       </section>
     </div>
@@ -243,7 +243,7 @@ export function CookMode({ recipe, catalogue, data, setData }: CookingProps) {
               { ...s, timers: [...s.timers, { id: step.id + ':' + timer.id, label: timer.label, ends: currentTime + seconds * 1000 }] }) }}>
               <Clock3 size={17} /> {timer.label} · {seconds < 60 ? `${seconds} sec` : `${seconds / 60} min`}</button>)}</div>)}
         </div>
-        {step.image && <button className="cook-photo" aria-label="Enlarge step photograph" onClick={() => setDialog('photo')}><Photo asset={step.image} catalogue={catalogue} title={step.heading || recipe.title} eager sizes="(max-width: 800px) 100vw, 440px" /><Maximize2 size={19} /></button>}
+        {step.image && <button className="cook-photo" aria-label="Enlarge step image" onClick={() => setDialog('photo')}><Photo asset={step.image} catalogue={catalogue} title={step.heading || recipe.title} eager sizes="(max-width: 800px) 100vw, 440px" /><Maximize2 size={19} /></button>}
       </section> : <section className="before-start"><h1 ref={heading} tabIndex={-1}>Before you start</h1>
         <p>Set out your equipment and check the quantities for {servings}.</p>
         <Portions recipe={recipe} servings={servings} setServings={value => change(s => ({ ...s, servings: value, ingredients: [] }))} variant={session.variant}
@@ -267,7 +267,7 @@ export function CookMode({ recipe, catalogue, data, setData }: CookingProps) {
     {dialog === 'jump' && <Panel title="Jump to a step" onClose={() => setDialog(undefined)}>
       <div className="jump-list"><button className="button secondary" aria-current={!step ? 'step' : undefined} onClick={() => go(-1)}>Before you start</button>
         {steps.map((target, i) => <button className="button secondary" aria-current={i === currentStep ? 'step' : undefined} key={target.id} onClick={() => go(i)}>{target.number}. {target.heading || 'Step'}</button>)}</div></Panel>}
-    {dialog === 'photo' && step?.image && <Panel title={step.heading || 'Step photograph'} onClose={() => setDialog(undefined)} wide><div className="expanded-photo">
+    {dialog === 'photo' && step?.image && <Panel title={step.heading || 'Step image'} onClose={() => setDialog(undefined)} wide><div className="expanded-photo">
       <Photo asset={step.image} catalogue={catalogue} title={step.heading || recipe.title} eager sizes="90vw" /></div></Panel>}
   </main>
 }

@@ -370,11 +370,11 @@
       ],
       "image": {
         "id": "sausage-traybake-1",
-        "path": "media/sausage-traybake-1.webp",
-        "width": 620,
-        "height": 296,
-        "alt": "Card photograph for step 1",
-        "credit": "HelloFresh recipe card"
+        "path": "media/sausage-traybake-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of scattered cubes of orange butternut squash on a parchment-lined rectangular tray",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     },
     {
@@ -398,11 +398,11 @@
       ],
       "image": {
         "id": "sausage-traybake-2",
-        "path": "media/sausage-traybake-2.webp",
-        "width": 620,
-        "height": 305,
-        "alt": "Card photograph for step 2",
-        "credit": "HelloFresh recipe card"
+        "path": "media/sausage-traybake-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of pear wedges added among the squash cubes on the same tray",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     },
     {
@@ -427,11 +427,11 @@
       ],
       "image": {
         "id": "sausage-traybake-3",
-        "path": "media/sausage-traybake-3.webp",
-        "width": 620,
-        "height": 295,
-        "alt": "Card photograph for step 3",
-        "credit": "HelloFresh recipe card"
+        "path": "media/sausage-traybake-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of eight sausages in two columns of four on their own tray",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     },
     {
@@ -455,11 +455,11 @@
       ],
       "image": {
         "id": "sausage-traybake-4",
-        "path": "media/sausage-traybake-4.webp",
-        "width": 620,
-        "height": 311,
-        "alt": "Card photograph for step 4",
-        "credit": "HelloFresh recipe card"
+        "path": "media/sausage-traybake-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of dark green kale added over squash and pear on the tray",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     },
     {
@@ -473,11 +473,11 @@
       "timers": [],
       "image": {
         "id": "sausage-traybake-5",
-        "path": "media/sausage-traybake-5.webp",
-        "width": 620,
-        "height": 324,
-        "alt": "Card photograph for step 5",
-        "credit": "HelloFresh recipe card"
+        "path": "media/sausage-traybake-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of the tray of kale, squash and pear with crumbled pale cheese",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     },
     {
@@ -491,11 +491,11 @@
       "timers": [],
       "image": {
         "id": "sausage-traybake-6",
-        "path": "media/sausage-traybake-6.webp",
-        "width": 620,
-        "height": 334,
-        "alt": "Card photograph for step 6",
-        "credit": "HelloFresh recipe card"
+        "path": "media/sausage-traybake-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of finished tray of sausages and vegetables together",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     }
   ]

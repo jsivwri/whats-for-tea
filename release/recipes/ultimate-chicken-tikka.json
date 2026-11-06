@@ -583,11 +583,11 @@
       ],
       "image": {
         "id": "ultimate-chicken-tikka-1",
-        "path": "media/ultimate-chicken-tikka-1.webp",
-        "width": 620,
-        "height": 295,
-        "alt": "Card photograph for step 1",
-        "credit": "HelloFresh recipe card"
+        "path": "media/ultimate-chicken-tikka-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of small round saucepan of cooked white rice with handle angled lower left",
+        "credit": "Illustration based on the HelloFresh recipe card"
       },
       "quantities": {
         "rice-salt": {
@@ -610,11 +610,11 @@
       "timers": [],
       "image": {
         "id": "ultimate-chicken-tikka-2",
-        "path": "media/ultimate-chicken-tikka-2.webp",
-        "width": 620,
-        "height": 288,
-        "alt": "Card photograph for step 2",
-        "credit": "HelloFresh recipe card"
+        "path": "media/ultimate-chicken-tikka-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of bowl of diced cucumber and tomato salad",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     },
     {
@@ -640,11 +640,11 @@
       ],
       "image": {
         "id": "ultimate-chicken-tikka-3",
-        "path": "media/ultimate-chicken-tikka-3.webp",
-        "width": 620,
-        "height": 300,
-        "alt": "Card photograph for step 3",
-        "credit": "HelloFresh recipe card"
+        "path": "media/ultimate-chicken-tikka-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of frying pan with diced chicken in a red curry sauce",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     },
     {
@@ -670,11 +670,11 @@
       ],
       "image": {
         "id": "ultimate-chicken-tikka-4",
-        "path": "media/ultimate-chicken-tikka-4.webp",
-        "width": 620,
-        "height": 238,
-        "alt": "Card photograph for step 4",
-        "credit": "HelloFresh recipe card"
+        "path": "media/ultimate-chicken-tikka-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of small round bowl of white raita flecked with chopped green mint",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     },
     {
@@ -699,11 +699,11 @@
       ],
       "image": {
         "id": "ultimate-chicken-tikka-5",
-        "path": "media/ultimate-chicken-tikka-5.webp",
-        "width": 620,
-        "height": 259,
-        "alt": "Card photograph for step 5",
-        "credit": "HelloFresh recipe card"
+        "path": "media/ultimate-chicken-tikka-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of two oval naans next to each other on a rectangular baking tray",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     },
     {
@@ -719,11 +719,11 @@
       "timers": [],
       "image": {
         "id": "ultimate-chicken-tikka-6",
-        "path": "media/ultimate-chicken-tikka-6.webp",
-        "width": 620,
-        "height": 264,
-        "alt": "Card photograph for step 6",
-        "credit": "HelloFresh recipe card"
+        "path": "media/ultimate-chicken-tikka-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of plated spread with bowl of curry, bowl of rice, two naans, salad and chutney",
+        "credit": "Illustration based on the HelloFresh recipe card"
       }
     }
   ]

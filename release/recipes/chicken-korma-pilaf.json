@@ -468,11 +468,11 @@
       ],
       "image": {
         "id": "chicken-korma-pilaf-1",
-        "path": "media/chicken-korma-pilaf-1.webp",
-        "width": 394,
-        "height": 568,
-        "alt": "Card photograph for step 1",
-        "credit": "Gousto recipe card"
+        "path": "media/chicken-korma-pilaf-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of toasted flaked almonds scattered in a light pan",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -486,11 +486,11 @@
       "timers": [],
       "image": {
         "id": "chicken-korma-pilaf-2",
-        "path": "media/chicken-korma-pilaf-2.webp",
-        "width": 384,
-        "height": 629,
-        "alt": "Card photograph for step 2",
-        "credit": "Gousto recipe card"
+        "path": "media/chicken-korma-pilaf-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of diced chicken coated in turmeric in a shallow white bowl",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -504,11 +504,11 @@
       "timers": [],
       "image": {
         "id": "chicken-korma-pilaf-3",
-        "path": "media/chicken-korma-pilaf-3.webp",
-        "width": 377,
-        "height": 654,
-        "alt": "Card photograph for step 3",
-        "credit": "Gousto recipe card"
+        "path": "media/chicken-korma-pilaf-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of two separate piles of chopped onion and garlic on a wooden board",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -533,11 +533,11 @@
       ],
       "image": {
         "id": "chicken-korma-pilaf-4",
-        "path": "media/chicken-korma-pilaf-4.webp",
-        "width": 409,
-        "height": 640,
-        "alt": "Card photograph for step 4",
-        "credit": "Gousto recipe card"
+        "path": "media/chicken-korma-pilaf-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of scattered browned chicken pieces in a light frying pan",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -569,11 +569,11 @@
       ],
       "image": {
         "id": "chicken-korma-pilaf-5",
-        "path": "media/chicken-korma-pilaf-5.webp",
-        "width": 373,
-        "height": 537,
-        "alt": "Card photograph for step 5",
-        "credit": "Gousto recipe card"
+        "path": "media/chicken-korma-pilaf-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of chicken and softened onion in the same pan with golden spices",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -597,11 +597,11 @@
       ],
       "image": {
         "id": "chicken-korma-pilaf-6",
-        "path": "media/chicken-korma-pilaf-6.webp",
-        "width": 398,
-        "height": 547,
-        "alt": "Card photograph for step 6",
-        "credit": "Gousto recipe card"
+        "path": "media/chicken-korma-pilaf-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of golden basmati rice and diced chicken cooking in the pan",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -625,11 +625,11 @@
       ],
       "image": {
         "id": "chicken-korma-pilaf-7",
-        "path": "media/chicken-korma-pilaf-7.webp",
-        "width": 391,
-        "height": 551,
-        "alt": "Card photograph for step 7",
-        "credit": "Gousto recipe card"
+        "path": "media/chicken-korma-pilaf-7-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of same pilaf now dotted with green peas",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     },
     {
@@ -643,11 +643,11 @@
       "timers": [],
       "image": {
         "id": "chicken-korma-pilaf-8",
-        "path": "media/chicken-korma-pilaf-8.webp",
-        "width": 405,
-        "height": 622,
-        "alt": "Card photograph for step 8",
-        "credit": "Gousto recipe card"
+        "path": "media/chicken-korma-pilaf-8-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of finished pan of golden pilaf with sliced almonds and yoghurt drizzled on top",
+        "credit": "Illustration based on the Gousto recipe card"
       }
     }
   ]

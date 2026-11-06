@@ -371,7 +371,7 @@
       "number": 1,
       "heading": "Fry the chicken",
       "blocks": [
-        "Heat the oven to 240°C / 220°C fan / gas mark 9. Bring a large saucepan of water to the boil with ½ tsp salt for the orzo.",
+        "Heat the oven to 240°C / 220°C fan / gas mark 9. Bring a large saucepan of water to the boil with {{orzo-salt}} salt for the orzo.",
         "Heat a drizzle of oil in a frying pan over high heat. Lay in the chicken and season with salt and pepper.",
         "Fry until golden, 3–4 minutes, then turn and fry for 1 minute more."
       ],
@@ -395,6 +395,13 @@
         "height": 282,
         "alt": "Card photograph for step 1",
         "credit": "HelloFresh recipe card"
+      },
+      "quantities": {
+        "orzo-salt": {
+          "2": "½ tsp",
+          "3": "½ tsp",
+          "4": "½ tsp"
+        }
       }
     },
     {
@@ -486,18 +493,11 @@
       "number": 5,
       "heading": "Finish the orzo",
       "blocks": [
-        "When the vegetables are tender, stir in the chicken stock paste, crème fraîche, {{sauce-water}} water and the remaining seasoning.",
+        "When the vegetables are tender, stir in {{line-6}} chicken stock paste, {{line-7}} crème fraîche, {{line-11}} water and the remaining seasoning.",
         "Simmer for 2–3 minutes, then take off the heat. Stir in the pesto and cooked orzo to coat.",
         "If the sauce is thick, loosen with a splash of water. Season to taste."
       ],
       "notes": [],
-      "quantities": {
-        "sauce-water": {
-          "2": "125 ml",
-          "3": "200 ml",
-          "4": "250 ml"
-        }
-      },
       "timers": [
         {
           "id": "timer-1",

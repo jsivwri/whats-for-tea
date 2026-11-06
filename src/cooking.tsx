@@ -2,18 +2,13 @@ import { useEffect, useRef, useState, type Dispatch, type SetStateAction } from 
 import { ArrowLeft, ArrowRight, Bookmark, Check, ChefHat, ClipboardList, Clock3, CookingPot, ExternalLink, List, Maximize2, Minus, Plus, Timer as TimerIcon, Users, X } from 'lucide-react'
 import type { IngredientLine, Recipe, Step, TimeKey } from '../schema/v1.ts'
 import { matchRequirements, timeText } from './matching.ts'
+import { formatAmount, servingOptions, textAt, usable } from './portions.ts'
 import type { Session, UserData } from './state.ts'
 import { Empty, Panel, Photo, cookLink, recipeLink, type IngredientTools } from './ui.tsx'
 import { timeLabels, type LibraryProps } from './discover.tsx'
 
 type CookingProps = LibraryProps & { recipe: Recipe; data: UserData; setData: Dispatch<SetStateAction<UserData>>; basics: string[] }
-const textAt = (block: string, step: Step, servings: number) => block.replace(/\{\{([a-z0-9-]+)\}\}/g, (_, key) => step.quantities?.[key]?.[servings] || '')
 const variantOf = (recipe: Recipe, variant: string) => recipe.variants.find(item => item.id === variant) || recipe
-const formatAmount = (line: IngredientLine, servings: number) => {
-  const quantity = line.quantities[servings]
-  return quantity?.status === 'printed' ? quantity.text : 'Check card'
-}
-const usable = (lines: IngredientLine[], servings: number) => lines.filter(line => line.quantities[servings]?.status !== 'unused')
 
 function IngredientList({ lines, servings, checked, toggle }: { lines: IngredientLine[]; servings: number; checked?: string[]; toggle?: (line: string) => void }) {
   return <ul className="ingredient-list">{usable(lines, servings).map(line =>
@@ -24,32 +19,39 @@ function IngredientList({ lines, servings, checked, toggle }: { lines: Ingredien
     </li>)}</ul>
 }
 
-function StepText({ step, servings }: { step: Step; servings: number }) {
+function StepText({ step, lines, servings }: { step: Step; lines: IngredientLine[]; servings: number }) {
   return <div className="step-text">{step.blocks.length > 1 ?
-    <ol type="a">{step.blocks.map((block, i) => <li key={i}>{textAt(block, step, servings)}</li>)}</ol> :
-    <p>{textAt(step.blocks[0], step, servings)}</p>}
-    {step.notes.map(note => <p className="step-note" key={note}>{textAt(note, step, servings)}</p>)}
+    <ol type="a">{step.blocks.map((block, i) => <li key={i}>{textAt(block, step, lines, servings)}</li>)}</ol> :
+    <p>{textAt(step.blocks[0], step, lines, servings)}</p>}
+    {step.notes.map(note => <p className="step-note" key={note}>{textAt(note, step, lines, servings)}</p>)}
   </div>
 }
 
 function Portions({ recipe, servings, setServings, variant, setVariant }: {
   recipe: Recipe; servings: number; setServings: (value: number) => void; variant: string; setVariant: (value: string) => void
 }) {
-  const i = recipe.servings.indexOf(servings)
+  const options = servingOptions(recipe)
+  const i = options.indexOf(servings)
   return <div className="portion-row"><div className="portion-control"><Users size={19} />
-    <strong>Servings</strong><div className="stepper">
-      <button className="icon-button" aria-label="Fewer servings" disabled={i <= 0} onClick={() => setServings(recipe.servings[i - 1])}><Minus size={17} /></button>
-      <output aria-live="polite">{servings}</output>
-      <button className="icon-button" aria-label="More servings" disabled={i === recipe.servings.length - 1} onClick={() => setServings(recipe.servings[i + 1])}><Plus size={17} /></button>
+    <div className="stepper">
+      <button className="icon-button" aria-label="Fewer servings" disabled={i <= 0} onClick={() => setServings(options[i - 1])}><Minus size={17} /></button>
+      <label>Servings <select value={servings} onChange={event => setServings(Number(event.target.value))}>
+        {options.map(size => <option value={size} key={size}>{size}</option>)}
+      </select></label>
+      <button className="icon-button" aria-label="More servings" disabled={i === options.length - 1} onClick={() => setServings(options[i + 1])}><Plus size={17} /></button>
     </div></div>
     {recipe.variants.length > 0 && <label className="variant-select">Card variant <select value={variant} onChange={event => setVariant(event.target.value)}>
       <option value="base">Original card</option>{recipe.variants.map(v => <option key={v.id} value={v.id}>{v.label}</option>)}</select></label>}
+    {!recipe.servings.includes(servings) && <p className="portion-note">Calculated portions. Use batches if your pan or tray is crowded.</p>}
   </div>
 }
 
 export function RecipePage({ recipe, catalogue, data, setData, tools, saved, onSave, basics, back }: CookingProps & { back: () => void }) {
-  const [servings, setServings] = useState(recipe.defaultServings)
-  const [variant, setVariant] = useState('base')
+  const session = data.session?.recipeId === recipe.id ? data.session : null
+  const [previewServings, setPreviewServings] = useState(recipe.defaultServings)
+  const [previewVariant, setPreviewVariant] = useState('base')
+  const servings = session && servingOptions(recipe).includes(session.servings) ? session.servings : previewServings
+  const variant = session?.variant ?? previewVariant
   const [copy, setCopy] = useState('')
   const [confirm, setConfirm] = useState(false)
   const [expanded, setExpanded] = useState<Step>()
@@ -58,7 +60,18 @@ export function RecipePage({ recipe, catalogue, data, setData, tools, saved, onS
   const required = lines.filter(line => !line.optional)
   const match = matchRequirements(required.map(line => line.ingredientId), data.pantry, basics, tools)
   const isSaved = saved.includes(recipe.id)
-  const same = data.session?.recipeId === recipe.id
+  const setServings = (size: number) => {
+    setPreviewServings(size)
+    setCopy('')
+    if (session) setData(value => value.session?.recipeId === recipe.id
+      ? { ...value, session: { ...value.session, servings: size, ingredients: [] } } : value)
+  }
+  const setVariant = (id: string) => {
+    setPreviewVariant(id)
+    setCopy('')
+    if (session) setData(value => value.session?.recipeId === recipe.id
+      ? { ...value, session: { ...value.session, variant: id, ingredients: [], timers: [] } } : value)
+  }
   const start = () => {
     const session: Session = { recipeId: recipe.id, slug: recipe.slug, servings, variant, step: null, ingredients: [], equipment: [], timers: [] }
     setData(value => ({ ...value, session }))
@@ -80,7 +93,7 @@ export function RecipePage({ recipe, catalogue, data, setData, tools, saved, onS
         <div className="timing-row">{(['prep', 'cook', 'total'] as TimeKey[]).map(key => <div key={key}><small>{timeLabels[key]}</small><strong>{recipe.timings[key] ? timeText(recipe.timings[key]!) : 'Unknown'}</strong></div>)}
           {recipe.timings.card && <div><small>Card time</small><strong>{timeText(recipe.timings.card)}</strong></div>}</div>
         <div className="recipe-actions">
-          {same ? <a className="button primary" href={cookLink(recipe.slug)}><ChefHat size={19} /> Resume cooking</a> :
+          {session ? <a className="button primary" href={cookLink(recipe.slug)}><ChefHat size={19} /> Resume cooking</a> :
             <button className="button primary" onClick={() => data.session ? setConfirm(true) : start()}><ChefHat size={19} /> Start cooking</button>}
           <button className="button secondary" aria-pressed={isSaved} onClick={() => onSave(recipe.id)}><Bookmark size={19} fill={isSaved ? 'currentColor' : 'none'} /> {isSaved ? 'Saved' : 'Save recipe'}</button>
         </div>
@@ -88,7 +101,7 @@ export function RecipePage({ recipe, catalogue, data, setData, tools, saved, onS
     </section>
     <div className="recipe-detail">
       <section className="recipe-ingredients"><h2>Ingredients</h2>
-        <Portions recipe={recipe} servings={servings} setServings={value => { setServings(value); setCopy('') }} variant={variant} setVariant={value => { setVariant(value); setCopy('') }} />
+        <Portions recipe={recipe} servings={servings} setServings={setServings} variant={variant} setVariant={setVariant} />
         {data.pantry.length ? <>
           <p className="muted"><strong>Check quantities.</strong> Pantry match for {servings}.</p>
           {[
@@ -115,7 +128,7 @@ export function RecipePage({ recipe, catalogue, data, setData, tools, saved, onS
       <section className="recipe-method"><div className="method-heading"><h2>Method</h2><span>{current.steps.length} steps</span></div>
         {recipe.before.map(note => <p key={note} className="step-note">{note}</p>)}
         <ol className="method-list">{current.steps.map(step => <li key={step.id}><div className="method-number" aria-hidden>{String(step.number).padStart(2, '0')}</div>
-          <div className="method-step"><h3>{step.heading || `Step ${step.number}`}</h3><StepText step={step} servings={servings} />
+          <div className="method-step"><h3>{step.heading || `Step ${step.number}`}</h3><StepText step={step} lines={current.ingredients} servings={servings} />
             {step.image && <button className="step-thumb" aria-label={`Enlarge photo for step ${step.number}`} onClick={() => setExpanded(step)}><Photo asset={step.image} catalogue={catalogue} title={step.heading || `Step ${step.number}`} sizes="260px" /><Maximize2 size={17} /></button>}</div>
         </li>)}</ol>
       </section>
@@ -166,7 +179,7 @@ export function CookMode({ recipe, catalogue, data, setData }: CookingProps) {
   const steps = current.steps
   const currentStep = steps.findIndex(step => step.id === session?.step)
   const step = steps[currentStep]
-  const servings = session && recipe.servings.includes(session.servings) ? session.servings : recipe.defaultServings
+  const servings = session && servingOptions(recipe).includes(session.servings) ? session.servings : recipe.defaultServings
   const hasTimers = Boolean(session?.timers.length)
   useEffect(() => {
     if (!hasTimers) return
@@ -223,7 +236,7 @@ export function CookMode({ recipe, catalogue, data, setData }: CookingProps) {
       </section>}
       {step ? <section className={`cook-step ${step.image ? 'with-image' : ''}`}>
         <div><div className="step-index"><strong>{String(step.number).padStart(2, '0')}</strong><span>of {String(steps.length).padStart(2, '0')}</span></div>
-          <h1 ref={heading} tabIndex={-1}>{step.heading || `Step ${step.number}`}</h1><StepText step={step} servings={servings} />
+          <h1 ref={heading} tabIndex={-1}>{step.heading || `Step ${step.number}`}</h1><StepText step={step} lines={current.ingredients} servings={servings} />
           {step.timers.map(timer => <div key={timer.id} className="timer-options">{timer.seconds.map(seconds => <button className="button secondary" key={seconds}
             disabled={session.timers.some(t => t.id === step.id + ':' + timer.id)}
             onClick={() => { const currentTime = Date.now(); setNow(currentTime); change(s => s.timers.some(t => t.id === step.id + ':' + timer.id) ? s :

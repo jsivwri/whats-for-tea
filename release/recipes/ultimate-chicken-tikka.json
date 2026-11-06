@@ -561,17 +561,10 @@
       "heading": "Cook the rice",
       "blocks": [
         "If you’ll warm the naans in the oven, preheat it to 220°C / 200°C fan / gas mark 7.",
-        "Pour {{rice-water}} water into a medium saucepan with a tight lid. Stir in the rice and ¼ tsp salt and bring to the boil. Turn the heat to medium and cover.",
+        "Pour {{line-19}} water into a medium saucepan with a tight lid. Stir in the rice and {{rice-salt}} salt and bring to the boil. Turn the heat to medium and cover.",
         "Cook for 10 minutes. Remove from the heat and leave covered for another 10 minutes, or until serving, to finish steaming."
       ],
       "notes": [],
-      "quantities": {
-        "rice-water": {
-          "2": "300 ml",
-          "3": "450 ml",
-          "4": "600 ml"
-        }
-      },
       "timers": [
         {
           "id": "timer-1",
@@ -595,6 +588,13 @@
         "height": 295,
         "alt": "Card photograph for step 1",
         "credit": "HelloFresh recipe card"
+      },
+      "quantities": {
+        "rice-salt": {
+          "2": "¼ tsp",
+          "3": "¼ tsp",
+          "4": "¼ tsp"
+        }
       }
     },
     {
@@ -602,28 +602,11 @@
       "number": 2,
       "heading": "Prep the vegetables",
       "blocks": [
-        "Meanwhile, take {{butter}} butter out of the fridge. Peel and grate or press the garlic.",
+        "Meanwhile, take {{line-20}} butter out of the fridge. Peel and grate or press the garlic.",
         "Trim the cucumber and cut into 1 cm pieces. Chop the tomato into 1 cm pieces and cut the lemon into wedges.",
-        "Combine {{sugar}} sugar, {{oil}} olive oil and a squeeze of lemon in a bowl. Season with salt and pepper, toss in the cucumber and tomato, and set aside."
+        "Combine {{line-15}} sugar, {{line-16}} olive oil and a squeeze of lemon in a bowl. Season with salt and pepper, toss in the cucumber and tomato, and set aside."
       ],
       "notes": [],
-      "quantities": {
-        "butter": {
-          "2": "20 g",
-          "3": "30 g",
-          "4": "40 g"
-        },
-        "sugar": {
-          "2": "0.5 tsp",
-          "3": "0.8 tsp",
-          "4": "1 tsp"
-        },
-        "oil": {
-          "2": "1 tbsp",
-          "3": "1.5 tbsp",
-          "4": "2 tbsp"
-        }
-      },
       "timers": [],
       "image": {
         "id": "ultimate-chicken-tikka-2",
@@ -640,23 +623,11 @@
       "heading": "Build the flavour",
       "blocks": [
         "Heat a drizzle of oil in a large pan over medium-high heat. Add the tikka masala paste, tomato purée and half the garlic. Stir for 2–3 minutes.",
-        "Add the chicken, {{sugar}} sugar and {{sauce-water}} water. Bring to the boil, lower the heat and season with salt and pepper."
+        "Add the chicken, {{line-17}} sugar and {{line-18}} water. Bring to the boil, lower the heat and season with salt and pepper."
       ],
       "notes": [
         "A stronger smell when first opened can come from the chicken packaging."
       ],
-      "quantities": {
-        "sugar": {
-          "2": "1 tsp",
-          "3": "1.5 tsp",
-          "4": "2 tsp"
-        },
-        "sauce-water": {
-          "2": "100 ml",
-          "3": "150 ml",
-          "4": "200 ml"
-        }
-      },
       "timers": [
         {
           "id": "timer-1",
@@ -713,16 +684,9 @@
       "blocks": [
         "A few minutes before serving, halve the naans widthways and toast until golden.",
         "If using the oven, place them on a baking tray, sprinkle with a little water and warm through for 2–3 minutes.",
-        "Spread the warm naans with {{butter}} butter and the remaining garlic. Season with salt."
+        "Spread the warm naans with {{line-20}} butter and the remaining garlic. Season with salt."
       ],
       "notes": [],
-      "quantities": {
-        "butter": {
-          "2": "20 g",
-          "3": "30 g",
-          "4": "40 g"
-        }
-      },
       "timers": [
         {
           "id": "timer-1",

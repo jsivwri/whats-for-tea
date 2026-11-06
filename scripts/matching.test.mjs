@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs'
 import test from 'node:test'
 import { recipeSchema, summarize } from '../schema/v1.ts'
 import { browse, defaultBasics, emptyFilters, ingredientTools, matchRequirements, requirementsFor, shortlist, titleRank } from '../src/matching.ts'
+import { formatAmount, servingOptions, textAt, usable } from '../src/portions.ts'
 
 const json = path => JSON.parse(readFileSync(new URL('../release/' + path, import.meta.url)))
 const tools = ingredientTools(json('ingredients.json'))
@@ -58,6 +59,7 @@ test('applies AND across facets and includes specific children of a family', () 
 test('uses portion and variant requirements consistently', () => {
   assert.ok(!requirementsFor(chilli, 2).includes('beef-stock-mix'))
   assert.ok(requirementsFor(chilli, 3).includes('beef-stock-mix'))
+  assert.ok(!requirementsFor(chilli, 12).includes('beef-stock-mix'))
   assert.ok(!requirementsFor(moussaka, 2, 'pork').includes('beef-mince'))
   assert.ok(requirementsFor(moussaka, 2, 'pork').includes('pork-mince'))
   assert.equal(recipes.find(r => r.id === chilli.id).steps[2].quantities['rice-water'][3], '300 ml')
@@ -76,4 +78,34 @@ test('500 recipe matching pass retains the interaction budget', () => {
   const hits = shortlist(fixture, emptyFilters, pantry('chicken-thigh', 'natural-yoghurt'), defaultBasics, tools)
   assert.ok(hits.length > 0)
   assert.ok(performance.now() - start < 100, '500-recipe shortlist exceeded 100 ms in Node')
+})
+
+test('the orzo method and ingredient list agree from two to twelve servings', () => {
+  const recipe = recipes.find(r => r.id === orzo.id)
+  const water = recipe.ingredients.find(line => line.label === 'Water for the sauce')
+  const finish = recipe.steps[4]
+  assert.deepEqual(servingOptions(recipe), [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+  for (const [servings, expected] of [[2, '125 ml'], [3, '200 ml'], [4, '250 ml'], [5, '312.5 ml'], [8, '500 ml'], [12, '750 ml']]) {
+    assert.equal(formatAmount(water, servings), expected)
+    assert.ok(textAt(finish.blocks[0], finish, recipe.ingredients, servings).includes(expected + ' water'))
+  }
+  assert.match(textAt(finish.blocks[0], finish, recipe.ingredients, 12), /60 g chicken stock paste, 450 g crème fraîche/)
+  assert.equal(textAt(finish.blocks[1], finish, recipe.ingredients, 12), finish.blocks[1])
+})
+
+test('scales packet totals, preserves unmeasured amounts and resolves step-only quantities', () => {
+  const recipe = recipes.find(r => r.id === chilli.id)
+  const line = label => recipe.ingredients.find(ingredient => ingredient.label === label)
+  assert.equal(formatAmount(line('White long grain rice'), 12), '780 g')
+  assert.equal(formatAmount(line('Beef mince'), 3), '250 g & 125 g')
+  assert.equal(formatAmount(line('Olive oil'), 12), 'As needed')
+  assert.ok(!usable(recipe.ingredients, 12).includes(line('Beef stock mix')))
+  const rice = recipe.steps[2]
+  assert.match(textAt(rice.blocks[0], rice, recipe.ingredients, 12), /1350 ml cold water/)
+
+  const greekRecipe = recipes.find(r => r.id === moussaka.id)
+  const pork = greekRecipe.variants.find(v => v.id === 'pork')
+  assert.equal(formatAmount(pork.ingredients.find(line => line.ingredientId === 'pork-mince'), 12), '1800 g')
+  const sauce = pork.steps[3]
+  assert.match(textAt(sauce.blocks[1], sauce, pork.ingredients, 12), /6 tsp sugar and 180 ml water/)
 })

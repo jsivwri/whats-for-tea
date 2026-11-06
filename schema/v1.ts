@@ -60,7 +60,11 @@ export const recipeSchema = z.object({
       if (s.ingredientLines?.some(line => !lines.includes(line))) report('Step references unknown ingredient line')
       for (const block of [...s.blocks, ...s.notes]) {
         for (const [, token] of block.matchAll(/\{\{([a-z0-9-]+)\}\}/g)) {
-          if (portions.some(n => !s.quantities?.[token]?.[n])) report(`Unresolved serving token ${token}`)
+          const line = version.ingredients.find(ingredient => ingredient.id === token)
+          const amounts = s.quantities?.[token]
+          if (portions.some(n => amounts ? !amounts[n] : line?.quantities[n]?.status !== 'printed')) {
+            report(`Unresolved serving token ${token}`)
+          }
         }
       }
     })

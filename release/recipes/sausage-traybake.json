@@ -382,7 +382,7 @@
       "number": 2,
       "heading": "Add the pear",
       "blocks": [
-        "Meanwhile halve the unpeeled pear lengthways, remove its core and cut into about eight wedges.",
+        "Meanwhile halve the unpeeled pear lengthways, remove its core and cut each pear into about eight wedges.",
         "After the squash has roasted for about five minutes, add the pear with a little more oil and toss together. Roast for the remaining 20–25 minutes, turning halfway through."
       ],
       "notes": [],
@@ -440,16 +440,9 @@
       "heading": "Add the kale",
       "blocks": [
         "While everything cooks, stir the fig jam and balsamic vinegar together in a small bowl. Season with salt and pepper.",
-        "In a medium bowl, coat the kale with {{dressing-oil}} olive oil and season. When the vegetables are ready, lay the kale on top and roast for 6–7 minutes until crisp."
+        "In a medium bowl, coat the kale with {{line-9}} olive oil and season. When the vegetables are ready, lay the kale on top and roast for 6–7 minutes until crisp."
       ],
       "notes": [],
-      "quantities": {
-        "dressing-oil": {
-          "2": "1 tbsp",
-          "3": "1.5 tbsp",
-          "4": "2 tbsp"
-        }
-      },
       "timers": [
         {
           "id": "timer-1",
@@ -492,16 +485,9 @@
       "number": 6,
       "heading": "Serve",
       "blocks": [
-        "Share the sausages and vegetables between plates. Serve {{mayo}} mayonnaise on the side for dipping."
+        "Share the sausages and vegetables between plates. Serve {{line-10}} mayonnaise on the side for dipping."
       ],
       "notes": [],
-      "quantities": {
-        "mayo": {
-          "2": "2 tbsp",
-          "3": "3 tbsp",
-          "4": "4 tbsp"
-        }
-      },
       "timers": [],
       "image": {
         "id": "sausage-traybake-6",

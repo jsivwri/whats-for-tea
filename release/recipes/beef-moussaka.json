@@ -350,7 +350,7 @@
           "number": 2,
           "heading": "Boil the potatoes",
           "blocks": [
-            "Meanwhile, boil a large saucepan of water with ½ tsp salt. Peel the potato and slice into 1 cm rounds.",
+            "Meanwhile, boil a large saucepan of water with {{potato-salt}} salt. Peel the potato and slice into 1 cm rounds.",
             "Simmer the slices for 8–12 minutes, until you can slip a knife through easily. Drain in a colander and set aside."
           ],
           "notes": [],
@@ -371,6 +371,12 @@
             "height": 406,
             "alt": "Card photograph for step 2",
             "credit": "Green Chef recipe card"
+          },
+          "quantities": {
+            "potato-salt": {
+              "2": "½ tsp",
+              "4": "½ tsp"
+            }
           }
         },
         {
@@ -408,20 +414,10 @@
           "heading": "Finish the sauce",
           "blocks": [
             "When the porkis cooked, stir in the garlic for 30 seconds.",
-            "Add the passata, cinnamon, beef stock paste, {{sugar}} sugar and {{sauce-water}} water. Simmer for 4–5 minutes until slightly thickened.",
+            "Add the passata, cinnamon, beef stock paste, {{line-12}} sugar and {{line-13}} water. Simmer for 4–5 minutes until slightly thickened.",
             "Remove the tender, golden aubergine from the oven and preheat the grill to high."
           ],
           "notes": [],
-          "quantities": {
-            "sugar": {
-              "2": "1 tsp",
-              "4": "2 tsp"
-            },
-            "sauce-water": {
-              "2": "30 ml",
-              "4": "60 ml"
-            }
-          },
           "timers": [
             {
               "id": "garlic",
@@ -872,7 +868,7 @@
       "number": 2,
       "heading": "Boil the potatoes",
       "blocks": [
-        "Meanwhile, boil a large saucepan of water with ½ tsp salt. Peel the potato and slice into 1 cm rounds.",
+        "Meanwhile, boil a large saucepan of water with {{potato-salt}} salt. Peel the potato and slice into 1 cm rounds.",
         "Simmer the slices for 8–12 minutes, until you can slip a knife through easily. Drain in a colander and set aside."
       ],
       "notes": [],
@@ -893,6 +889,12 @@
         "height": 406,
         "alt": "Card photograph for step 2",
         "credit": "Green Chef recipe card"
+      },
+      "quantities": {
+        "potato-salt": {
+          "2": "½ tsp",
+          "4": "½ tsp"
+        }
       }
     },
     {
@@ -930,20 +932,10 @@
       "heading": "Finish the sauce",
       "blocks": [
         "When the beef is cooked, stir in the garlic for 30 seconds.",
-        "Add the passata, cinnamon, beef stock paste, {{sugar}} sugar and {{sauce-water}} water. Simmer for 4–5 minutes until slightly thickened.",
+        "Add the passata, cinnamon, beef stock paste, {{line-12}} sugar and {{line-13}} water. Simmer for 4–5 minutes until slightly thickened.",
         "Remove the tender, golden aubergine from the oven and preheat the grill to high."
       ],
       "notes": [],
-      "quantities": {
-        "sugar": {
-          "2": "1 tsp",
-          "4": "2 tsp"
-        },
-        "sauce-water": {
-          "2": "30 ml",
-          "4": "60 ml"
-        }
-      },
       "timers": [
         {
           "id": "garlic",

@@ -407,16 +407,9 @@
       "number": 4,
       "heading": "Mix the stock",
       "blocks": [
-        "Meanwhile mix the vegetable stock mix with {{stock-water}} boiled water."
+        "Meanwhile mix the vegetable stock mix with {{line-13}} boiled water."
       ],
       "notes": [],
-      "quantities": {
-        "stock-water": {
-          "2": "150 ml",
-          "3": "200 ml",
-          "4": "250 ml"
-        }
-      },
       "timers": [],
       "image": {
         "id": "salmon-tagliatelle-4",
@@ -432,18 +425,11 @@
       "number": 5,
       "heading": "Cook the tagliatelle",
       "blocks": [
-        "When the vegetables have softened, stir in a knob of butter and {{flour}} flour.",
+        "When the vegetables have softened, stir in a knob of butter and {{line-9}} flour.",
         "Meanwhile add the fresh tagliatelle to a pan of boiled water and bring it to a boil over high heat. Cook for 4–6 minutes until cooked with a slight bite.",
-        "Drain the pasta, saving a cup of the starchy cooking water."
+        "Drain the pasta, saving {{pasta-water}} of the starchy cooking water."
       ],
       "notes": [],
-      "quantities": {
-        "flour": {
-          "2": "2 tsp",
-          "3": "2½ tsp",
-          "4": "3 tsp"
-        }
-      },
       "timers": [
         {
           "id": "timer-1",
@@ -461,6 +447,13 @@
         "height": 483,
         "alt": "Card photograph for step 5",
         "credit": "Gousto recipe card"
+      },
+      "quantities": {
+        "pasta-water": {
+          "2": "1 cup",
+          "3": "1 cup",
+          "4": "1 cup"
+        }
       }
     },
     {

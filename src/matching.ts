@@ -1,3 +1,4 @@
+import { servingReference } from './portions.ts'
 import type { Dictionary, Summary, TimeKey, Timing } from '../schema/v1.ts'
 
 export const normalise = (s: string) => s.toLowerCase().normalize('NFKD').replace(/\p{M}/gu, '')
@@ -112,7 +113,7 @@ export function matchRequirements(requirements: string[], pantry: PantryItem[], 
   return { matched, assumed, missing, leads, firstCount: new Set(usedFirst).size, ratio: matched.length / Math.max(1, matched.length + missing.length) }
 }
 export type Match = ReturnType<typeof matchRequirements>
-export const requirementsFor = (recipe: Summary, size = recipe.defaultServings, variant = 'base') => (recipe.requirements[variant] || recipe.requirements.base)[size] || []
+export const requirementsFor = (recipe: Summary, size = recipe.defaultServings, variant = 'base') => (recipe.requirements[variant] || recipe.requirements.base)[servingReference(recipe.servings, size)] || []
 const timeSort = (a: Summary, b: Summary, key: TimeKey) => (a.timings[key]?.maxMinutes ?? 1e9) - (b.timings[key]?.maxMinutes ?? 1e9)
 
 export function browse(index: Summary[], filters: Filters, tools: Tools) {

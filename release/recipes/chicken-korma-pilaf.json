@@ -581,17 +581,10 @@
       "number": 6,
       "heading": "Cook the pilaf",
       "blocks": [
-        "Stir the basmati rice through the oil and spices. Pour in {{rice-water}} cold water and add the chopped creamed coconut. Bring to the boil over high heat.",
+        "Stir the basmati rice through the oil and spices. Pour in {{line-18}} cold water and add the chopped creamed coconut. Bring to the boil over high heat.",
         "Reduce to very low, cover and cook for 10–12 minutes until the water has been absorbed, the rice is done and the chicken is cooked through with no pink meat."
       ],
       "notes": [],
-      "quantities": {
-        "rice-water": {
-          "2": "300 ml",
-          "3": "390 ml",
-          "4": "600 ml"
-        }
-      },
       "timers": [
         {
           "id": "timer-1",

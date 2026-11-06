@@ -1,0 +1,530 @@
+{
+  "id": "tuscan-pulled-chicken-stew",
+  "slug": "tuscan-pulled-chicken-stew",
+  "title": "One Pot Tuscan Inspired Creamy Pulled Chicken Stew with Ciabatta and Cheese",
+  "aliases": [
+    "One Pot Tuscan Inspired Creamy Pulled Chicken Stew with Ciabatta and Cheese"
+  ],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh recipe card",
+    "edition": "2026-W44 · Card 36"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Italian-inspired",
+  "themes": [
+    "One pot",
+    "Comfort food"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Foil",
+    "large wide ovenproof pan"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Egg",
+    "Gluten",
+    "Wheat",
+    "Barley"
+  ],
+  "cautions": [
+    "Check the packaging for the latest allergen and cross-contact information. Wash produce and use separate or freshly washed utensils for raw and cooked food. Defrost any frozen ingredients fully before cooking."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "brown-onion",
+      "label": "Onion",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "baby-plum-tomatoes",
+      "label": "Baby Plum Tomatoes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "125 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "190 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 g"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "chicken-thigh",
+      "label": "British Chicken Thighs",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "4"
+        },
+        "3": {
+          "status": "printed",
+          "text": "6"
+        },
+        "4": {
+          "status": "printed",
+          "text": "8"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "creme-fraiche",
+      "label": "Crème Fraîche",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "225 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 g"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken Stock Paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "dried-basil",
+      "label": "Dried Basil",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "ciabatta",
+      "label": "Ciabatta",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "spinach",
+      "label": "Baby Spinach",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "sun-dried-tomato-paste",
+      "label": "Sun-Dried Tomato Paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 g"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "italian-hard-cheese",
+      "label": "Grated Hard Italian Style Cheese",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      }
+    },
+    {
+      "id": "sauce-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      }
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the Sauce",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "300 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "400 ml"
+        }
+      }
+    },
+    {
+      "id": "line-13",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-14",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-15",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Fry chicken and onion",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7. Halve, peel and thinly slice the onion. Halve tomatoes and cut chicken thighs in half widthways. Stir-fry chicken and onion in oil in a wide ovenproof pan over medium heat for 6–8 minutes until browned and softened. Wash hands and equipment after handling raw chicken."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry chicken and onion",
+          "seconds": [
+            360,
+            480
+          ]
+        }
+      ],
+      "image": {
+        "id": "tuscan-pulled-chicken-stew-1",
+        "path": "media/tuscan-pulled-chicken-stew-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of two-handled ovenproof pan of chicken and onion",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Bake the stew",
+      "blocks": [
+        "Stir in crème fraîche, stock paste, basil, tomatoes, {{sauce-sugar}} sugar and {{sauce-water}} water. Bring to a boil, cover the pan with foil and bake on the middle shelf 22–25 minutes until the chicken is cooked through with no pink in the middle."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the stew",
+          "seconds": [
+            1320,
+            1500
+          ]
+        }
+      ],
+      "image": {
+        "id": "tuscan-pulled-chicken-stew-2",
+        "path": "media/tuscan-pulled-chicken-stew-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of same pan of chicken in creamy tomato stew",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Prepare the ciabatta",
+      "blocks": [
+        "Halve the ciabattas."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "tuscan-pulled-chicken-stew-3",
+        "path": "media/tuscan-pulled-chicken-stew-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of four ciabatta halves on board",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Warm the bread",
+      "blocks": [
+        "When the stew has 5 minutes left, warm the ciabatta halves in the oven for 2–3 minutes. Drizzle with oil and season with salt."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Warm the bread",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "tuscan-pulled-chicken-stew-4",
+        "path": "media/tuscan-pulled-chicken-stew-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of ciabatta halves on a baking tray",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Pull the chicken",
+      "blocks": [
+        "Remove the cooked stew from the oven. Add the spinach a handful at a time until wilted and piping hot, 1–2 minutes. Break the chicken into smaller pieces with forks or a spoon. Stir in sun-dried tomato paste and cheese, season and loosen with a splash of water if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Pull the chicken",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "tuscan-pulled-chicken-stew-5",
+        "path": "media/tuscan-pulled-chicken-stew-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of pan of pulled chicken stew",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Serve",
+      "blocks": [
+        "Divide the stew between bowls and serve with the toasted ciabatta for dipping."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "tuscan-pulled-chicken-stew-6",
+        "path": "media/tuscan-pulled-chicken-stew-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of bowl of stew beside toast",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "tuscan-pulled-chicken-stew-hero",
+    "path": "media/tuscan-pulled-chicken-stew.webp",
+    "width": 960,
+    "height": 628,
+    "alt": "One Pot Tuscan Inspired Creamy Pulled Chicken Stew with Ciabatta and Cheese",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/tuscan-pulled-chicken-stew-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

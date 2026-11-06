@@ -1,0 +1,550 @@
+{
+  "id": "lamb-steaks-mint-salsa-verde",
+  "slug": "lamb-steaks-mint-salsa-verde",
+  "title": "Lamb Steaks and Green Chilli & Mint Salsa Verde with Roasted Butternut Squash and Red Cabbage Slaw",
+  "aliases": [
+    "Lamb Steaks and Green Chilli & Mint Salsa Verde with Roasted Butternut Squash and Red Cabbage Slaw"
+  ],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh recipe card",
+    "edition": "2026-W37 · Card 23"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Brazilian-inspired",
+  "themes": [
+    "Steak",
+    "Roast"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Foil",
+    "baking tray",
+    "large frying pan",
+    "bowls"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Gluten",
+    "Wheat"
+  ],
+  "cautions": [
+    "Check the packaging for the latest allergen and cross-contact information. Wash produce and use separate or freshly washed utensils for raw and cooked food. Defrost any frozen ingredients fully before cooking."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "lamb-steaks",
+      "label": "Lamb Steaks",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "butternut-squash",
+      "label": "Butternut Squash",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "mint",
+      "label": "Mint",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5 bunches"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 bunches"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "lime",
+      "label": "Lime",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "green-chilli-paste",
+      "label": "Green Chilli Paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "45 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "red-cabbage",
+      "label": "Pre-Cut Red Cabbage",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "180 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "240 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "greek-style-yoghurt",
+      "label": "Greek Style Natural Yoghurt",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "brazilian-style-spice-mix",
+      "label": "Brazilian Style Spice Mix",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "crispy-onions",
+      "label": "Crispy Onions",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "22.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      }
+    },
+    {
+      "id": "salsa-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the Salsa",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "0.5 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "0.8 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp"
+        }
+      }
+    },
+    {
+      "id": "salsa-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive Oil for the Salsa",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      }
+    },
+    {
+      "id": "slaw-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the Dressing",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "0.5 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "0.8 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp"
+        }
+      }
+    },
+    {
+      "id": "squash-honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      }
+    },
+    {
+      "id": "line-14",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-15",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-16",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Roast the squash",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7. Take the steaks out of the fridge. Trim, halve and deseed the squash. Slice into 1 cm half-moons, peeling if desired. Toss with oil and seasoning, spread on a tray and roast on the top shelf for 25–30 minutes, turning halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the squash",
+          "seconds": [
+            1500,
+            1800
+          ]
+        }
+      ],
+      "image": {
+        "id": "lamb-steaks-mint-salsa-verde-1",
+        "path": "media/lamb-steaks-mint-salsa-verde-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of butternut squash cut into thin half-moons on board",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Make the salsa",
+      "blocks": [
+        "Strip and roughly chop the mint and halve the lime. Mix most of the mint with lime juice, {{salsa-sugar}} sugar, {{salsa-oil}} olive oil, half the green chilli paste and seasoning."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "lamb-steaks-mint-salsa-verde-2",
+        "path": "media/lamb-steaks-mint-salsa-verde-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of small bowl of green chilli and mint salsa",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Make the slaw",
+      "blocks": [
+        "Mix cabbage, yoghurt, {{slaw-sugar}} sugar, a squeeze of lime and remaining chilli paste. Season. At the halfway point, toss the squash with half the Brazilian spice mix and return to the oven for 12–15 minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Make the slaw",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "lamb-steaks-mint-salsa-verde-3",
+        "path": "media/lamb-steaks-mint-salsa-verde-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of small bowl of red cabbage slaw",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Fry the lamb",
+      "blocks": [
+        "Heat oil in a large pan on high and season the steaks. Fry for 8–10 minutes total for medium rare, turning every 2 minutes. Adjust for thickness and preferred doneness."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the lamb",
+          "seconds": [
+            480,
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "lamb-steaks-mint-salsa-verde-4",
+        "path": "media/lamb-steaks-mint-salsa-verde-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of two lamb steaks in frying pan",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Season and rest",
+      "blocks": [
+        "Lower the heat, add remaining spice mix and turn the steaks in it for 1 minute. Rest under foil for a couple of minutes. Wash hands and equipment after handling raw meat. Drizzle the roasted squash with {{squash-honey}} honey and toss."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Season and rest",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "lamb-steaks-mint-salsa-verde-5",
+        "path": "media/lamb-steaks-mint-salsa-verde-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of lamb steaks resting under foil",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Serve",
+      "blocks": [
+        "Slice the steaks widthways. Serve with squash and slaw, spoon salsa over the lamb and scatter crispy onions and remaining mint over the vegetables and slaw."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "lamb-steaks-mint-salsa-verde-6",
+        "path": "media/lamb-steaks-mint-salsa-verde-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of sliced lamb and squash on board beside purple slaw",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "lamb-steaks-mint-salsa-verde-hero",
+    "path": "media/lamb-steaks-mint-salsa-verde.webp",
+    "width": 960,
+    "height": 676,
+    "alt": "Lamb Steaks and Green Chilli & Mint Salsa Verde with Roasted Butternut Squash and Red Cabbage Slaw",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/lamb-steaks-mint-salsa-verde-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

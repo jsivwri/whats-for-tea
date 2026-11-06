@@ -1,0 +1,548 @@
+{
+  "id": "pork-apple-mustard-casserole",
+  "slug": "pork-apple-mustard-casserole",
+  "title": "Creamy Pork, Apple & Mustard Casserole",
+  "aliases": [
+    "Creamy Pork, Apple & Mustard Casserole"
+  ],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto recipe card",
+    "edition": "R-7370"
+  },
+  "added": "2026-11-06",
+  "cuisine": "British",
+  "themes": [
+    "One pot",
+    "Comfort food"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": {
+      "minMinutes": 5,
+      "maxMinutes": 5,
+      "sourceLabel": "Prepped in 5",
+      "provenance": "Printed on the card"
+    },
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 65,
+      "maxMinutes": 70,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Hob-safe ovenproof casserole with lid",
+    "kettle"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Mustard"
+  ],
+  "cautions": [
+    "Check the packaging for allergen information, including any ingredients you supply or substitute. Wash fresh produce and check use-by dates."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "apple",
+      "label": "Apple",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "carrot",
+      "label": "Carrot",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "4"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "chicken-stock-mix",
+      "label": "Chicken stock mix",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unused"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "unused"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "intense-chicken-stock-mix",
+      "label": "Chicken stock mix (intense)",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 5.5 g"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "creme-fraiche",
+      "label": "Crème fraîche",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 80 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 80 g"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "diced-pork-shoulder",
+      "label": "Diced pork shoulder",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "125 g & 250 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 250 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "dried-sage",
+      "label": "Dried sage",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 1 tsp"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "leek",
+      "label": "Leek",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "potato",
+      "label": "White potato",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "wholegrain-mustard",
+      "label": "Wholegrain mustard",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "21 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "21 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 21 g"
+        }
+      }
+    },
+    {
+      "id": "flour",
+      "ingredientId": "flour",
+      "label": "Flour",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-13",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-14",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "stock-water",
+      "ingredientId": "water",
+      "label": "Water for stock",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "580 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "770 ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Get ready",
+      "blocks": [
+        "Wash the produce. If your casserole is not hob-safe, start in a wide pan and transfer to an ovenproof dish with a tight foil cover."
+      ],
+      "notes": [],
+      "timers": []
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Brown the pork",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7 and boil the kettle. Heat vegetable oil in the casserole on high. Add diced pork and salt and cook 1–2 minutes, until it starts to brown."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the pork",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "pork-apple-mustard-casserole-2",
+        "path": "media/pork-apple-mustard-casserole-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of pork shoulder cubes browning in casserole",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Chop the vegetables and apple",
+      "blocks": [
+        "Trim and roughly chop the carrots. Trim the leeks, cut into thick rounds and wash away grit. Core and dice the unpeeled apples. Cut the potatoes into large bite-sized pieces."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "pork-apple-mustard-casserole-3",
+        "path": "media/pork-apple-mustard-casserole-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of chopped carrot leek apple and potato arranged on board",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Add the vegetables",
+      "blocks": [
+        "Stir the carrots, leek, apple, potato and dried sage into the pork and cook 1–2 minutes until fragrant."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Add the vegetables",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "pork-apple-mustard-casserole-4",
+        "path": "media/pork-apple-mustard-casserole-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of pork and vegetables in casserole before stock",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Bake the casserole",
+      "blocks": [
+        "Add {{flour}} flour and cook for 1 minute. Stir in the stock mix and {{stock-water}} boiled water. Bring to a boil over high heat, cover and bake for 55 minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the casserole",
+          "seconds": [
+            3300
+          ]
+        }
+      ],
+      "image": {
+        "id": "pork-apple-mustard-casserole-5",
+        "path": "media/pork-apple-mustard-casserole-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of casserole of pork and vegetables in stock",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Wait while it cooks",
+      "blocks": [
+        "Use the covered cooking time to clear up or get the table ready."
+      ],
+      "notes": [],
+      "timers": []
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "heading": "Finish with mustard and cream",
+      "blocks": [
+        "Stir through the mustard, most of the crème fraîche and a generous pinch of salt. Bake uncovered for another 5 minutes, until the potatoes are tender and the pork is cooked through with no pink meat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Finish with mustard and cream",
+          "seconds": [
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "pork-apple-mustard-casserole-7",
+        "path": "media/pork-apple-mustard-casserole-7-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of creamy casserole with potatoes and pork",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "heading": "Serve",
+      "blocks": [
+        "Drizzle with the reserved crème fraîche and finish with ground black pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "pork-apple-mustard-casserole-8",
+        "path": "media/pork-apple-mustard-casserole-8-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of finished mustard casserole drizzled with crème fraîche",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "pork-apple-mustard-casserole-hero",
+    "path": "media/pork-apple-mustard-casserole.webp",
+    "width": 684,
+    "height": 657,
+    "alt": "Creamy Pork, Apple & Mustard Casserole",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/pork-apple-mustard-casserole-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

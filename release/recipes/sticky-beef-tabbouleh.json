@@ -1,0 +1,576 @@
+{
+  "id": "sticky-beef-tabbouleh",
+  "slug": "sticky-beef-tabbouleh",
+  "title": "Middle Eastern Inspired Sticky Beef with Pomegranate Molasses, Tabbouleh, Parsley and Yoghurt",
+  "aliases": [
+    "Middle Eastern Inspired Sticky Beef with Pomegranate Molasses, Tabbouleh, Parsley and Yoghurt"
+  ],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh recipe card",
+    "edition": "2026-W39 · Card 38"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Middle Eastern-inspired",
+  "themes": [
+    "Quick"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 20,
+      "maxMinutes": 20,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Bowls",
+    "frying pan",
+    "garlic press",
+    "large lidded saucepan"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Gluten",
+    "Wheat"
+  ],
+  "cautions": [
+    "Check the packaging for the latest allergen and cross-contact information. Wash produce and use separate or freshly washed utensils for raw and cooked food. Defrost any frozen ingredients fully before cooking."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken Stock Paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "bulgur-wheat",
+      "label": "Bulgur Wheat",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "180 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "240 g"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "beef-mince",
+      "label": "British Beef Mince",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "360 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "480 g"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "baby-plum-tomatoes",
+      "label": "Baby Plum Tomatoes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "125 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "187.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 g"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "baby-cucumber",
+      "label": "Baby Cucumber",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "garlic",
+      "label": "Garlic Clove",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "prunes",
+      "label": "Prunes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "parsley",
+      "label": "Flat Leaf Parsley",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 bunch"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "chermoula-spice-mix",
+      "label": "Chermoula Spice Mix",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "tomato-paste",
+      "label": "Tomato Purée",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "45 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      }
+    },
+    {
+      "id": "line-11",
+      "ingredientId": "pomegranate-molasses",
+      "label": "Pomegranate Molasses",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "ingredientId": "greek-style-yoghurt",
+      "label": "Greek Style Natural Yoghurt",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "105 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g"
+        }
+      }
+    },
+    {
+      "id": "sauce-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the Sauce",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      }
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the Sauce",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 ml"
+        }
+      }
+    },
+    {
+      "id": "bulgur-water",
+      "ingredientId": "water",
+      "label": "Water for the Bulgur",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "220 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "330 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "440 ml"
+        }
+      }
+    },
+    {
+      "id": "line-16",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-17",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Cook the bulgur",
+      "blocks": [
+        "Bring {{bulgur-water}} water and half the chicken stock paste to a boil. Stir in the bulgur, return to a boil and simmer 1 minute. Cover off the heat for 12–15 minutes or until serving."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the bulgur · 1 min",
+          "seconds": [
+            60
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Cook the bulgur · 12–15 min",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "sticky-beef-tabbouleh-1",
+        "path": "media/sticky-beef-tabbouleh-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of bulgur and stock cooking in saucepan",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Fry the beef",
+      "blocks": [
+        "Heat a dry frying pan over medium-high. Brown the mince for 5–6 minutes, breaking it up and draining any excess fat. Season and cook through until no pink remains. Wash hands and equipment after handling raw mince."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the beef",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "sticky-beef-tabbouleh-2",
+        "path": "media/sticky-beef-tabbouleh-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of browned crumbled beef mince in black frying pan",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Prepare the vegetables",
+      "blocks": [
+        "Halve the tomatoes. Trim and cut the cucumber into 1 cm pieces. Peel and grate the garlic. Quarter the prunes and roughly chop the parsley, including stalks."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sticky-beef-tabbouleh-3",
+        "path": "media/sticky-beef-tabbouleh-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of chopped garlic tomatoes prunes parsley and cucumber on board",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Simmer the sauce",
+      "blocks": [
+        "Stir garlic, chermoula and tomato purée into the beef for 1 minute. Add pomegranate molasses, prunes, remaining stock paste, {{sauce-sugar}} sugar and {{sauce-water}} water. Bring to a boil, simmer 3–4 minutes until slightly reduced and season to taste."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the sauce · 1 min",
+          "seconds": [
+            60
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Simmer the sauce · 3–4 min",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "sticky-beef-tabbouleh-4",
+        "path": "media/sticky-beef-tabbouleh-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of sticky red spiced beef in pan",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Finish the tabbouleh",
+      "blocks": [
+        "Fluff up the bulgur with a fork and stir in tomatoes, cucumber and half the parsley. Taste and season."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sticky-beef-tabbouleh-5",
+        "path": "media/sticky-beef-tabbouleh-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of cooked bulgur with tomato and cucumber",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Serve",
+      "blocks": [
+        "Spoon the tabbouleh into bowls and top with sticky beef, a dollop of yoghurt and the remaining parsley."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sticky-beef-tabbouleh-6",
+        "path": "media/sticky-beef-tabbouleh-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of blue bowl of spiced beef tabbouleh and yoghurt",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "sticky-beef-tabbouleh-hero",
+    "path": "media/sticky-beef-tabbouleh.webp",
+    "width": 960,
+    "height": 941,
+    "alt": "Middle Eastern Inspired Sticky Beef with Pomegranate Molasses, Tabbouleh, Parsley and Yoghurt",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/sticky-beef-tabbouleh-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

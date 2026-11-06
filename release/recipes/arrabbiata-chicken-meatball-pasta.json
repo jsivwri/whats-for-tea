@@ -1,0 +1,616 @@
+{
+  "id": "arrabbiata-chicken-meatball-pasta",
+  "slug": "arrabbiata-chicken-meatball-pasta",
+  "title": "One Pan Arrabbiata Chicken Meatball Tortiglioni",
+  "aliases": [
+    "One Pan Arrabbiata Chicken Meatball Tortiglioni"
+  ],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto recipe card",
+    "edition": "R-15566"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Italian",
+  "themes": [
+    "Pasta",
+    "One pot",
+    "Meatballs"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 30,
+      "maxMinutes": 40,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Large wide frying pan with lid",
+    "mixing bowl",
+    "kettle"
+  ],
+  "before": [],
+  "allergens": [
+    "Gluten",
+    "Milk"
+  ],
+  "cautions": [
+    "Check the packaging for allergen information, including any ingredients you supply or substitute. Wash fresh produce and check use-by dates."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "basil",
+      "label": "Basil",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 5 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "intense-chicken-stock-mix",
+      "label": "Chicken stock mix (intense)",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 5.5 g"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "chicken-stock-mix",
+      "label": "Chicken stock mix",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unused"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "unused"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "chilli-flakes",
+      "label": "Dried chilli flakes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "0.5 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "0.5 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "chopped-tomatoes",
+      "label": "Finely chopped tomatoes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "390 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "390 g"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "garlic",
+      "label": "Garlic clove",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "italian-hard-cheese",
+      "label": "Grated Italian hard cheese",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 30 g"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "panko-breadcrumbs",
+      "label": "Panko breadcrumbs",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 20 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 20 g"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "seasoned-chicken-mince",
+      "label": "Seasoned chicken mince",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 250 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 250 g"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "smoked-sea-salt-flakes",
+      "label": "Smoked sea salt flakes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 1 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 1 g"
+        }
+      }
+    },
+    {
+      "id": "line-11",
+      "ingredientId": "tomato-paste",
+      "label": "Tomato paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "32 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "16 g & 32 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 32 g"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "ingredientId": "tortiglioni",
+      "label": "Tortiglioni",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 200 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 200 g"
+        }
+      }
+    },
+    {
+      "id": "line-13",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "A knob"
+        },
+        "3": {
+          "status": "printed",
+          "text": "A knob"
+        },
+        "4": {
+          "status": "printed",
+          "text": "A knob"
+        }
+      }
+    },
+    {
+      "id": "line-14",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-15",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-16",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      }
+    },
+    {
+      "id": "pasta-water",
+      "ingredientId": "water",
+      "label": "Water for pasta",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "500 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "750 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1000 ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Prepare the garlic",
+      "blocks": [
+        "Boil the kettle. Peel and finely chop or grate the garlic."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "arrabbiata-chicken-meatball-pasta-1",
+        "path": "media/arrabbiata-chicken-meatball-pasta-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of chopped garlic on board",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Shape the meatballs",
+      "blocks": [
+        "Mix chicken mince, one third of the garlic, breadcrumbs, half the stock mix, salt and pepper. Shape into five meatballs per person."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "arrabbiata-chicken-meatball-pasta-2",
+        "path": "media/arrabbiata-chicken-meatball-pasta-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of raw meatballs on board",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Brown the meatballs",
+      "blocks": [
+        "Heat olive oil in a wide pan on high. Fry the meatballs for 2 minutes each side until lightly browned. Set aside and keep the pan. Use two pans or cook in batches for three or more servings."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the meatballs",
+          "seconds": [
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "arrabbiata-chicken-meatball-pasta-3",
+        "path": "media/arrabbiata-chicken-meatball-pasta-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of lightly browned chicken meatballs in pan",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Start the sauce",
+      "blocks": [
+        "Reduce the pan to medium. Add remaining garlic and chilli flakes and cook for 30 seconds. Add tomato paste and chopped tomatoes and cook 2–3 minutes until slightly reduced."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Start the sauce",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "arrabbiata-chicken-meatball-pasta-4",
+        "path": "media/arrabbiata-chicken-meatball-pasta-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of red tomato sauce",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Cook the pasta and meatballs",
+      "blocks": [
+        "Add remaining stock mix, {{pasta-water}} boiled water, {{sugar}} sugar and the pasta. Stir in the browned meatballs and bring to a boil. Reduce to medium-low, cover and cook 12–15 minutes until the pasta is tender and chicken cooked through with no pink meat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the pasta and meatballs",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "arrabbiata-chicken-meatball-pasta-5",
+        "path": "media/arrabbiata-chicken-meatball-pasta-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of tortiglioni and chicken meatballs cooking in tomato sauce",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Prepare the basil",
+      "blocks": [
+        "Pick the basil leaves off the stalks and finely chop the stalks."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "arrabbiata-chicken-meatball-pasta-6",
+        "path": "media/arrabbiata-chicken-meatball-pasta-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of basil leaves and chopped stems",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "heading": "Finish the pasta",
+      "blocks": [
+        "Stir the smoked salt, chopped basil stalks, half the grated hard cheese and a knob of butter through the cooked pasta."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "arrabbiata-chicken-meatball-pasta-7",
+        "path": "media/arrabbiata-chicken-meatball-pasta-7-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of cooked pasta and chicken meatballs",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "heading": "Serve",
+      "blocks": [
+        "Garnish with the remaining cheese and basil leaves."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "arrabbiata-chicken-meatball-pasta-8",
+        "path": "media/arrabbiata-chicken-meatball-pasta-8-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of finished pasta with basil and grated cheese",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "arrabbiata-chicken-meatball-pasta-hero",
+    "path": "media/arrabbiata-chicken-meatball-pasta.webp",
+    "width": 734,
+    "height": 589,
+    "alt": "One Pan Arrabbiata Chicken Meatball Tortiglioni",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/arrabbiata-chicken-meatball-pasta-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "id": "bacon-alfredo-tagliatelle",
+  "slug": "bacon-alfredo-tagliatelle",
+  "title": "Creamy Bacon Alfredo Sauce with Fresh Tagliatelle",
+  "aliases": [
+    "Creamy Bacon Alfredo Sauce with Fresh Tagliatelle"
+  ],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto recipe card",
+    "edition": "R-11608"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Italian",
+  "themes": [
+    "Pasta",
+    "Quick"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 10,
+      "maxMinutes": 20,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Wide frying pan",
+    "saucepan",
+    "colander",
+    "kettle"
+  ],
+  "before": [],
+  "allergens": [
+    "Gluten",
+    "Milk"
+  ],
+  "cautions": [
+    "Check the packaging for allergen information, including any ingredients you supply or substitute. Wash fresh produce and check use-by dates."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "bacon-lardons",
+      "label": "Bacon lardons",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "50 g & 100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 100 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "chicken-stock-mix",
+      "label": "Chicken stock mix",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 5.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 5.5 g"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "fresh-tagliatelle",
+      "label": "Fresh tagliatelle",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 250 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 250 g"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "garlic",
+      "label": "Garlic clove",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "italian-hard-cheese",
+      "label": "Grated Italian hard cheese",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 30 g"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "soft-cheese",
+      "label": "Soft cheese",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 50 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 50 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "spinach",
+      "label": "Spinach",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 × 80 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 80 g"
+        }
+      }
+    },
+    {
+      "id": "flour",
+      "ingredientId": "flour",
+      "label": "Flour",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-11",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "ingredientId": "water",
+      "label": "Water",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "pasta-water",
+      "ingredientId": "water",
+      "label": "Pasta water for stock",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "200 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Get ready",
+      "blocks": [
+        "Read the method and wash the produce. Pan sizes vary. Cook the food through even if it takes longer than the card time."
+      ],
+      "notes": [],
+      "timers": []
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Crisp the bacon",
+      "blocks": [
+        "Boil a full kettle. Heat olive oil in a wide pan on high, then fry the bacon lardons for about 4 minutes until starting to crisp."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Crisp the bacon",
+          "seconds": [
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "bacon-alfredo-tagliatelle-2",
+        "path": "media/bacon-alfredo-tagliatelle-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of bacon lardons crisping in pale pan",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Cook the tagliatelle",
+      "blocks": [
+        "Cook the tagliatelle in boiling salted water for 3–4 minutes until it has a slight bite. Drain and reserve enough starchy water for the stock plus a splash for loosening."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the tagliatelle",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "bacon-alfredo-tagliatelle-3",
+        "path": "media/bacon-alfredo-tagliatelle-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of tagliatelle cooking in a pot",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Add the garlic",
+      "blocks": [
+        "Reboil the kettle. Peel and slice the garlic, add it to the bacon and cook for 1 minute without burning it."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Add the garlic",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "bacon-alfredo-tagliatelle-4",
+        "path": "media/bacon-alfredo-tagliatelle-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of sliced garlic with frying bacon",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Make the Alfredo sauce",
+      "blocks": [
+        "Dissolve the chicken stock mix in {{pasta-water}} reserved pasta water and stir in the soft cheese. Mix {{flour}} flour into the bacon pan and cook 30 seconds. Add the creamy stock and half the hard cheese and cook 1–2 minutes until it starts to thicken."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Make the Alfredo sauce",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "bacon-alfredo-tagliatelle-5",
+        "path": "media/bacon-alfredo-tagliatelle-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of creamy sauce with bacon lardons",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Wilt the spinach",
+      "blocks": [
+        "Wash the spinach in a colander. Pour over boiling water, cool under the cold tap, squeeze dry and roughly chop."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "bacon-alfredo-tagliatelle-6",
+        "path": "media/bacon-alfredo-tagliatelle-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of chopped wilted spinach on board",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "heading": "Combine",
+      "blocks": [
+        "Stir the pasta and spinach through the sauce. Add a splash of reserved pasta water if it looks dry."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "bacon-alfredo-tagliatelle-7",
+        "path": "media/bacon-alfredo-tagliatelle-7-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of tagliatelle mixed with creamy bacon sauce and spinach",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "heading": "Serve",
+      "blocks": [
+        "Scatter over the remaining grated cheese and finish with freshly ground black pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "bacon-alfredo-tagliatelle-8",
+        "path": "media/bacon-alfredo-tagliatelle-8-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of finished creamy bacon tagliatelle on green plate",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "bacon-alfredo-tagliatelle-hero",
+    "path": "media/bacon-alfredo-tagliatelle.webp",
+    "width": 636,
+    "height": 636,
+    "alt": "Creamy Bacon Alfredo Sauce with Fresh Tagliatelle",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/bacon-alfredo-tagliatelle-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

@@ -1,0 +1,566 @@
+{
+  "id": "pork-greek-cheese-keftedes",
+  "slug": "pork-greek-cheese-keftedes",
+  "title": "Pork & Greek Cheese Keftedes with Tzatziki & Greek-Style Salad",
+  "aliases": [
+    "Pork & Greek Cheese Keftedes with Tzatziki & Greek-Style Salad"
+  ],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto recipe card",
+    "edition": "R-2485"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Greek-inspired",
+  "themes": [
+    "Meatballs",
+    "Traybake"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 35,
+      "maxMinutes": 45,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking tray",
+    "grater",
+    "mixing bowls"
+  ],
+  "before": [],
+  "allergens": [
+    "Gluten",
+    "Milk"
+  ],
+  "cautions": [
+    "Check the packaging for allergen information, including any ingredients you supply or substitute. Wash fresh produce and check use-by dates."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "black-olives",
+      "label": "Black olives",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 40 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "cucumber",
+      "label": "Cucumber",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¾"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "dried-oregano",
+      "label": "Dried oregano",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 1 tsp"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "garlic",
+      "label": "Garlic clove",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "greek-style-salad-cheese",
+      "label": "Greek salad cheese",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 100 g"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "mint",
+      "label": "Mint",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "5 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "natural-yoghurt",
+      "label": "Natural yoghurt",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 80 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 80 g"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "panko-breadcrumbs",
+      "label": "Panko breadcrumbs",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 20 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 20 g"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "pork-mince",
+      "label": "Pork mince",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "250 g & 125 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 250 g"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "shallot",
+      "label": "Shallot",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-11",
+      "ingredientId": "tomato",
+      "label": "Tomato",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "ingredientId": "potato",
+      "label": "White potato",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      }
+    },
+    {
+      "id": "line-13",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-14",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-15",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-16",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Start the chips",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7. Cut unpeeled potatoes into thin chips, toss with vegetable oil, salt and pepper on trays and bake for 10 minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Start the chips",
+          "seconds": [
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "pork-greek-cheese-keftedes-1",
+        "path": "media/pork-greek-cheese-keftedes-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of skin-on chips on tray",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Mix the mince",
+      "blocks": [
+        "Peel and grate the shallots. Combine with mince, panko, half the oregano, salt and pepper. Crumble in half the Greek cheese and mix well."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "pork-greek-cheese-keftedes-2",
+        "path": "media/pork-greek-cheese-keftedes-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of pork mince mixture in bowl",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Bake the keftedes",
+      "blocks": [
+        "Shape three meatballs per person. Add beside the chips after their first 10 minutes and bake for 15–20 minutes until cooked through with no pink meat. Work in batches if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the keftedes",
+          "seconds": [
+            900,
+            1200
+          ]
+        }
+      ],
+      "image": {
+        "id": "pork-greek-cheese-keftedes-3",
+        "path": "media/pork-greek-cheese-keftedes-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of shaped meatballs beside chips on tray",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Prepare cucumber and herbs",
+      "blocks": [
+        "Finely dice half the cucumber and grate the rest. Peel and finely chop or grate the garlic. Strip the mint leaves from the stalks and roughly chop."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "pork-greek-cheese-keftedes-4",
+        "path": "media/pork-greek-cheese-keftedes-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of diced and grated cucumber and chopped mint on board",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Make the tzatziki",
+      "blocks": [
+        "Squeeze water out of the grated cucumber. Mix with mint, garlic, yoghurt and pepper. Use less garlic for a milder result."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "pork-greek-cheese-keftedes-5",
+        "path": "media/pork-greek-cheese-keftedes-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of bowl of cucumber yoghurt tzatziki",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Prep the salad",
+      "blocks": [
+        "Halve the olives, cube the remaining cheese and finely dice the tomatoes."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "pork-greek-cheese-keftedes-6",
+        "path": "media/pork-greek-cheese-keftedes-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of black olives Greek cheese and tomato on board",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "heading": "Mix the salad",
+      "blocks": [
+        "Gently toss the olives, cheese and tomatoes with diced cucumber, remaining oregano, olive oil and black pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "pork-greek-cheese-keftedes-7",
+        "path": "media/pork-greek-cheese-keftedes-7-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of chopped Greek salad",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "heading": "Serve",
+      "blocks": [
+        "Serve the keftedes and chips with the Greek-style salad and tzatziki."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "pork-greek-cheese-keftedes-8",
+        "path": "media/pork-greek-cheese-keftedes-8-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of keftedes with chips salad and tzatziki",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "pork-greek-cheese-keftedes-hero",
+    "path": "media/pork-greek-cheese-keftedes.webp",
+    "width": 687,
+    "height": 631,
+    "alt": "Pork & Greek Cheese Keftedes with Tzatziki & Greek-Style Salad",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/pork-greek-cheese-keftedes-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

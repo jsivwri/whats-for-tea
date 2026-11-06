@@ -1,0 +1,572 @@
+{
+  "id": "italian-pork-sausage-meatballs",
+  "slug": "italian-pork-sausage-meatballs",
+  "title": "Italian Style Pork and Oregano Sausage Meatballs with Bell Pepper, Tomato & Spinach Sauce, Cheese and Mash",
+  "aliases": [
+    "Italian Style Pork and Oregano Sausage Meatballs with Bell Pepper, Tomato & Spinach Sauce, Cheese and Mash"
+  ],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh recipe card",
+    "edition": "2026-W39 · Card 79"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Italian-inspired",
+  "themes": [
+    "Meatballs",
+    "Quick"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 20,
+      "maxMinutes": 25,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking tray",
+    "board",
+    "colander",
+    "frying pan",
+    "garlic press",
+    "kettle",
+    "knife",
+    "lidded saucepan",
+    "potato masher"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Egg",
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the packaging for the latest allergen and cross-contact information. Wash produce and use separate or freshly washed utensils for raw and cooked food. Defrost any frozen ingredients fully before cooking."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "potato",
+      "label": "Potatoes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "pepper",
+      "label": "Bell Pepper",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "british-pork-and-oregano-sausage-meat",
+      "label": "British Pork and Oregano Sausage Meat",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "225 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "340 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "450 g"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "garlic",
+      "label": "Garlic Clove",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "passata",
+      "label": "Tomato Passata",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 carton"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5 cartons"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 cartons"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "mixed-herbs-sachet",
+      "label": "Mixed Herbs",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "red-wine-stock-paste",
+      "label": "Red Wine Stock Paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "28 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "42 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "56 g"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "spinach",
+      "label": "Baby Spinach",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "70 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "italian-hard-cheese",
+      "label": "Grated Hard Italian Style Cheese",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "60 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "80 g"
+        }
+      }
+    },
+    {
+      "id": "sauce-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      }
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the Sauce",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 ml"
+        }
+      }
+    },
+    {
+      "id": "potato-salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      }
+    },
+    {
+      "id": "line-13",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-14",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-15",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "group": "bring",
+      "optional": true,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "A knob"
+        },
+        "3": {
+          "status": "printed",
+          "text": "A knob"
+        },
+        "4": {
+          "status": "printed",
+          "text": "A knob"
+        }
+      }
+    },
+    {
+      "id": "line-16",
+      "ingredientId": "milk",
+      "label": "Milk",
+      "group": "bring",
+      "optional": true,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "A splash"
+        },
+        "3": {
+          "status": "printed",
+          "text": "A splash"
+        },
+        "4": {
+          "status": "printed",
+          "text": "A splash"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Boil the potatoes",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7 and boil a full kettle. Cut the potatoes into 2 cm chunks, peeling if desired. Fill a saucepan with boiled water and {{potato-salt}} salt. Boil the potatoes 15–18 minutes until a knife slips through easily."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Boil the potatoes",
+          "seconds": [
+            900,
+            1080
+          ]
+        }
+      ],
+      "image": {
+        "id": "italian-pork-sausage-meatballs-1",
+        "path": "media/italian-pork-sausage-meatballs-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of pot of diced potatoes",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Make the meatballs",
+      "blocks": [
+        "Halve, deseed and thinly slice the pepper. Roll the sausage meat into five even meatballs per person. Bake on the top shelf for 10–12 minutes until browned and cooked through with no pink centre. Wash hands and equipment after handling raw meat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Make the meatballs",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "italian-pork-sausage-meatballs-2",
+        "path": "media/italian-pork-sausage-meatballs-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of raw pork and oregano meatballs on rectangular tray",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Fry the pepper",
+      "blocks": [
+        "Heat oil over medium-high and stir-fry the pepper 5–6 minutes until charred. Peel and grate the garlic. Lower the heat and fry the garlic with the pepper for 1 minute until fragrant."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the pepper · 5–6 min",
+          "seconds": [
+            300,
+            360
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Fry the pepper · 1 min",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "italian-pork-sausage-meatballs-3",
+        "path": "media/italian-pork-sausage-meatballs-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of strips of red pepper frying in black pan",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Make the sauce and mash",
+      "blocks": [
+        "Stir passata, herbs, red wine stock paste, {{sauce-sugar}} sugar and {{sauce-water}} water into the peppers. Bring to a boil, then simmer 4–5 minutes until slightly thickened. Drain and mash the potatoes off the heat, adding butter and milk if available. Season and cover."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Make the sauce and mash",
+          "seconds": [
+            240,
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "italian-pork-sausage-meatballs-4",
+        "path": "media/italian-pork-sausage-meatballs-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of mashed potatoes in small saucepan",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Finish the sauce",
+      "blocks": [
+        "Wilt the spinach into the sauce a handful at a time for 1–2 minutes until piping hot. Stir in the cooked meatballs and half the hard cheese. Season and loosen with water if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Finish the sauce",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "italian-pork-sausage-meatballs-5",
+        "path": "media/italian-pork-sausage-meatballs-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of meatballs in tomato spinach sauce",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Serve",
+      "blocks": [
+        "Share the mash between bowls, top with the meatballs and sauce, and sprinkle with remaining cheese."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "italian-pork-sausage-meatballs-6",
+        "path": "media/italian-pork-sausage-meatballs-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of meatballs and sauce over mash in bowl",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "italian-pork-sausage-meatballs-hero",
+    "path": "media/italian-pork-sausage-meatballs.webp",
+    "width": 960,
+    "height": 893,
+    "alt": "Italian Style Pork and Oregano Sausage Meatballs with Bell Pepper, Tomato & Spinach Sauce, Cheese and Mash",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/italian-pork-sausage-meatballs-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

@@ -50,7 +50,7 @@ function scaledText(text: string, reference: number, servings: number, amount?: 
   if (baseAmount === undefined) return text
   const value = baseAmount * servings / reference
   const originalUnit = unit ?? parsed?.unit ?? ''
-  const countUnit = originalUnit.match(/^(bunch|sachet|carton|cup|clove|can|tin)(?:es|s)?$/i)?.[1]
+  const countUnit = originalUnit.match(/^(bunch|sachet|carton|packet|cup|clove|can|tin)(?:es|s)?$/i)?.[1]
   const displayUnit = countUnit ? countUnit + (value === 1 ? '' : countUnit === 'bunch' ? 'es' : 's') : originalUnit
   return displayUnit ? `${amountFormat.format(value)} ${displayUnit}` : amountFormat.format(value)
 }

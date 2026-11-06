@@ -1,0 +1,558 @@
+{
+  "id": "korean-rump-steak-bibimbap",
+  "slug": "korean-rump-steak-bibimbap",
+  "title": "Korean Style Rump Steak Bibimbap with Pak Choi, Pickled Carrot and Sesame Seeds",
+  "aliases": [
+    "Korean Style Rump Steak Bibimbap with Pak Choi, Pickled Carrot and Sesame Seeds"
+  ],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh recipe card",
+    "edition": "2026-W39 · Card 22"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Korean-inspired",
+  "themes": [
+    "Steak",
+    "Rice"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Bowls",
+    "garlic press",
+    "large frying pan",
+    "medium lidded saucepan",
+    "peeler",
+    "foil"
+  ],
+  "before": [],
+  "allergens": [
+    "Sesame",
+    "Soya"
+  ],
+  "cautions": [
+    "Check the packaging for the latest allergen and cross-contact information. Wash produce and use separate or freshly washed utensils for raw and cooked food. Defrost any frozen ingredients fully before cooking."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "rump-steak",
+      "label": "21 Day Aged British Rump Steaks",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "375 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "500 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "jasmine-rice",
+      "label": "Jasmine Rice",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "225 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 g"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "carrot",
+      "label": "Carrot",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "rice-vinegar",
+      "label": "Rice Vinegar",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "22.5 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "pak-choi",
+      "label": "Pak Choi",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "garlic",
+      "label": "Garlic Clove",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "gochujang-paste",
+      "label": "Gochujang Paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "bulgogi-sauce",
+      "label": "Bulgogi Sauce",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "toasted-sesame-seeds",
+      "label": "Roasted White Sesame Seeds",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "10 g"
+        }
+      }
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the Sauce",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 ml"
+        }
+      }
+    },
+    {
+      "id": "rice-water",
+      "ingredientId": "water",
+      "label": "Water for the Rice",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "300 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "450 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "600 ml"
+        }
+      }
+    },
+    {
+      "id": "pickle-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the Pickle",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      }
+    },
+    {
+      "id": "mayo",
+      "ingredientId": "mayonnaise",
+      "label": "Mayonnaise",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      }
+    },
+    {
+      "id": "rice-salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "¼ tsp"
+        }
+      }
+    },
+    {
+      "id": "line-15",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-16",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Cook the rice",
+      "blocks": [
+        "Take the steaks out of the fridge. Add {{rice-water}} water, rice and {{rice-salt}} salt to a tightly lidded saucepan. Bring to a boil, reduce to medium, cover and cook 10 minutes. Remove from the heat and leave covered for another 10 minutes or until serving."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the rice · 10 min",
+          "seconds": [
+            600
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Cook the rice · 10 min",
+          "seconds": [
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "korean-rump-steak-bibimbap-1",
+        "path": "media/korean-rump-steak-bibimbap-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of hands lowering lid onto saucepan of jasmine rice",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Pickle the carrot",
+      "blocks": [
+        "Peel the carrot into ribbons, stopping at the core. Mix rice vinegar, {{pickle-sugar}} sugar and salt, toss with the ribbons and set aside. Trim and separate pak choi leaves and halve the large ones lengthways. Peel and grate the garlic."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "korean-rump-steak-bibimbap-2",
+        "path": "media/korean-rump-steak-bibimbap-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of pak choi and carrot ribbons on board",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Fry the steaks",
+      "blocks": [
+        "Heat oil on high. Season steaks and fry 6–8 minutes for medium rare depending on thickness, turning halfway. Cook longer for your preferred doneness. Rest under foil for a couple of minutes. Wash hands and equipment after handling raw meat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the steaks",
+          "seconds": [
+            360,
+            480
+          ]
+        }
+      ],
+      "image": {
+        "id": "korean-rump-steak-bibimbap-3",
+        "path": "media/korean-rump-steak-bibimbap-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of two rump steaks frying",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Fry the pak choi",
+      "blocks": [
+        "Return the pan to high heat with oil. Stir-fry pak choi for 3–4 minutes until just soft, add garlic and stir-fry for 30 seconds. Season and keep warm in a covered bowl."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the pak choi",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "korean-rump-steak-bibimbap-4",
+        "path": "media/korean-rump-steak-bibimbap-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of pak choi in frying pan",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Make the sauce",
+      "blocks": [
+        "Put the pan back over medium heat and stir in gochujang, bulgogi sauce and {{sauce-water}} water. Bring to a boil, then simmer 1–2 minutes until thickened. Use less gochujang for a milder sauce and loosen with water if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Make the sauce",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "korean-rump-steak-bibimbap-5",
+        "path": "media/korean-rump-steak-bibimbap-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of dark bulgogi gochujang sauce in pan",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Serve",
+      "blocks": [
+        "Pour the carrot pickling liquid into the rice and fluff with a fork. Divide rice into bowls and arrange sliced steak, pak choi and carrot separately. Spoon sauce over the steak, drizzle over {{mayo}} mayonnaise and scatter with sesame."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "korean-rump-steak-bibimbap-6",
+        "path": "media/korean-rump-steak-bibimbap-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of rice bowl with steak pak choi and pickled carrots",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "korean-rump-steak-bibimbap-hero",
+    "path": "media/korean-rump-steak-bibimbap.webp",
+    "width": 960,
+    "height": 890,
+    "alt": "Korean Style Rump Steak Bibimbap with Pak Choi, Pickled Carrot and Sesame Seeds",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/korean-rump-steak-bibimbap-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "id": "porchetta-pork-ciabatta",
+  "slug": "porchetta-pork-ciabatta",
+  "title": "Porchetta Inspired Pork Ciabatta Rolls with Rosemary & Garlic Roast Potatoes and Salad",
+  "aliases": [
+    "Porchetta Inspired Pork Ciabatta Rolls with Rosemary & Garlic Roast Potatoes and Salad"
+  ],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh recipe card",
+    "edition": "2026-W37 · Card 68"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Italian-inspired",
+  "themes": [
+    "Sandwich",
+    "Roast"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Foil",
+    "baking trays",
+    "bowls",
+    "frying pan",
+    "scissors",
+    "zester"
+  ],
+  "before": [],
+  "allergens": [
+    "Gluten",
+    "Wheat",
+    "Barley"
+  ],
+  "cautions": [
+    "Check the packaging for the latest allergen and cross-contact information. Wash produce and use separate or freshly washed utensils for raw and cooked food. Defrost any frozen ingredients fully before cooking."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "salad-potatoes",
+      "label": "Salad Potatoes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "350 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "500 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "700 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "garlic",
+      "label": "Garlic Clove",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "4"
+        },
+        "3": {
+          "status": "printed",
+          "text": "6"
+        },
+        "4": {
+          "status": "printed",
+          "text": "8"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "rosemary",
+      "label": "Rosemary",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5 bunches"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 bunches"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "lemon",
+      "label": "Lemon",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "tomato",
+      "label": "Tomato",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "pork-loin-steak",
+      "label": "British Pork Loin Steaks",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "chilli-flakes",
+      "label": "Chilli Flakes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "ciabatta",
+      "label": "Ciabatta",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "wild-rocket",
+      "label": "Wild Rocket",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "60 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "80 g"
+        }
+      }
+    },
+    {
+      "id": "salad-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      }
+    },
+    {
+      "id": "salad-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive Oil for the Dressing",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      }
+    },
+    {
+      "id": "garlic-mayo",
+      "ingredientId": "mayonnaise",
+      "label": "Mayonnaise",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "4.5 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6 tbsp"
+        }
+      }
+    },
+    {
+      "id": "roll-honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      }
+    },
+    {
+      "id": "line-14",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-15",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-16",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Roast the potatoes",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7. Halve the unpeeled potatoes, toss with oil and seasoning and roast in a single layer on the middle shelf for 30–35 minutes, turning halfway. Wrap unpeeled garlic with oil in foil and roast for 10–12 minutes until soft."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the potatoes · 30–35 min",
+          "seconds": [
+            1800,
+            2100
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Roast the potatoes · 10–12 min",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "porchetta-pork-ciabatta-1",
+        "path": "media/porchetta-pork-ciabatta-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of halved salad potatoes on tray",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Make the dressings",
+      "blocks": [
+        "Strip and roughly chop rosemary. Zest and wedge the lemon, and chop tomato into 1 cm chunks. Mix half the lemon juice with {{salad-sugar}} sugar and {{salad-oil}} olive oil. Cool and mash the roasted garlic. Mix half with {{garlic-mayo}} mayonnaise, lemon juice and seasoning."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "porchetta-pork-ciabatta-2",
+        "path": "media/porchetta-pork-ciabatta-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of lemon and oil dressing in a bowl",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Fry and roast the pork",
+      "blocks": [
+        "Season steaks and coat with chilli flakes, lemon zest and half the rosemary. Fry in hot oil for 1–2 minutes each side until browned, then roast on the top shelf 5–6 minutes until cooked through with no pink centre. Rest under cover. Wash hands and equipment after handling raw meat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry and roast the pork · 1–2 min",
+          "seconds": [
+            60,
+            120
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Fry and roast the pork · 5–6 min",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "porchetta-pork-ciabatta-3",
+        "path": "media/porchetta-pork-ciabatta-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of two pork loin steaks in frying pan",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Finish the potatoes",
+      "blocks": [
+        "With 2 minutes left, toss the potatoes with remaining garlic and rosemary and return to the oven."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Finish the potatoes",
+          "seconds": [
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "porchetta-pork-ciabatta-4",
+        "path": "media/porchetta-pork-ciabatta-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of roast potatoes with rosemary and garlic on tray",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Warm the ciabatta",
+      "blocks": [
+        "Halve and warm the ciabattas in the oven for 2–3 minutes. Thinly slice the pork. Toss tomatoes and three quarters of the rocket with the lemon dressing."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Warm the ciabatta",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "porchetta-pork-ciabatta-5",
+        "path": "media/porchetta-pork-ciabatta-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of four ciabatta halves on wooden board",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Serve",
+      "blocks": [
+        "Spread garlic mayonnaise on the rolls. Fill with pork, {{roll-honey}} honey and remaining rocket. Serve with roast potatoes and rocket salad."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "porchetta-pork-ciabatta-6",
+        "path": "media/porchetta-pork-ciabatta-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of pork ciabatta with roast potatoes and rocket salad",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "porchetta-pork-ciabatta-hero",
+    "path": "media/porchetta-pork-ciabatta.webp",
+    "width": 960,
+    "height": 728,
+    "alt": "Porchetta Inspired Pork Ciabatta Rolls with Rosemary & Garlic Roast Potatoes and Salad",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/porchetta-pork-ciabatta-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

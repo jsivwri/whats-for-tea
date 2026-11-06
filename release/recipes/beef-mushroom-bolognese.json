@@ -1,0 +1,586 @@
+{
+  "id": "beef-mushroom-bolognese",
+  "slug": "beef-mushroom-bolognese",
+  "title": "Beef & Mushroom Bolognese with Wholewheat Tortiglioni",
+  "aliases": [
+    "Beef & Mushroom Bolognese with Wholewheat Tortiglioni"
+  ],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto recipe card",
+    "edition": "R-7307"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Italian",
+  "themes": [
+    "Pasta",
+    "Comfort food"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 30,
+      "maxMinutes": 40,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Wide frying pan",
+    "saucepan",
+    "colander",
+    "grater",
+    "kettle"
+  ],
+  "before": [],
+  "allergens": [
+    "Gluten",
+    "Soya",
+    "Milk"
+  ],
+  "cautions": [
+    "Check the packaging for allergen information, including any ingredients you supply or substitute. Wash fresh produce and check use-by dates."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "beef-mince",
+      "label": "Beef mince",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "125 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 125 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 125 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "intense-beef-stock-mix",
+      "label": "Beef stock mix (intense)",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 5.5 g"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "beef-stock-mix",
+      "label": "Beef stock mix",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unused"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "unused"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "brown-onion",
+      "label": "Brown onion",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "carrot",
+      "label": "Carrot",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "chestnut-mushrooms",
+      "label": "Chestnut mushrooms",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "160 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "80 g & 160 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 160 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "dried-oregano",
+      "label": "Dried oregano",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 1 tsp"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "chopped-tomatoes",
+      "label": "Finely chopped tomatoes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "390 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "390 g"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "garlic",
+      "label": "Garlic clove",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "lighter-cheese",
+      "label": "Lighter cheese",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 30 g"
+        }
+      }
+    },
+    {
+      "id": "line-11",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "8 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 × 8 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 8 ml"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "ingredientId": "wholewheat-tortiglioni",
+      "label": "Wholewheat tortiglioni",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 g & 150 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 150 g"
+        }
+      }
+    },
+    {
+      "id": "line-13",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-14",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-15",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "stock-water",
+      "ingredientId": "water",
+      "label": "Water for stock",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "200 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Prepare the vegetables",
+      "blocks": [
+        "Boil a kettle. Peel and finely chop or grate the garlic. Peel and finely chop the onion. Peel, trim and finely dice the carrots. Grate the mushrooms."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "beef-mushroom-bolognese-1",
+        "path": "media/beef-mushroom-bolognese-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of chopped carrots onion and grated mushrooms on board",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Soften the vegetables",
+      "blocks": [
+        "Heat olive oil in a wide pan over medium-high heat. Add onion, carrot and mushrooms with salt and pepper and cook 3–4 minutes until starting to soften."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Soften the vegetables",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-mushroom-bolognese-2",
+        "path": "media/beef-mushroom-bolognese-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of diced vegetables softening in a frying pan",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Brown the mince",
+      "blocks": [
+        "Add the mince and turn the heat up to high. Break it up with a spoon and cook 3–4 minutes until browned all over."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the mince",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-mushroom-bolognese-3",
+        "path": "media/beef-mushroom-bolognese-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of browned mince and vegetables in pan",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Cook the pasta",
+      "blocks": [
+        "Add the pasta to boiling salted water and cook 10–12 minutes until it has a slight bite. Drain, return it to the pot and reboil half a kettle."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the pasta",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-mushroom-bolognese-4",
+        "path": "media/beef-mushroom-bolognese-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of boiled tortiglioni pasta in colander",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Mix the stock",
+      "blocks": [
+        "Dissolve the beef stock mix and soy sauce in {{stock-water}} boiled water."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "beef-mushroom-bolognese-5",
+        "path": "media/beef-mushroom-bolognese-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of glass jug of dark stock",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Simmer the bolognese",
+      "blocks": [
+        "Stir garlic and oregano into the mince for 1 minute. Add the chopped tomatoes and stock, season, bring to a boil and cook 4–5 minutes until thickened and the mince is cooked through with no pink remaining."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the bolognese",
+          "seconds": [
+            240,
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-mushroom-bolognese-6",
+        "path": "media/beef-mushroom-bolognese-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of mince and tomato bolognese sauce",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "heading": "Toss the pasta",
+      "blocks": [
+        "Grate the lighter cheese. Stir the drained pasta through the thickened sauce until coated."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "beef-mushroom-bolognese-7",
+        "path": "media/beef-mushroom-bolognese-7-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of tortiglioni mixed with bolognese",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "heading": "Serve",
+      "blocks": [
+        "Top the pasta with the grated cheese and freshly ground black pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "beef-mushroom-bolognese-8",
+        "path": "media/beef-mushroom-bolognese-8-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of finished pasta on orange plate with grated cheese",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "beef-mushroom-bolognese-hero",
+    "path": "media/beef-mushroom-bolognese.webp",
+    "width": 815,
+    "height": 531,
+    "alt": "Beef & Mushroom Bolognese with Wholewheat Tortiglioni",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/beef-mushroom-bolognese-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

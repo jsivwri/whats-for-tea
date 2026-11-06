@@ -1,0 +1,460 @@
+{
+  "id": "gammon-charred-pineapple",
+  "slug": "gammon-charred-pineapple",
+  "title": "Pan-Fried Gammon and Charred Pineapple Rings with Chips, Sticky Honey-Mustard Glaze and Roasted Veg",
+  "aliases": [
+    "Pan-Fried Gammon and Charred Pineapple Rings with Chips, Sticky Honey-Mustard Glaze and Roasted Veg"
+  ],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh recipe card",
+    "edition": "2026-W44 · Card 12"
+  },
+  "added": "2026-11-06",
+  "cuisine": "British",
+  "themes": [
+    "Comfort food",
+    "Roast"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Foil",
+    "baking trays",
+    "bowl",
+    "large frying pan"
+  ],
+  "before": [],
+  "allergens": [
+    "Mustard"
+  ],
+  "cautions": [
+    "Check the packaging for the latest allergen and cross-contact information. Wash produce and use separate or freshly washed utensils for raw and cooked food. Defrost any frozen ingredients fully before cooking."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "potato",
+      "label": "Potatoes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "carrot",
+      "label": "Carrot",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "tenderstem-broccoli",
+      "label": "Tenderstem Broccoli",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "160 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "160 g"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "pineapple-rings",
+      "label": "Pineapple Rings",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tin"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5 tins"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tins"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "gammon-steaks",
+      "label": "Gammon Steaks",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "wholegrain-mustard",
+      "label": "Wholegrain Mustard",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      }
+    },
+    {
+      "id": "glaze-butter",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-11",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Bake the chips",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7. Cut unpeeled potatoes into 1 cm chips. Toss with oil, salt and pepper and spread on a tray in a single layer. Bake on the top shelf for 25–30 minutes until golden, turning halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the chips",
+          "seconds": [
+            1500,
+            1800
+          ]
+        }
+      ],
+      "image": {
+        "id": "gammon-charred-pineapple-1",
+        "path": "media/gammon-charred-pineapple-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of hand-cut chips on a tray",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Roast the vegetables",
+      "blocks": [
+        "Cut carrots into 1 cm by 5 cm batons. Toss with oil, salt and pepper and roast for 25–30 minutes, turning halfway. Halve thick broccoli stems lengthways. Add broccoli to the carrot tray with oil and seasoning for the last 10–12 minutes on the middle shelf."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the vegetables · 25–30 min",
+          "seconds": [
+            1500,
+            1800
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Roast the vegetables · 10–12 min",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "gammon-charred-pineapple-2",
+        "path": "media/gammon-charred-pineapple-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of carrot batons and tenderstem broccoli on tray",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Char the pineapple",
+      "blocks": [
+        "Drain the rings, saving the juice. Heat oil in a frying pan over medium-high and cook the pineapple for 5–6 minutes, turning every couple of minutes until charred. Transfer to a bowl and cover."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Char the pineapple",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "gammon-charred-pineapple-3",
+        "path": "media/gammon-charred-pineapple-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of charred pineapple rings in dark frying pan",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Fry the gammon",
+      "blocks": [
+        "Clean the pan, return it to medium-high and add oil. Season gammon with pepper and fry for 2 minutes each side until golden and no longer dark pink in the centre. Rest under foil. Wash hands and equipment after handling raw pork."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the gammon",
+          "seconds": [
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "gammon-charred-pineapple-4",
+        "path": "media/gammon-charred-pineapple-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of two gammon steaks in frying pan",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Reduce the glaze",
+      "blocks": [
+        "Clean the pan again and return to high heat. Simmer honey and pineapple juice for 3–4 minutes until syrupy. Stir in mustard and {{glaze-butter}} butter until melted, then remove from the heat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Reduce the glaze",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "gammon-charred-pineapple-5",
+        "path": "media/gammon-charred-pineapple-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of dark frying pan of glossy pineapple glaze",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Serve",
+      "blocks": [
+        "Top each gammon steak with charred pineapple and spoon over the glaze. Serve with chips and roasted vegetables."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "gammon-charred-pineapple-6",
+        "path": "media/gammon-charred-pineapple-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of gammon and pineapple with roast veg and chips",
+        "credit": "Illustration based on the HelloFresh recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "gammon-charred-pineapple-hero",
+    "path": "media/gammon-charred-pineapple.webp",
+    "width": 960,
+    "height": 531,
+    "alt": "Pan-Fried Gammon and Charred Pineapple Rings with Chips, Sticky Honey-Mustard Glaze and Roasted Veg",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/gammon-charred-pineapple-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

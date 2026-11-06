@@ -1,0 +1,611 @@
+{
+  "id": "gousto-chicken-tikka-masala",
+  "slug": "gousto-chicken-tikka-masala",
+  "title": "Chicken Tikka Masala with Coriander Rice",
+  "aliases": [
+    "Chicken Tikka Masala with Coriander Rice"
+  ],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto recipe card",
+    "edition": "R-1894"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Indian",
+  "themes": [
+    "Curry",
+    "Comfort food"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 35,
+      "maxMinutes": 45,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Lidded saucepan",
+    "frying pan",
+    "colander",
+    "kettle"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk"
+  ],
+  "cautions": [
+    "Check the packaging for allergen information, including any ingredients you supply or substitute. Wash fresh produce and check use-by dates."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "brown-long-grain-rice",
+      "label": "Brown long grain rice",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "130 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "65 g & 130 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 130 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "brown-onion",
+      "label": "Brown onion",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "chicken-breast",
+      "label": "Chicken breast strips",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "125 g & 250 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 250 g"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "chicken-stock-mix",
+      "label": "Chicken stock mix",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unused"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "unused"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "intense-chicken-stock-mix",
+      "label": "Chicken stock mix (intense)",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 5.5 g"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "coriander",
+      "label": "Coriander",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 5 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "curry-powder",
+      "label": "Curry powder",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "0.5 tbsp & 1 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 1 tbsp"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "chopped-tomatoes",
+      "label": "Finely chopped tomatoes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "390 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "390 g"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "garam-masala",
+      "label": "Garam masala",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 1 tsp"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "garlic",
+      "label": "Garlic clove",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-11",
+      "ingredientId": "ginger-paste",
+      "label": "Ginger paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 15 g"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "ingredientId": "natural-yoghurt",
+      "label": "Natural yoghurt",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 80 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 80 g"
+        }
+      }
+    },
+    {
+      "id": "line-13",
+      "ingredientId": "spinach",
+      "label": "Spinach",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 × 80 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 80 g"
+        }
+      }
+    },
+    {
+      "id": "line-14",
+      "ingredientId": "tomato-paste",
+      "label": "Tomato paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "32 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "16 g & 32 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 32 g"
+        }
+      }
+    },
+    {
+      "id": "line-15",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-16",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "stock-water",
+      "ingredientId": "water",
+      "label": "Water for stock",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "200 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Cook the rice",
+      "blocks": [
+        "Open the chicken pack while preparing. Rinse the brown rice, bring to a boil in plenty of cold water, then cook over medium heat for 20–25 minutes until tender with a slight bite. Drain, return to the pot and cover until serving."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the rice",
+          "seconds": [
+            1200,
+            1500
+          ]
+        }
+      ],
+      "image": {
+        "id": "gousto-chicken-tikka-masala-1",
+        "path": "media/gousto-chicken-tikka-masala-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of pot of brown rice cooking",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Slice the aromatics",
+      "blocks": [
+        "Peel and finely slice the onion. Peel and finely chop or grate the garlic."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "gousto-chicken-tikka-masala-2",
+        "path": "media/gousto-chicken-tikka-masala-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of sliced onion and chopped garlic on board",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Fry the chicken",
+      "blocks": [
+        "Boil a full kettle. Heat vegetable oil in a wide frying pan on high. Cook the chicken for 3 minutes on each side, until golden. Use two pans for extra chicken."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the chicken",
+          "seconds": [
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "gousto-chicken-tikka-masala-3",
+        "path": "media/gousto-chicken-tikka-masala-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of chicken breast strips frying in pale pan",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Add the spices",
+      "blocks": [
+        "Add the onion and cook 3–4 minutes until softened. Stir in the ginger, garlic, tomato paste, garam masala, curry powder and a pinch of salt and cook 1–2 minutes until fragrant."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Add the spices · 3–4 min",
+          "seconds": [
+            180,
+            240
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Add the spices · 1–2 min",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "gousto-chicken-tikka-masala-4",
+        "path": "media/gousto-chicken-tikka-masala-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of chicken and spiced onion browning",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Simmer the curry",
+      "blocks": [
+        "Dissolve the stock mix in {{stock-water}} boiled water. Stir it and the chopped tomatoes into the pan, bring to a boil, then reduce to medium-low for 10–12 minutes, until the sauce thickens and the chicken is cooked through with no pink meat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the curry",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "gousto-chicken-tikka-masala-5",
+        "path": "media/gousto-chicken-tikka-masala-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of chicken strips in red tomato curry sauce",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Wilt the spinach",
+      "blocks": [
+        "Wash the spinach in a colander, pour boiling water over it until it wilts, rinse under the cold tap and squeeze out excess water."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "gousto-chicken-tikka-masala-6",
+        "path": "media/gousto-chicken-tikka-masala-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of wilted spinach in colander",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "heading": "Finish the curry and rice",
+      "blocks": [
+        "Finely chop the coriander including stalks. Mix half into the rice with a pinch of salt. Stir the wilted spinach and half the yoghurt into the thickened curry."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "gousto-chicken-tikka-masala-7",
+        "path": "media/gousto-chicken-tikka-masala-7-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of pot of brown rice with chopped coriander",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "heading": "Serve",
+      "blocks": [
+        "Serve the curry over the coriander rice with the remaining yoghurt and coriander."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "gousto-chicken-tikka-masala-8",
+        "path": "media/gousto-chicken-tikka-masala-8-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of orange plate of chicken tikka, rice and yoghurt",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "gousto-chicken-tikka-masala-hero",
+    "path": "media/gousto-chicken-tikka-masala.webp",
+    "width": 800,
+    "height": 714,
+    "alt": "Chicken Tikka Masala with Coriander Rice",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/gousto-chicken-tikka-masala-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

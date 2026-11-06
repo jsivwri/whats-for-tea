@@ -1,0 +1,490 @@
+{
+  "id": "slow-cooker-black-bean-beef",
+  "slug": "slow-cooker-black-bean-beef",
+  "title": "Slow Cooker Beef in Black Bean with Brown Rice",
+  "aliases": [
+    "Slow Cooker Beef in Black Bean with Brown Rice"
+  ],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto recipe card",
+    "edition": "R-12662"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Chinese-inspired",
+  "themes": [
+    "Slow cooker",
+    "Rice"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": {
+      "minMinutes": 5,
+      "maxMinutes": 10,
+      "sourceLabel": "Prep time",
+      "provenance": "Printed on the card"
+    },
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 240,
+      "maxMinutes": 250,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Slow cooker",
+    "wide frying pan",
+    "saucepan",
+    "colander",
+    "kettle"
+  ],
+  "before": [],
+  "allergens": [
+    "Gluten",
+    "Soya"
+  ],
+  "cautions": [
+    "Check the packaging for allergen information, including any ingredients you supply or substitute. Wash fresh produce and check use-by dates."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "black-bean-paste",
+      "label": "Black bean paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 40 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "brown-long-grain-rice",
+      "label": "Brown long grain rice",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "130 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "65 g & 130 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 130 g"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "brown-onion",
+      "label": "Brown onion",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "chinese-rice-wine",
+      "label": "Chinese rice wine",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "diced-beef",
+      "label": "Diced beef",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "100 g & 200 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 200 g"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "ginger-garlic-paste",
+      "label": "Ginger & garlic paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 15 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "red-pepper",
+      "label": "Red pepper",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "8 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 × 8 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 8 ml"
+        }
+      }
+    },
+    {
+      "id": "flour",
+      "ingredientId": "flour",
+      "label": "Flour",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-11",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for sauce",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "325 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "425 ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Get ready",
+      "blocks": [
+        "Wash the vegetables and turn the slow cooker to high."
+      ],
+      "notes": [],
+      "timers": []
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Brown the beef",
+      "blocks": [
+        "Boil the kettle. Heat vegetable oil in a wide pan over high heat, then brown the diced beef for 2–3 minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the beef",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "slow-cooker-black-bean-beef-2",
+        "path": "media/slow-cooker-black-bean-beef-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of beef cubes browning in pan",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Chop the vegetables",
+      "blocks": [
+        "Peel and cut the onion into wedges. Deseed the pepper and chop it into bite-sized pieces."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "slow-cooker-black-bean-beef-3",
+        "path": "media/slow-cooker-black-bean-beef-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of onion wedges and red pepper on board",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Start the slow cooker",
+      "blocks": [
+        "Add the onion, ginger and garlic paste, {{flour}} flour and pepper to the beef and cook for 1 minute. Add black bean paste, soy sauce, rice wine and {{sauce-water}} boiled water. Bring to a boil, transfer to the slow cooker, stir, cover and cook on high for 2 hours."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Start the slow cooker",
+          "seconds": [
+            7200
+          ]
+        }
+      ],
+      "image": {
+        "id": "slow-cooker-black-bean-beef-4",
+        "path": "media/slow-cooker-black-bean-beef-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of beef and onion in slow cooker",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Wait while it cooks",
+      "blocks": [
+        "Use the first two hours to clear up or set the table."
+      ],
+      "notes": [],
+      "timers": []
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Add the pepper",
+      "blocks": [
+        "After the initial 2 hours, stir in the chopped pepper and cook on high for another 2 hours."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Add the pepper",
+          "seconds": [
+            7200
+          ]
+        }
+      ],
+      "image": {
+        "id": "slow-cooker-black-bean-beef-6",
+        "path": "media/slow-cooker-black-bean-beef-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of beef and red pepper in slow cooker",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "heading": "Cook the rice",
+      "blocks": [
+        "When the beef has 25 minutes left, rinse the brown rice, bring it to a boil in plenty of cold water and cook over medium heat 20–25 minutes until tender with a slight bite. Drain and return to the pot, covered, until serving."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the rice",
+          "seconds": [
+            1200,
+            1500
+          ]
+        }
+      ],
+      "image": {
+        "id": "slow-cooker-black-bean-beef-7",
+        "path": "media/slow-cooker-black-bean-beef-7-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of pot of brown rice",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "heading": "Serve",
+      "blocks": [
+        "Serve the black bean beef with brown rice on the side."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "slow-cooker-black-bean-beef-8",
+        "path": "media/slow-cooker-black-bean-beef-8-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of black bean beef and red pepper with brown rice",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "slow-cooker-black-bean-beef-hero",
+    "path": "media/slow-cooker-black-bean-beef.webp",
+    "width": 679,
+    "height": 637,
+    "alt": "Slow Cooker Beef in Black Bean with Brown Rice",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/slow-cooker-black-bean-beef-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

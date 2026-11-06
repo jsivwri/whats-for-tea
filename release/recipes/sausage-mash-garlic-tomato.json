@@ -1,0 +1,512 @@
+{
+  "id": "sausage-mash-garlic-tomato",
+  "slug": "sausage-mash-garlic-tomato",
+  "title": "Sausage & Mash with Garlic Tomato Sauce",
+  "aliases": [
+    "Sausage & Mash with Garlic Tomato Sauce"
+  ],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto recipe card",
+    "edition": "R-271"
+  },
+  "added": "2026-11-06",
+  "cuisine": "British",
+  "themes": [
+    "Comfort food"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 35,
+      "maxMinutes": 45,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "foil",
+    "saucepan",
+    "colander",
+    "frying pan",
+    "masher",
+    "kettle"
+  ],
+  "before": [],
+  "allergens": [
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the packaging for allergen information, including any ingredients you supply or substitute. Wash fresh produce and check use-by dates."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "chicken-stock-mix",
+      "label": "Chicken stock mix",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 5.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 5.5 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "dried-oregano",
+      "label": "Dried oregano",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 1 tsp"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "chopped-tomatoes",
+      "label": "Finely chopped tomatoes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "390 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "390 g"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "garlic",
+      "label": "Garlic clove",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "pork-sausage",
+      "label": "Proper Porker sausages",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "6"
+        },
+        "3": {
+          "status": "printed",
+          "text": "9"
+        },
+        "4": {
+          "status": "printed",
+          "text": "12"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "spring-greens",
+      "label": "Spring greens",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 150 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 150 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "potato",
+      "label": "White potato",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "milk",
+      "label": "Milk",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "A splash"
+        },
+        "3": {
+          "status": "printed",
+          "text": "A splash"
+        },
+        "4": {
+          "status": "printed",
+          "text": "A splash"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-11",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "greens-water",
+      "ingredientId": "water",
+      "label": "Water for greens",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Bake the sausages",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7 and boil the kettle. Roast sausages on a foil-lined tray for 20–25 minutes until cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the sausages",
+          "seconds": [
+            1200,
+            1500
+          ]
+        }
+      ],
+      "image": {
+        "id": "sausage-mash-garlic-tomato-1",
+        "path": "media/sausage-mash-garlic-tomato-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of sausages on foil-lined tray",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Boil the potatoes",
+      "blocks": [
+        "Peel and cut the potatoes into large bite-sized pieces. Add to boiling water, reduce to medium and cook 12–15 minutes until fork-tender. Drain and return to the pot to steam dry."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Boil the potatoes",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "sausage-mash-garlic-tomato-2",
+        "path": "media/sausage-mash-garlic-tomato-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of potato chunks in colander",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Slice the garlic and greens",
+      "blocks": [
+        "Peel and finely slice the garlic. Wash and dry the spring greens, remove the tough stalks and slice the rolled leaves into thin strips."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sausage-mash-garlic-tomato-3",
+        "path": "media/sausage-mash-garlic-tomato-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of sliced garlic on board",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Bake the greens",
+      "blocks": [
+        "Seal the greens, half the garlic, butter, pepper and {{greens-water}} cold water in a foil parcel. Bake on a separate tray 10–12 minutes until tender. Use two parcels for three or more servings."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the greens",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "sausage-mash-garlic-tomato-4",
+        "path": "media/sausage-mash-garlic-tomato-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of sealed foil parcel of spring greens",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Fry the aromatics",
+      "blocks": [
+        "Heat olive oil in a wide pan over medium heat. Cook the remaining garlic and dried oregano 2–3 minutes until fragrant."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the aromatics",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "sausage-mash-garlic-tomato-5",
+        "path": "media/sausage-mash-garlic-tomato-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of sliced garlic and oregano frying",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Make the sauce",
+      "blocks": [
+        "Add chopped tomatoes and stock mix, and cook for 3–4 minutes until thickened."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Make the sauce",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "sausage-mash-garlic-tomato-6",
+        "path": "media/sausage-mash-garlic-tomato-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of tomato sauce in frying pan",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "heading": "Mash the potatoes",
+      "blocks": [
+        "Return drained potatoes to low heat with a splash of milk and a knob of butter. Add pepper and mash until smooth."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sausage-mash-garlic-tomato-7",
+        "path": "media/sausage-mash-garlic-tomato-7-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of potato mash with masher",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "heading": "Serve",
+      "blocks": [
+        "Serve sausages with mash and greens, and spoon the garlic tomato sauce over."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sausage-mash-garlic-tomato-8",
+        "path": "media/sausage-mash-garlic-tomato-8-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of sausages and mash with greens and tomato sauce",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "sausage-mash-garlic-tomato-hero",
+    "path": "media/sausage-mash-garlic-tomato.webp",
+    "width": 761,
+    "height": 682,
+    "alt": "Sausage & Mash with Garlic Tomato Sauce",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/sausage-mash-garlic-tomato-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

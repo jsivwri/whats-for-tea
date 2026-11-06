@@ -1,0 +1,600 @@
+{
+  "id": "beef-peposo",
+  "slug": "beef-peposo",
+  "title": "Baked Tuscan-Style Beef Peposo with Saffron Butter Orzo",
+  "aliases": [
+    "Baked Tuscan-Style Beef Peposo with Saffron Butter Orzo"
+  ],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto recipe card",
+    "edition": "R-7808"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Italian",
+  "themes": [
+    "Comfort food"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": {
+      "minMinutes": 5,
+      "maxMinutes": 5,
+      "sourceLabel": "Prepped in 5",
+      "provenance": "Printed on the card"
+    },
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 55,
+      "maxMinutes": 65,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Hob-safe ovenproof casserole with lid",
+    "ovenproof dish",
+    "foil",
+    "kettle"
+  ],
+  "before": [],
+  "allergens": [
+    "Gluten",
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the packaging for allergen information, including any ingredients you supply or substitute. Wash fresh produce and check use-by dates."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "beef-stock-mix",
+      "label": "Beef stock mix",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unused"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "unused"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "intense-beef-stock-mix",
+      "label": "Beef stock mix (intense)",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 5.5 g"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "black-pepper",
+      "label": "Cracked black pepper",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 × 2.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 × 2.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 × 2.5 g"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "diced-beef",
+      "label": "Diced beef",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "100 g & 200 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 200 g"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "dried-bay-leaves",
+      "label": "Dried bay leaves",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "garlic",
+      "label": "Garlic clove",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "leek",
+      "label": "Leek",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "orzo",
+      "label": "Orzo",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 g & 150 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 150 g"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "red-wine-paste",
+      "label": "Red wine paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 10 g"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "saffron",
+      "label": "Saffron",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 packet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 packet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 packet"
+        }
+      }
+    },
+    {
+      "id": "line-11",
+      "ingredientId": "tomato-paste",
+      "label": "Tomato paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "32 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "16 g & 32 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 32 g"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "A knob"
+        },
+        "3": {
+          "status": "printed",
+          "text": "A knob"
+        },
+        "4": {
+          "status": "printed",
+          "text": "A knob"
+        }
+      }
+    },
+    {
+      "id": "flour",
+      "ingredientId": "flour",
+      "label": "Flour",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      }
+    },
+    {
+      "id": "line-14",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-15",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "beef-water",
+      "ingredientId": "water",
+      "label": "Water for beef",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "400 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "550 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "700 ml"
+        }
+      }
+    },
+    {
+      "id": "orzo-water",
+      "ingredientId": "water",
+      "label": "Water for orzo",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "300 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "450 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "600 ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Get ready",
+      "blocks": [
+        "Wash the vegetables and set out the ingredients. If your casserole cannot go on the hob, start in a wide pan, then transfer to an ovenproof dish and cover tightly with foil."
+      ],
+      "notes": [],
+      "timers": []
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Brown the beef",
+      "blocks": [
+        "Heat the oven to 200°C / 180°C fan / gas mark 6 and boil the kettle. Heat a little vegetable oil in a wide hob-safe casserole over high heat. Add the diced beef and cracked black pepper and cook for 2 minutes, until lightly browned."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the beef",
+          "seconds": [
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-peposo-2",
+        "path": "media/beef-peposo-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of diced beef browning in casserole",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Prepare the leek and garlic",
+      "blocks": [
+        "Halve the leeks lengthways, rinse away any grit, then trim and slice finely. Peel and finely chop or grate the garlic."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "beef-peposo-3",
+        "path": "media/beef-peposo-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of sliced leek and chopped garlic on board",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Add the vegetables",
+      "blocks": [
+        "Stir {{flour}} flour and the garlic into the browned beef. Add the sliced leek."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "beef-peposo-4",
+        "path": "media/beef-peposo-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of sliced leeks added to diced beef",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Bake the beef",
+      "blocks": [
+        "Add the red wine paste, tomato paste, beef stock mix, {{beef-water}} boiled water and bay leaves. Bring to a boil over high heat, cover and bake for 45–50 minutes, until the beef is tender and the sauce is rich."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the beef",
+          "seconds": [
+            2700,
+            3000
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-peposo-5",
+        "path": "media/beef-peposo-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of beef and leeks in red wine stock with bay leaf",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Bake the saffron orzo",
+      "blocks": [
+        "After the beef has had 35 minutes, reboil the kettle. Mix the orzo and saffron with {{orzo-water}} boiled water in an ovenproof dish. Seal with foil and bake for 15–18 minutes until cooked."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the saffron orzo",
+          "seconds": [
+            900,
+            1080
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-peposo-6",
+        "path": "media/beef-peposo-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of rectangular baking dish of yellow saffron orzo",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "heading": "Rest and season",
+      "blocks": [
+        "Season the beef with salt and rest, covered, for 3–4 minutes. Discard the bay leaves. Mix a pinch of salt and a knob of butter through the orzo."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Rest and season",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-peposo-7",
+        "path": "media/beef-peposo-7-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of casserole with lid on",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "heading": "Serve",
+      "blocks": [
+        "Spoon the peposo over the saffron butter orzo."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "beef-peposo-8",
+        "path": "media/beef-peposo-8-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of red beef peposo beside bowl of golden orzo",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "beef-peposo-hero",
+    "path": "media/beef-peposo.webp",
+    "width": 719,
+    "height": 766,
+    "alt": "Baked Tuscan-Style Beef Peposo with Saffron Butter Orzo",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/beef-peposo-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

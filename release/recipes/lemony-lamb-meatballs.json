@@ -1,0 +1,525 @@
+{
+  "id": "lemony-lamb-meatballs",
+  "slug": "lemony-lamb-meatballs",
+  "title": "Lemony Lamb Meatballs & Warm Harissa Dressing",
+  "aliases": [
+    "Lemony Lamb Meatballs & Warm Harissa Dressing"
+  ],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto recipe card",
+    "edition": "R-1318"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Middle Eastern-inspired",
+  "themes": [
+    "Meatballs"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": null,
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 30,
+      "maxMinutes": 45,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Saucepan",
+    "sieve",
+    "baking tray",
+    "grater",
+    "mixing bowls"
+  ],
+  "before": [],
+  "allergens": [
+    "Gluten",
+    "Milk"
+  ],
+  "cautions": [
+    "Check the packaging for allergen information, including any ingredients you supply or substitute. Wash fresh produce and check use-by dates."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "bulgur-wheat",
+      "label": "Bulgur wheat",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "130 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "65 g & 130 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 130 g"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "cucumber",
+      "label": "Cucumber",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¾"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "dill",
+      "label": "Dill",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "5 g"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "garlic",
+      "label": "Garlic clove",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "harissa-paste",
+      "label": "Harissa paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "20 g & 40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 40 g"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "lamb-mince",
+      "label": "Lamb mince",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "125 g & 250 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 250 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "lemon",
+      "label": "Lemon",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "mint",
+      "label": "Mint",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "5 g"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "natural-yoghurt",
+      "label": "Natural yoghurt",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 80 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 80 g"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "panko-breadcrumbs",
+      "label": "Panko breadcrumbs",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 20 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 20 g"
+        }
+      }
+    },
+    {
+      "id": "dressing-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-13",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-14",
+      "ingredientId": "water",
+      "label": "Water",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Salt the cucumber",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7 and boil the kettle. Halve the cucumber lengthways and scrape out the seeds. Slice finely, put in a sieve over the sink, toss with a generous pinch of salt and set aside."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "lemony-lamb-meatballs-1",
+        "path": "media/lemony-lamb-meatballs-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of sliced cucumber in sieve",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Cook the bulgur",
+      "blocks": [
+        "Add the bulgur to plenty of boiling salted water, boil for 7–9 minutes until tender with a slight bite, drain and return to the pot."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the bulgur",
+          "seconds": [
+            420,
+            540
+          ]
+        }
+      ],
+      "image": {
+        "id": "lemony-lamb-meatballs-2",
+        "path": "media/lemony-lamb-meatballs-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of cooked bulgur in pan",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Prepare lemon and garlic",
+      "blocks": [
+        "Finely zest the lemon without grating the bitter white pith. Peel and finely chop or grate the garlic."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "lemony-lamb-meatballs-3",
+        "path": "media/lemony-lamb-meatballs-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of lemon zest and garlic in separate piles",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Shape the meatballs",
+      "blocks": [
+        "Mix lemon zest, garlic, lamb mince, panko, salt and pepper in a bowl. Roll into six meatballs per person."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "lemony-lamb-meatballs-4",
+        "path": "media/lemony-lamb-meatballs-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of raw lamb meatballs on board",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Roast the meatballs",
+      "blocks": [
+        "Arrange on a baking tray and bake 15 minutes until cooked through with no pink meat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the meatballs",
+          "seconds": [
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "lemony-lamb-meatballs-5",
+        "path": "media/lemony-lamb-meatballs-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of roasted meatballs on tray",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Make the dressing",
+      "blocks": [
+        "Mix harissa, the juice from half the lemon and {{dressing-oil}} olive oil in a large bowl. Use less harissa for a milder result. Strip and finely chop the mint leaves. Finely chop the dill including the stalks."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "lemony-lamb-meatballs-6",
+        "path": "media/lemony-lamb-meatballs-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of harissa dressing and herbs",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "heading": "Dress the meatballs",
+      "blocks": [
+        "Toss the hot meatballs in the dressing until coated. Rinse the salted cucumber under cold running water and shake dry. Cut the remaining lemon into wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "lemony-lamb-meatballs-7",
+        "path": "media/lemony-lamb-meatballs-7-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of cooked meatballs tossed in harissa",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "heading": "Serve",
+      "blocks": [
+        "Serve the bulgur with yoghurt, salted cucumber and dressed meatballs. Spoon over any remaining dressing and finish with chopped herbs and a lemon wedge."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "lemony-lamb-meatballs-8",
+        "path": "media/lemony-lamb-meatballs-8-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of blue plate of bulgur cucumber yoghurt and meatballs",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "lemony-lamb-meatballs-hero",
+    "path": "media/lemony-lamb-meatballs.webp",
+    "width": 764,
+    "height": 768,
+    "alt": "Lemony Lamb Meatballs & Warm Harissa Dressing",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/lemony-lamb-meatballs-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

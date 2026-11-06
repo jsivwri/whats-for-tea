@@ -1,0 +1,554 @@
+{
+  "id": "greek-lamb-stew",
+  "slug": "greek-lamb-stew",
+  "title": "One Pot Greek-Style Lamb Stew with Feta & Mint",
+  "aliases": [
+    "One Pot Greek-Style Lamb Stew with Feta & Mint"
+  ],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto recipe card",
+    "edition": "R-3594"
+  },
+  "added": "2026-11-06",
+  "cuisine": "Greek-inspired",
+  "themes": [
+    "One pot",
+    "Comfort food"
+  ],
+  "tagSource": "reviewed",
+  "timings": {
+    "prep": {
+      "minMinutes": 5,
+      "maxMinutes": 5,
+      "sourceLabel": "Prepped in 5",
+      "provenance": "Printed on the card"
+    },
+    "cook": null,
+    "total": null,
+    "card": {
+      "minMinutes": 50,
+      "maxMinutes": 60,
+      "sourceLabel": "Card time",
+      "provenance": "Printed on the card"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Hob-safe ovenproof casserole with lid",
+    "kettle",
+    "small bowl"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the packaging for allergen information, including any ingredients you supply or substitute. Wash fresh produce and check use-by dates."
+  ],
+  "ingredients": [
+    {
+      "id": "line-1",
+      "ingredientId": "aubergine",
+      "label": "Aubergine",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      }
+    },
+    {
+      "id": "line-2",
+      "ingredientId": "balsamic-vinegar",
+      "label": "Balsamic vinegar",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 15 ml"
+        }
+      }
+    },
+    {
+      "id": "line-3",
+      "ingredientId": "intense-beef-stock-mix",
+      "label": "Beef stock mix (intense)",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 5.5 g"
+        }
+      }
+    },
+    {
+      "id": "line-4",
+      "ingredientId": "beef-stock-mix",
+      "label": "Beef stock mix",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unused"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "unused"
+        }
+      }
+    },
+    {
+      "id": "line-5",
+      "ingredientId": "dried-basil",
+      "label": "Dried basil",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 1 tsp"
+        }
+      }
+    },
+    {
+      "id": "line-6",
+      "ingredientId": "feta",
+      "label": "Feta",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 30 g"
+        }
+      }
+    },
+    {
+      "id": "line-7",
+      "ingredientId": "lamb-mince",
+      "label": "Lamb mince",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "250 g & 125 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "500 g"
+        }
+      }
+    },
+    {
+      "id": "line-8",
+      "ingredientId": "mint",
+      "label": "Mint",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "5 g"
+        }
+      }
+    },
+    {
+      "id": "line-9",
+      "ingredientId": "tomato-paste",
+      "label": "Tomato paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "32 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "16 g & 32 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 32 g"
+        }
+      }
+    },
+    {
+      "id": "line-10",
+      "ingredientId": "potato",
+      "label": "White potato",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      }
+    },
+    {
+      "id": "flour",
+      "ingredientId": "flour",
+      "label": "Flour",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "line-13",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      }
+    },
+    {
+      "id": "line-15",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      }
+    },
+    {
+      "id": "stew-water",
+      "ingredientId": "water",
+      "label": "Water for stew",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "500 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "650 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "850 ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Get ready",
+      "blocks": [
+        "Wash the vegetables and set out a hob-safe ovenproof casserole. If using a frying pan to start, transfer to an ovenproof dish before baking."
+      ],
+      "notes": [],
+      "timers": []
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Heat the casserole",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7, boil the kettle and heat vegetable oil in the casserole over high heat."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "greek-lamb-stew-2",
+        "path": "media/greek-lamb-stew-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of pale casserole with oil",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Brown the lamb",
+      "blocks": [
+        "Add the mince and {{flour}} flour. Break the mince into large chunks and cook 1–2 minutes until lightly browned all over."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the lamb",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "greek-lamb-stew-3",
+        "path": "media/greek-lamb-stew-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of browned lamb mince in casserole",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Add the vegetables",
+      "blocks": [
+        "Cut the potatoes into rough bite-sized pieces. Trim the aubergine and cut it to a similar size. Stir both into the mince."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "greek-lamb-stew-4",
+        "path": "media/greek-lamb-stew-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of potato and aubergine added",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Make the stew",
+      "blocks": [
+        "Add vinegar, {{sugar}} sugar, stock mix, tomato paste, dried basil and {{stew-water}} boiled water. Bring to a boil on high heat and season generously."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "greek-lamb-stew-5",
+        "path": "media/greek-lamb-stew-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of aubergine and potato in seasoned stew liquid",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Bake",
+      "blocks": [
+        "Cover and bake 40–45 minutes, until the potatoes are tender and the lamb is cooked through with no pink meat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake",
+          "seconds": [
+            2400,
+            2700
+          ]
+        }
+      ]
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "heading": "Make the feta topping",
+      "blocks": [
+        "Strip and finely chop the mint leaves. Crumble the feta into a bowl and mix in the mint."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "greek-lamb-stew-7",
+        "path": "media/greek-lamb-stew-7-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of feta and mint in bowl",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "heading": "Serve",
+      "blocks": [
+        "Taste the stew for seasoning and scatter over the mint and feta."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "greek-lamb-stew-8",
+        "path": "media/greek-lamb-stew-8-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sketch of finished lamb stew with feta and mint",
+        "credit": "Illustration based on the Gousto recipe card"
+      }
+    }
+  ],
+  "variants": [],
+  "hero": {
+    "id": "greek-lamb-stew-hero",
+    "path": "media/greek-lamb-stew.webp",
+    "width": 741,
+    "height": 641,
+    "alt": "One Pot Greek-Style Lamb Stew with Feta & Mint",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/greek-lamb-stew-thumb.webp",
+        "width": 480
+      }
+    ]
+  }
+}

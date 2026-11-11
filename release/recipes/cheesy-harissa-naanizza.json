@@ -1,0 +1,557 @@
+{
+  "id": "cheesy-harissa-naanizza",
+  "slug": "cheesy-harissa-naanizza",
+  "title": "Middle Eastern Inspired Cheesy Harissa Naanizza",
+  "subtitle": "with Greek Style Salad Cheese and Apple & Baby Leaf Salad",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2025-W02 · Card 17"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "cheesy-harissa-naanizza",
+    "path": "media/cheesy-harissa-naanizza.webp",
+    "width": 1120,
+    "height": 763,
+    "alt": "Middle Eastern Inspired Cheesy Harissa Naanizza",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/cheesy-harissa-naanizza-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 6,
+      "maxMinutes": 9,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 13,
+      "maxMinutes": 16,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 20,
+      "maxMinutes": 25,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "20 min",
+      "minMinutes": 20,
+      "maxMinutes": 20,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking tray",
+    "Frying pan",
+    "Mixing bowl",
+    "Grater"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Wheat and gluten",
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact."
+  ],
+  "ingredients": [
+    {
+      "id": "onion",
+      "ingredientId": "onion",
+      "label": "Onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mushrooms",
+      "ingredientId": "mushrooms",
+      "label": "Sliced mushrooms",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "160 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tomato-paste",
+      "ingredientId": "tomato-paste",
+      "label": "Tomato purée",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "45 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "harissa-paste",
+      "ingredientId": "harissa-paste",
+      "label": "Harissa paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cheddar",
+      "ingredientId": "cheddar",
+      "label": "Mature Cheddar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "70 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "110 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "140 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "naan",
+      "ingredientId": "naan",
+      "label": "Plain naans",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "apple",
+      "ingredientId": "apple",
+      "label": "Apples",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "greek-style-salad-cheese",
+      "ingredientId": "greek-style-salad-cheese",
+      "label": "Greek style salad cheese",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-leaf-mix",
+      "ingredientId": "baby-leaf-mix",
+      "label": "Baby leaf mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "70 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "balsamic-glaze",
+      "ingredientId": "balsamic-glaze",
+      "label": "Balsamic glaze",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "12 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "18 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "24 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Fry the onion and mushrooms",
+      "blocks": [
+        "Heat the oven to 240°C (220°C fan, gas 9). Halve, peel and thinly slice the onion. Peel and grate or press the garlic. Stir-fry the onion and mushrooms in a large frying pan over high heat for 5–6 minutes until softened. Season, add the garlic and fry for another minute."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Soften the onion and mushrooms",
+          "seconds": [
+            300,
+            360
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Fry the garlic",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "cheesy-harissa-naanizza-1-sketch",
+        "path": "media/cheesy-harissa-naanizza-1-sketch.webp",
+        "alt": "Fry the onion and mushrooms",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Make the sauce",
+      "blocks": [
+        "Mix the tomato purée, harissa and {{sauce-water}} water in a bowl. Season to taste."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "cheesy-harissa-naanizza-2-sketch",
+        "path": "media/cheesy-harissa-naanizza-2-sketch.webp",
+        "alt": "Make the sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Build the naan pizzas",
+      "blocks": [
+        "Grate the Cheddar. Lay the naans on a large baking tray and spread the harissa sauce over them, leaving a 1 cm border."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "cheesy-harissa-naanizza-3-sketch",
+        "path": "media/cheesy-harissa-naanizza-3-sketch.webp",
+        "alt": "Build the naan pizzas",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Bake",
+      "blocks": [
+        "Top each naan with the fried onions and mushrooms and scatter over the Cheddar. Bake on the top shelf for 6–7 minutes until golden and bubbling."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the naan pizzas",
+          "seconds": [
+            360,
+            420
+          ]
+        }
+      ],
+      "image": {
+        "id": "cheesy-harissa-naanizza-4-sketch",
+        "path": "media/cheesy-harissa-naanizza-4-sketch.webp",
+        "alt": "Bake",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Slice the apple",
+      "blocks": [
+        "While the naans bake, quarter, core and thinly slice the apple."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "cheesy-harissa-naanizza-5-sketch",
+        "path": "media/cheesy-harissa-naanizza-5-sketch.webp",
+        "alt": "Slice the apple",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Crumble Greek style salad cheese over the naan pizzas and drizzle with {{honey}} honey. Serve with sliced apple and baby leaves, drizzled with balsamic glaze."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "cheesy-harissa-naanizza-6-sketch",
+        "path": "media/cheesy-harissa-naanizza-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

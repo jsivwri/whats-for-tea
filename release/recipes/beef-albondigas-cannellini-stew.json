@@ -1,0 +1,1410 @@
+{
+  "id": "beef-albondigas-cannellini-stew",
+  "slug": "beef-albondigas-cannellini-stew",
+  "title": "Beef Albóndigas and Cannellini Bean Stew",
+  "subtitle": "with Homemade Pan con Tomate",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2024-W50 · Card 38"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "beef-albondigas-cannellini-stew",
+    "path": "media/beef-albondigas-cannellini-stew.webp",
+    "width": 1120,
+    "height": 705,
+    "alt": "Beef Albóndigas and Cannellini Bean Stew",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/beef-albondigas-cannellini-stew-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer",
+    "Autumn"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 8,
+      "maxMinutes": 12,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 19,
+      "maxMinutes": 25,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 30,
+      "maxMinutes": 39,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "30–35 min",
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Foil",
+    "Frying pan",
+    "Mixing bowls",
+    "Box grater",
+    "Sieve"
+  ],
+  "before": [],
+  "allergens": [
+    "Wheat and gluten",
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw mince.",
+    "The method calls for cannellini beans; the ingredients table lists butter beans. Either works here."
+  ],
+  "ingredients": [
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "4"
+        },
+        "3": {
+          "status": "printed",
+          "text": "6"
+        },
+        "4": {
+          "status": "printed",
+          "text": "8"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "roasted-spice-herb-blend",
+      "ingredientId": "roasted-spice-herb-blend",
+      "label": "Roasted spice and herb blend",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "breadcrumbs",
+      "ingredientId": "breadcrumbs",
+      "label": "Breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mince",
+      "ingredientId": "beef-mince",
+      "label": "British beef mince",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "360 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "480 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ciabatta",
+      "ingredientId": "ciabatta",
+      "label": "Ciabatta rolls",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cannellini-beans",
+      "ingredientId": "cannellini-beans",
+      "label": "Cannellini or butter beans",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 carton"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ cartons"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 cartons"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-onion",
+      "ingredientId": "red-onion",
+      "label": "Red onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tomato",
+      "ingredientId": "tomato",
+      "label": "Medium tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "smoked-paprika",
+      "ingredientId": "smoked-paprika",
+      "label": "Smoked paprika",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-wine-vinegar",
+      "ingredientId": "red-wine-vinegar",
+      "label": "Red wine vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "12 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "18 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "24 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "passata",
+      "ingredientId": "passata",
+      "label": "Tomato passata",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 carton"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ cartons"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 cartons"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-wine-stock-paste",
+      "ingredientId": "red-wine-stock-paste",
+      "label": "Red wine stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "28 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "42 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "56 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rocket",
+      "ingredientId": "rocket",
+      "label": "Wild rocket",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "crumb-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "crumb-water",
+      "ingredientId": "water",
+      "label": "Water for the breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "tomato-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the grated tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "tomato-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the grated tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¾ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "olive-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Roast the garlic and mix the mince",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Wrap half the unpeeled garlic with a drizzle of oil in foil and roast for 10–12 minutes until soft. Peel and grate or press the rest. Mix the spice and herb blend, breadcrumbs, {{crumb-salt}} salt, {{crumb-water}} water, beef, pepper and half the grated garlic."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the garlic",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-albondigas-cannellini-stew-1-sketch",
+        "path": "media/beef-albondigas-cannellini-stew-1-sketch.webp",
+        "alt": "Roast the garlic and mix the mince",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Bake the meatballs and toast the ciabatta",
+      "blocks": [
+        "Shape into five even meatballs per serving. Spread the meatballs out on a baking tray. Bake on the top shelf for 12–15 minutes until browned and cooked through. Slice the ciabatta 1 cm thick, drizzle with olive oil and season. Bake on a tray on the middle shelf for 8–10 minutes until golden."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the meatballs",
+          "seconds": [
+            720,
+            900
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Toast the ciabatta",
+          "seconds": [
+            480,
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-albondigas-cannellini-stew-2-sketch",
+        "path": "media/beef-albondigas-cannellini-stew-2-sketch.webp",
+        "alt": "Bake the meatballs and toast the ciabatta",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Prepare the tomatoes and beans",
+      "blocks": [
+        "Drain and rinse the beans. Halve, peel and thinly slice the red onion. Halve the tomatoes and grate the flesh into a bowl, discarding the skins. Add {{tomato-oil}} olive oil, {{tomato-sugar}} sugar, salt and pepper. Set aside. Heat oil in a large frying pan over medium-high. Fry the onion for 4–5 minutes until the onion softens."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the onion",
+          "seconds": [
+            240,
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-albondigas-cannellini-stew-3-sketch",
+        "path": "media/beef-albondigas-cannellini-stew-3-sketch.webp",
+        "alt": "Prepare the tomatoes and beans",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Simmer the beans",
+      "blocks": [
+        "Add paprika and the remaining grated garlic to the onion and fry for 1 minute. Add the vinegar and let it evaporate for 30 seconds. Stir in the beans, passata, red wine stock paste, {{sugar}} sugar and {{sauce-water}} water. Bring to a boil and simmer for 4–5 minutes until thickened."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the bean stew",
+          "seconds": [
+            240,
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-albondigas-cannellini-stew-4-sketch",
+        "path": "media/beef-albondigas-cannellini-stew-4-sketch.webp",
+        "alt": "Simmer the beans",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Finish the stew and tomato topping",
+      "blocks": [
+        "Squeeze the cooled roast garlic out of its skin, mash and stir into the grated tomato. Add the cooked meatballs to the beans and simmer for 2–3 more minutes. Season and thin with a splash of water if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Warm the meatballs in the stew",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-albondigas-cannellini-stew-5-sketch",
+        "path": "media/beef-albondigas-cannellini-stew-5-sketch.webp",
+        "alt": "Finish the stew and tomato topping",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Spoon the grated tomato onto the toast. Divide the stew between bowls, top with rocket and drizzle with olive oil. Serve the pan con tomate alongside."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "beef-albondigas-cannellini-stew-6-sketch",
+        "path": "media/beef-albondigas-cannellini-stew-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "add-chorizo",
+      "label": "Add diced chorizo (contains milk)",
+      "ingredients": [
+        {
+          "id": "garlic",
+          "ingredientId": "garlic",
+          "label": "Garlic cloves",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "4"
+            },
+            "3": {
+              "status": "printed",
+              "text": "6"
+            },
+            "4": {
+              "status": "printed",
+              "text": "8"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "roasted-spice-herb-blend",
+          "ingredientId": "roasted-spice-herb-blend",
+          "label": "Roasted spice and herb blend",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ sachets"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "breadcrumbs",
+          "ingredientId": "breadcrumbs",
+          "label": "Breadcrumbs",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "10 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "15 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "20 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "mince",
+          "ingredientId": "beef-mince",
+          "label": "British beef mince",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "240 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "360 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "480 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "ciabatta",
+          "ingredientId": "ciabatta",
+          "label": "Ciabatta rolls",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "cannellini-beans",
+          "ingredientId": "cannellini-beans",
+          "label": "Cannellini or butter beans",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 carton"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ cartons"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 cartons"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "red-onion",
+          "ingredientId": "red-onion",
+          "label": "Red onions",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "tomato",
+          "ingredientId": "tomato",
+          "label": "Medium tomatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "smoked-paprika",
+          "ingredientId": "smoked-paprika",
+          "label": "Smoked paprika",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "red-wine-vinegar",
+          "ingredientId": "red-wine-vinegar",
+          "label": "Red wine vinegar",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "12 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "18 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "24 ml"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "passata",
+          "ingredientId": "passata",
+          "label": "Tomato passata",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 carton"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ cartons"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 cartons"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "red-wine-stock-paste",
+          "ingredientId": "red-wine-stock-paste",
+          "label": "Red wine stock paste",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "28 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "42 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "56 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "rocket",
+          "ingredientId": "rocket",
+          "label": "Wild rocket",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "20 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "40 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "40 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chorizo",
+          "ingredientId": "chorizo",
+          "label": "Diced chorizo",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "90 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "120 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "180 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "crumb-salt",
+          "ingredientId": "salt",
+          "label": "Salt for the breadcrumbs",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "¼ tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "½ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "½ tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "crumb-water",
+          "ingredientId": "water",
+          "label": "Water for the breadcrumbs",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2 tbsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3 tbsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4 tbsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "tomato-oil",
+          "ingredientId": "olive-oil",
+          "label": "Olive oil for the grated tomatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 tbsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ tbsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 tbsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "tomato-sugar",
+          "ingredientId": "sugar",
+          "label": "Sugar for the grated tomatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "½ tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "¾ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "1 tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "sugar",
+          "ingredientId": "sugar",
+          "label": "Sugar for the sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "sauce-water",
+          "ingredientId": "water",
+          "label": "Water for the sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "100 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "150 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "200 ml"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "olive-oil",
+          "ingredientId": "olive-oil",
+          "label": "Olive oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Roast the garlic and mix the mince",
+          "blocks": [
+            "Preheat the oven to 220°C (200°C fan, gas 7). Wrap half the unpeeled garlic with a drizzle of oil in foil and roast for 10–12 minutes until soft. Peel and grate or press the rest. Mix the spice and herb blend, breadcrumbs, {{crumb-salt}} salt, {{crumb-water}} water, beef, pepper and half the grated garlic."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Roast the garlic",
+              "seconds": [
+                600,
+                720
+              ]
+            }
+          ],
+          "image": {
+            "id": "beef-albondigas-cannellini-stew-1-sketch",
+            "path": "media/beef-albondigas-cannellini-stew-1-sketch.webp",
+            "alt": "Roast the garlic and mix the mince",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Bake the meatballs and toast the ciabatta",
+          "blocks": [
+            "Shape into five even meatballs per serving. Spread the meatballs out on a baking tray. Bake on the top shelf for 12–15 minutes until browned and cooked through. Slice the ciabatta 1 cm thick, drizzle with olive oil and season. Bake on a tray on the middle shelf for 8–10 minutes until golden."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Bake the meatballs",
+              "seconds": [
+                720,
+                900
+              ]
+            },
+            {
+              "id": "timer-2",
+              "label": "Toast the ciabatta",
+              "seconds": [
+                480,
+                600
+              ]
+            }
+          ],
+          "image": {
+            "id": "beef-albondigas-cannellini-stew-2-sketch",
+            "path": "media/beef-albondigas-cannellini-stew-2-sketch.webp",
+            "alt": "Bake the meatballs and toast the ciabatta",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Prepare the tomatoes and beans",
+          "blocks": [
+            "Drain and rinse the beans. Halve, peel and thinly slice the red onion. Halve the tomatoes and grate the flesh into a bowl, discarding the skins. Add {{tomato-oil}} olive oil, {{tomato-sugar}} sugar, salt and pepper. Set aside. Heat oil in a large frying pan over medium-high. Fry the onion and chorizo for 4–5 minutes until the onion softens."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Fry the onion",
+              "seconds": [
+                240,
+                300
+              ]
+            }
+          ],
+          "image": {
+            "id": "beef-albondigas-cannellini-stew-3-sketch",
+            "path": "media/beef-albondigas-cannellini-stew-3-sketch.webp",
+            "alt": "Prepare the tomatoes and beans",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Simmer the beans",
+          "blocks": [
+            "Add paprika and the remaining grated garlic to the onion and fry for 1 minute. Add the vinegar and let it evaporate for 30 seconds. Stir in the beans, passata, red wine stock paste, {{sugar}} sugar and {{sauce-water}} water. Bring to a boil and simmer for 4–5 minutes until thickened."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Simmer the bean stew",
+              "seconds": [
+                240,
+                300
+              ]
+            }
+          ],
+          "image": {
+            "id": "beef-albondigas-cannellini-stew-4-sketch",
+            "path": "media/beef-albondigas-cannellini-stew-4-sketch.webp",
+            "alt": "Simmer the beans",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Finish the stew and tomato topping",
+          "blocks": [
+            "Squeeze the cooled roast garlic out of its skin, mash and stir into the grated tomato. Add the cooked meatballs to the beans and simmer for 2–3 more minutes. Season and thin with a splash of water if needed."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Warm the meatballs in the stew",
+              "seconds": [
+                120,
+                180
+              ]
+            }
+          ],
+          "image": {
+            "id": "beef-albondigas-cannellini-stew-5-sketch",
+            "path": "media/beef-albondigas-cannellini-stew-5-sketch.webp",
+            "alt": "Finish the stew and tomato topping",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Serve",
+          "blocks": [
+            "Spoon the grated tomato onto the toast. Divide the stew between bowls, top with rocket and drizzle with olive oil. Serve the pan con tomate alongside."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "beef-albondigas-cannellini-stew-6-sketch",
+            "path": "media/beef-albondigas-cannellini-stew-6-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

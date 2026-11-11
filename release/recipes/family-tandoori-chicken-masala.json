@@ -1,0 +1,1114 @@
+{
+  "id": "family-tandoori-chicken-masala",
+  "slug": "family-tandoori-chicken-masala",
+  "title": "Family Favourite Tandoori Chicken Masala",
+  "subtitle": "with Spinach, Basmati Rice and Crispy Onions",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2024-W40 · Card 1"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "family-tandoori-chicken-masala",
+    "path": "media/family-tandoori-chicken-masala.webp",
+    "width": 1120,
+    "height": 763,
+    "alt": "Family Favourite Tandoori Chicken Masala",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/family-tandoori-chicken-masala-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 4,
+      "maxMinutes": 7,
+      "provenance": "Chop the vegetables and prepare the aromatics and seasonings.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 14,
+      "maxMinutes": 18,
+      "provenance": "Cook the rice alongside the curry.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 20,
+      "maxMinutes": 25,
+      "provenance": "Allows for initial prep, parallel cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "20–25 min",
+      "minMinutes": 20,
+      "maxMinutes": 25,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Saucepan with lid",
+    "Sieve",
+    "Frying pan",
+    "Garlic press"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "basmati-rice",
+      "ingredientId": "basmati-rice",
+      "label": "Basmati rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "225 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-thigh",
+      "label": "Diced British chicken thigh",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "390 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "520 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tomato-paste",
+      "ingredientId": "tomato-paste",
+      "label": "Tomato purée",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "45 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tandoori-masala-mix",
+      "ingredientId": "tandoori-masala-mix",
+      "label": "Tandoori masala mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-paste",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "creme-fraiche",
+      "ingredientId": "creme-fraiche",
+      "label": "Crème fraîche",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mango-chutney",
+      "ingredientId": "mango-chutney",
+      "label": "Mango chutney",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "60 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "80 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-spinach",
+      "ingredientId": "spinach",
+      "label": "Baby spinach",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "crispy-onions",
+      "ingredientId": "crispy-onions",
+      "label": "Crispy onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "curry-water",
+      "ingredientId": "water",
+      "label": "Water for the curry",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "125 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "190 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "butter",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "water",
+      "ingredientId": "water",
+      "label": "Water for boiling the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "rice-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "¼ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Cook the rice",
+      "blocks": [
+        "Boil half a kettle. Pour the kettle water into a saucepan with {{rice-salt}} salt. Bring to the boil on high, add the basmati rice and cook for 12 minutes. Drain, return to the pan and cover until serving."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the rice",
+          "seconds": [
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "family-tandoori-chicken-masala-1-sketch",
+        "path": "media/family-tandoori-chicken-masala-1-sketch.webp",
+        "alt": "Cook the rice",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Brown the chicken",
+      "blocks": [
+        "Meanwhile, heat a drizzle of oil in a large frying pan over medium-high. Season the chicken and fry for 5–6 minutes until browned all over, turning occasionally."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the chicken",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "family-tandoori-chicken-masala-2-sketch",
+        "path": "media/family-tandoori-chicken-masala-2-sketch.webp",
+        "alt": "Brown the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Add the spices",
+      "blocks": [
+        "Peel and grate or press the garlic. Add it to the browned chicken with the tomato purée and tandoori masala mix. Stir and cook until fragrant, about 1 minute."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the aromatics",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "family-tandoori-chicken-masala-3-sketch",
+        "path": "media/family-tandoori-chicken-masala-3-sketch.webp",
+        "alt": "Add the spices",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Simmer",
+      "blocks": [
+        "Add the stock paste and {{curry-water}} water. Bring to a boil, then lower the heat and simmer gently for 3–4 minutes until the chicken is cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the chicken",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "family-tandoori-chicken-masala-4-sketch",
+        "path": "media/family-tandoori-chicken-masala-4-sketch.webp",
+        "alt": "Simmer",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Finish the sauce",
+      "blocks": [
+        "Stir in the crème fraîche, mango chutney and {{butter}} butter until the butter melts. Add the spinach a handful at a time and cook for 1–2 minutes until wilted and piping hot. Taste, season and take off the heat. Thin with a splash of water if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Wilt the spinach",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "family-tandoori-chicken-masala-5-sketch",
+        "path": "media/family-tandoori-chicken-masala-5-sketch.webp",
+        "alt": "Finish the sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Divide the rice between bowls, spoon over the masala and finish with crispy onions."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "family-tandoori-chicken-masala-6-sketch",
+        "path": "media/family-tandoori-chicken-masala-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "swap-chicken-breast",
+      "label": "Swap to diced chicken breast",
+      "ingredients": [
+        {
+          "id": "basmati-rice",
+          "ingredientId": "basmati-rice",
+          "label": "Basmati rice",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "150 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "225 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "300 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken",
+          "ingredientId": "chicken-breast",
+          "label": "Diced British chicken breast",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "240 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "390 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "480 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "garlic",
+          "ingredientId": "garlic",
+          "label": "Garlic cloves",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "tomato-paste",
+          "ingredientId": "tomato-paste",
+          "label": "Tomato purée",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "30 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "45 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "60 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "tandoori-masala-mix",
+          "ingredientId": "tandoori-masala-mix",
+          "label": "Tandoori masala mix",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2 sachets"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken-stock-paste",
+          "ingredientId": "chicken-stock-paste",
+          "label": "Chicken stock paste",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "10 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "15 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "20 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "creme-fraiche",
+          "ingredientId": "creme-fraiche",
+          "label": "Crème fraîche",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "75 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "150 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "150 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "mango-chutney",
+          "ingredientId": "mango-chutney",
+          "label": "Mango chutney",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "40 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "60 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "80 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "baby-spinach",
+          "ingredientId": "spinach",
+          "label": "Baby spinach",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "40 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "100 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "100 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "crispy-onions",
+          "ingredientId": "crispy-onions",
+          "label": "Crispy onions",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2 sachets"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "curry-water",
+          "ingredientId": "water",
+          "label": "Water for the curry",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "125 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "190 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "250 ml"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "butter",
+          "ingredientId": "butter",
+          "label": "Butter",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "20 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "30 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "40 g"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "water",
+          "ingredientId": "water",
+          "label": "Water for boiling the rice",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "rice-salt",
+          "ingredientId": "salt",
+          "label": "Salt for the rice",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "¼ tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "¼ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "¼ tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Cook the rice",
+          "blocks": [
+            "Boil half a kettle. Pour the kettle water into a saucepan with {{rice-salt}} salt. Bring to the boil on high, add the basmati rice and cook for 12 minutes. Drain, return to the pan and cover until serving."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Cook the rice",
+              "seconds": [
+                720
+              ]
+            }
+          ],
+          "image": {
+            "id": "family-tandoori-chicken-masala-1-sketch",
+            "path": "media/family-tandoori-chicken-masala-1-sketch.webp",
+            "alt": "Cook the rice",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Brown the chicken",
+          "blocks": [
+            "Meanwhile, heat a drizzle of oil in a large frying pan over medium-high. Season the chicken and fry for 5–6 minutes until browned all over, turning occasionally."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Brown the chicken",
+              "seconds": [
+                300,
+                360
+              ]
+            }
+          ],
+          "image": {
+            "id": "family-tandoori-chicken-masala-2-sketch",
+            "path": "media/family-tandoori-chicken-masala-2-sketch.webp",
+            "alt": "Brown the chicken",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Add the spices",
+          "blocks": [
+            "Peel and grate or press the garlic. Add it to the browned chicken with the tomato purée and tandoori masala mix. Stir and cook until fragrant, about 1 minute."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Fry the aromatics",
+              "seconds": [
+                60
+              ]
+            }
+          ],
+          "image": {
+            "id": "family-tandoori-chicken-masala-3-sketch",
+            "path": "media/family-tandoori-chicken-masala-3-sketch.webp",
+            "alt": "Add the spices",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Simmer",
+          "blocks": [
+            "Add the stock paste and {{curry-water}} water. Bring to a boil, then lower the heat and simmer gently for 3–4 minutes until the chicken is cooked through."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Simmer the chicken",
+              "seconds": [
+                180,
+                240
+              ]
+            }
+          ],
+          "image": {
+            "id": "family-tandoori-chicken-masala-4-sketch",
+            "path": "media/family-tandoori-chicken-masala-4-sketch.webp",
+            "alt": "Simmer",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Finish the sauce",
+          "blocks": [
+            "Stir in the crème fraîche, mango chutney and {{butter}} butter until the butter melts. Add the spinach a handful at a time and cook for 1–2 minutes until wilted and piping hot. Taste, season and take off the heat. Thin with a splash of water if needed."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Wilt the spinach",
+              "seconds": [
+                60,
+                120
+              ]
+            }
+          ],
+          "image": {
+            "id": "family-tandoori-chicken-masala-5-sketch",
+            "path": "media/family-tandoori-chicken-masala-5-sketch.webp",
+            "alt": "Finish the sauce",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Serve",
+          "blocks": [
+            "Divide the rice between bowls, spoon over the masala and finish with crispy onions."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "family-tandoori-chicken-masala-6-sketch",
+            "path": "media/family-tandoori-chicken-masala-6-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

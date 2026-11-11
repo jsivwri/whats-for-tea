@@ -1,0 +1,593 @@
+{
+  "id": "paprika-chicken-spiced-rice",
+  "slug": "paprika-chicken-spiced-rice",
+  "title": "Oven-Baked Glazed Paprika Chicken",
+  "subtitle": "with Roasted Pepper, Courgette and Spiced Rice",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2025-W26 · Card 1"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "paprika-chicken-spiced-rice",
+    "path": "media/paprika-chicken-spiced-rice.webp",
+    "width": 1120,
+    "height": 704,
+    "alt": "Oven-Baked Glazed Paprika Chicken",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/paprika-chicken-spiced-rice-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 8,
+      "maxMinutes": 12,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 28,
+      "maxMinutes": 35,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 35,
+      "maxMinutes": 45,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "30–35 min",
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Mixing bowls",
+    "Saucepan with lid",
+    "Frying pan",
+    "Garlic press"
+  ],
+  "before": [],
+  "allergens": [
+    "Egg if using egg-based mayonnaise"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "bell-pepper",
+      "ingredientId": "bell-pepper",
+      "label": "Bell peppers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "onion",
+      "ingredientId": "onion",
+      "label": "Onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "courgette",
+      "ingredientId": "courgette",
+      "label": "Courgettes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "smoked-paprika",
+      "ingredientId": "smoked-paprika",
+      "label": "Smoked paprika",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "British chicken breasts",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mexican-style-spice-mix",
+      "ingredientId": "mexican-style-spice-mix",
+      "label": "Mexican style spice mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "basmati-rice",
+      "ingredientId": "basmati-rice",
+      "label": "Basmati rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "225 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-paste",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-pepper-chilli-jelly",
+      "ingredientId": "red-pepper-chilli-jelly",
+      "label": "Red pepper chilli jelly",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "37.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "75 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sun-dried-tomato-paste",
+      "ingredientId": "sun-dried-tomato-paste",
+      "label": "Sun-dried tomato paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "marinade-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the marinade",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "rice-water",
+      "ingredientId": "water",
+      "label": "Water for the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "300 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "450 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "600 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "mayonnaise",
+      "ingredientId": "mayonnaise",
+      "label": "Mayonnaise",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Prepare the vegetables and fry the onion",
+      "blocks": [
+        "Heat the oven to 240°C (220°C fan, gas 9). Deseed and thinly slice the pepper. Halve, peel and thinly slice the onion. Peel and grate or press the garlic. Trim and quarter the courgette lengthways, then slice it into 1 cm pieces. Fry the onion in a little oil in a saucepan over medium heat for 7–8 minutes until softened. If it browns too quickly, add a splash of water."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Soften the onion",
+          "seconds": [
+            420,
+            480
+          ]
+        }
+      ],
+      "image": {
+        "id": "paprika-chicken-spiced-rice-1-sketch",
+        "path": "media/paprika-chicken-spiced-rice-1-sketch.webp",
+        "alt": "Prepare the vegetables and fry the onion",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Marinate the chicken",
+      "blocks": [
+        "Combine the smoked paprika, garlic, {{marinade-oil}} olive oil, salt and pepper. Coat the chicken and set aside."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "paprika-chicken-spiced-rice-2-sketch",
+        "path": "media/paprika-chicken-spiced-rice-2-sketch.webp",
+        "alt": "Marinate the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Cook the spiced rice",
+      "blocks": [
+        "Fry the Mexican spice mix with the onion for 30 seconds. Add {{rice-water}} water, the rice and stock paste. Bring to a boil, lower the heat to medium and cover. Cook for 10 minutes, then remove from the heat and leave covered for another 10 minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the rice",
+          "seconds": [
+            600
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Steam off the heat",
+          "seconds": [
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "paprika-chicken-spiced-rice-3-sketch",
+        "path": "media/paprika-chicken-spiced-rice-3-sketch.webp",
+        "alt": "Cook the spiced rice",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Brown and roast the chicken",
+      "blocks": [
+        "Heat a drizzle of oil in a large frying pan over high heat. Brown the chicken for 5 minutes per side, then move to a large tray. Put the pepper and courgette alongside and toss with oil, salt and pepper. Roast on the top shelf for 10–12 minutes until the pepper is soft and the chicken is cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown each side",
+          "seconds": [
+            300
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Roast the chicken and veg",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "paprika-chicken-spiced-rice-4-sketch",
+        "path": "media/paprika-chicken-spiced-rice-4-sketch.webp",
+        "alt": "Brown and roast the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Glaze the chicken and finish the rice",
+      "blocks": [
+        "Turn the cooked chicken in the red pepper chilli jelly and rest for a couple of minutes. Fluff the rice and stir through the sun-dried tomato paste. Season to taste."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "paprika-chicken-spiced-rice-5-sketch",
+        "path": "media/paprika-chicken-spiced-rice-5-sketch.webp",
+        "alt": "Glaze the chicken and finish the rice",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Slice the chicken crossways into 1 cm slices. Serve over the spiced rice with the roasted vegetables and any tray juices. Finish with {{mayonnaise}} mayonnaise in total."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "paprika-chicken-spiced-rice-6-sketch",
+        "path": "media/paprika-chicken-spiced-rice-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

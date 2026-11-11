@@ -18,9 +18,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 5,
+      "maxMinutes": 8,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Slice garlic and prepare stock and cheese. Boil the tagliatelle while frying bacon, then finish the creamy sauce and wilt the spinach."
+    },
+    "cook": {
+      "minMinutes": 7,
+      "maxMinutes": 12,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Slice garlic and prepare stock and cheese. Boil the tagliatelle while frying bacon, then finish the creamy sauce and wilt the spinach."
+    },
+    "total": {
+      "minMinutes": 12,
+      "maxMinutes": 20,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Slice garlic and prepare stock and cheese. Boil the tagliatelle while frying bacon, then finish the creamy sauce and wilt the spinach."
+    },
     "card": {
       "minMinutes": 10,
       "maxMinutes": 20,
@@ -365,7 +383,7 @@
       "number": 3,
       "heading": "Cook the tagliatelle",
       "blocks": [
-        "Cook the tagliatelle in boiling salted water for 3–4 minutes until it has a slight bite. Drain and reserve enough starchy water for the stock plus a splash for loosening."
+        "Cook the tagliatelle in boiling salted water for 3–4 minutes until it has a slight bite. Drain and reserve a cup of starchy pasta water for the stock and for loosening the sauce."
       ],
       "notes": [],
       "timers": [
@@ -499,9 +517,9 @@
   "hero": {
     "id": "bacon-alfredo-tagliatelle-hero",
     "path": "media/bacon-alfredo-tagliatelle.webp",
-    "width": 636,
-    "height": 636,
-    "alt": "Creamy Bacon Alfredo Sauce with Fresh Tagliatelle",
+    "width": 1086,
+    "height": 639,
+    "alt": "Creamy tagliatelle with bacon lardons and spinach",
     "credit": "Gousto recipe card",
     "sizes": [
       {
@@ -509,5 +527,6 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": []
 }

@@ -1,0 +1,530 @@
+{
+  "id": "normandy-chicken-apple-casserole",
+  "slug": "normandy-chicken-apple-casserole",
+  "title": "Oven-Baked Normandy Chicken & Apple Casserole",
+  "aliases": [],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto",
+    "edition": "Recipe bag 3207"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "normandy-chicken-apple-casserole",
+    "path": "media/normandy-chicken-apple-casserole.webp",
+    "width": 1120,
+    "height": 982,
+    "alt": "Oven-Baked Normandy Chicken & Apple Casserole",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/normandy-chicken-apple-casserole-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 5,
+      "maxMinutes": 10,
+      "provenance": "Prep time based on the card where stated, or on the chopping and measuring required.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 32,
+      "maxMinutes": 39,
+      "provenance": "Cook time based on the printed method, allowing for tasks in parallel.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 35,
+      "maxMinutes": 45,
+      "provenance": "Elapsed time includes preparation, cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "35–45 min",
+      "minMinutes": 35,
+      "maxMinutes": 45,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Wide hob-safe ovenproof casserole",
+    "Baking tray"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Mustard",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "apple",
+      "ingredientId": "apple",
+      "label": "Apples",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "onion",
+      "ingredientId": "onion",
+      "label": "Brown onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chives",
+      "ingredientId": "chives",
+      "label": "Chives",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "10 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "green-beans",
+      "ingredientId": "green-beans",
+      "label": "Trimmed fine green beans",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "160 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soft-cheese",
+      "ingredientId": "soft-cheese",
+      "label": "Soft cheese",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chinese-rice-wine",
+      "ingredientId": "chinese-rice-wine",
+      "label": "Chinese rice wine",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "wholegrain-mustard",
+      "ingredientId": "wholegrain-mustard",
+      "label": "Wholegrain mustard",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "21 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "42 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-thigh",
+      "label": "Diced British chicken thigh",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "500 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-mix",
+      "ingredientId": "chicken-stock-mix",
+      "label": "Chicken stock mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "11 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "22 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ciabatta",
+      "ingredientId": "ciabatta",
+      "label": "Ciabatta rolls",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "flour",
+      "ingredientId": "flour",
+      "label": "Plain flour",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "stew-water",
+      "ingredientId": "water",
+      "label": "Boiling water for the casserole",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "350 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "olive-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "butter",
+      "ingredientId": "butter",
+      "label": "Butter for the ciabatta",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Get ready",
+      "blocks": [
+        "Set out a casserole safe for both the hob and oven. If needed, start in a wide frying pan and transfer to an ovenproof dish. Wash the produce."
+      ],
+      "notes": [],
+      "timers": []
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Heat the oven and prepare the apple",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7) and boil half a kettle. Heat olive oil in the casserole over medium-high. Core and wedge the apple."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "normandy-chicken-apple-casserole-1-sketch",
+        "path": "media/normandy-chicken-apple-casserole-1-sketch.webp",
+        "alt": "Heat the oven and prepare the apple",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Slice the onion",
+      "blocks": [
+        "Peel the onion and cut into wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "normandy-chicken-apple-casserole-2-sketch",
+        "path": "media/normandy-chicken-apple-casserole-2-sketch.webp",
+        "alt": "Slice the onion",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Start the chicken",
+      "blocks": [
+        "Add the chicken and {{flour}} flour to the casserole and cook for 30 seconds. Crush the garlic cloves and remove the skins."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "normandy-chicken-apple-casserole-3-sketch",
+        "path": "media/normandy-chicken-apple-casserole-3-sketch.webp",
+        "alt": "Start the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Add the apple and stock",
+      "blocks": [
+        "Stir in the apple, onion and crushed garlic. Add the stock mix and {{stew-water}} boiling water."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "normandy-chicken-apple-casserole-4-sketch",
+        "path": "media/normandy-chicken-apple-casserole-4-sketch.webp",
+        "alt": "Add the apple and stock",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Bake the casserole",
+      "blocks": [
+        "Stir in the Chinese rice wine, mustard and soft cheese. Bring to the boil over high heat, then bake uncovered for 30–35 minutes until the chicken is cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the casserole",
+          "seconds": [
+            1800,
+            2100
+          ]
+        }
+      ],
+      "image": {
+        "id": "normandy-chicken-apple-casserole-5-sketch",
+        "path": "media/normandy-chicken-apple-casserole-5-sketch.webp",
+        "alt": "Bake the casserole",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 7,
+      "id": "step-7",
+      "heading": "Roast the beans and warm the bread",
+      "blocks": [
+        "When the casserole is nearly done, put the green beans on one side of a baking tray with olive oil and a pinch of salt. Put the ciabatta on the other side. Bake for 5–7 minutes until the beans are tender with a bite and the bread is crusty."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the beans and warm the bread",
+          "seconds": [
+            300,
+            420
+          ]
+        }
+      ],
+      "image": {
+        "id": "normandy-chicken-apple-casserole-6-sketch",
+        "path": "media/normandy-chicken-apple-casserole-6-sketch.webp",
+        "alt": "Roast the beans and warm the bread",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 8,
+      "id": "step-8",
+      "heading": "Serve",
+      "blocks": [
+        "Chop the chives and scatter them over the casserole. Season with pepper and serve with the green beans and crusty ciabatta. Butter the bread if you like."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "normandy-chicken-apple-casserole-7-sketch",
+        "path": "media/normandy-chicken-apple-casserole-7-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

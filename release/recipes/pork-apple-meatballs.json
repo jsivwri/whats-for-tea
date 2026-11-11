@@ -1,0 +1,684 @@
+{
+  "id": "pork-apple-meatballs",
+  "slug": "pork-apple-meatballs",
+  "title": "Baked Pork and Apple Meatballs",
+  "subtitle": "with Onion Gravy, Mash and Cabbage",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 26"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "pork-apple-meatballs",
+    "path": "media/pork-apple-meatballs.webp",
+    "width": 1120,
+    "height": 764,
+    "alt": "Baked Pork and Apple Meatballs",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/pork-apple-meatballs-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 11,
+      "maxMinutes": 15,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 24,
+      "maxMinutes": 32,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 40,
+      "maxMinutes": 48,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "40–45 min",
+      "minMinutes": 40,
+      "maxMinutes": 45,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking tray",
+    "Large saucepan",
+    "Colander",
+    "Frying pan",
+    "Mixing bowl",
+    "Garlic press",
+    "Potato masher",
+    "Grater",
+    "Foil"
+  ],
+  "before": [],
+  "allergens": [
+    "Wheat and gluten",
+    "Sulphites",
+    "Milk if using milk or butter"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw mince."
+  ],
+  "ingredients": [
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "apple",
+      "ingredientId": "apple",
+      "label": "Apples",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-onion",
+      "ingredientId": "red-onion",
+      "label": "Red onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "breadcrumbs",
+      "ingredientId": "breadcrumbs",
+      "label": "Breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "dried-rosemary",
+      "ingredientId": "dried-rosemary",
+      "label": "Dried rosemary",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mince",
+      "ingredientId": "pork-mince",
+      "label": "British pork mince",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "360 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "480 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "savoy-cabbage",
+      "ingredientId": "savoy-cabbage",
+      "label": "Shredded Savoy cabbage",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "300 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "balsamic-vinegar",
+      "ingredientId": "balsamic-vinegar",
+      "label": "Balsamic vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "12 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "24 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "24 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-wine-stock-paste",
+      "ingredientId": "red-wine-stock-paste",
+      "label": "Red wine stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "28 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "42 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "56 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "crumb-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "onion-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "gravy-water",
+      "ingredientId": "water",
+      "label": "Water for the gravy",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "potato-salt",
+      "ingredientId": "salt",
+      "label": "Salt for boiling the potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "potato-water",
+      "ingredientId": "water",
+      "label": "Water for boiling the potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "butter",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": true
+    },
+    {
+      "id": "milk",
+      "ingredientId": "milk",
+      "label": "Milk",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": true
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Prepare the vegetables",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Bring a large saucepan of water with {{potato-salt}} salt to a boil. Peel and grate or press the garlic. Quarter, core and grate the unpeeled apple. Halve, peel and thinly slice the red onion. Cut the potatoes into 2 cm chunks, peeling if desired."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "pork-apple-meatballs-1-sketch",
+        "path": "media/pork-apple-meatballs-1-sketch.webp",
+        "alt": "Prepare the vegetables",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Shape and bake the meatballs",
+      "blocks": [
+        "Mix the breadcrumbs, grated apple, rosemary, {{crumb-salt}} salt and half the garlic. Add the pork mince, season with pepper and mix well. Shape into five even meatballs per serving. Spread the meatballs out on a baking tray. Bake on the top shelf for 12–15 minutes until browned and cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the meatballs",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "pork-apple-meatballs-2-sketch",
+        "path": "media/pork-apple-meatballs-2-sketch.webp",
+        "alt": "Shape and bake the meatballs",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Cook the potatoes and cabbage",
+      "blocks": [
+        "Boil the potatoes for 15–20 minutes until tender. Meanwhile, heat a little oil in a large frying pan over medium heat. Stir-fry the cabbage and remaining garlic for 2 minutes. Season, add a splash of water, cover with a lid or foil and cook for 3–4 minutes until just tender. Transfer to a bowl and cover to keep warm."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Boil the potatoes",
+          "seconds": [
+            900,
+            1200
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Steam the cabbage",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "pork-apple-meatballs-3-sketch",
+        "path": "media/pork-apple-meatballs-3-sketch.webp",
+        "alt": "Cook the potatoes and cabbage",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Fry the onions and mash the potatoes",
+      "blocks": [
+        "Return the frying pan to medium heat with a drizzle of oil. Season the onion and fry for 8–10 minutes until golden, stirring occasionally. Drain the cooked potatoes and return them to the saucepan off the heat. Add a knob of butter and a splash of milk if available, mash until smooth and season. Cover to keep warm."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the onions",
+          "seconds": [
+            480,
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "pork-apple-meatballs-4-sketch",
+        "path": "media/pork-apple-meatballs-4-sketch.webp",
+        "alt": "Fry the onions and mash the potatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Make the onion gravy",
+      "blocks": [
+        "Add the balsamic vinegar and {{onion-sugar}} sugar to the onion and cook for 1–2 minutes until caramelised. Stir in the red wine stock paste and {{gravy-water}} water. Bring to a boil and simmer for 5–6 minutes until reduced. Thin with a splash of water if needed, or stir in a knob of butter."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Caramelise the onion",
+          "seconds": [
+            60,
+            120
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Simmer the gravy",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "pork-apple-meatballs-5-sketch",
+        "path": "media/pork-apple-meatballs-5-sketch.webp",
+        "alt": "Make the onion gravy",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Turn the cooked meatballs in the gravy and warm through for 1–2 minutes. Serve with the mash and cabbage."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Warm the meatballs",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "pork-apple-meatballs-6-sketch",
+        "path": "media/pork-apple-meatballs-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

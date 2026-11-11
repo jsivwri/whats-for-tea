@@ -1,0 +1,597 @@
+{
+  "id": "sach-ko-ang-meatball-baguette",
+  "slug": "sach-ko-ang-meatball-baguette",
+  "title": "Fragrant Sach Ko Ang Inspired Beef Meatball Baguette",
+  "subtitle": "with Pickled Carrot Salad and Peanuts",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 27"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "sach-ko-ang-meatball-baguette",
+    "path": "media/sach-ko-ang-meatball-baguette.webp",
+    "width": 1120,
+    "height": 694,
+    "alt": "Fragrant Sach Ko Ang Inspired Beef Meatball Baguette",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/sach-ko-ang-meatball-baguette-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 10,
+      "maxMinutes": 14,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 14,
+      "maxMinutes": 18,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 29,
+      "maxMinutes": 37,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "30–35 min",
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Bamboo skewers",
+    "Peeler",
+    "Mixing bowls",
+    "Rolling pin",
+    "Garlic press"
+  ],
+  "before": [],
+  "allergens": [
+    "Peanuts",
+    "Sesame",
+    "Soya",
+    "Wheat and gluten",
+    "Egg if using egg-based mayonnaise"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw mince."
+  ],
+  "ingredients": [
+    {
+      "id": "bamboo-skewers",
+      "ingredientId": "bamboo-skewers",
+      "label": "Bamboo skewers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "4"
+        },
+        "3": {
+          "status": "printed",
+          "text": "6"
+        },
+        "4": {
+          "status": "printed",
+          "text": "8"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "carrot",
+      "ingredientId": "carrot",
+      "label": "Carrots",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rice-vinegar",
+      "ingredientId": "rice-vinegar",
+      "label": "Rice vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "22 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soy-sauce",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "25 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ginger-garlic-lemongrass-puree",
+      "ingredientId": "ginger-garlic-lemongrass-puree",
+      "label": "Ginger, garlic and lemongrass purée",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "22 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "37 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "44 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "breadcrumbs",
+      "ingredientId": "breadcrumbs",
+      "label": "Breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "25 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "beef-and-pork-mince",
+      "ingredientId": "beef-and-pork-mince",
+      "label": "British beef and pork mince",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "360 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "480 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "white-baguette",
+      "ingredientId": "white-baguette",
+      "label": "Stone-oven white baguette",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "salted-peanuts",
+      "ingredientId": "peanuts",
+      "label": "Salted peanuts",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-leaf-mix",
+      "ingredientId": "baby-leaf-mix",
+      "label": "Baby leaf mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "70 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "pickle-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the pickle",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "crumb-water",
+      "ingredientId": "water",
+      "label": "Water for the breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "mayonnaise",
+      "ingredientId": "mayonnaise",
+      "label": "Mayonnaise",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Pickle the carrot",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Soak the bamboo skewers in cold water. Peel and grate or press the garlic. Trim and peel the carrots, then use a peeler to shave long ribbons. Toss with rice vinegar, {{pickle-sugar}} sugar and salt, and set aside."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sach-ko-ang-meatball-baguette-1-sketch",
+        "path": "media/sach-ko-ang-meatball-baguette-1-sketch.webp",
+        "alt": "Pickle the carrot",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Make the meatballs",
+      "blocks": [
+        "Mix the garlic, soy sauce, ginger, garlic and lemongrass purée, breadcrumbs and {{crumb-water}} water. Add the beef and pork mince, season and mix well. Shape into six even meatballs per serving."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sach-ko-ang-meatball-baguette-2-sketch",
+        "path": "media/sach-ko-ang-meatball-baguette-2-sketch.webp",
+        "alt": "Make the meatballs",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Bake the skewers",
+      "blocks": [
+        "Thread the meatballs onto two skewers per serving and put them on a tray. Bake on the top shelf for 12–15 minutes until browned and cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the skewers",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "sach-ko-ang-meatball-baguette-3-sketch",
+        "path": "media/sach-ko-ang-meatball-baguette-3-sketch.webp",
+        "alt": "Bake the skewers",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Warm the baguette",
+      "blocks": [
+        "Bake the baguette on the middle shelf for 10–12 minutes until golden. Cool slightly. Crush the peanuts with a rolling pin."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Warm the baguette",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "sach-ko-ang-meatball-baguette-4-sketch",
+        "path": "media/sach-ko-ang-meatball-baguette-4-sketch.webp",
+        "alt": "Warm the baguette",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Finish the salad and glaze the meatballs",
+      "blocks": [
+        "Turn the cooked meatballs in {{honey}} honey. Toss the baby leaves with the carrot pickle and a drizzle of oil. Cut the baguette into serving portions and split each open."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sach-ko-ang-meatball-baguette-5-sketch",
+        "path": "media/sach-ko-ang-meatball-baguette-5-sketch.webp",
+        "alt": "Finish the salad and glaze the meatballs",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Spread {{mayonnaise}} mayonnaise across the baguette portions. Fill with the meatball skewers and a handful of salad. Close each baguette and slide out the skewers. Serve the remaining salad alongside and finish with crushed peanuts."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sach-ko-ang-meatball-baguette-6-sketch",
+        "path": "media/sach-ko-ang-meatball-baguette-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

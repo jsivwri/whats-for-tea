@@ -18,9 +18,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 15,
+      "maxMinutes": 20,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Prepare the pickle and vegetables, steam rice while frying steaks and vegetables"
+    },
+    "cook": {
+      "minMinutes": 20,
+      "maxMinutes": 25,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Prepare the pickle and vegetables, steam rice while frying steaks and vegetables"
+    },
+    "total": {
+      "minMinutes": 35,
+      "maxMinutes": 45,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Prepare the pickle and vegetables, steam rice while frying steaks and vegetables"
+    },
     "card": {
       "minMinutes": 35,
       "maxMinutes": 40,
@@ -447,7 +465,9 @@
       "blocks": [
         "Heat oil on high. Season steaks and fry 6–8 minutes for medium rare depending on thickness, turning halfway. Cook longer for your preferred doneness. Rest under foil for a couple of minutes. Wash hands and equipment after handling raw meat."
       ],
-      "notes": [],
+      "notes": [
+        "For more well-done steak, add about 1 minute on each side."
+      ],
       "timers": [
         {
           "id": "timer-1",
@@ -544,8 +564,8 @@
   "hero": {
     "id": "korean-rump-steak-bibimbap-hero",
     "path": "media/korean-rump-steak-bibimbap.webp",
-    "width": 960,
-    "height": 890,
+    "width": 1120,
+    "height": 800,
     "alt": "Korean Style Rump Steak Bibimbap with Pak Choi, Pickled Carrot and Sesame Seeds",
     "credit": "HelloFresh recipe card",
     "sizes": [
@@ -554,5 +574,6 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": []
 }

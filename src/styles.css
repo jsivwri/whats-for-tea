@@ -387,3 +387,5 @@ summary { cursor: pointer; font-weight: 680; padding-block: .23rem; color: var(-
   .results-line select { max-width: 155px; }
 }
 .dinner-photo { width: 100%; min-width: 0; overflow: hidden; }
+
+.season-labels { color: var(--muted); font-size: .8rem; margin: .35rem 0; }

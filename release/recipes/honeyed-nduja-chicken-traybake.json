@@ -1,0 +1,463 @@
+{
+  "id": "honeyed-nduja-chicken-traybake",
+  "slug": "honeyed-nduja-chicken-traybake",
+  "title": "Honeyed Chicken Thigh and Veggie ’Nduja Traybake",
+  "subtitle": "with Sesame Roast Potatoes, Kale and Green Beans",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2026-W06 · Card 33"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "honeyed-nduja-chicken-traybake",
+    "path": "media/honeyed-nduja-chicken-traybake.webp",
+    "width": 532,
+    "height": 622,
+    "alt": "Honeyed Chicken Thigh and Veggie ’Nduja Traybake",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/honeyed-nduja-chicken-traybake-thumb.webp",
+        "width": 411
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 8,
+      "maxMinutes": 12,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 32,
+      "maxMinutes": 42,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 40,
+      "maxMinutes": 50,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "40–45 min",
+      "minMinutes": 40,
+      "maxMinutes": 45,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Mixing bowls",
+    "Foil"
+  ],
+  "before": [],
+  "allergens": [
+    "Sesame",
+    "Egg if using egg-based mayonnaise"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sesame-seeds",
+      "ingredientId": "sesame-seeds",
+      "label": "Roasted white sesame seeds",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "7.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "10 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "green-beans",
+      "ingredientId": "green-beans",
+      "label": "Green beans",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "160 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "320 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-thigh",
+      "label": "British chicken thighs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "4"
+        },
+        "3": {
+          "status": "printed",
+          "text": "6"
+        },
+        "4": {
+          "status": "printed",
+          "text": "8"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "45 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "vegan-nduja",
+      "ingredientId": "vegan-nduja",
+      "label": "Vegan ’nduja",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "60 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "80 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "kale",
+      "ingredientId": "kale",
+      "label": "Kale",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mayonnaise",
+      "ingredientId": "mayonnaise",
+      "label": "Mayonnaise",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Roast the chunks",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Cut the unpeeled potatoes into 2 cm chunks. Toss with oil, salt, pepper and sesame seeds. Spread in a single layer on one or more baking trays. Roast on the top shelf for 30–40 minutes until golden, turning halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the chunks",
+          "seconds": [
+            1800,
+            2400
+          ]
+        }
+      ],
+      "image": {
+        "id": "honeyed-nduja-chicken-traybake-1-sketch",
+        "path": "media/honeyed-nduja-chicken-traybake-1-sketch.webp",
+        "alt": "Roast the chunks",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Prepare the beans",
+      "blocks": [
+        "Trim the beans. Toss with a drizzle of oil, salt and pepper on a sheet of foil and seal it into a parcel."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "honeyed-nduja-chicken-traybake-2-sketch",
+        "path": "media/honeyed-nduja-chicken-traybake-2-sketch.webp",
+        "alt": "Prepare the beans",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Start the beans and season the chicken",
+      "blocks": [
+        "Put the bean parcel on one side of a tray and roast on the middle shelf for 20–25 minutes in total. Meanwhile, season the chicken and rub with honey and vegan ’nduja to taste."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the beans",
+          "seconds": [
+            1200,
+            1500
+          ]
+        }
+      ],
+      "image": {
+        "id": "honeyed-nduja-chicken-traybake-3-sketch",
+        "path": "media/honeyed-nduja-chicken-traybake-3-sketch.webp",
+        "alt": "Start the beans and season the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Bake the chicken",
+      "blocks": [
+        "When the beans have about 15 minutes left, add the thighs to the tray alongside the parcel. Return to the oven and roast for 16–18 minutes until the chicken is browned and cooked through and the beans are tender."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the chicken",
+          "seconds": [
+            960,
+            1080
+          ]
+        }
+      ],
+      "image": {
+        "id": "honeyed-nduja-chicken-traybake-4-sketch",
+        "path": "media/honeyed-nduja-chicken-traybake-4-sketch.webp",
+        "alt": "Bake the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Roast the kale",
+      "blocks": [
+        "When the potatoes have about 8 minutes left, spread the kale alongside them. Drizzle with oil and season. Return the tray to the oven for 7–8 minutes until the kale is crisp."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Crisp the kale",
+          "seconds": [
+            420,
+            480
+          ]
+        }
+      ],
+      "image": {
+        "id": "honeyed-nduja-chicken-traybake-5-sketch",
+        "path": "media/honeyed-nduja-chicken-traybake-5-sketch.webp",
+        "alt": "Roast the kale",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Serve the chicken thighs with the roast potatoes, kale and green beans, and {{mayonnaise}} mayonnaise in total for dipping."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "honeyed-nduja-chicken-traybake-6-sketch",
+        "path": "media/honeyed-nduja-chicken-traybake-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

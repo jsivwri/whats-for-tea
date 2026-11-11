@@ -1,0 +1,501 @@
+{
+  "id": "curried-chicken-thigh-traybake-card-72",
+  "slug": "curried-chicken-thigh-traybake-card-72",
+  "title": "Curried Chicken Thigh Traybake",
+  "subtitle": "with Cumin Roast Potatoes, Carrots and Green Beans",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2026-W34 · Card 72"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "curried-chicken-thigh-traybake-card-72",
+    "path": "media/curried-chicken-thigh-traybake-card-72.webp",
+    "width": 1120,
+    "height": 802,
+    "alt": "Curried Chicken Thigh Traybake",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/curried-chicken-thigh-traybake-card-72-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 8,
+      "maxMinutes": 12,
+      "provenance": "Chop potatoes, trim carrots and beans and coat the chicken.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 30,
+      "maxMinutes": 42,
+      "provenance": "Potatoes and chicken roast on separate shelves while beans boil.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 36,
+      "maxMinutes": 47,
+      "provenance": "Initial chopping and preheating are followed by overlapping roasting and bean cooking.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "35–40 min",
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Bowl",
+    "Kettle",
+    "Saucepan",
+    "Colander"
+  ],
+  "before": [],
+  "allergens": [
+    "Mustard"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cumin-seeds",
+      "ingredientId": "cumin-seeds",
+      "label": "White cumin seeds",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "carrot",
+      "ingredientId": "carrot",
+      "label": "Carrots",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-thigh",
+      "label": "British chicken thighs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "4"
+        },
+        "3": {
+          "status": "printed",
+          "text": "6"
+        },
+        "4": {
+          "status": "printed",
+          "text": "8"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "korma-curry-paste",
+      "ingredientId": "korma-curry-paste",
+      "label": "Korma curry paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mango-chutney",
+      "ingredientId": "mango-chutney",
+      "label": "Mango chutney",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "60 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "80 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "green-beans",
+      "ingredientId": "green-beans",
+      "label": "Green beans",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "160 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "320 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mayonnaise",
+      "ingredientId": "mayonnaise",
+      "label": "Mayonnaise",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "4 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "bean-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the bean water",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "olive-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the beans",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Roast the potatoes",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7. Cut the unpeeled potatoes into 2 cm chunks.",
+        "Toss the potatoes with oil, the white cumin seeds, salt and pepper. Spread in a single layer on a large baking tray, using a second tray if needed.",
+        "Roast on the middle shelf for 30–40 minutes until golden, turning halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the potatoes",
+          "seconds": [
+            1800,
+            2400
+          ]
+        }
+      ],
+      "image": {
+        "id": "curried-chicken-thigh-traybake-1-sketch",
+        "path": "media/curried-chicken-thigh-traybake-1-sketch.webp",
+        "alt": "Roast the potatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Prep the carrots",
+      "blocks": [
+        "While the potatoes roast, trim the unpeeled carrots and halve lengthways. Cut into batons about 1 cm wide and 5 cm long.",
+        "Put the carrots on one side of another large tray and toss with oil, salt and pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "curried-chicken-thigh-traybake-2-sketch",
+        "path": "media/curried-chicken-thigh-traybake-2-sketch.webp",
+        "alt": "Prep the carrots",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Flavour the chicken",
+      "blocks": [
+        "Lay the chicken thighs flat on the other side of the carrot tray, using two trays if needed. Drizzle with oil, season with salt and pepper and spread the curry paste over the chicken.",
+        "Wash hands and equipment after handling raw chicken and its packaging."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "curried-chicken-thigh-traybake-3-sketch",
+        "path": "media/curried-chicken-thigh-traybake-3-sketch.webp",
+        "alt": "Flavour the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Time to traybake",
+      "blocks": [
+        "Roast the carrots and chicken on the top shelf for 20–25 minutes, until the carrots are tender and the chicken is cooked through with no pink in the middle. Turn the carrots halfway through.",
+        "Mix the mango chutney with {{mayonnaise}} mayonnaise in a small bowl and set aside."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the chicken and carrots",
+          "seconds": [
+            1200,
+            1500
+          ]
+        }
+      ],
+      "image": {
+        "id": "curried-chicken-thigh-traybake-4-sketch",
+        "path": "media/curried-chicken-thigh-traybake-4-sketch.webp",
+        "alt": "Time to traybake",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Cook the beans",
+      "blocks": [
+        "Once everything is nearly ready, boil half a kettle and trim the green beans. Pour the boiled water into a saucepan with {{bean-salt}} salt and bring it back to the boil on high.",
+        "Add the beans and cook for 4–6 minutes until just tender. Drain and return to the pan. Season with salt and pepper and toss in olive oil."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Boil the beans",
+          "seconds": [
+            240,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "curried-chicken-thigh-traybake-5-sketch",
+        "path": "media/curried-chicken-thigh-traybake-5-sketch.webp",
+        "alt": "Cook the beans",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Serve the curried chicken and carrots, spooning over the tray juices if you like. Add the cumin roast potatoes, beans and mango chutney mayo for dipping."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "curried-chicken-thigh-traybake-6-sketch",
+        "path": "media/curried-chicken-thigh-traybake-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

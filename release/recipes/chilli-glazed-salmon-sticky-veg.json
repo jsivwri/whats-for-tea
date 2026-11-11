@@ -1,0 +1,541 @@
+{
+  "id": "chilli-glazed-salmon-sticky-veg",
+  "slug": "chilli-glazed-salmon-sticky-veg",
+  "title": "Chilli Glazed Salmon and Sticky Veg",
+  "subtitle": "with Garlic Yoghurt Drizzle and Salad",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2025-W34 · Card 10"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "chilli-glazed-salmon-sticky-veg",
+    "path": "media/chilli-glazed-salmon-sticky-veg.webp",
+    "width": 1120,
+    "height": 793,
+    "alt": "Chilli Glazed Salmon and Sticky Veg",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/chilli-glazed-salmon-sticky-veg-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 7,
+      "maxMinutes": 11,
+      "provenance": "Chop the potatoes and onion, then roast garlic and salmon and mix the salad while the vegetables cook.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 30,
+      "maxMinutes": 40,
+      "provenance": "Chop the potatoes and onion, then roast garlic and salmon and mix the salad while the vegetables cook.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 36,
+      "maxMinutes": 48,
+      "provenance": "Chop the potatoes and onion, then roast garlic and salmon and mix the salad while the vegetables cook.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "30–40 min",
+      "minMinutes": 30,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Foil",
+    "Baking paper",
+    "Baking trays",
+    "Bowls",
+    "Kitchen scissors"
+  ],
+  "before": [],
+  "allergens": [
+    "Fish",
+    "Milk",
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw fish."
+  ],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-onion",
+      "ingredientId": "red-onion",
+      "label": "Red onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "roasted-spice-herb-blend",
+      "ingredientId": "roasted-spice-herb-blend",
+      "label": "Roasted spice and herb blend",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "3": {
+          "status": "printed",
+          "text": "4"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "salmon-fillet",
+      "ingredientId": "salmon-fillet",
+      "label": "Salmon fillets",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "300 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "400 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-cucumber",
+      "ingredientId": "baby-cucumber",
+      "label": "Baby cucumbers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cider-vinegar",
+      "ingredientId": "cider-vinegar",
+      "label": "Cider vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "22.5 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "greek-style-yoghurt",
+      "ingredientId": "greek-style-yoghurt",
+      "label": "Greek style natural yoghurt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-pepper-chilli-jelly",
+      "ingredientId": "red-pepper-chilli-jelly",
+      "label": "Red pepper chilli jelly",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "37.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-leaf-salad",
+      "ingredientId": "baby-leaf-salad",
+      "label": "Baby leaf mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "70 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "dressing-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the dressing",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "dressing-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the dressing",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Get prepped",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7. Chop the unpeeled potatoes into 1 cm chunks. Peel and halve the onion and cut each half into 3 wedges.",
+        "Toss the veg with oil, half the spice and herb blend, salt and pepper. Spread out in a single layer, using two trays if needed."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chilli-glazed-salmon-sticky-veg-1-sketch",
+        "path": "media/chilli-glazed-salmon-sticky-veg-1-sketch.webp",
+        "alt": "Get prepped",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Roast the veg",
+      "blocks": [
+        "Roast the veg on the middle shelf for 30–40 minutes, turning halfway. Wrap the unpeeled garlic in foil with a drizzle of oil. Roast the parcel for 10–12 minutes until soft."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the vegetables",
+          "seconds": [
+            1800,
+            2400
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Roast the garlic",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "chilli-glazed-salmon-sticky-veg-2-sketch",
+        "path": "media/chilli-glazed-salmon-sticky-veg-2-sketch.webp",
+        "alt": "Roast the veg",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Bake the salmon",
+      "blocks": [
+        "Lay the salmon skin-side down on a lined tray. Season with salt and pepper and sprinkle with the remaining spice blend. Roast on the top shelf for 10–15 minutes, until cooked through and opaque in the middle.",
+        "Wash hands and equipment after handling raw fish."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the salmon",
+          "seconds": [
+            600,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "chilli-glazed-salmon-sticky-veg-3-sketch",
+        "path": "media/chilli-glazed-salmon-sticky-veg-3-sketch.webp",
+        "alt": "Bake the salmon",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Dress the cucumber",
+      "blocks": [
+        "Trim the cucumber and cut into 1 cm pieces. Toss with cider vinegar, {{dressing-sugar}} sugar, {{dressing-oil}} olive oil, salt and pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chilli-glazed-salmon-sticky-veg-4-sketch",
+        "path": "media/chilli-glazed-salmon-sticky-veg-4-sketch.webp",
+        "alt": "Dress the cucumber",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Finish the glaze and yoghurt",
+      "blocks": [
+        "Squeeze the cooled garlic out of its skin, mash with a fork and stir into the yoghurt. Season. Drizzle half the chilli jelly over the cooked salmon and toss the rest through the roasted veg.",
+        "Toss the baby leaves through the cucumber dressing."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chilli-glazed-salmon-sticky-veg-5-sketch",
+        "path": "media/chilli-glazed-salmon-sticky-veg-5-sketch.webp",
+        "alt": "Finish the glaze and yoghurt",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Serve the salmon with sticky veg and salad. Drizzle over the garlic yoghurt."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chilli-glazed-salmon-sticky-veg-6-sketch",
+        "path": "media/chilli-glazed-salmon-sticky-veg-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

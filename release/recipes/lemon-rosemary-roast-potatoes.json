@@ -1,0 +1,241 @@
+{
+  "id": "lemon-rosemary-roast-potatoes",
+  "slug": "lemon-rosemary-roast-potatoes",
+  "title": "Lemon & Rosemary Roast Potatoes",
+  "subtitle": "Smashed for crisp edges",
+  "provider": "JP’s Kitchen",
+  "source": {
+    "label": "JP’s Kitchen · Christmas Sides",
+    "edition": "Serves 6"
+  },
+  "added": "2026-11-10",
+  "description": "Adapted from Tesco Real Food magazine clippings, as credited on the card.",
+  "hero": {
+    "id": "lemon-rosemary-roast-potatoes",
+    "path": "media/lemon-rosemary-roast-potatoes.webp",
+    "width": 633,
+    "height": 580,
+    "alt": "Golden roast potatoes with lemon zest and rosemary",
+    "credit": "JP’s Kitchen recipe card",
+    "sizes": [
+      {
+        "path": "media/lemon-rosemary-roast-potatoes-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "aliases": [],
+  "themes": [
+    "Side dishes"
+  ],
+  "seasons": [
+    "Winter",
+    "Christmas"
+  ],
+  "timings": {
+    "prep": {
+      "minMinutes": 10,
+      "maxMinutes": 15,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Peel and cut the potatoes, then zest lemons and strip rosemary while the potatoes cook.",
+      "estimated": true
+    },
+    "cook": {
+      "minMinutes": 104,
+      "maxMinutes": 110,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Parboiling and steam-drying precede the 60-minute and 30-minute roasts.",
+      "estimated": true
+    },
+    "total": {
+      "minMinutes": 115,
+      "maxMinutes": 125,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Allow for peeling, bringing water to the boil, parboiling and both roasting stages.",
+      "estimated": true
+    },
+    "card": {
+      "minMinutes": 120,
+      "maxMinutes": 120,
+      "sourceLabel": "2 hrs",
+      "provenance": "Printed time on the Christmas Sides cover"
+    }
+  },
+  "servings": [
+    6
+  ],
+  "defaultServings": 6,
+  "equipment": [
+    "Baking trays",
+    "Saucepan",
+    "Colander",
+    "Tongs",
+    "Potato masher",
+    "Fine grater"
+  ],
+  "before": [
+    "To get ahead, parboil, rough up and coat the potatoes with the recipe oil a day ahead. Cool, cover and chill. Bring to room temperature and transfer to the hot trays. Add 5–10 minutes if needed."
+  ],
+  "allergens": [],
+  "cautions": [],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Maris Piper or King Edward potatoes",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "amount": 1.5,
+          "text": "1.5 kg",
+          "unit": "kg"
+        }
+      },
+      "optional": false,
+      "group": "box"
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil, duck fat or goose fat",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "amount": 3,
+          "text": "3 tbsp",
+          "unit": "tbsp"
+        }
+      },
+      "optional": false,
+      "group": "bring"
+    },
+    {
+      "id": "lemon",
+      "ingredientId": "lemon",
+      "label": "Unwaxed lemons",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "amount": 1.5,
+          "text": "1½ lemons",
+          "unit": "lemon"
+        }
+      },
+      "optional": false,
+      "group": "box"
+    },
+    {
+      "id": "rosemary",
+      "ingredientId": "rosemary",
+      "label": "Fresh rosemary leaves",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "amount": 7.5,
+          "text": "7.5 g",
+          "unit": "g"
+        }
+      },
+      "optional": false,
+      "group": "box"
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "optional": false,
+      "group": "bring"
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "optional": false,
+      "group": "bring"
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Parboil the potatoes",
+      "blocks": [
+        "Heat your oven to 200°C / 180°C fan / gas mark 6 with two baking trays inside. Peel and cut {{potatoes}} potatoes into chunks.",
+        "Boil for 12–15 minutes until tender. Drain and steam-dry for 2 minutes, then shake in the colander to rough up the edges."
+      ],
+      "notes": [],
+      "image": {
+        "id": "christmas-sides-1-sketch",
+        "path": "media/christmas-sides-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Parboiled potato chunks in a saucepan",
+        "credit": "Illustration based on the JP’s Kitchen recipe card"
+      },
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Parboil the potatoes",
+          "seconds": [
+            720,
+            900
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Steam-dry",
+          "seconds": [
+            120
+          ]
+        }
+      ],
+      "id": "step-1",
+      "number": 1
+    },
+    {
+      "heading": "Roast, then smash",
+      "blocks": [
+        "Carefully divide {{neutral-oil}} oil or fat between the hot trays. Add the potatoes and turn with tongs to coat. Roast for 1 hour, turning halfway.",
+        "Press each chunk lightly with a masher. Add the zest of {{lemon}} and the rosemary. Turn in the hot fat, then roast for 30 minutes more until crisp and golden."
+      ],
+      "notes": [],
+      "image": {
+        "id": "christmas-sides-2-sketch",
+        "path": "media/christmas-sides-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Golden potato chunks on a roasting tray",
+        "credit": "Illustration based on the JP’s Kitchen recipe card"
+      },
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "First roast",
+          "seconds": [
+            3600
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Roast until crisp",
+          "seconds": [
+            1800
+          ]
+        }
+      ],
+      "id": "step-2",
+      "number": 2
+    }
+  ],
+  "variants": []
+}

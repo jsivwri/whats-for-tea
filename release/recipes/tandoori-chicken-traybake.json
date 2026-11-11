@@ -1,0 +1,853 @@
+{
+  "id": "tandoori-chicken-traybake",
+  "slug": "tandoori-chicken-traybake",
+  "title": "Fuss-Free Tandoori Inspired Chicken Traybake",
+  "subtitle": "with Potatoes, Tomatoes and Yoghurt Drizzle",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2024-W44 · Card 45"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "tandoori-chicken-traybake",
+    "path": "media/tandoori-chicken-traybake.webp",
+    "width": 1120,
+    "height": 760,
+    "alt": "Fuss-Free Tandoori Inspired Chicken Traybake",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/tandoori-chicken-traybake-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer",
+    "Autumn"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 7,
+      "maxMinutes": 10,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 27,
+      "maxMinutes": 36,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 35,
+      "maxMinutes": 44,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "35–40 min",
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Mixing bowls",
+    "Garlic press"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Mustard"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-thigh",
+      "label": "British chicken thighs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "4"
+        },
+        "3": {
+          "status": "printed",
+          "text": "6"
+        },
+        "4": {
+          "status": "printed",
+          "text": "8"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "korma-curry-paste",
+      "ingredientId": "korma-curry-paste",
+      "label": "Korma curry paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "natural-yoghurt",
+      "ingredientId": "natural-yoghurt",
+      "label": "Low fat natural yoghurt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "green-pepper",
+      "ingredientId": "bell-pepper",
+      "label": "Green peppers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tandoori-masala-mix",
+      "ingredientId": "tandoori-masala-mix",
+      "label": "Tandoori masala mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-plum-tomatoes",
+      "ingredientId": "baby-plum-tomatoes",
+      "label": "Baby plum tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "125 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "190 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "dressing-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the dressing",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Marinate the chicken",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Peel and grate or press the garlic. Toss the chicken with the garlic, korma paste, half the yoghurt and salt. Set aside."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "tandoori-chicken-traybake-1-sketch",
+        "path": "media/tandoori-chicken-traybake-1-sketch.webp",
+        "alt": "Marinate the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Prepare the potatoes and pepper",
+      "blocks": [
+        "Cut the unpeeled potatoes into 2 cm chunks. Deseed the green pepper and cut into 2 cm pieces."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "tandoori-chicken-traybake-2-sketch",
+        "path": "media/tandoori-chicken-traybake-2-sketch.webp",
+        "alt": "Prepare the potatoes and pepper",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Roast the spiced potatoes",
+      "blocks": [
+        "Toss the potato chunks with oil, salt, pepper and tandoori masala. Spread in one layer on one or more trays and roast on the top shelf for 25–35 minutes until golden, turning halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the spiced potatoes",
+          "seconds": [
+            1500,
+            2100
+          ]
+        }
+      ],
+      "image": {
+        "id": "tandoori-chicken-traybake-3-sketch",
+        "path": "media/tandoori-chicken-traybake-3-sketch.webp",
+        "alt": "Roast the spiced potatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Roast the chicken and peppers",
+      "blocks": [
+        "Toss the green pepper with oil, salt and pepper on one side of a large tray. Lay the marinated chicken on the other side. Roast on the middle shelf for 16–18 minutes, turning halfway, until the chicken is cooked through and the pepper is golden."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the chicken",
+          "seconds": [
+            960,
+            1080
+          ]
+        }
+      ],
+      "image": {
+        "id": "tandoori-chicken-traybake-4-sketch",
+        "path": "media/tandoori-chicken-traybake-4-sketch.webp",
+        "alt": "Roast the chicken and peppers",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Dress the tomatoes",
+      "blocks": [
+        "Halve the baby plum tomatoes, season and toss with {{dressing-oil}} olive oil."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "tandoori-chicken-traybake-5-sketch",
+        "path": "media/tandoori-chicken-traybake-5-sketch.webp",
+        "alt": "Dress the tomatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Serve with the roasted peppers and spiced potatoes. Spoon over the dressed tomatoes and drizzle with the remaining yoghurt."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "tandoori-chicken-traybake-6-sketch",
+        "path": "media/tandoori-chicken-traybake-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "swap-chicken-breast",
+      "label": "Swap to chicken breast",
+      "ingredients": [
+        {
+          "id": "garlic",
+          "ingredientId": "garlic",
+          "label": "Garlic cloves",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken",
+          "ingredientId": "chicken-breast",
+          "label": "British chicken breasts",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "korma-curry-paste",
+          "ingredientId": "korma-curry-paste",
+          "label": "Korma curry paste",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "50 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "75 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "100 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "natural-yoghurt",
+          "ingredientId": "natural-yoghurt",
+          "label": "Low fat natural yoghurt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "75 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "150 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "150 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "potatoes",
+          "ingredientId": "potatoes",
+          "label": "Potatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "450 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "700 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "900 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "green-pepper",
+          "ingredientId": "bell-pepper",
+          "label": "Green peppers",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "tandoori-masala-mix",
+          "ingredientId": "tandoori-masala-mix",
+          "label": "Tandoori masala mix",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "baby-plum-tomatoes",
+          "ingredientId": "baby-plum-tomatoes",
+          "label": "Baby plum tomatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "125 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "190 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "250 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "dressing-oil",
+          "ingredientId": "olive-oil",
+          "label": "Olive oil for the dressing",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "½ tbsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1 tbsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "1½ tbsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Marinate the chicken",
+          "blocks": [
+            "Preheat the oven to 220°C (200°C fan, gas 7). Peel and grate or press the garlic. Toss the chicken with the garlic, korma paste, half the yoghurt and salt. Set aside."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "tandoori-chicken-traybake-1-sketch",
+            "path": "media/tandoori-chicken-traybake-1-sketch.webp",
+            "alt": "Marinate the chicken",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Prepare the potatoes and pepper",
+          "blocks": [
+            "Cut the unpeeled potatoes into 2 cm chunks. Deseed the green pepper and cut into 2 cm pieces."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "tandoori-chicken-traybake-2-sketch",
+            "path": "media/tandoori-chicken-traybake-2-sketch.webp",
+            "alt": "Prepare the potatoes and pepper",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Roast the spiced potatoes",
+          "blocks": [
+            "Toss the potato chunks with oil, salt, pepper and tandoori masala. Spread in one layer on one or more trays and roast on the middle shelf for 30–40 minutes until golden, turning halfway."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Roast the spiced potatoes",
+              "seconds": [
+                1800,
+                2400
+              ]
+            }
+          ],
+          "image": {
+            "id": "tandoori-chicken-traybake-3-sketch",
+            "path": "media/tandoori-chicken-traybake-3-sketch.webp",
+            "alt": "Roast the spiced potatoes",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Roast the chicken and peppers",
+          "blocks": [
+            "Toss the green pepper with oil, salt and pepper on one side of a large tray. Lay the marinated chicken on the other side. Roast on the top shelf for 25–30 minutes, turning halfway, until the chicken is cooked through and the pepper is golden."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Roast the chicken",
+              "seconds": [
+                1500,
+                1800
+              ]
+            }
+          ],
+          "image": {
+            "id": "tandoori-chicken-traybake-4-sketch",
+            "path": "media/tandoori-chicken-traybake-4-sketch.webp",
+            "alt": "Roast the chicken and peppers",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Dress the tomatoes",
+          "blocks": [
+            "Halve the baby plum tomatoes, season and toss with {{dressing-oil}} olive oil."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "tandoori-chicken-traybake-5-sketch",
+            "path": "media/tandoori-chicken-traybake-5-sketch.webp",
+            "alt": "Dress the tomatoes",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Serve",
+          "blocks": [
+            "Slice the chicken into 1 cm pieces. Serve with the roasted peppers and spiced potatoes. Spoon over the dressed tomatoes and drizzle with the remaining yoghurt."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "tandoori-chicken-traybake-6-sketch",
+            "path": "media/tandoori-chicken-traybake-6-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

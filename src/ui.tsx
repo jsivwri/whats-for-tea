@@ -49,6 +49,7 @@ export function Card({ recipe, catalogue, saved, onSave, compact, match, tools }
       <div className="card-copy">
         <div className="card-meta"><span>{recipe.provider}</span>{timing && <span className="time-tag"><Clock3 size={14} /> {timeText(timing)} {kind}</span>}</div>
         <h3>{recipe.title}</h3>
+        {!!recipe.seasons?.length && <p className="season-labels">{recipe.seasons.join(' · ')}</p>}
         {!compact && <p className="card-caption">{recipe.description || recipe.subtitle || recipe.themes[0]}</p>}
         {match && tools && <p className="match-preview">{match.matched.length ? `Uses your ${match.matched.slice(0, 3).map(tools.label).join(', ')}` : 'Possible match'}<span> · </span>
           {match.missing.length ? `${plural(match.missing.length, 'item')} needed` : 'No missing items'}</p>}

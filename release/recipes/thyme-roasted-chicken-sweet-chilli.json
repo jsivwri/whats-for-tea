@@ -1,0 +1,1024 @@
+{
+  "id": "thyme-roasted-chicken-sweet-chilli",
+  "slug": "thyme-roasted-chicken-sweet-chilli",
+  "title": "Thyme Roasted Chicken",
+  "subtitle": "with Roasted Veggies and Sweet Chilli Glaze",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 1"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "thyme-roasted-chicken-sweet-chilli",
+    "path": "media/thyme-roasted-chicken-sweet-chilli.webp",
+    "width": 1120,
+    "height": 876,
+    "alt": "Thyme Roasted Chicken",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/thyme-roasted-chicken-sweet-chilli-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 10,
+      "maxMinutes": 14,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 30,
+      "maxMinutes": 42,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 42,
+      "maxMinutes": 52,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "45 min",
+      "minMinutes": 45,
+      "maxMinutes": 45,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Mixing bowls",
+    "Frying pan",
+    "Foil"
+  ],
+  "before": [],
+  "allergens": [],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-onion",
+      "ingredientId": "red-onion",
+      "label": "Red onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "carrot",
+      "ingredientId": "carrot",
+      "label": "Carrots",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "bell-pepper",
+      "ingredientId": "bell-pepper",
+      "label": "Bell peppers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "flat-leaf-parsley",
+      "ingredientId": "flat-leaf-parsley",
+      "label": "Flat leaf parsley",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 bunch"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "British chicken breasts",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "marinade-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the marinade",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "dried-thyme",
+      "ingredientId": "dried-thyme",
+      "label": "Dried thyme",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "glaze-water",
+      "ingredientId": "water",
+      "label": "Water for the glaze",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-paste",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sweet-chilli-sauce",
+      "ingredientId": "sweet-chilli-sauce",
+      "label": "Sweet chilli sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "32 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "64 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "64 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Roast the wedges",
+      "blocks": [
+        "Preheat the oven to 200°C. Cut the unpeeled potatoes into 2 cm wedges. Toss with oil, salt, pepper. Spread in a single layer on one or more baking trays. Roast on the middle shelf for 30–40 minutes until golden, turning halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the wedges",
+          "seconds": [
+            1800,
+            2400
+          ]
+        }
+      ],
+      "image": {
+        "id": "thyme-roasted-chicken-sweet-chilli-1-sketch",
+        "path": "media/thyme-roasted-chicken-sweet-chilli-1-sketch.webp",
+        "alt": "Roast the wedges",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Prepare the vegetables",
+      "blocks": [
+        "Peel and wedge the red onion. Trim and halve the unpeeled carrots lengthways, then cut into 1 cm by 5 cm batons. Deseed the pepper and slice it into 1 cm strips. Roughly chop the parsley, including its stalks."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "thyme-roasted-chicken-sweet-chilli-2-sketch",
+        "path": "media/thyme-roasted-chicken-sweet-chilli-2-sketch.webp",
+        "alt": "Prepare the vegetables",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Marinate the chicken and roast the vegetables",
+      "blocks": [
+        "Mix the chicken with {{marinade-oil}} olive oil, half the dried thyme, salt and pepper. Set aside. Toss the onion, carrots and peppers on a tray with oil, the remaining thyme, salt and pepper. Roast on the top shelf for 25–30 minutes until soft and golden, turning halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the vegetables",
+          "seconds": [
+            1500,
+            1800
+          ]
+        }
+      ],
+      "image": {
+        "id": "thyme-roasted-chicken-sweet-chilli-3-sketch",
+        "path": "media/thyme-roasted-chicken-sweet-chilli-3-sketch.webp",
+        "alt": "Marinate the chicken and roast the vegetables",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Brown and roast the chicken",
+      "blocks": [
+        "While the vegetables roast, brown the chicken in a little oil over medium-high for 3–5 minutes per side. After the vegetables have roasted for 10 minutes, put the chicken on top and roast for the remaining 15–20 minutes until cooked through. Transfer the cooked chicken to a board and rest loosely covered with foil. Keep the frying pan for the glaze."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown each side",
+          "seconds": [
+            180,
+            300
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Roast the chicken",
+          "seconds": [
+            900,
+            1200
+          ]
+        }
+      ],
+      "image": {
+        "id": "thyme-roasted-chicken-sweet-chilli-4-sketch",
+        "path": "media/thyme-roasted-chicken-sweet-chilli-4-sketch.webp",
+        "alt": "Brown and roast the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Make the glaze",
+      "blocks": [
+        "Return the frying pan to medium heat. Add {{glaze-water}} water and the stock paste, bring to the boil, then simmer for 1–2 minutes. Stir in the sweet chilli sauce and simmer for 3–4 minutes until glossy and thickened. Take off the heat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the stock",
+          "seconds": [
+            60,
+            120
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Thicken the glaze",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "thyme-roasted-chicken-sweet-chilli-5-sketch",
+        "path": "media/thyme-roasted-chicken-sweet-chilli-5-sketch.webp",
+        "alt": "Make the glaze",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Cut each breast into five slices. Toss the wedges and roasted vegetables with the parsley, then serve with the chicken. Reheat the glaze with a splash of water if needed and spoon over."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "thyme-roasted-chicken-sweet-chilli-6-sketch",
+        "path": "media/thyme-roasted-chicken-sweet-chilli-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "add-bacon",
+      "label": "Add bacon lardons",
+      "ingredients": [
+        {
+          "id": "potatoes",
+          "ingredientId": "potatoes",
+          "label": "Potatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "450 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "700 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "900 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "red-onion",
+          "ingredientId": "red-onion",
+          "label": "Red onions",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "carrot",
+          "ingredientId": "carrot",
+          "label": "Carrots",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "bell-pepper",
+          "ingredientId": "bell-pepper",
+          "label": "Bell peppers",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "flat-leaf-parsley",
+          "ingredientId": "flat-leaf-parsley",
+          "label": "Flat leaf parsley",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 bunch"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1 bunch"
+            },
+            "4": {
+              "status": "printed",
+              "text": "1 bunch"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken",
+          "ingredientId": "chicken-breast",
+          "label": "British chicken breasts",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "bacon-lardons",
+          "ingredientId": "bacon-lardons",
+          "label": "Bacon lardons",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "90 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "120 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "180 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "marinade-oil",
+          "ingredientId": "olive-oil",
+          "label": "Olive oil for the marinade",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 tbsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ tbsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 tbsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "dried-thyme",
+          "ingredientId": "dried-thyme",
+          "label": "Dried thyme",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2 sachets"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "glaze-water",
+          "ingredientId": "water",
+          "label": "Water for the glaze",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "100 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "150 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "200 ml"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "chicken-stock-paste",
+          "ingredientId": "chicken-stock-paste",
+          "label": "Chicken stock paste",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "10 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "15 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "20 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sweet-chilli-sauce",
+          "ingredientId": "sweet-chilli-sauce",
+          "label": "Sweet chilli sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "32 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "64 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "64 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Roast the wedges",
+          "blocks": [
+            "Preheat the oven to 200°C. Cut the unpeeled potatoes into 2 cm wedges. Toss with oil, salt, pepper. Spread in a single layer on one or more baking trays. Roast on the middle shelf for 30–40 minutes until golden, turning halfway."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Roast the wedges",
+              "seconds": [
+                1800,
+                2400
+              ]
+            }
+          ],
+          "image": {
+            "id": "thyme-roasted-chicken-sweet-chilli-1-sketch",
+            "path": "media/thyme-roasted-chicken-sweet-chilli-1-sketch.webp",
+            "alt": "Roast the wedges",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Prepare the vegetables",
+          "blocks": [
+            "Peel and wedge the red onion. Trim and halve the unpeeled carrots lengthways, then cut into 1 cm by 5 cm batons. Deseed the pepper and slice it into 1 cm strips. Roughly chop the parsley, including its stalks."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "thyme-roasted-chicken-sweet-chilli-2-sketch",
+            "path": "media/thyme-roasted-chicken-sweet-chilli-2-sketch.webp",
+            "alt": "Prepare the vegetables",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Marinate the chicken and roast the vegetables",
+          "blocks": [
+            "Mix the chicken with {{marinade-oil}} olive oil, half the dried thyme, salt and pepper. Set aside. Toss the onion, carrots and peppers on a tray with oil, the remaining thyme, salt and pepper. Roast on the top shelf for 25–30 minutes until soft and golden, turning halfway."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Roast the vegetables",
+              "seconds": [
+                1500,
+                1800
+              ]
+            }
+          ],
+          "image": {
+            "id": "thyme-roasted-chicken-sweet-chilli-3-sketch",
+            "path": "media/thyme-roasted-chicken-sweet-chilli-3-sketch.webp",
+            "alt": "Marinate the chicken and roast the vegetables",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Brown and roast the chicken",
+          "blocks": [
+            "While the vegetables roast, brown the chicken in a little oil over medium-high for 3–5 minutes per side. After the vegetables have roasted for 10 minutes, scatter the bacon over them, then put the chicken on top and roast for the remaining 15–20 minutes until cooked through. Cook the bacon thoroughly. Transfer the cooked chicken to a board and rest loosely covered with foil. Keep the frying pan for the glaze."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Brown each side",
+              "seconds": [
+                180,
+                300
+              ]
+            },
+            {
+              "id": "timer-2",
+              "label": "Roast the chicken",
+              "seconds": [
+                900,
+                1200
+              ]
+            }
+          ],
+          "image": {
+            "id": "thyme-roasted-chicken-sweet-chilli-4-sketch",
+            "path": "media/thyme-roasted-chicken-sweet-chilli-4-sketch.webp",
+            "alt": "Brown and roast the chicken",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Make the glaze",
+          "blocks": [
+            "Return the frying pan to medium heat. Add {{glaze-water}} water and the stock paste, bring to the boil, then simmer for 1–2 minutes. Stir in the sweet chilli sauce and simmer for 3–4 minutes until glossy and thickened. Take off the heat."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Simmer the stock",
+              "seconds": [
+                60,
+                120
+              ]
+            },
+            {
+              "id": "timer-2",
+              "label": "Thicken the glaze",
+              "seconds": [
+                180,
+                240
+              ]
+            }
+          ],
+          "image": {
+            "id": "thyme-roasted-chicken-sweet-chilli-5-sketch",
+            "path": "media/thyme-roasted-chicken-sweet-chilli-5-sketch.webp",
+            "alt": "Make the glaze",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Serve",
+          "blocks": [
+            "Cut each breast into five slices. Toss the wedges and roasted vegetables with the parsley, then serve with the chicken. Reheat the glaze with a splash of water if needed and spoon over."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "thyme-roasted-chicken-sweet-chilli-6-sketch",
+            "path": "media/thyme-roasted-chicken-sweet-chilli-6-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

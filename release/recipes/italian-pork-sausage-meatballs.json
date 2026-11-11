@@ -18,9 +18,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 5,
+      "maxMinutes": 8,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Boil potatoes and roast meatballs while frying pepper and finishing the sauce."
+    },
+    "cook": {
+      "minMinutes": 17,
+      "maxMinutes": 22,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Boil potatoes and roast meatballs while frying pepper and finishing the sauce."
+    },
+    "total": {
+      "minMinutes": 22,
+      "maxMinutes": 29,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Boil potatoes and roast meatballs while frying pepper and finishing the sauce."
+    },
     "card": {
       "minMinutes": 20,
       "maxMinutes": 25,
@@ -558,9 +576,9 @@
   "hero": {
     "id": "italian-pork-sausage-meatballs-hero",
     "path": "media/italian-pork-sausage-meatballs.webp",
-    "width": 960,
-    "height": 893,
-    "alt": "Italian Style Pork and Oregano Sausage Meatballs with Bell Pepper, Tomato & Spinach Sauce, Cheese and Mash",
+    "width": 1120,
+    "height": 790,
+    "alt": "Pork and oregano sausage meatballs in tomato sauce over mash",
     "credit": "HelloFresh recipe card",
     "sizes": [
       {
@@ -568,5 +586,9 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ]
 }

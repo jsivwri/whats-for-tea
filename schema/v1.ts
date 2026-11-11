@@ -12,7 +12,8 @@ const asset = z.object({
   alt: z.string().max(240), credit: label,
   sizes: z.array(z.object({ path: z.string().regex(imagePath), width: number.max(3000) })).optional(),
 })
-const range = z.object({ minMinutes: number, maxMinutes: number, sourceLabel: label, provenance: label })
+export const seasons = ['Spring', 'Summer', 'Autumn', 'Winter', 'Christmas', 'Easter'] as const
+const range = z.object({ minMinutes: number, maxMinutes: number, sourceLabel: label, provenance: label, estimated: z.boolean().optional() })
   .refine(x => x.minMinutes <= x.maxMinutes, 'Timing bounds are reversed')
 export const dictionarySchema = z.array(z.object({
   id, label, aliases: z.array(label), family: id.optional(), broad: z.boolean().optional(),
@@ -36,7 +37,7 @@ export const recipeSchema = z.object({
   id, slug: id, title: label, subtitle: label.optional(), aliases: z.array(label), provider: label,
   source: z.object({ label, edition: label.optional(), url: z.url({ protocol: /^https$/ }).optional() }),
   added: date, description: note.optional(), hero: asset.optional(), cuisine: label.optional(),
-  themes: z.array(label), tagSource: z.enum(['printed', 'reviewed']).default('reviewed'),
+  themes: z.array(label), seasons: z.array(z.enum(seasons)).optional(), tagSource: z.enum(['printed', 'reviewed']).default('reviewed'),
   timings: z.object({ prep: range.nullable(), cook: range.nullable(), total: range.nullable(), card: range.optional() }),
   servings: z.array(number.max(30)).min(1), defaultServings: number,
   equipment: z.array(label), before: z.array(note), allergens: z.array(label), cautions: z.array(note),
@@ -85,14 +86,14 @@ export type Manifest = z.infer<typeof manifestSchema>
 export type Timing = z.infer<typeof range>
 export type TimeKey = 'prep' | 'cook' | 'total'
 export type Requirements = Record<string, Record<number, string[]>>
-export type Summary = Pick<Recipe, 'id' | 'slug' | 'title' | 'subtitle' | 'aliases' | 'provider' | 'added' | 'description' | 'hero' | 'cuisine' | 'themes' | 'timings' | 'servings' | 'defaultServings'> & { requirements: Requirements }
+export type Summary = Pick<Recipe, 'id' | 'slug' | 'title' | 'subtitle' | 'aliases' | 'provider' | 'added' | 'description' | 'hero' | 'cuisine' | 'themes' | 'seasons' | 'timings' | 'servings' | 'defaultServings'> & { requirements: Requirements }
 
 export function summarize(recipe: Recipe): Summary {
-  const { id, slug, title, subtitle, aliases, provider, added, description, hero, cuisine, themes, timings, servings, defaultServings } = recipe
+  const { id, slug, title, subtitle, aliases, provider, added, description, hero, cuisine, themes, seasons, timings, servings, defaultServings } = recipe
   const requirements = Object.fromEntries([['base', recipe.ingredients] as const, ...recipe.variants.map(v => [v.id, v.ingredients] as const)].map(([key, lines]) => [
     key, Object.fromEntries(servings.map(size => [size, [...new Set(lines.filter(line => !line.optional && line.quantities[size].status !== 'unused').map(line => line.ingredientId))]])),
   ]))
-  return { id, slug, title, subtitle, aliases, provider, added, description, hero, cuisine, themes, timings, servings, defaultServings, requirements }
+  return { id, slug, title, subtitle, aliases, provider, added, description, hero, cuisine, themes, seasons, timings, servings, defaultServings, requirements }
 }
 
 export function mediaOf(recipe: Recipe) {

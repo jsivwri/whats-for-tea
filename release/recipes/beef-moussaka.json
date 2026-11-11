@@ -519,21 +519,33 @@
     4
   ],
   "timings": {
-    "prep": null,
+    "prep": {
+      "minMinutes": 12,
+      "maxMinutes": 18,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Slice aubergine and potatoes, cook the mince and boil potatoes while the aubergine roasts, then assemble and grill."
+    },
     "cook": {
       "minMinutes": 45,
       "maxMinutes": 45,
       "sourceLabel": "Cook time: 45 mins",
       "provenance": "Green Chef card cover"
     },
-    "total": null
+    "total": {
+      "minMinutes": 55,
+      "maxMinutes": 65,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Slice aubergine and potatoes, cook the mince and boil potatoes while the aubergine roasts, then assemble and grill."
+    }
   },
   "hero": {
     "id": "beef-moussaka",
     "path": "media/beef-moussaka.webp",
     "width": 1120,
-    "height": 623,
-    "alt": "",
+    "height": 1083,
+    "alt": "Beef moussaka and rocket salad in an earthenware bowl",
     "credit": "Green Chef recipe card",
     "sizes": [
       {
@@ -1009,5 +1021,9 @@
         "credit": "Illustration based on the Green Chef recipe card"
       }
     }
+  ],
+  "seasons": [
+    "Spring",
+    "Autumn"
   ]
 }

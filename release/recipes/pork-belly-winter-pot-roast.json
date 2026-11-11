@@ -24,8 +24,20 @@
       "sourceLabel": "Prepped in 5",
       "provenance": "Printed on the card"
     },
-    "cook": null,
-    "total": null,
+    "cook": {
+      "minMinutes": 51,
+      "maxMinutes": 58,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Sear the pork, roast it in gravy while the potatoes crisp and rest it before slicing."
+    },
+    "total": {
+      "minMinutes": 56,
+      "maxMinutes": 65,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Sear the pork, roast it in gravy while the potatoes crisp and rest it before slicing."
+    },
     "card": {
       "minMinutes": 50,
       "maxMinutes": 60,
@@ -505,9 +517,9 @@
   "hero": {
     "id": "pork-belly-winter-pot-roast-hero",
     "path": "media/pork-belly-winter-pot-roast.webp",
-    "width": 639,
-    "height": 600,
-    "alt": "Oven Baked Pork Belly & Winter Veg Pot Roast",
+    "width": 1081,
+    "height": 655,
+    "alt": "Sliced pork belly and roast winter vegetables in gravy",
     "credit": "Gousto recipe card",
     "sizes": [
       {
@@ -515,5 +527,10 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Autumn",
+    "Winter",
+    "Christmas"
+  ]
 }

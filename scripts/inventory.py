@@ -8,12 +8,14 @@ from pathlib import Path
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("root", type=Path, help="Folder containing PDFs and optional Archive/ and Processed/ folders")
+parser.add_argument("--inbox-only", action="store_true", help="Inventory only new top-level scans")
 parser.add_argument("--output", type=Path, help="Local JSON register path")
 args = parser.parse_args()
 copies = defaultdict(list)
 exact = defaultdict(list)
 
-for directory in ("", "Archive", "Processed"):
+directories = ("",) if args.inbox_only else ("", "Archive", "Processed")
+for directory in directories:
     for path in sorted((args.root / directory).glob("*")):
         if path.suffix.lower() != ".pdf" or not path.is_file():
             continue

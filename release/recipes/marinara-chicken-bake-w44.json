@@ -24,8 +24,20 @@
       "sourceLabel": "Prepped in 10",
       "provenance": "Printed on the card"
     },
-    "cook": null,
-    "total": null,
+    "cook": {
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Start the chips first and roast the chicken in parallel. Mix the sauce, grate cheese and prepare the salad during the roast."
+    },
+    "total": {
+      "minMinutes": 35,
+      "maxMinutes": 42,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Start the chips first and roast the chicken in parallel. Mix the sauce, grate cheese and prepare the salad during the roast."
+    },
     "card": {
       "minMinutes": 35,
       "maxMinutes": 40,
@@ -449,9 +461,9 @@
   "hero": {
     "id": "marinara-chicken-bake-w44-hero",
     "path": "media/marinara-chicken-bake-w44.webp",
-    "width": 960,
-    "height": 881,
-    "alt": "Fuss-Free Cheesy Marinara Chicken Bake with Oven-Baked Chips and Tomato Salad",
+    "width": 1120,
+    "height": 800,
+    "alt": "Sliced marinara chicken with baked chips and a rocket and tomato salad",
     "credit": "HelloFresh recipe card",
     "sizes": [
       {
@@ -459,5 +471,8 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Summer"
+  ]
 }

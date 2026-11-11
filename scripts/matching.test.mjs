@@ -42,17 +42,19 @@ test('treats a broad chicken as a lead and respects ingredient specificity', () 
 
 test('uses the maximum of a verified range and filters unknown prep and ambiguous cover times separately', () => {
   const hypothetical = { ...chilli, timings: { ...chilli.timings, total: chilli.timings.card } }
+  const coverOnly = { ...chilli, timings: { ...chilli.timings, total: null } }
+  const unknownPrep = { ...moussaka, timings: { ...moussaka.timings, prep: null } }
   const time = (key, max, unknown = false) => ({ ...emptyFilters, time: { [key]: max }, unknown })
   assert.deepEqual(browse([hypothetical], time('total', 35), tools), [hypothetical])
   assert.deepEqual(browse([hypothetical], time('total', 30), tools), [])
-  assert.deepEqual(browse([chilli], time('total', 35), tools), [])
+  assert.deepEqual(browse([coverOnly], time('total', 35), tools), [])
   assert.deepEqual(browse([moussaka], time('cook', 45), tools), [moussaka])
-  assert.deepEqual(browse([moussaka], time('prep', 15), tools), [])
-  assert.deepEqual(browse([moussaka], time('prep', 15, true), tools), [moussaka])
+  assert.deepEqual(browse([unknownPrep], time('prep', 15), tools), [])
+  assert.deepEqual(browse([unknownPrep], time('prep', 15, true), tools), [unknownPrep])
 })
 
 test('applies AND across facets and includes specific children of a family', () => {
-  const filtered = browse(index, { ...emptyFilters, themes: ['Family favourites'], ingredients: ['chicken'], time: { total: 30 } }, tools)
+  const filtered = browse([orzo, chilli, moussaka], { ...emptyFilters, themes: ['Family favourites'], ingredients: ['chicken'], time: { total: 30 } }, tools)
   assert.deepEqual(filtered.map(r => r.id), [orzo.id])
 })
 
@@ -62,7 +64,9 @@ test('uses portion and variant requirements consistently', () => {
   assert.ok(!requirementsFor(chilli, 12).includes('beef-stock-mix'))
   assert.ok(!requirementsFor(moussaka, 2, 'pork').includes('beef-mince'))
   assert.ok(requirementsFor(moussaka, 2, 'pork').includes('pork-mince'))
-  assert.equal(recipes.find(r => r.id === chilli.id).steps[2].quantities['rice-water'][3], '300 ml')
+  const recipe = recipes.find(r => r.id === chilli.id)
+  const rice = recipe.steps[2]
+  assert.match(textAt(rice.blocks[0], rice, recipe.ingredients, 3), /300 ml/)
 })
 
 test('keeps nonmatching recipes out by default and breaks equal gaps using Use first', () => {
@@ -108,4 +112,18 @@ test('scales packet totals, preserves unmeasured amounts and resolves step-only 
   assert.equal(formatAmount(pork.ingredients.find(line => line.ingredientId === 'pork-mince'), 12), '1800 g')
   const sauce = pork.steps[3]
   assert.match(textAt(sauce.blocks[1], sauce, pork.ingredients, 12), /6 tsp sugar and 180 ml water/)
+})
+
+test('finds multi-season recipes by name and season and filters by either selected season', () => {
+  const tagged = { ...orzo, seasons: ['Spring', 'Summer'] }
+  assert.ok(Number.isFinite(titleRank('summer orzo', tagged)))
+  assert.deepEqual(browse([tagged, chilli], { ...emptyFilters, seasons: ['Summer', 'Christmas'] }, tools), [tagged])
+  assert.deepEqual(browse([tagged, chilli], { ...emptyFilters, seasons: ['Easter'] }, tools), [])
+})
+
+test('scales a single large printed batch down to two servings', () => {
+  assert.deepEqual(servingOptions({ servings: [8] }), servingOptions({ servings: [2, 3, 4] }))
+  const potatoes = { id: 'potatoes', quantities: { 8: { status: 'printed', text: '2 kg', amount: 2, unit: 'kg' } } }
+  assert.equal(formatAmount(potatoes, 2), '0.5 kg')
+  assert.equal(textAt('Peel {{potatoes}} potatoes.', {}, [potatoes], 12), 'Peel 3 kg potatoes.')
 })

@@ -1,0 +1,525 @@
+{
+  "id": "quick-chicken-tikka-masala",
+  "slug": "quick-chicken-tikka-masala",
+  "title": "Quick Chicken Tikka Masala With Rice",
+  "subtitle": "With Cornish clotted cream",
+  "aliases": [],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto",
+    "edition": "R-1568"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "quick-chicken-tikka-masala",
+    "path": "media/quick-chicken-tikka-masala.webp",
+    "width": 1120,
+    "height": 580,
+    "alt": "Quick Chicken Tikka Masala With Rice",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/quick-chicken-tikka-masala-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 3,
+      "maxMinutes": 6,
+      "provenance": "Set out the ingredients and chop tomatoes.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 11,
+      "maxMinutes": 15,
+      "provenance": "Fry chicken and spices, simmer the curry and microwave rice alongside.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 15,
+      "maxMinutes": 20,
+      "provenance": "Initial prep, frying and simmering with parallel rice heating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "10–20 min",
+      "minMinutes": 10,
+      "maxMinutes": 20,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Wide frying pan with lid",
+    "Microwave"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "small-chicken-pack",
+      "ingredientId": "chicken-breast",
+      "label": "Diced chicken breast (125 g pack)",
+      "quantities": {
+        "2": {
+          "status": "unused"
+        },
+        "3": {
+          "status": "printed",
+          "text": "125 g"
+        },
+        "4": {
+          "status": "unused"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "large-chicken-pack",
+      "ingredientId": "chicken-breast",
+      "label": "Diced chicken breast (250 g pack)",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 250 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "clotted-cream",
+      "ingredientId": "clotted-cream",
+      "label": "Cornish clotted cream",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-mix",
+      "ingredientId": "chicken-stock-mix",
+      "label": "Chicken stock mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 5.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 5.5 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cooked-white-rice",
+      "ingredientId": "white-long-grain-rice",
+      "label": "Cooked white long grain rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "280 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ × 280 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 280 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "small-curry-pack",
+      "ingredientId": "curry-powder",
+      "label": "Curry powder (½ tbsp pack)",
+      "quantities": {
+        "2": {
+          "status": "unused"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tbsp"
+        },
+        "4": {
+          "status": "unused"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "large-curry-pack",
+      "ingredientId": "curry-powder",
+      "label": "Curry powder (1 tbsp pack)",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ginger-garlic-paste",
+      "ingredientId": "ginger-garlic-paste",
+      "label": "Ginger and garlic paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 × 15 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ground-paprika",
+      "ingredientId": "ground-paprika",
+      "label": "Ground paprika",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tomato",
+      "ingredientId": "tomato",
+      "label": "Tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "130 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Get ready",
+      "blocks": [
+        "Lay out the ingredients and equipment. Wash the tomatoes. Take the chicken out of the fridge and open the packet to let it air."
+      ],
+      "notes": [
+        "Cooking times can vary with the pan and hob. Cook the chicken through."
+      ],
+      "timers": []
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Chop the tomatoes",
+      "blocks": [
+        "Boil half a kettle. Chop the tomatoes into large bite-sized pieces."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "quick-chicken-tikka-masala-1-sketch",
+        "path": "media/quick-chicken-tikka-masala-1-sketch.webp",
+        "alt": "Chop the tomatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Fry the chicken and tomatoes",
+      "blocks": [
+        "Heat a generous drizzle of vegetable oil in a large, wide-based pan with a matching lid over high heat. Add the chicken and chopped tomatoes with a pinch of salt. Cook 3–4 minutes until the tomato begins to soften."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the chicken and tomatoes",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "quick-chicken-tikka-masala-2-sketch",
+        "path": "media/quick-chicken-tikka-masala-2-sketch.webp",
+        "alt": "Fry the chicken and tomatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Add the spices",
+      "blocks": [
+        "Add the curry powder, ground paprika and ginger and garlic paste. Cook 1 minute until fragrant."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the spices",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "quick-chicken-tikka-masala-3-sketch",
+        "path": "media/quick-chicken-tikka-masala-3-sketch.webp",
+        "alt": "Add the spices",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Simmer the curry",
+      "blocks": [
+        "Add {{sauce-water}} boiled water and the stock mix. Bring to the boil over high heat. Lower to medium-high, cover and cook for 6 minutes more or until the chicken is cooked through with no pink meat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the curry",
+          "seconds": [
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "quick-chicken-tikka-masala-4-sketch",
+        "path": "media/quick-chicken-tikka-masala-4-sketch.webp",
+        "alt": "Simmer the curry",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Heat the rice",
+      "blocks": [
+        "Squeeze the rice pouch to separate the grains. Tear the top corner open a little and microwave for 2 minutes or until piping hot."
+      ],
+      "notes": [
+        "If heating two pouches together, increase the microwave time accordingly."
+      ],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Heat the rice",
+          "seconds": [
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "quick-chicken-tikka-masala-5-sketch",
+        "path": "media/quick-chicken-tikka-masala-5-sketch.webp",
+        "alt": "Heat the rice",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 7,
+      "id": "step-7",
+      "heading": "Stir in the cream",
+      "blocks": [
+        "Remove the cooked chicken from the heat and stir through the clotted cream."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "quick-chicken-tikka-masala-6-sketch",
+        "path": "media/quick-chicken-tikka-masala-6-sketch.webp",
+        "alt": "Stir in the cream",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 8,
+      "id": "step-8",
+      "heading": "Serve",
+      "blocks": [
+        "Serve the chicken tikka masala over the cooked rice."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "quick-chicken-tikka-masala-7-sketch",
+        "path": "media/quick-chicken-tikka-masala-7-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

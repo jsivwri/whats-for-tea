@@ -1,0 +1,1123 @@
+{
+  "id": "classic-cheeseburger-hot-honey-wedges",
+  "slug": "classic-cheeseburger-hot-honey-wedges",
+  "title": "Classic Cheeseburger and Hot Honey Wedges",
+  "subtitle": "with Burger Sauce and Baby Leaf Salad",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2024-W50 · Card 2"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "classic-cheeseburger-hot-honey-wedges",
+    "path": "media/classic-cheeseburger-hot-honey-wedges.webp",
+    "width": 1120,
+    "height": 718,
+    "alt": "Classic Cheeseburger and Hot Honey Wedges",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/classic-cheeseburger-hot-honey-wedges-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 8,
+      "maxMinutes": 11,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 29,
+      "maxMinutes": 38,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 35,
+      "maxMinutes": 45,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "35–40 min",
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Mixing bowl",
+    "Grater"
+  ],
+  "before": [],
+  "allergens": [
+    "Egg",
+    "Mustard",
+    "Milk",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw mince."
+  ],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "breadcrumbs",
+      "ingredientId": "breadcrumbs",
+      "label": "Breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mixed-herbs",
+      "ingredientId": "mixed-herbs",
+      "label": "Mixed herbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "beef-and-pork-mince",
+      "ingredientId": "beef-and-pork-mince",
+      "label": "British beef and pork mince",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "360 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "480 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cheddar",
+      "ingredientId": "cheddar",
+      "label": "Mature Cheddar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "burger-buns",
+      "ingredientId": "burger-buns",
+      "label": "Burger buns",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chilli-flakes",
+      "ingredientId": "chilli-flakes",
+      "label": "Chilli flakes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 pinch"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 pinch"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 pinches"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "22 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "burger-sauce",
+      "ingredientId": "burger-sauce",
+      "label": "Burger sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "45 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-leaf-mix",
+      "ingredientId": "baby-leaf-mix",
+      "label": "Baby leaf mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "crumb-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "crumb-water",
+      "ingredientId": "water",
+      "label": "Water for the breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "mayonnaise",
+      "ingredientId": "mayonnaise",
+      "label": "Mayonnaise",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Roast the wedges",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Cut the unpeeled potatoes into 2 cm wedges. Toss with oil, salt and pepper. Spread in one layer on one or more trays and roast on the top shelf for 25–35 minutes until golden, turning halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the wedges",
+          "seconds": [
+            1500,
+            2100
+          ]
+        }
+      ],
+      "image": {
+        "id": "classic-cheeseburger-hot-honey-wedges-1-sketch",
+        "path": "media/classic-cheeseburger-hot-honey-wedges-1-sketch.webp",
+        "alt": "Roast the wedges",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Shape the burgers",
+      "blocks": [
+        "Peel and grate or press the garlic. Mix it with the breadcrumbs, mixed herbs, {{crumb-salt}} salt and {{crumb-water}} water. Add the mince and pepper, mix well and shape into one 1 cm thick patty per serving."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "classic-cheeseburger-hot-honey-wedges-2-sketch",
+        "path": "media/classic-cheeseburger-hot-honey-wedges-2-sketch.webp",
+        "alt": "Shape the burgers",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Bake the burgers",
+      "blocks": [
+        "Bake the patties on a tray on the middle shelf for 12–15 minutes until cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the burgers",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "classic-cheeseburger-hot-honey-wedges-3-sketch",
+        "path": "media/classic-cheeseburger-hot-honey-wedges-3-sketch.webp",
+        "alt": "Bake the burgers",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Melt the cheese and warm the buns",
+      "blocks": [
+        "Grate the Cheddar and halve the buns. Top the cooked burgers with cheese and return to the oven for 2–3 minutes until melted. Warm the buns at the same time."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Melt the cheese",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "classic-cheeseburger-hot-honey-wedges-4-sketch",
+        "path": "media/classic-cheeseburger-hot-honey-wedges-4-sketch.webp",
+        "alt": "Melt the cheese and warm the buns",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Glaze the wedges",
+      "blocks": [
+        "Toss the cooked wedges with chilli flakes to taste and honey. If the honey is stiff, warm its container in hot water for 1 minute. Return the wedges to the oven for 2–3 minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Set the honey glaze",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "classic-cheeseburger-hot-honey-wedges-5-sketch",
+        "path": "media/classic-cheeseburger-hot-honey-wedges-5-sketch.webp",
+        "alt": "Glaze the wedges",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Assemble and serve",
+      "blocks": [
+        "Spread {{mayonnaise}} mayonnaise across the bun bases and spread the burger sauce on the lids. Add a cheeseburger and some baby leaves, close the buns and serve with the wedges and remaining leaves."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "classic-cheeseburger-hot-honey-wedges-6-sketch",
+        "path": "media/classic-cheeseburger-hot-honey-wedges-6-sketch.webp",
+        "alt": "Assemble and serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "add-bacon",
+      "label": "Add smoked bacon lardons",
+      "ingredients": [
+        {
+          "id": "potatoes",
+          "ingredientId": "potatoes",
+          "label": "Potatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "450 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "700 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "900 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "garlic",
+          "ingredientId": "garlic",
+          "label": "Garlic cloves",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "breadcrumbs",
+          "ingredientId": "breadcrumbs",
+          "label": "Breadcrumbs",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "10 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "15 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "20 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "mixed-herbs",
+          "ingredientId": "mixed-herbs",
+          "label": "Mixed herbs",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2 sachets"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "beef-and-pork-mince",
+          "ingredientId": "beef-and-pork-mince",
+          "label": "British beef and pork mince",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "240 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "360 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "480 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "cheddar",
+          "ingredientId": "cheddar",
+          "label": "Mature Cheddar",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "30 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "40 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "60 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "burger-buns",
+          "ingredientId": "burger-buns",
+          "label": "Burger buns",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chilli-flakes",
+          "ingredientId": "chilli-flakes",
+          "label": "Chilli flakes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 pinch"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1 pinch"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 pinches"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "honey",
+          "ingredientId": "honey",
+          "label": "Honey",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "15 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "22 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "30 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "burger-sauce",
+          "ingredientId": "burger-sauce",
+          "label": "Burger sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "30 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "45 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "60 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "baby-leaf-mix",
+          "ingredientId": "baby-leaf-mix",
+          "label": "Baby leaf mix",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "20 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "40 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "40 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "bacon-lardons",
+          "ingredientId": "bacon-lardons",
+          "label": "Smoked bacon lardons",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "90 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "120 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "180 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "crumb-salt",
+          "ingredientId": "salt",
+          "label": "Salt for the breadcrumbs",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "¼ tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "½ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "½ tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "crumb-water",
+          "ingredientId": "water",
+          "label": "Water for the breadcrumbs",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2 tbsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3 tbsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4 tbsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "mayonnaise",
+          "ingredientId": "mayonnaise",
+          "label": "Mayonnaise",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 tbsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ tbsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 tbsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Roast the wedges",
+          "blocks": [
+            "Preheat the oven to 220°C (200°C fan, gas 7). Cut the unpeeled potatoes into 2 cm wedges. Toss with oil, salt and pepper. Spread in one layer on one or more trays and roast on the top shelf for 25–35 minutes until golden, turning halfway."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Roast the wedges",
+              "seconds": [
+                1500,
+                2100
+              ]
+            }
+          ],
+          "image": {
+            "id": "classic-cheeseburger-hot-honey-wedges-1-sketch",
+            "path": "media/classic-cheeseburger-hot-honey-wedges-1-sketch.webp",
+            "alt": "Roast the wedges",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Shape the burgers",
+          "blocks": [
+            "Peel and grate or press the garlic. Mix it with the breadcrumbs, mixed herbs, {{crumb-salt}} salt and {{crumb-water}} water. Add the mince and pepper, mix well and shape into one 1 cm thick patty per serving."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "classic-cheeseburger-hot-honey-wedges-2-sketch",
+            "path": "media/classic-cheeseburger-hot-honey-wedges-2-sketch.webp",
+            "alt": "Shape the burgers",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Bake the burgers",
+          "blocks": [
+            "Bake the patties on a tray on the middle shelf for 12–15 minutes until cooked through."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Bake the burgers",
+              "seconds": [
+                720,
+                900
+              ]
+            }
+          ],
+          "image": {
+            "id": "classic-cheeseburger-hot-honey-wedges-3-sketch",
+            "path": "media/classic-cheeseburger-hot-honey-wedges-3-sketch.webp",
+            "alt": "Bake the burgers",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Melt the cheese and warm the buns",
+          "blocks": [
+            "Grate the Cheddar and halve the buns. Top the cooked burgers with cheese and return to the oven for 2–3 minutes until melted. Warm the buns at the same time.",
+            "Meanwhile, fry the bacon lardons in a little oil over medium-high for 4–5 minutes until cooked through."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Melt the cheese",
+              "seconds": [
+                120,
+                180
+              ]
+            }
+          ],
+          "image": {
+            "id": "classic-cheeseburger-hot-honey-wedges-4-sketch",
+            "path": "media/classic-cheeseburger-hot-honey-wedges-4-sketch.webp",
+            "alt": "Melt the cheese and warm the buns",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Glaze the wedges",
+          "blocks": [
+            "Toss the cooked wedges with chilli flakes to taste and honey. If the honey is stiff, warm its container in hot water for 1 minute. Return the wedges to the oven for 2–3 minutes.",
+            "Once the wedges are cooked, add the fried bacon and toss in the honey."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Set the honey glaze",
+              "seconds": [
+                120,
+                180
+              ]
+            }
+          ],
+          "image": {
+            "id": "classic-cheeseburger-hot-honey-wedges-5-sketch",
+            "path": "media/classic-cheeseburger-hot-honey-wedges-5-sketch.webp",
+            "alt": "Glaze the wedges",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Assemble and serve",
+          "blocks": [
+            "Spread {{mayonnaise}} mayonnaise across the bun bases and spread the burger sauce on the lids. Add a cheeseburger and some baby leaves, close the buns and serve with the wedges and remaining leaves."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "classic-cheeseburger-hot-honey-wedges-6-sketch",
+            "path": "media/classic-cheeseburger-hot-honey-wedges-6-sketch.webp",
+            "alt": "Assemble and serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,631 @@
+{
+  "id": "spiced-beef-koftas-paprika-butter",
+  "slug": "spiced-beef-koftas-paprika-butter",
+  "title": "Easy Spiced Beef Koftas",
+  "subtitle": "with Paprika Butter and Yoghurt Sauce",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2024-W37 · Card 2"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "spiced-beef-koftas-paprika-butter",
+    "path": "media/spiced-beef-koftas-paprika-butter.webp",
+    "width": 1120,
+    "height": 809,
+    "alt": "Easy Spiced Beef Koftas",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/spiced-beef-koftas-paprika-butter-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 8,
+      "maxMinutes": 12,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 30,
+      "maxMinutes": 36,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 36,
+      "maxMinutes": 45,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "35–40 min",
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Foil",
+    "Frying pan",
+    "Mixing bowls",
+    "Grater"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Sulphites",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw mince."
+  ],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "3": {
+          "status": "printed",
+          "text": "4"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "roasted-spice-herb-blend",
+      "ingredientId": "roasted-spice-herb-blend",
+      "label": "Roasted spice and herb blend",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "breadcrumbs",
+      "ingredientId": "breadcrumbs",
+      "label": "Breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "19 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "25 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mince",
+      "ingredientId": "beef-mince",
+      "label": "British beef mince",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "360 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "480 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-cucumber",
+      "ingredientId": "cucumber",
+      "label": "Baby cucumbers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-wine-vinegar",
+      "ingredientId": "red-wine-vinegar",
+      "label": "Red wine vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "12 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "18 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "24 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "greek-style-yoghurt",
+      "ingredientId": "greek-style-yoghurt",
+      "label": "Greek style natural yoghurt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-pepper-chilli-jelly",
+      "ingredientId": "red-pepper-chilli-jelly",
+      "label": "Red pepper chilli jelly",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "37 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "smoked-paprika",
+      "ingredientId": "smoked-paprika",
+      "label": "Smoked paprika",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rocket",
+      "ingredientId": "rocket",
+      "label": "Wild rocket",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "crumb-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "crumb-water",
+      "ingredientId": "water",
+      "label": "Water for the breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "dressing-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the dressing",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¾ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "dressing-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the dressing",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "butter",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Bake the chips",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Cut the unpeeled potatoes into 1 cm chips. Toss with oil, salt and pepper, spread in one layer on one or more trays and bake on the middle shelf for 30–35 minutes, turning halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the chips",
+          "seconds": [
+            1800,
+            2100
+          ]
+        }
+      ],
+      "image": {
+        "id": "spiced-beef-koftas-paprika-butter-1-sketch",
+        "path": "media/spiced-beef-koftas-paprika-butter-1-sketch.webp",
+        "alt": "Bake the chips",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Make the koftas",
+      "blocks": [
+        "Peel and grate {{kofta-garlic}} garlic for the mince. Combine it with the spice and herb blend, breadcrumbs, {{crumb-salt}} salt and {{crumb-water}} water. Add the beef, season with pepper, mix well and shape into four mini sausages per serving. Flatten slightly."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "spiced-beef-koftas-paprika-butter-2-sketch",
+        "path": "media/spiced-beef-koftas-paprika-butter-2-sketch.webp",
+        "alt": "Make the koftas",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      },
+      "quantities": {
+        "kofta-garlic": {
+          "2": "1 clove",
+          "3": "1 clove",
+          "4": "1 clove"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Bake the koftas and garlic",
+      "blocks": [
+        "Seal the remaining unpeeled garlic with a drizzle of oil in a foil parcel. Put it on a tray beside the koftas. Bake on the top shelf for 12–15 minutes until the koftas are browned and cooked through. Set the garlic aside to cool."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the koftas",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "spiced-beef-koftas-paprika-butter-3-sketch",
+        "path": "media/spiced-beef-koftas-paprika-butter-3-sketch.webp",
+        "alt": "Bake the koftas and garlic",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Dress the cucumber and make the yoghurt sauce",
+      "blocks": [
+        "Cut the cucumber into 1 cm pieces. Toss with the vinegar, {{dressing-sugar}} sugar, {{dressing-oil}} olive oil, salt and pepper. Squeeze the cooled roast garlic out of its skin, mash and stir into the yoghurt. Season to taste."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "spiced-beef-koftas-paprika-butter-4-sketch",
+        "path": "media/spiced-beef-koftas-paprika-butter-4-sketch.webp",
+        "alt": "Dress the cucumber and make the yoghurt sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Make the paprika butter",
+      "blocks": [
+        "Warm the chilli jelly, smoked paprika and {{butter}} butter in a large frying pan over medium heat for 1 minute. Stir, add the cooked koftas and toss for 1–2 minutes until piping hot. Thin with a splash of water if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Coat the koftas",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "spiced-beef-koftas-paprika-butter-5-sketch",
+        "path": "media/spiced-beef-koftas-paprika-butter-5-sketch.webp",
+        "alt": "Make the paprika butter",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Toss the rocket through the cucumber salad. Serve the koftas over the yoghurt with the paprika butter spooned over, and chips and salad alongside."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "spiced-beef-koftas-paprika-butter-6-sketch",
+        "path": "media/spiced-beef-koftas-paprika-butter-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

@@ -1,0 +1,996 @@
+{
+  "id": "chermoula-chicken-loaded-naan-card-12",
+  "slug": "chermoula-chicken-loaded-naan-card-12",
+  "title": "Chermoula Chicken Loaded Naan",
+  "subtitle": "with Zhoug Yoghurt and Rocket & Tomato Salad",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2024-W50 · Card 12"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "chermoula-chicken-loaded-naan-card-12",
+    "path": "media/chermoula-chicken-loaded-naan-card-12.webp",
+    "width": 1120,
+    "height": 685,
+    "alt": "Chermoula Chicken Loaded Naan",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/chermoula-chicken-loaded-naan-card-12-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 6,
+      "maxMinutes": 9,
+      "provenance": "Chop the tomatoes and garlic and mix the marinade and dressing.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 9,
+      "maxMinutes": 13,
+      "provenance": "Fry the chicken while warming naans and mixing the yoghurt.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 17,
+      "maxMinutes": 23,
+      "provenance": "Initial prep, frying and warming overlap, followed by assembly.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "20 min",
+      "minMinutes": 20,
+      "maxMinutes": 20,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Garlic press",
+    "Bowls",
+    "Frying pan",
+    "Toaster or baking tray"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-thigh",
+      "label": "Diced British chicken thigh",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "390 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "480 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chermoula-spice-mix",
+      "ingredientId": "chermoula-spice-mix",
+      "label": "Chermoula spice mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¾ sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 sachet"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "zhoug-style-paste",
+      "ingredientId": "zhoug-style-paste",
+      "label": "Zhoug style paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "45 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "67 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "90 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "greek-style-yoghurt",
+      "ingredientId": "greek-style-yoghurt",
+      "label": "Greek style natural yoghurt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tomato",
+      "ingredientId": "tomato",
+      "label": "Medium tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "plain-naan",
+      "ingredientId": "plain-naan",
+      "label": "Plain naans",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "wild-rocket",
+      "ingredientId": "wild-rocket",
+      "label": "Wild rocket",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¾ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "dressing-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the dressing",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "olive-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the marinade",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "water",
+      "ingredientId": "water",
+      "label": "Water for the naans",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Marinate the chicken",
+      "blocks": [
+        "If using the oven for the naans, heat it to 220°C / 200°C fan / gas mark 7. Peel and grate or press the garlic.",
+        "Mix the garlic, chicken, chermoula spice mix, a drizzle of olive oil and {{marinade-spoonful}} each of zhoug and yoghurt. Use less zhoug for milder heat. Turn the chicken to coat it. Wash hands and equipment after handling raw chicken."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chermoula-chicken-loaded-naan-1-sketch",
+        "path": "media/chermoula-chicken-loaded-naan-1-sketch.webp",
+        "alt": "Marinate the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      },
+      "quantities": {
+        "marinade-spoonful": {
+          "2": "1 tbsp",
+          "3": "1½ tbsp",
+          "4": "2 tbsp"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Macerate the tomatoes",
+      "blocks": [
+        "Cut tomatoes into 1 cm chunks. Mix with {{sugar}} sugar and {{dressing-oil}} olive oil, season and set aside."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chermoula-chicken-loaded-naan-2-sketch",
+        "path": "media/chermoula-chicken-loaded-naan-2-sketch.webp",
+        "alt": "Macerate the tomatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Fry the chicken",
+      "blocks": [
+        "Heat a drizzle of oil in a large frying pan on medium-high. Fry the yoghurt-coated chicken for 8–10 minutes, until golden and cooked through with no pink in the middle. Taste and season if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the chicken",
+          "seconds": [
+            480,
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "chermoula-chicken-loaded-naan-3-sketch",
+        "path": "media/chermoula-chicken-loaded-naan-3-sketch.webp",
+        "alt": "Fry the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Make the zhoug yoghurt",
+      "blocks": [
+        "Stir together the remaining zhoug paste and yoghurt in a small bowl."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chermoula-chicken-loaded-naan-4-sketch",
+        "path": "media/chermoula-chicken-loaded-naan-4-sketch.webp",
+        "alt": "Make the zhoug yoghurt",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Warm the naans",
+      "blocks": [
+        "Cut the naans in half widthways and toast until golden. If using the oven, sprinkle the naans with a little water and warm on a tray for 2–3 minutes.",
+        "Toss the rocket with the dressed tomatoes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Warm the naans in the oven",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "chermoula-chicken-loaded-naan-5-sketch",
+        "path": "media/chermoula-chicken-loaded-naan-5-sketch.webp",
+        "alt": "Warm the naans",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Assemble and serve",
+      "blocks": [
+        "Put the warm naans on plates, top with the chermoula chicken and the rocket and tomato salad, and drizzle with the zhoug yoghurt."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chermoula-chicken-loaded-naan-6-sketch",
+        "path": "media/chermoula-chicken-loaded-naan-6-sketch.webp",
+        "alt": "Assemble and serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "chicken-breast",
+      "label": "Diced chicken breast",
+      "ingredients": [
+        {
+          "id": "garlic",
+          "ingredientId": "garlic",
+          "label": "Garlic cloves",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken",
+          "ingredientId": "chicken-breast",
+          "label": "Diced British chicken breast",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "240 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "390 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "520 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chermoula-spice-mix",
+          "ingredientId": "chermoula-spice-mix",
+          "label": "Chermoula spice mix",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "½ sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "¾ sachet"
+            },
+            "4": {
+              "status": "printed",
+              "text": "1 sachet"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "zhoug-style-paste",
+          "ingredientId": "zhoug-style-paste",
+          "label": "Zhoug style paste",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "45 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "67 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "90 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "greek-style-yoghurt",
+          "ingredientId": "greek-style-yoghurt",
+          "label": "Greek style natural yoghurt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "75 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "120 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "150 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "tomato",
+          "ingredientId": "tomato",
+          "label": "Medium tomatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "plain-naan",
+          "ingredientId": "plain-naan",
+          "label": "Plain naans",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "wild-rocket",
+          "ingredientId": "wild-rocket",
+          "label": "Wild rocket",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "20 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "30 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "40 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sugar",
+          "ingredientId": "sugar",
+          "label": "Sugar for the tomatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "½ tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "¾ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "1 tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "dressing-oil",
+          "ingredientId": "olive-oil",
+          "label": "Olive oil for the dressing",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 tbsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ tbsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 tbsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "olive-oil",
+          "ingredientId": "olive-oil",
+          "label": "Olive oil for the marinade",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "water",
+          "ingredientId": "water",
+          "label": "Water for the naans",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Marinate the chicken",
+          "blocks": [
+            "If using the oven for the naans, heat it to 220°C / 200°C fan / gas mark 7. Peel and grate or press the garlic.",
+            "Mix the garlic, chicken, chermoula spice mix, a drizzle of olive oil and {{marinade-spoonful}} each of zhoug and yoghurt. Use less zhoug for milder heat. Turn the chicken to coat it. Wash hands and equipment after handling raw chicken."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "chermoula-chicken-loaded-naan-1-sketch",
+            "path": "media/chermoula-chicken-loaded-naan-1-sketch.webp",
+            "alt": "Marinate the chicken",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          },
+          "quantities": {
+            "marinade-spoonful": {
+              "2": "1 tbsp",
+              "3": "1½ tbsp",
+              "4": "2 tbsp"
+            }
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Macerate the tomatoes",
+          "blocks": [
+            "Cut tomatoes into 1 cm chunks. Mix with {{sugar}} sugar and {{dressing-oil}} olive oil, season and set aside."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "chermoula-chicken-loaded-naan-2-sketch",
+            "path": "media/chermoula-chicken-loaded-naan-2-sketch.webp",
+            "alt": "Macerate the tomatoes",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Fry the chicken",
+          "blocks": [
+            "Heat a drizzle of oil in a large frying pan on medium-high. Fry the yoghurt-coated chicken for 8–10 minutes, until golden and cooked through with no pink in the middle. Taste and season if needed."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Fry the chicken",
+              "seconds": [
+                480,
+                600
+              ]
+            }
+          ],
+          "image": {
+            "id": "chermoula-chicken-loaded-naan-3-sketch",
+            "path": "media/chermoula-chicken-loaded-naan-3-sketch.webp",
+            "alt": "Fry the chicken",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Make the zhoug yoghurt",
+          "blocks": [
+            "Stir together the remaining zhoug paste and yoghurt in a small bowl."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "chermoula-chicken-loaded-naan-4-sketch",
+            "path": "media/chermoula-chicken-loaded-naan-4-sketch.webp",
+            "alt": "Make the zhoug yoghurt",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Warm the naans",
+          "blocks": [
+            "Cut the naans in half widthways and toast until golden. If using the oven, sprinkle the naans with a little water and warm on a tray for 2–3 minutes.",
+            "Toss the rocket with the dressed tomatoes."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Warm the naans in the oven",
+              "seconds": [
+                120,
+                180
+              ]
+            }
+          ],
+          "image": {
+            "id": "chermoula-chicken-loaded-naan-5-sketch",
+            "path": "media/chermoula-chicken-loaded-naan-5-sketch.webp",
+            "alt": "Warm the naans",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Assemble and serve",
+          "blocks": [
+            "Put the warm naans on plates, top with the chermoula chicken and the rocket and tomato salad, and drizzle with the zhoug yoghurt."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "chermoula-chicken-loaded-naan-6-sketch",
+            "path": "media/chermoula-chicken-loaded-naan-6-sketch.webp",
+            "alt": "Assemble and serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

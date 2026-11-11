@@ -1,0 +1,896 @@
+{
+  "id": "peri-peri-chicken-chips",
+  "slug": "peri-peri-chicken-chips",
+  "title": "Peri Peri Chicken and Chips",
+  "subtitle": "with Lemon Dressed Salad and Garlic Mayo",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 27"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "peri-peri-chicken-chips",
+    "path": "media/peri-peri-chicken-chips.webp",
+    "width": 1120,
+    "height": 750,
+    "alt": "Peri Peri Chicken and Chips",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/peri-peri-chicken-chips-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 9,
+      "maxMinutes": 13,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 25,
+      "maxMinutes": 35,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 35,
+      "maxMinutes": 45,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "35–40 min",
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays and foil",
+    "Frying pan",
+    "Mixing bowls",
+    "Rolling pin",
+    "Fine grater"
+  ],
+  "before": [],
+  "allergens": [
+    "Egg",
+    "Mustard"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "lemon",
+      "ingredientId": "lemon",
+      "label": "Lemon",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-plum-tomatoes",
+      "ingredientId": "baby-plum-tomatoes",
+      "label": "Baby plum tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "125 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-gem",
+      "ingredientId": "baby-gem",
+      "label": "Baby gem lettuces",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "peri-peri-seasoning",
+      "ingredientId": "peri-peri-seasoning",
+      "label": "Peri peri seasoning",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "British chicken breasts",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mayonnaise",
+      "ingredientId": "mayonnaise",
+      "label": "Mayonnaise",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "32 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "64 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "64 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": true
+    },
+    {
+      "id": "olive-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Prepare the chips and garlic",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Cut the unpeeled potatoes into 1 cm chips and toss with oil, salt and pepper. Spread in one layer on one or more trays. Wrap the unpeeled garlic with a drizzle of oil in a small foil parcel and put it on the chip tray."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "peri-peri-chicken-chips-1-sketch",
+        "path": "media/peri-peri-chicken-chips-1-sketch.webp",
+        "alt": "Prepare the chips and garlic",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Roast",
+      "blocks": [
+        "Roast the chips on the top shelf for 25–35 minutes until golden. Halfway through, remove the garlic parcel and turn the chips."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the chips",
+          "seconds": [
+            1500,
+            2100
+          ]
+        }
+      ],
+      "image": {
+        "id": "peri-peri-chicken-chips-2-sketch",
+        "path": "media/peri-peri-chicken-chips-2-sketch.webp",
+        "alt": "Roast",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Prepare the salad",
+      "blocks": [
+        "Zest and halve the lemon. Mix a squeeze of juice with olive oil, salt, pepper and a pinch of sugar if available. Halve the baby plum tomatoes and stir them into the dressing. Taste and add more lemon if needed. Trim and halve the baby gem lengthways, then slice it thinly crossways. Keep it separate for now."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "peri-peri-chicken-chips-3-sketch",
+        "path": "media/peri-peri-chicken-chips-3-sketch.webp",
+        "alt": "Prepare the salad",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Season the chicken",
+      "blocks": [
+        "Mix the peri peri seasoning, lemon zest, salt and pepper on a plate. Flatten each breast between sheets of baking paper to 1–2 cm thick and turn in the seasoning to coat."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "peri-peri-chicken-chips-4-sketch",
+        "path": "media/peri-peri-chicken-chips-4-sketch.webp",
+        "alt": "Season the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Fry the chicken and make garlic mayo",
+      "blocks": [
+        "Heat a drizzle of oil in a large frying pan over medium-high. Fry the chicken for 5–6 minutes per side until golden and cooked through. Cover loosely with foil and rest for a couple of minutes. Squeeze the cooled garlic out of its skin, mash and mix with the mayonnaise. Season to taste."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry each side",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "peri-peri-chicken-chips-5-sketch",
+        "path": "media/peri-peri-chicken-chips-5-sketch.webp",
+        "alt": "Fry the chicken and make garlic mayo",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Toss the baby gem through the dressed tomatoes. Slice the chicken crossways into 2 cm slices. Serve with chips, salad, garlic mayo and any remaining lemon cut into wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "peri-peri-chicken-chips-6-sketch",
+        "path": "media/peri-peri-chicken-chips-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "air-fryer-chips",
+      "label": "Air-fry the chips",
+      "ingredients": [
+        {
+          "id": "potatoes",
+          "ingredientId": "potatoes",
+          "label": "Potatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "450 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "700 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "900 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "garlic",
+          "ingredientId": "garlic",
+          "label": "Garlic cloves",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "lemon",
+          "ingredientId": "lemon",
+          "label": "Lemon",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "½"
+            },
+            "3": {
+              "status": "printed",
+              "text": "½"
+            },
+            "4": {
+              "status": "printed",
+              "text": "1"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "baby-plum-tomatoes",
+          "ingredientId": "baby-plum-tomatoes",
+          "label": "Baby plum tomatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "125 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "250 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "250 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "baby-gem",
+          "ingredientId": "baby-gem",
+          "label": "Baby gem lettuces",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "peri-peri-seasoning",
+          "ingredientId": "peri-peri-seasoning",
+          "label": "Peri peri seasoning",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken",
+          "ingredientId": "chicken-breast",
+          "label": "British chicken breasts",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "mayonnaise",
+          "ingredientId": "mayonnaise",
+          "label": "Mayonnaise",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "32 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "64 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "64 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sugar",
+          "ingredientId": "sugar",
+          "label": "Sugar",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": true
+        },
+        {
+          "id": "olive-oil",
+          "ingredientId": "olive-oil",
+          "label": "Olive oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Prepare the chips",
+          "blocks": [
+            "Preheat the air fryer to 200°C. Cut the unpeeled potatoes into 1 cm chips and toss with oil, salt and pepper."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "peri-peri-chicken-chips-1-sketch",
+            "path": "media/peri-peri-chicken-chips-1-sketch.webp",
+            "alt": "Prepare the chips",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Air-fry the chips",
+          "blocks": [
+            "Air-fry for 20–25 minutes until golden, shaking and turning regularly. While the chips cook, soften the garlic in a small pan with a little oil over low heat to use in the mayonnaise."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Air-fry the chips",
+              "seconds": [
+                1200,
+                1500
+              ]
+            }
+          ],
+          "image": {
+            "id": "peri-peri-chicken-chips-2-sketch",
+            "path": "media/peri-peri-chicken-chips-2-sketch.webp",
+            "alt": "Air-fry the chips",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Prepare the salad",
+          "blocks": [
+            "Zest and halve the lemon. Mix a squeeze of juice with olive oil, salt, pepper and a pinch of sugar if available. Halve the baby plum tomatoes and stir them into the dressing. Taste and add more lemon if needed. Trim and halve the baby gem lengthways, then slice it thinly crossways. Keep it separate for now."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "peri-peri-chicken-chips-3-sketch",
+            "path": "media/peri-peri-chicken-chips-3-sketch.webp",
+            "alt": "Prepare the salad",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Season the chicken",
+          "blocks": [
+            "Mix the peri peri seasoning, lemon zest, salt and pepper on a plate. Flatten each breast between sheets of baking paper to 1–2 cm thick and turn in the seasoning to coat."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "peri-peri-chicken-chips-4-sketch",
+            "path": "media/peri-peri-chicken-chips-4-sketch.webp",
+            "alt": "Season the chicken",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Fry the chicken and make garlic mayo",
+          "blocks": [
+            "Heat a drizzle of oil in a large frying pan over medium-high. Fry the chicken for 5–6 minutes per side until golden and cooked through. Cover loosely with foil and rest for a couple of minutes. Squeeze the cooled garlic out of its skin, mash and mix with the mayonnaise. Season to taste."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Fry each side",
+              "seconds": [
+                300,
+                360
+              ]
+            }
+          ],
+          "image": {
+            "id": "peri-peri-chicken-chips-5-sketch",
+            "path": "media/peri-peri-chicken-chips-5-sketch.webp",
+            "alt": "Fry the chicken and make garlic mayo",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Serve",
+          "blocks": [
+            "Toss the baby gem through the dressed tomatoes. Slice the chicken crossways into 2 cm slices. Serve with chips, salad, garlic mayo and any remaining lemon cut into wedges."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "peri-peri-chicken-chips-6-sketch",
+            "path": "media/peri-peri-chicken-chips-6-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

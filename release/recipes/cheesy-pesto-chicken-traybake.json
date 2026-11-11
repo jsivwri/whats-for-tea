@@ -1,0 +1,937 @@
+{
+  "id": "cheesy-pesto-chicken-traybake",
+  "slug": "cheesy-pesto-chicken-traybake",
+  "title": "Fuss-Free Cheesy Pesto Chicken Traybake",
+  "subtitle": "with Roasted Veg, Herby Potatoes and Balsamic Glaze",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2025-W27 · Card 18"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "cheesy-pesto-chicken-traybake",
+    "path": "media/cheesy-pesto-chicken-traybake.webp",
+    "width": 1120,
+    "height": 782,
+    "alt": "Fuss-Free Cheesy Pesto Chicken Traybake",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/cheesy-pesto-chicken-traybake-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer",
+    "Autumn"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 6,
+      "maxMinutes": 9,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 26,
+      "maxMinutes": 36,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 31,
+      "maxMinutes": 43,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "30–35 min",
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Mixing bowls"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Egg",
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mixed-herbs",
+      "ingredientId": "mixed-herbs",
+      "label": "Mixed herbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "bell-pepper",
+      "ingredientId": "bell-pepper",
+      "label": "Bell peppers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-onion",
+      "ingredientId": "red-onion",
+      "label": "Red onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-plum-tomatoes",
+      "ingredientId": "baby-plum-tomatoes",
+      "label": "Baby plum tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "125 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "190 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-thigh",
+      "label": "British chicken thighs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "3": {
+          "status": "printed",
+          "text": "6"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "pesto",
+      "ingredientId": "pesto",
+      "label": "Pesto",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "32 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "48 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "64 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sun-dried-tomato-paste",
+      "ingredientId": "sun-dried-tomato-paste",
+      "label": "Sun-dried tomato paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "37 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "italian-style-hard-cheese",
+      "ingredientId": "italian-style-hard-cheese",
+      "label": "Grated hard Italian style cheese",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "balsamic-glaze",
+      "ingredientId": "balsamic-glaze",
+      "label": "Balsamic glaze",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "12 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "18 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "24 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Roast the chunks",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Cut the unpeeled potatoes into 2 cm chunks. Toss with oil, salt, pepper and mixed herbs. Spread in a single layer on one or more baking trays. Roast on the top shelf for 25–35 minutes until golden, turning halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the chunks",
+          "seconds": [
+            1500,
+            2100
+          ]
+        }
+      ],
+      "image": {
+        "id": "cheesy-pesto-chicken-traybake-1-sketch",
+        "path": "media/cheesy-pesto-chicken-traybake-1-sketch.webp",
+        "alt": "Roast the chunks",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Prepare the vegetables",
+      "blocks": [
+        "Deseed the bell pepper and cut it into 2 cm chunks. Halve, peel and wedge the red onion."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "cheesy-pesto-chicken-traybake-2-sketch",
+        "path": "media/cheesy-pesto-chicken-traybake-2-sketch.webp",
+        "alt": "Prepare the vegetables",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Season the vegetables",
+      "blocks": [
+        "Put the pepper, onion and baby plum tomatoes on one side of a second large tray. Toss with a drizzle of oil, salt and pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "cheesy-pesto-chicken-traybake-3-sketch",
+        "path": "media/cheesy-pesto-chicken-traybake-3-sketch.webp",
+        "alt": "Season the vegetables",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Coat the chicken with pesto",
+      "blocks": [
+        "Toss the chicken with pesto, salt and pepper. Lay it on the other side of the vegetable tray."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "cheesy-pesto-chicken-traybake-4-sketch",
+        "path": "media/cheesy-pesto-chicken-traybake-4-sketch.webp",
+        "alt": "Coat the chicken with pesto",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Roast the chicken and veg",
+      "blocks": [
+        "Roast the tray on the middle shelf for 16–18 minutes until the vegetables are tender and the chicken is cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the chicken and veg",
+          "seconds": [
+            960,
+            1080
+          ]
+        }
+      ],
+      "image": {
+        "id": "cheesy-pesto-chicken-traybake-5-sketch",
+        "path": "media/cheesy-pesto-chicken-traybake-5-sketch.webp",
+        "alt": "Roast the chicken and veg",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Toss the roasted vegetables with {{honey}} honey and the sun-dried tomato paste. Divide the herby potatoes and vegetables between bowls, top with the chicken and grated hard cheese, then drizzle with balsamic glaze."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "cheesy-pesto-chicken-traybake-6-sketch",
+        "path": "media/cheesy-pesto-chicken-traybake-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "swap-chicken-breast",
+      "label": "Swap to chicken breast",
+      "ingredients": [
+        {
+          "id": "potatoes",
+          "ingredientId": "potatoes",
+          "label": "Potatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "450 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "700 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "900 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "mixed-herbs",
+          "ingredientId": "mixed-herbs",
+          "label": "Mixed herbs",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "bell-pepper",
+          "ingredientId": "bell-pepper",
+          "label": "Bell peppers",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "red-onion",
+          "ingredientId": "red-onion",
+          "label": "Red onions",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "baby-plum-tomatoes",
+          "ingredientId": "baby-plum-tomatoes",
+          "label": "Baby plum tomatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "125 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "190 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "250 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken",
+          "ingredientId": "chicken-breast",
+          "label": "British chicken breasts",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "pesto",
+          "ingredientId": "pesto",
+          "label": "Pesto",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "32 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "48 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "64 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sun-dried-tomato-paste",
+          "ingredientId": "sun-dried-tomato-paste",
+          "label": "Sun-dried tomato paste",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "25 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "37 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "50 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "italian-style-hard-cheese",
+          "ingredientId": "italian-style-hard-cheese",
+          "label": "Grated hard Italian style cheese",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "20 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "40 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "40 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "balsamic-glaze",
+          "ingredientId": "balsamic-glaze",
+          "label": "Balsamic glaze",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "12 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "18 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "24 ml"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "honey",
+          "ingredientId": "honey",
+          "label": "Honey",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 tbsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ tbsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 tbsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Roast the chunks",
+          "blocks": [
+            "Preheat the oven to 220°C (200°C fan, gas 7). Cut the unpeeled potatoes into 2 cm chunks. Toss with oil, salt, pepper and mixed herbs. Spread in a single layer on one or more baking trays. Roast on the middle shelf for 30–40 minutes until golden, turning halfway."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Roast the chunks",
+              "seconds": [
+                1800,
+                2400
+              ]
+            }
+          ],
+          "image": {
+            "id": "cheesy-pesto-chicken-traybake-1-sketch",
+            "path": "media/cheesy-pesto-chicken-traybake-1-sketch.webp",
+            "alt": "Roast the chunks",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Prepare the vegetables",
+          "blocks": [
+            "Deseed the bell pepper and cut it into 2 cm chunks. Halve, peel and wedge the red onion."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "cheesy-pesto-chicken-traybake-2-sketch",
+            "path": "media/cheesy-pesto-chicken-traybake-2-sketch.webp",
+            "alt": "Prepare the vegetables",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Season the vegetables",
+          "blocks": [
+            "Put the pepper, onion and baby plum tomatoes on one side of a second large tray. Toss with a drizzle of oil, salt and pepper."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "cheesy-pesto-chicken-traybake-3-sketch",
+            "path": "media/cheesy-pesto-chicken-traybake-3-sketch.webp",
+            "alt": "Season the vegetables",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Coat the chicken with pesto",
+          "blocks": [
+            "Toss the chicken with pesto, salt and pepper. Lay it on the other side of the vegetable tray."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "cheesy-pesto-chicken-traybake-4-sketch",
+            "path": "media/cheesy-pesto-chicken-traybake-4-sketch.webp",
+            "alt": "Coat the chicken with pesto",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Roast the chicken and veg",
+          "blocks": [
+            "Roast the tray on the top shelf for 25–30 minutes until the vegetables are tender and the chicken is cooked through."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Roast the chicken and veg",
+              "seconds": [
+                1500,
+                1800
+              ]
+            }
+          ],
+          "image": {
+            "id": "cheesy-pesto-chicken-traybake-5-sketch",
+            "path": "media/cheesy-pesto-chicken-traybake-5-sketch.webp",
+            "alt": "Roast the chicken and veg",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Serve",
+          "blocks": [
+            "Toss the roasted vegetables with {{honey}} honey and the sun-dried tomato paste. Divide the herby potatoes and vegetables between bowls, top with the chicken and grated hard cheese, then drizzle with balsamic glaze."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "cheesy-pesto-chicken-traybake-6-sketch",
+            "path": "media/cheesy-pesto-chicken-traybake-6-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

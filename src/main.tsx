@@ -114,7 +114,16 @@ function RecipeRoute({ slug, cooking, catalogue, data, setData, library, basics,
 
 function Site({ catalogue }: { catalogue: Catalogue }) {
   const [path, setPath] = useState(route)
-  const [data, setData, storageError] = useUserData(catalogue.manifest.libraryId)
+  const redirects = useMemo(() => {
+    const bySlug = new Map(catalogue.index.map(recipe => [recipe.slug, recipe]))
+    const redirects = new Map<string, { id: string; slug: string }>()
+    for (const [from, to] of Object.entries(catalogue.manifest.redirects)) {
+      const recipe = bySlug.get(to)
+      if (recipe) redirects.set(from, { id: recipe.id, slug: recipe.slug })
+    }
+    return redirects
+  }, [catalogue])
+  const [data, setData, storageError] = useUserData(catalogue.manifest.libraryId, redirects)
   const [browseFilters, setBrowseFilters] = useState(emptyFilters)
   const [dinnerFilters, setDinnerFilters] = useState(emptyFilters)
   const [mode, setMode] = useState<'grid' | 'list'>('grid')
@@ -152,9 +161,10 @@ function Site({ catalogue }: { catalogue: Catalogue }) {
     }
   }, [path])
   useEffect(() => {
-    const summary = catalogue.index.find(r => r.slug === path.split('/')[2])
+    const slug = path.split('/')[2]
+    const summary = catalogue.index.find(r => r.slug === (redirects.get(slug)?.slug ?? slug))
     document.title = summary ? summary.title + ' · What’s for Tea?' : 'What’s for Tea? · Your recipe library'
-  }, [path, catalogue])
+  }, [path, catalogue, redirects])
   const library = { catalogue, tools, saved: data.saved, onSave: (id: string) => setData(value => ({
     ...value, saved: value.saved.includes(id) ? value.saved.filter(item => item !== id) : [id, ...value.saved],
   })) }

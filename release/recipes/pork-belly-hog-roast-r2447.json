@@ -18,9 +18,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 8,
+      "maxMinutes": 13,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Sear and roast pork while baking chips and stuffing and simmering the apple sauce. Warm the rolls near the end."
+    },
+    "cook": {
+      "minMinutes": 45,
+      "maxMinutes": 54,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Sear and roast pork while baking chips and stuffing and simmering the apple sauce. Warm the rolls near the end."
+    },
+    "total": {
+      "minMinutes": 54,
+      "maxMinutes": 63,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Sear and roast pork while baking chips and stuffing and simmering the apple sauce. Warm the rolls near the end."
+    },
     "card": {
       "minMinutes": 50,
       "maxMinutes": 60,
@@ -546,7 +564,7 @@
       "number": 6,
       "heading": "Make the carrot slaw",
       "blocks": [
-        "Trim, peel and grate the carrots. Trim and finely slice the spring onions. Mix with the white wine vinegar."
+        "Trim, peel and grate the carrots. Trim and finely slice the spring onions. Mix with {{line-10}} white wine vinegar."
       ],
       "notes": [],
       "timers": [],
@@ -609,9 +627,9 @@
   "hero": {
     "id": "pork-belly-hog-roast-r2447-hero",
     "path": "media/pork-belly-hog-roast-r2447.webp",
-    "width": 646,
-    "height": 597,
-    "alt": "Pork Belly Hog Roast, Apple Sauce & Stuffing",
+    "width": 1120,
+    "height": 647,
+    "alt": "Pork belly and stuffing ciabatta with chips and carrot slaw",
     "credit": "Gousto recipe card",
     "sizes": [
       {
@@ -619,5 +637,9 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ]
 }

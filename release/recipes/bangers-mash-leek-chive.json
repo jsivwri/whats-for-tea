@@ -1,0 +1,589 @@
+{
+  "id": "bangers-mash-leek-chive",
+  "slug": "bangers-mash-leek-chive",
+  "title": "Bangers, Mash and Leek & Chive Sauce",
+  "subtitle": "with Green Beans",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2025-W45 · Card 3"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "bangers-mash-leek-chive",
+    "path": "media/bangers-mash-leek-chive.webp",
+    "width": 1120,
+    "height": 808,
+    "alt": "Bangers, Mash and Leek & Chive Sauce with Green Beans",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/bangers-mash-leek-chive-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Spring",
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "minMinutes": 7,
+      "maxMinutes": 12,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Trim the vegetables, chop potatoes and prep garlic, leek and chives",
+      "estimated": true
+    },
+    "cook": {
+      "minMinutes": 20,
+      "maxMinutes": 28,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Potatoes and leek sauce can cook during the sausage and bean roast",
+      "estimated": true
+    },
+    "total": {
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "sourceLabel": "Estimated elapsed time",
+      "provenance": "Early prep and oven heating precede overlapping roasting, mashing and sauce stages",
+      "estimated": true
+    },
+    "card": {
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "sourceLabel": "30–35 Minutes",
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Foil",
+    "Baking tray",
+    "Colander",
+    "Garlic press",
+    "Large saucepan and lid",
+    "Potato masher"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g",
+          "amount": 450,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g",
+          "amount": 700,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g",
+          "amount": 900,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "green-beans",
+      "ingredientId": "green-beans",
+      "label": "Green beans",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g",
+          "amount": 80,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "160 g",
+          "amount": 160,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "160 g",
+          "amount": 160,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3",
+          "amount": 3
+        },
+        "3": {
+          "status": "printed",
+          "text": "4",
+          "amount": 4
+        },
+        "4": {
+          "status": "printed",
+          "text": "6",
+          "amount": 6
+        }
+      }
+    },
+    {
+      "id": "cumberland-sausage",
+      "ingredientId": "cumberland-sausage",
+      "label": "British Cumberland sausages",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "4",
+          "amount": 4
+        },
+        "3": {
+          "status": "printed",
+          "text": "6",
+          "amount": 6
+        },
+        "4": {
+          "status": "printed",
+          "text": "8",
+          "amount": 8
+        }
+      }
+    },
+    {
+      "id": "chives",
+      "ingredientId": "chives",
+      "label": "Chives",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 bunch",
+          "amount": 1,
+          "unit": "bunch"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 bunch",
+          "amount": 1,
+          "unit": "bunch"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 bunch",
+          "amount": 1,
+          "unit": "bunch"
+        }
+      }
+    },
+    {
+      "id": "leek",
+      "ingredientId": "leek",
+      "label": "Leeks",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1",
+          "amount": 1
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5",
+          "amount": 1.5
+        },
+        "4": {
+          "status": "printed",
+          "text": "2",
+          "amount": 2
+        }
+      }
+    },
+    {
+      "id": "creme-fraiche",
+      "ingredientId": "creme-fraiche",
+      "label": "Crème fraîche",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g",
+          "amount": 75,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 g",
+          "amount": 150,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g",
+          "amount": 150,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "chicken-stock-paste",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken stock paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g",
+          "amount": 10,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g",
+          "amount": 15,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g",
+          "amount": 20,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 ml",
+          "amount": 75,
+          "unit": "ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "115 ml",
+          "amount": 115,
+          "unit": "ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 ml",
+          "amount": 150,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "id": "potato-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the potato water",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "0.5 tsp",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "0.75 tsp",
+          "amount": 0.75,
+          "unit": "tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp",
+          "amount": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "id": "butter",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "group": "bring",
+      "optional": true,
+      "quantities": {
+        "2": {
+          "status": "unknown"
+        },
+        "3": {
+          "status": "unknown"
+        },
+        "4": {
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "id": "milk",
+      "ingredientId": "milk",
+      "label": "Milk",
+      "group": "bring",
+      "optional": true,
+      "quantities": {
+        "2": {
+          "status": "unknown"
+        },
+        "3": {
+          "status": "unknown"
+        },
+        "4": {
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unknown"
+        },
+        "3": {
+          "status": "unknown"
+        },
+        "4": {
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unknown"
+        },
+        "3": {
+          "status": "unknown"
+        },
+        "4": {
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unknown"
+        },
+        "3": {
+          "status": "unknown"
+        },
+        "4": {
+          "status": "unknown"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Get started",
+      "blocks": [
+        "Preheat the oven to 220°C / 200°C fan / gas mark 7. Bring a large saucepan of water with {{potato-salt}} salt to the boil.",
+        "Chop the potatoes into 2 cm chunks, peeling first if you prefer. Trim the beans and peel and grate or press the garlic."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "bangers-mash-leek-chive-1-sketch",
+        "path": "media/bangers-mash-leek-chive-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Get started",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Roasting time",
+      "blocks": [
+        "Put the sausages on a baking tray. Toss the beans with a drizzle of oil, half the grated garlic, salt and pepper on a sheet of foil. Seal the foil into a parcel and add it to the tray.",
+        "Roast on the middle shelf for 20–25 minutes until golden and cooked through. Turn the sausages halfway. Wash hands and equipment after handling raw meat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the sausages and beans",
+          "seconds": [
+            1200,
+            1500
+          ]
+        }
+      ],
+      "image": {
+        "id": "bangers-mash-leek-chive-2-sketch",
+        "path": "media/bangers-mash-leek-chive-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Roasting time",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Make your mash",
+      "blocks": [
+        "Boil the potatoes for 15–20 minutes, until a knife slips through easily. Drain and return to the pan off the heat.",
+        "Mash until smooth, adding a knob of butter and a splash of milk if available. Season with salt and pepper, cover and keep warm."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Boil the potatoes",
+          "seconds": [
+            900,
+            1200
+          ]
+        }
+      ],
+      "image": {
+        "id": "bangers-mash-leek-chive-3-sketch",
+        "path": "media/bangers-mash-leek-chive-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Make your mash",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Finish the prep",
+      "blocks": [
+        "Roughly chop the chives. Trim the leek, removing the root and dark green leafy part, then halve lengthways and thinly slice."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "bangers-mash-leek-chive-4-sketch",
+        "path": "media/bangers-mash-leek-chive-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Finish the prep",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Make your leek and chive sauce",
+      "blocks": [
+        "Heat a drizzle of oil in a large saucepan over medium-high heat. Add the leek, season and cook for 4–6 minutes until softened, stirring occasionally. Add the remaining garlic and fry for 1 minute.",
+        "Add the crème fraîche, chicken stock paste, chives and {{sauce-water}} water. Simmer for 2–3 minutes and season with pepper."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Soften the leek",
+          "seconds": [
+            240,
+            360
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Simmer the sauce",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "bangers-mash-leek-chive-5-sketch",
+        "path": "media/bangers-mash-leek-chive-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Make your leek and chive sauce",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Spring has sprung",
+      "blocks": [
+        "Serve the sausages with the mash and roasted green beans. Drizzle over the leek and chive sauce."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "bangers-mash-leek-chive-6-sketch",
+        "path": "media/bangers-mash-leek-chive-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Spring has sprung",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    }
+  ],
+  "variants": []
+}

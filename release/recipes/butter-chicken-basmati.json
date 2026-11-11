@@ -1,0 +1,1252 @@
+{
+  "id": "butter-chicken-basmati",
+  "slug": "butter-chicken-basmati",
+  "title": "Butter Chicken and Basmati Rice",
+  "subtitle": "with Peas and Flaked Almonds",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 1"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "butter-chicken-basmati",
+    "path": "media/butter-chicken-basmati.webp",
+    "width": 1036,
+    "height": 538,
+    "alt": "Butter Chicken and Basmati Rice with Peas and Flaked Almonds",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/butter-chicken-basmati-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [],
+  "timings": {
+    "prep": {
+      "minMinutes": 5,
+      "maxMinutes": 10,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Grating garlic, measuring and opening ingredients",
+      "estimated": true
+    },
+    "cook": {
+      "minMinutes": 20,
+      "maxMinutes": 25,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Rice cooking and steaming overlap the sauce and poaching",
+      "estimated": true
+    },
+    "total": {
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "sourceLabel": "Estimated elapsed time",
+      "provenance": "Overlapping rice and chicken stages plus bringing to the boil and serving",
+      "estimated": true
+    },
+    "card": {
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "sourceLabel": "25–30 Minutes",
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Saucepan with a tight-fitting lid",
+    "Medium saucepan",
+    "Garlic press"
+  ],
+  "before": [],
+  "allergens": [
+    "Almonds",
+    "Milk",
+    "Mustard"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "basmati-rice",
+      "ingredientId": "basmati-rice",
+      "label": "Basmati rice",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g",
+          "amount": 150,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "225 g",
+          "amount": 225,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 g",
+          "amount": 300,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2",
+          "amount": 2
+        },
+        "3": {
+          "status": "printed",
+          "text": "3",
+          "amount": 3
+        },
+        "4": {
+          "status": "printed",
+          "text": "4",
+          "amount": 4
+        }
+      }
+    },
+    {
+      "id": "korma-curry-paste",
+      "ingredientId": "korma-curry-paste",
+      "label": "Korma curry paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g",
+          "amount": 50,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 g",
+          "amount": 75,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g",
+          "amount": 100,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "tomato-puree",
+      "ingredientId": "tomato-puree",
+      "label": "Tomato purée",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g",
+          "amount": 30,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "45 g",
+          "amount": 45,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g",
+          "amount": 60,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "chicken-thigh",
+      "ingredientId": "chicken-thigh",
+      "label": "Diced British chicken thigh",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "190 g",
+          "amount": 190,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "350 g",
+          "amount": 350,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "390 g",
+          "amount": 390,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "chicken-stock-paste",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken stock paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g",
+          "amount": 10,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g",
+          "amount": 15,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g",
+          "amount": 20,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "peas",
+      "ingredientId": "peas",
+      "label": "Peas",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "120 g",
+          "amount": 120,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "180 g",
+          "amount": 180,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "240 g",
+          "amount": 240,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "creme-fraiche",
+      "ingredientId": "creme-fraiche",
+      "label": "Crème fraîche",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g",
+          "amount": 75,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "120 g",
+          "amount": 120,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g",
+          "amount": 150,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "toasted-flaked-almonds",
+      "ingredientId": "toasted-flaked-almonds",
+      "label": "Toasted flaked almonds",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g",
+          "amount": 15,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "25 g",
+          "amount": 25,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g",
+          "amount": 30,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "rice-water",
+      "ingredientId": "water",
+      "label": "Water for the rice",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "300 ml",
+          "amount": 300,
+          "unit": "ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "450 ml",
+          "amount": 450,
+          "unit": "ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "600 ml",
+          "amount": 600,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 ml",
+          "amount": 150,
+          "unit": "ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "225 ml",
+          "amount": 225,
+          "unit": "ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 ml",
+          "amount": 300,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tsp",
+          "amount": 1.5,
+          "unit": "tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp",
+          "amount": 2,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "id": "butter",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g",
+          "amount": 20,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g",
+          "amount": 30,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g",
+          "amount": 40,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "rice-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the rice",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "0.25 tsp",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "0.375 tsp",
+          "amount": 0.375,
+          "unit": "tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "0.5 tsp",
+          "amount": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unknown"
+        },
+        "3": {
+          "status": "unknown"
+        },
+        "4": {
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unknown"
+        },
+        "3": {
+          "status": "unknown"
+        },
+        "4": {
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unknown"
+        },
+        "3": {
+          "status": "unknown"
+        },
+        "4": {
+          "status": "unknown"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Cook the rice",
+      "blocks": [
+        "Pour {{rice-water}} water into a medium saucepan with a tight-fitting lid. Stir in the rice and {{rice-salt}} salt and bring to the boil.",
+        "Turn the heat down to medium, cover and cook for 10 minutes. Remove from the heat and leave covered for another 10 minutes or until ready to serve."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the rice",
+          "seconds": [
+            600
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Steam the rice off the heat",
+          "seconds": [
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "butter-chicken-basmati-1-sketch",
+        "path": "media/butter-chicken-basmati-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Cook the rice",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Build the flavour",
+      "blocks": [
+        "Peel and grate or press the garlic. Heat a drizzle of oil in a medium saucepan over medium-high heat. Cook the korma paste, tomato purée and garlic, stirring, for 1 minute until fragrant."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the aromatics",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "butter-chicken-basmati-2-sketch",
+        "path": "media/butter-chicken-basmati-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Build the flavour",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Poach the chicken",
+      "blocks": [
+        "Pour in {{sauce-water}} water. Stir through the diced chicken, stock paste and {{sugar}} sugar. Bring to a boil, then simmer for 9–11 minutes until the chicken is cooked through and the sauce has thickened."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the chicken",
+          "seconds": [
+            540,
+            660
+          ]
+        }
+      ],
+      "image": {
+        "id": "butter-chicken-basmati-3-sketch",
+        "path": "media/butter-chicken-basmati-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Poach the chicken",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Butter and cream time",
+      "blocks": [
+        "Stir through the peas, crème fraîche and {{butter}} butter. Cook for 1–2 minutes until the butter melts and everything is piping hot."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Heat the peas and cream",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "butter-chicken-basmati-4-sketch",
+        "path": "media/butter-chicken-basmati-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Butter and cream time",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Finishing touches",
+      "blocks": [
+        "Fluff the rice with a fork. Add a splash of water to the curry if it is too thick. Season with salt and pepper if needed."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "butter-chicken-basmati-5-sketch",
+        "path": "media/butter-chicken-basmati-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Finishing touches",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Serve up",
+      "blocks": [
+        "Divide the rice between bowls and spoon over the butter chicken. Sprinkle with flaked almonds."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "butter-chicken-basmati-6-sketch",
+        "path": "media/butter-chicken-basmati-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Serve up",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "chicken-breast",
+      "label": "Diced chicken breast",
+      "ingredients": [
+        {
+          "id": "basmati-rice",
+          "ingredientId": "basmati-rice",
+          "label": "Basmati rice",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "150 g",
+              "amount": 150,
+              "unit": "g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "225 g",
+              "amount": 225,
+              "unit": "g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "300 g",
+              "amount": 300,
+              "unit": "g"
+            }
+          }
+        },
+        {
+          "id": "garlic",
+          "ingredientId": "garlic",
+          "label": "Garlic cloves",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2",
+              "amount": 2
+            },
+            "3": {
+              "status": "printed",
+              "text": "3",
+              "amount": 3
+            },
+            "4": {
+              "status": "printed",
+              "text": "4",
+              "amount": 4
+            }
+          }
+        },
+        {
+          "id": "korma-curry-paste",
+          "ingredientId": "korma-curry-paste",
+          "label": "Korma curry paste",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "50 g",
+              "amount": 50,
+              "unit": "g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "75 g",
+              "amount": 75,
+              "unit": "g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "100 g",
+              "amount": 100,
+              "unit": "g"
+            }
+          }
+        },
+        {
+          "id": "tomato-puree",
+          "ingredientId": "tomato-puree",
+          "label": "Tomato purée",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "30 g",
+              "amount": 30,
+              "unit": "g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "45 g",
+              "amount": 45,
+              "unit": "g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "60 g",
+              "amount": 60,
+              "unit": "g"
+            }
+          }
+        },
+        {
+          "id": "chicken-breast",
+          "ingredientId": "chicken-breast",
+          "label": "Diced British chicken breast",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "240 g",
+              "amount": 240,
+              "unit": "g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "390 g",
+              "amount": 390,
+              "unit": "g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "520 g",
+              "amount": 520,
+              "unit": "g"
+            }
+          }
+        },
+        {
+          "id": "chicken-stock-paste",
+          "ingredientId": "chicken-stock-paste",
+          "label": "Chicken stock paste",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "10 g",
+              "amount": 10,
+              "unit": "g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "15 g",
+              "amount": 15,
+              "unit": "g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "20 g",
+              "amount": 20,
+              "unit": "g"
+            }
+          }
+        },
+        {
+          "id": "peas",
+          "ingredientId": "peas",
+          "label": "Peas",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "120 g",
+              "amount": 120,
+              "unit": "g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "180 g",
+              "amount": 180,
+              "unit": "g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "240 g",
+              "amount": 240,
+              "unit": "g"
+            }
+          }
+        },
+        {
+          "id": "creme-fraiche",
+          "ingredientId": "creme-fraiche",
+          "label": "Crème fraîche",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "75 g",
+              "amount": 75,
+              "unit": "g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "120 g",
+              "amount": 120,
+              "unit": "g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "150 g",
+              "amount": 150,
+              "unit": "g"
+            }
+          }
+        },
+        {
+          "id": "toasted-flaked-almonds",
+          "ingredientId": "toasted-flaked-almonds",
+          "label": "Toasted flaked almonds",
+          "group": "box",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "15 g",
+              "amount": 15,
+              "unit": "g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "25 g",
+              "amount": 25,
+              "unit": "g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "30 g",
+              "amount": 30,
+              "unit": "g"
+            }
+          }
+        },
+        {
+          "id": "rice-water",
+          "ingredientId": "water",
+          "label": "Water for the rice",
+          "group": "bring",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "300 ml",
+              "amount": 300,
+              "unit": "ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "450 ml",
+              "amount": 450,
+              "unit": "ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "600 ml",
+              "amount": 600,
+              "unit": "ml"
+            }
+          }
+        },
+        {
+          "id": "sauce-water",
+          "ingredientId": "water",
+          "label": "Water for the sauce",
+          "group": "bring",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "150 ml",
+              "amount": 150,
+              "unit": "ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "225 ml",
+              "amount": 225,
+              "unit": "ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "300 ml",
+              "amount": 300,
+              "unit": "ml"
+            }
+          }
+        },
+        {
+          "id": "sugar",
+          "ingredientId": "sugar",
+          "label": "Sugar",
+          "group": "bring",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 tsp",
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ tsp",
+              "amount": 1.5,
+              "unit": "tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 tsp",
+              "amount": 2,
+              "unit": "tsp"
+            }
+          }
+        },
+        {
+          "id": "butter",
+          "ingredientId": "butter",
+          "label": "Butter",
+          "group": "bring",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "20 g",
+              "amount": 20,
+              "unit": "g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "30 g",
+              "amount": 30,
+              "unit": "g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "40 g",
+              "amount": 40,
+              "unit": "g"
+            }
+          }
+        },
+        {
+          "id": "rice-salt",
+          "ingredientId": "salt",
+          "label": "Salt for the rice",
+          "group": "bring",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "0.25 tsp",
+              "amount": 0.25,
+              "unit": "tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "0.375 tsp",
+              "amount": 0.375,
+              "unit": "tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "0.5 tsp",
+              "amount": 0.5,
+              "unit": "tsp"
+            }
+          }
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "group": "bring",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "unknown"
+            },
+            "3": {
+              "status": "unknown"
+            },
+            "4": {
+              "status": "unknown"
+            }
+          }
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "group": "bring",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "unknown"
+            },
+            "3": {
+              "status": "unknown"
+            },
+            "4": {
+              "status": "unknown"
+            }
+          }
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "group": "bring",
+          "optional": false,
+          "quantities": {
+            "2": {
+              "status": "unknown"
+            },
+            "3": {
+              "status": "unknown"
+            },
+            "4": {
+              "status": "unknown"
+            }
+          }
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "number": 1,
+          "heading": "Cook the rice",
+          "blocks": [
+            "Pour {{rice-water}} water into a medium saucepan with a tight-fitting lid. Stir in the rice and {{rice-salt}} salt and bring to the boil.",
+            "Turn the heat down to medium, cover and cook for 10 minutes. Remove from the heat and leave covered for another 10 minutes or until ready to serve."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Cook the rice",
+              "seconds": [
+                600
+              ]
+            },
+            {
+              "id": "timer-2",
+              "label": "Steam the rice off the heat",
+              "seconds": [
+                600
+              ]
+            }
+          ],
+          "image": {
+            "id": "butter-chicken-basmati-1-sketch",
+            "path": "media/butter-chicken-basmati-1-sketch.webp",
+            "width": 640,
+            "height": 480,
+            "alt": "Cook the rice",
+            "credit": "Illustration based on the HelloFresh card"
+          }
+        },
+        {
+          "id": "step-2",
+          "number": 2,
+          "heading": "Build the flavour",
+          "blocks": [
+            "Peel and grate or press the garlic. Heat a drizzle of oil in a medium saucepan over medium-high heat. Cook the korma paste, tomato purée and garlic, stirring, for 1 minute until fragrant."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Cook the aromatics",
+              "seconds": [
+                60
+              ]
+            }
+          ],
+          "image": {
+            "id": "butter-chicken-basmati-2-sketch",
+            "path": "media/butter-chicken-basmati-2-sketch.webp",
+            "width": 640,
+            "height": 480,
+            "alt": "Build the flavour",
+            "credit": "Illustration based on the HelloFresh card"
+          }
+        },
+        {
+          "id": "step-3",
+          "number": 3,
+          "heading": "Poach the chicken",
+          "blocks": [
+            "Pour in {{sauce-water}} water. Stir through the diced chicken, stock paste and {{sugar}} sugar. Bring to a boil, then simmer for 9–11 minutes until the chicken is cooked through and the sauce has thickened."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Simmer the chicken",
+              "seconds": [
+                540,
+                660
+              ]
+            }
+          ],
+          "image": {
+            "id": "butter-chicken-basmati-3-sketch",
+            "path": "media/butter-chicken-basmati-3-sketch.webp",
+            "width": 640,
+            "height": 480,
+            "alt": "Poach the chicken",
+            "credit": "Illustration based on the HelloFresh card"
+          }
+        },
+        {
+          "id": "step-4",
+          "number": 4,
+          "heading": "Butter and cream time",
+          "blocks": [
+            "Stir through the peas, crème fraîche and {{butter}} butter. Cook for 1–2 minutes until the butter melts and everything is piping hot."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Heat the peas and cream",
+              "seconds": [
+                60,
+                120
+              ]
+            }
+          ],
+          "image": {
+            "id": "butter-chicken-basmati-4-sketch",
+            "path": "media/butter-chicken-basmati-4-sketch.webp",
+            "width": 640,
+            "height": 480,
+            "alt": "Butter and cream time",
+            "credit": "Illustration based on the HelloFresh card"
+          }
+        },
+        {
+          "id": "step-5",
+          "number": 5,
+          "heading": "Finishing touches",
+          "blocks": [
+            "Fluff the rice with a fork. Add a splash of water to the curry if it is too thick. Season with salt and pepper if needed."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "butter-chicken-basmati-5-sketch",
+            "path": "media/butter-chicken-basmati-5-sketch.webp",
+            "width": 640,
+            "height": 480,
+            "alt": "Finishing touches",
+            "credit": "Illustration based on the HelloFresh card"
+          }
+        },
+        {
+          "id": "step-6",
+          "number": 6,
+          "heading": "Serve up",
+          "blocks": [
+            "Divide the rice between bowls and spoon over the butter chicken. Sprinkle with flaked almonds."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "butter-chicken-basmati-6-sketch",
+            "path": "media/butter-chicken-basmati-6-sketch.webp",
+            "width": 640,
+            "height": 480,
+            "alt": "Serve up",
+            "credit": "Illustration based on the HelloFresh card"
+          }
+        }
+      ]
+    }
+  ]
+}

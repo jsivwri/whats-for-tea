@@ -1,0 +1,461 @@
+{
+  "id": "oven-baked-feta-tenderstem-farfalle",
+  "slug": "oven-baked-feta-tenderstem-farfalle",
+  "title": "Oven-Baked Feta, Tomato & Tenderstem Farfalle",
+  "aliases": [],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto",
+    "edition": "Recipe bag 3389"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "oven-baked-feta-tenderstem-farfalle",
+    "path": "media/oven-baked-feta-tenderstem-farfalle.webp",
+    "width": 1120,
+    "height": 811,
+    "alt": "Oven-Baked Feta, Tomato & Tenderstem Farfalle",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/oven-baked-feta-tenderstem-farfalle-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer",
+    "Autumn"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 5,
+      "maxMinutes": 10,
+      "provenance": "Prep time based on the card where stated, or on the chopping and measuring required.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "provenance": "Cook time based on the printed method, allowing for tasks in parallel.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 30,
+      "maxMinutes": 40,
+      "provenance": "Elapsed time includes preparation, cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "30–40 min",
+      "minMinutes": 30,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Hob-safe ovenproof casserole with lid",
+    "Baking tray",
+    "Foil"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Wheat and gluten",
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact."
+  ],
+  "ingredients": [
+    {
+      "id": "basil",
+      "ingredientId": "basil",
+      "label": "Basil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cherry-tomatoes",
+      "ingredientId": "cherry-tomatoes",
+      "label": "Cherry tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "500 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "farfalle",
+      "ingredientId": "farfalle",
+      "label": "Farfalle pasta",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "400 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "balsamic-vinegar",
+      "ingredientId": "balsamic-vinegar",
+      "label": "Balsamic vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tomato-paste",
+      "ingredientId": "tomato-paste",
+      "label": "Tomato paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "32 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "64 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chilli-flakes",
+      "ingredientId": "chilli-flakes",
+      "label": "Dried chilli flakes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tenderstem-broccoli",
+      "ingredientId": "tenderstem-broccoli",
+      "label": "Tenderstem broccoli",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "160 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "320 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "vegetable-stock-mix",
+      "ingredientId": "vegetable-stock-mix",
+      "label": "Vegetable stock mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "11 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "22 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "feta",
+      "ingredientId": "feta",
+      "label": "Feta",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "stock-water",
+      "ingredientId": "water",
+      "label": "Boiling water for the tomato stock",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "500 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 l"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "olive-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Get the equipment ready",
+      "blocks": [
+        "Set out an ovenproof casserole and lid that are also safe on the hob. If you don’t have one, use a wide pan on the hob, then transfer to an ovenproof dish and cover tightly with foil. Wash the produce."
+      ],
+      "notes": [],
+      "timers": []
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Heat the oven and prepare the feta",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Boil a kettle and warm the casserole over medium heat. Place the feta on a large foil-lined baking tray."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "oven-baked-feta-tenderstem-farfalle-1-sketch",
+        "path": "media/oven-baked-feta-tenderstem-farfalle-1-sketch.webp",
+        "alt": "Heat the oven and prepare the feta",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Add the tomatoes",
+      "blocks": [
+        "Halve half the cherry tomatoes. Add both the halved and whole tomatoes to the tray with the feta and drizzle with olive oil."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "oven-baked-feta-tenderstem-farfalle-2-sketch",
+        "path": "media/oven-baked-feta-tenderstem-farfalle-2-sketch.webp",
+        "alt": "Add the tomatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Season the feta",
+      "blocks": [
+        "Drizzle over the balsamic vinegar and sprinkle with chilli flakes to taste. Set the tray aside."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "oven-baked-feta-tenderstem-farfalle-3-sketch",
+        "path": "media/oven-baked-feta-tenderstem-farfalle-3-sketch.webp",
+        "alt": "Season the feta",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Make the tomato stock",
+      "blocks": [
+        "Dissolve the vegetable stock mix and tomato paste in {{stock-water}} boiling water. Cut the Tenderstem broccoli into thirds."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "oven-baked-feta-tenderstem-farfalle-4-sketch",
+        "path": "media/oven-baked-feta-tenderstem-farfalle-4-sketch.webp",
+        "alt": "Make the tomato stock",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Bake the pasta",
+      "blocks": [
+        "Put the tomato stock, farfalle and broccoli into the casserole and bring to the boil over high heat. Push the pasta under the stock for even cooking. Cover and bake for 25–30 minutes until tender."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the pasta",
+          "seconds": [
+            1500,
+            1800
+          ]
+        }
+      ],
+      "image": {
+        "id": "oven-baked-feta-tenderstem-farfalle-5-sketch",
+        "path": "media/oven-baked-feta-tenderstem-farfalle-5-sketch.webp",
+        "alt": "Bake the pasta",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 7,
+      "id": "step-7",
+      "heading": "Bake the feta and tomatoes",
+      "blocks": [
+        "Bake the feta and tomato tray alongside the pasta for about 25 minutes until softened."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the feta and tomatoes",
+          "seconds": [
+            1500
+          ]
+        }
+      ],
+      "image": {
+        "id": "oven-baked-feta-tenderstem-farfalle-6-sketch",
+        "path": "media/oven-baked-feta-tenderstem-farfalle-6-sketch.webp",
+        "alt": "Bake the feta and tomatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 8,
+      "id": "step-8",
+      "heading": "Finish and serve",
+      "blocks": [
+        "Stir the softened feta, tomatoes and tray juices into the pasta. Tear in the basil leaves, discarding the stalks. Season with salt and black pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "oven-baked-feta-tenderstem-farfalle-7-sketch",
+        "path": "media/oven-baked-feta-tenderstem-farfalle-7-sketch.webp",
+        "alt": "Finish and serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

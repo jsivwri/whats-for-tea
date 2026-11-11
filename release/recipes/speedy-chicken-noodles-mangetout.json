@@ -1,0 +1,485 @@
+{
+  "id": "speedy-chicken-noodles-mangetout",
+  "slug": "speedy-chicken-noodles-mangetout",
+  "title": "Speedy Chicken Noodles",
+  "subtitle": "with Mangetout",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 14"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "speedy-chicken-noodles-mangetout",
+    "path": "media/speedy-chicken-noodles-mangetout.webp",
+    "width": 1120,
+    "height": 894,
+    "alt": "Speedy Chicken Noodles",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/speedy-chicken-noodles-mangetout-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Spring",
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 3,
+      "maxMinutes": 5,
+      "provenance": "Chop the vegetables and prepare the aromatics and seasonings.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 11,
+      "maxMinutes": 15,
+      "provenance": "Cook the noodles alongside the stir-fry.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 15,
+      "maxMinutes": 19,
+      "provenance": "Includes initial prep, parallel cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "15 min",
+      "minMinutes": 15,
+      "maxMinutes": 15,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Saucepan",
+    "Sieve or colander",
+    "Large frying pan or wok"
+  ],
+  "before": [],
+  "allergens": [
+    "Peanuts",
+    "Egg",
+    "Soya",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "egg-noodles",
+      "ingredientId": "egg-noodles",
+      "label": "Egg noodle nests",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 nests"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 nests"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 nests"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "Diced chicken breast",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "280 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "420 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "560 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "spring-onion",
+      "ingredientId": "spring-onion",
+      "label": "Spring onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "lime",
+      "ingredientId": "lime",
+      "label": "Lime",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mangetout",
+      "ingredientId": "mangetout",
+      "label": "Mangetout",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 pack"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ packs"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 packs"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ketjap-manis",
+      "ingredientId": "ketjap-manis",
+      "label": "Ketjap manis",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soy-sauce",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "salted-peanuts",
+      "ingredientId": "peanuts",
+      "label": "Salted peanuts",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 bag"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 bag"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 bags"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "noodle-water",
+      "ingredientId": "water",
+      "label": "Water for boiling the noodles",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Cook the noodles",
+      "blocks": [
+        "Boil a kettle and pour the water into a saucepan. Bring back to a boil and cook the noodles for 4 minutes. Drain, return to the pan and cover with cold water to keep them from sticking."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the noodles",
+          "seconds": [
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "speedy-chicken-noodles-mangetout-1-sketch",
+        "path": "media/speedy-chicken-noodles-mangetout-1-sketch.webp",
+        "alt": "Cook the noodles",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Fry the chicken",
+      "blocks": [
+        "Meanwhile, heat a drizzle of oil over high heat in a large frying pan or wok. Add the chicken and fry, stirring occasionally, for 4–5 minutes until it starts to brown."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the chicken",
+          "seconds": [
+            240,
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "speedy-chicken-noodles-mangetout-2-sketch",
+        "path": "media/speedy-chicken-noodles-mangetout-2-sketch.webp",
+        "alt": "Fry the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Prepare the spring onions and lime",
+      "blocks": [
+        "Trim and thinly slice the spring onions. Cut the lime into wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "speedy-chicken-noodles-mangetout-3-sketch",
+        "path": "media/speedy-chicken-noodles-mangetout-3-sketch.webp",
+        "alt": "Prepare the spring onions and lime",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Add the mangetout",
+      "blocks": [
+        "Stir-fry the mangetout and half the spring onions with the chicken for another 3–4 minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Stir-fry the mangetout",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "speedy-chicken-noodles-mangetout-4-sketch",
+        "path": "media/speedy-chicken-noodles-mangetout-4-sketch.webp",
+        "alt": "Add the mangetout",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Finish the noodles",
+      "blocks": [
+        "Drain the noodles and add them with the ketjap manis and soy sauce. Toss for 2–3 minutes until piping hot and the chicken is cooked through. Add a splash of water if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Finish the stir-fry",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "speedy-chicken-noodles-mangetout-5-sketch",
+        "path": "media/speedy-chicken-noodles-mangetout-5-sketch.webp",
+        "alt": "Finish the noodles",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Season to taste. Serve in bowls with the remaining spring onions, peanuts and lime wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "speedy-chicken-noodles-mangetout-6-sketch",
+        "path": "media/speedy-chicken-noodles-mangetout-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

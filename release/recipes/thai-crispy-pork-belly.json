@@ -18,9 +18,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 8,
+      "maxMinutes": 12,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Sear and roast pork, simmer and rest rice alongside and prepare dipping sauce"
+    },
+    "cook": {
+      "minMinutes": 50,
+      "maxMinutes": 55,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Sear and roast pork, simmer and rest rice alongside and prepare dipping sauce"
+    },
+    "total": {
+      "minMinutes": 55,
+      "maxMinutes": 65,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Sear and roast pork, simmer and rest rice alongside and prepare dipping sauce"
+    },
     "card": {
       "minMinutes": 55,
       "maxMinutes": 65,
@@ -508,7 +526,9 @@
       "blocks": [
         "Reduce to a gentle simmer, cover and cook 15 minutes. Remove from the heat and leave covered for another 10 minutes."
       ],
-      "notes": [],
+      "notes": [
+        "Keep the lid on while the rice rests so it stays fluffy and sticky."
+      ],
       "timers": [
         {
           "id": "timer-1",
@@ -557,8 +577,8 @@
   "hero": {
     "id": "thai-crispy-pork-belly-hero",
     "path": "media/thai-crispy-pork-belly.webp",
-    "width": 675,
-    "height": 641,
+    "width": 1092,
+    "height": 604,
     "alt": "Thai-Style Crispy Pork Belly with Sticky Rice & Nam Jim Jaew",
     "credit": "Gousto recipe card",
     "sizes": [
@@ -567,5 +587,6 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": []
 }

@@ -1,0 +1,588 @@
+{
+  "id": "thai-chicken-ginger-greens-brown-rice",
+  "slug": "thai-chicken-ginger-greens-brown-rice",
+  "title": "Thai Chicken, Ginger Greens & Brown Rice",
+  "aliases": [],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto",
+    "edition": "Recipe bag 2218"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "thai-chicken-ginger-greens-brown-rice",
+    "path": "media/thai-chicken-ginger-greens-brown-rice.webp",
+    "width": 1120,
+    "height": 777,
+    "alt": "Thai Chicken, Ginger Greens & Brown Rice",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/thai-chicken-ginger-greens-brown-rice-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Spring",
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 8,
+      "maxMinutes": 12,
+      "provenance": "Prep time based on the card where stated, or on the chopping and measuring required.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 19,
+      "maxMinutes": 25,
+      "provenance": "Cook time based on the printed method, allowing for tasks in parallel.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 28,
+      "maxMinutes": 35,
+      "provenance": "Elapsed time includes preparation, cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "25–30 min",
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Saucepan",
+    "Two wide frying pans",
+    "Mortar and pestle or food processor"
+  ],
+  "before": [],
+  "allergens": [
+    "Soya",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "shallot",
+      "ingredientId": "shallot",
+      "label": "Shallots",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-chilli",
+      "ingredientId": "red-chilli",
+      "label": "Red chillies",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "bell-pepper",
+      "ingredientId": "bell-pepper",
+      "label": "Bell peppers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "lime",
+      "ingredientId": "lime",
+      "label": "Limes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ginger",
+      "ingredientId": "ginger",
+      "label": "Fresh root ginger",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "coriander",
+      "ingredientId": "coriander",
+      "label": "Coriander",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "British chicken breast fillets (about 125 g each)",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mangetout",
+      "ingredientId": "mangetout",
+      "label": "Mangetout",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "160 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "brown-rice",
+      "ingredientId": "brown-rice",
+      "label": "Brown rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "kale",
+      "ingredientId": "kale",
+      "label": "Shredded kale",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "240 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soy-sauce",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "coconut-cream",
+      "ingredientId": "coconut-cream",
+      "label": "Solid coconut cream",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "stock-water",
+      "ingredientId": "water",
+      "label": "Boiling water for the coconut stock",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "chicken-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil for the chicken",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "greens-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil for the greens",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "rice-water",
+      "ingredientId": "water",
+      "label": "Water for boiling the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Cook the brown rice",
+      "blocks": [
+        "Rinse the rice and cover with plenty of cold water. Bring to the boil, reduce to medium and cook for 15–20 minutes until tender with a slight bite. Drain, return to the pot and cover to keep warm."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the brown rice",
+          "seconds": [
+            900,
+            1200
+          ]
+        }
+      ],
+      "image": {
+        "id": "thai-chicken-ginger-greens-brown-rice-1-sketch",
+        "path": "media/thai-chicken-ginger-greens-brown-rice-1-sketch.webp",
+        "alt": "Cook the brown rice",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Prepare the aromatics",
+      "blocks": [
+        "Boil a kettle. Peel and roughly chop the shallot and garlic. Halve and deseed the chilli, then finely chop. Halve the lime and finely chop the coriander, keeping the leaves and stalks separate."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "thai-chicken-ginger-greens-brown-rice-2-sketch",
+        "path": "media/thai-chicken-ginger-greens-brown-rice-2-sketch.webp",
+        "alt": "Prepare the aromatics",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Make the Thai paste and coconut stock",
+      "blocks": [
+        "Pound the shallot, garlic, chilli to taste, coriander stalks and a pinch of salt to a paste in a mortar, or use a food processor. Dissolve the coconut cream in {{stock-water}} boiling water and add the soy sauce."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "thai-chicken-ginger-greens-brown-rice-3-sketch",
+        "path": "media/thai-chicken-ginger-greens-brown-rice-3-sketch.webp",
+        "alt": "Make the Thai paste and coconut stock",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Brown the chicken",
+      "blocks": [
+        "Heat {{chicken-oil}} vegetable oil in a wide frying pan over medium-high. Fry the chicken for 3 minutes per side until browned."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown each side",
+          "seconds": [
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "thai-chicken-ginger-greens-brown-rice-4-sketch",
+        "path": "media/thai-chicken-ginger-greens-brown-rice-4-sketch.webp",
+        "alt": "Brown the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Simmer in coconut stock",
+      "blocks": [
+        "Stir the Thai paste into the chicken and fry for 2–3 minutes until fragrant. Reduce to medium, add the coconut stock and cook for 10–12 minutes until the chicken is cooked through and the sauce thickens. Squeeze in the juice from half the limes and cut the rest into wedges."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the paste",
+          "seconds": [
+            120,
+            180
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Simmer the chicken",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "thai-chicken-ginger-greens-brown-rice-5-sketch",
+        "path": "media/thai-chicken-ginger-greens-brown-rice-5-sketch.webp",
+        "alt": "Simmer in coconut stock",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Prepare the greens",
+      "blocks": [
+        "Deseed and thinly slice the pepper. Halve the mangetout lengthways. Peel and finely chop or grate the ginger."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "thai-chicken-ginger-greens-brown-rice-6-sketch",
+        "path": "media/thai-chicken-ginger-greens-brown-rice-6-sketch.webp",
+        "alt": "Prepare the greens",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 7,
+      "id": "step-7",
+      "heading": "Stir-fry the ginger greens",
+      "blocks": [
+        "Heat {{greens-oil}} vegetable oil in a second wide frying pan over high heat. Add the pepper, kale, mangetout and a pinch of salt and fry for 4–6 minutes. Add the ginger and fry for another 1–2 minutes until the greens are tender with a slight bite."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Stir-fry the greens",
+          "seconds": [
+            240,
+            360
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Fry the ginger",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "thai-chicken-ginger-greens-brown-rice-7-sketch",
+        "path": "media/thai-chicken-ginger-greens-brown-rice-7-sketch.webp",
+        "alt": "Stir-fry the ginger greens",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 8,
+      "id": "step-8",
+      "heading": "Serve",
+      "blocks": [
+        "Thinly slice the chicken and serve with brown rice and ginger greens. Spoon over the Thai sauce and finish with coriander leaves and lime wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "thai-chicken-ginger-greens-brown-rice-8-sketch",
+        "path": "media/thai-chicken-ginger-greens-brown-rice-8-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

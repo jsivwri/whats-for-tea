@@ -1,0 +1,1071 @@
+{
+  "id": "stir-fried-hoisin-chicken-noodles",
+  "slug": "stir-fried-hoisin-chicken-noodles",
+  "title": "Stir-Fried Hoisin Chicken Noodles",
+  "subtitle": "with Pepper, Mangetout and Cashews",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 1"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "stir-fried-hoisin-chicken-noodles",
+    "path": "media/stir-fried-hoisin-chicken-noodles.webp",
+    "width": 1120,
+    "height": 851,
+    "alt": "Stir-Fried Hoisin Chicken Noodles",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/stir-fried-hoisin-chicken-noodles-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 8,
+      "maxMinutes": 11,
+      "provenance": "Chop the vegetables and prepare the aromatics and seasonings.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 14,
+      "maxMinutes": 17,
+      "provenance": "Cook the noodles alongside the stir-fry.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "provenance": "Includes initial prep, parallel cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "25–30 min",
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Saucepan",
+    "Sieve or colander",
+    "Large frying pan or wok",
+    "Fine grater",
+    "Small bowls"
+  ],
+  "before": [],
+  "allergens": [
+    "Cashews",
+    "Egg",
+    "Soya",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "bell-pepper",
+      "ingredientId": "bell-pepper",
+      "label": "Bell pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mangetout",
+      "ingredientId": "mangetout",
+      "label": "Mangetout",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ginger",
+      "ingredientId": "ginger",
+      "label": "Fresh ginger pieces",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cashews",
+      "ingredientId": "cashews",
+      "label": "Cashews",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "25 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "egg-noodles",
+      "ingredientId": "egg-noodles",
+      "label": "Egg noodle nests",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 nests"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 nests"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 nests"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-thigh",
+      "label": "Diced chicken thigh",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "210 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "350 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "390 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "hoisin-sauce",
+      "ingredientId": "hoisin-sauce",
+      "label": "Hoisin sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "64 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "96 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "128 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soy-sauce",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "25 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "25 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "noodle-water",
+      "ingredientId": "water",
+      "label": "Water for boiling the noodles",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "noodle-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the noodles",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "¼ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Prepare the vegetables and cashews",
+      "blocks": [
+        "Deseed and thinly slice the pepper. Cut the mangetout into thirds. Peel and grate the garlic and ginger. Toast the cashews in a dry frying pan over medium heat for 2–3 minutes, stirring regularly, then transfer to a bowl."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Toast the cashews",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "stir-fried-hoisin-chicken-noodles-1-sketch",
+        "path": "media/stir-fried-hoisin-chicken-noodles-1-sketch.webp",
+        "alt": "Prepare the vegetables and cashews",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Cook the noodles",
+      "blocks": [
+        "Bring a saucepan of water with {{noodle-salt}} salt to a boil. Cook the noodles for 4 minutes, drain and rinse under cold water."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the noodles",
+          "seconds": [
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "stir-fried-hoisin-chicken-noodles-2-sketch",
+        "path": "media/stir-fried-hoisin-chicken-noodles-2-sketch.webp",
+        "alt": "Cook the noodles",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Stir-fry the chicken",
+      "blocks": [
+        "Return the frying pan to medium-high with a drizzle of oil. Fry the chicken and pepper for 8–10 minutes until the chicken is golden and cooked through and the pepper has softened. Stir in the garlic and ginger and fry for 1 minute."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the chicken and pepper",
+          "seconds": [
+            480,
+            600
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Fry the aromatics",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "stir-fried-hoisin-chicken-noodles-3-sketch",
+        "path": "media/stir-fried-hoisin-chicken-noodles-3-sketch.webp",
+        "alt": "Stir-fry the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Mix the hoisin glaze",
+      "blocks": [
+        "Stir together the hoisin, honey, soy sauce and {{sauce-water}} water. If the honey is too stiff, warm its container in a bowl of hot water for 1 minute."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "stir-fried-hoisin-chicken-noodles-4-sketch",
+        "path": "media/stir-fried-hoisin-chicken-noodles-4-sketch.webp",
+        "alt": "Mix the hoisin glaze",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Toss together",
+      "blocks": [
+        "Add the noodles, mangetout and glaze to the chicken. Toss for 2–3 minutes until piping hot and the sauce coats the noodles. Taste and adjust seasoning, adding a splash of water if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Finish the stir-fry",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "stir-fried-hoisin-chicken-noodles-5-sketch",
+        "path": "media/stir-fried-hoisin-chicken-noodles-5-sketch.webp",
+        "alt": "Toss together",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Divide the noodles between bowls and scatter over the toasted cashews."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "stir-fried-hoisin-chicken-noodles-6-sketch",
+        "path": "media/stir-fried-hoisin-chicken-noodles-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "swap-chicken-breast",
+      "label": "Swap to diced chicken breast",
+      "ingredients": [
+        {
+          "id": "bell-pepper",
+          "ingredientId": "bell-pepper",
+          "label": "Bell pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "mangetout",
+          "ingredientId": "mangetout",
+          "label": "Mangetout",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "80 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "150 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "150 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "garlic",
+          "ingredientId": "garlic",
+          "label": "Garlic cloves",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "ginger",
+          "ingredientId": "ginger",
+          "label": "Fresh ginger pieces",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "cashews",
+          "ingredientId": "cashews",
+          "label": "Cashews",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "25 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "25 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "25 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "egg-noodles",
+          "ingredientId": "egg-noodles",
+          "label": "Egg noodle nests",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2 nests"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3 nests"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4 nests"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken",
+          "ingredientId": "chicken-breast",
+          "label": "Diced chicken breast",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "260 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "390 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "520 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "hoisin-sauce",
+          "ingredientId": "hoisin-sauce",
+          "label": "Hoisin sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "64 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "96 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "128 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "honey",
+          "ingredientId": "honey",
+          "label": "Honey",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "15 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "30 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "30 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "soy-sauce",
+          "ingredientId": "soy-sauce",
+          "label": "Soy sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "15 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "25 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "25 ml"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sauce-water",
+          "ingredientId": "water",
+          "label": "Water for the sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "50 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "75 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "100 ml"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "noodle-water",
+          "ingredientId": "water",
+          "label": "Water for boiling the noodles",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "noodle-salt",
+          "ingredientId": "salt",
+          "label": "Salt for the noodles",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "¼ tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "¼ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "¼ tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Prepare the vegetables and cashews",
+          "blocks": [
+            "Deseed and thinly slice the pepper. Cut the mangetout into thirds. Peel and grate the garlic and ginger. Toast the cashews in a dry frying pan over medium heat for 2–3 minutes, stirring regularly, then transfer to a bowl."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Toast the cashews",
+              "seconds": [
+                120,
+                180
+              ]
+            }
+          ],
+          "image": {
+            "id": "stir-fried-hoisin-chicken-noodles-1-sketch",
+            "path": "media/stir-fried-hoisin-chicken-noodles-1-sketch.webp",
+            "alt": "Prepare the vegetables and cashews",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Cook the noodles",
+          "blocks": [
+            "Bring a saucepan of water with {{noodle-salt}} salt to a boil. Cook the noodles for 4 minutes, drain and rinse under cold water."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Cook the noodles",
+              "seconds": [
+                240
+              ]
+            }
+          ],
+          "image": {
+            "id": "stir-fried-hoisin-chicken-noodles-2-sketch",
+            "path": "media/stir-fried-hoisin-chicken-noodles-2-sketch.webp",
+            "alt": "Cook the noodles",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Stir-fry the chicken",
+          "blocks": [
+            "Return the frying pan to medium-high with a drizzle of oil. Fry the chicken and pepper for 8–10 minutes until the chicken is golden and cooked through and the pepper has softened. Stir in the garlic and ginger and fry for 1 minute."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Fry the chicken and pepper",
+              "seconds": [
+                480,
+                600
+              ]
+            },
+            {
+              "id": "timer-2",
+              "label": "Fry the aromatics",
+              "seconds": [
+                60
+              ]
+            }
+          ],
+          "image": {
+            "id": "stir-fried-hoisin-chicken-noodles-3-sketch",
+            "path": "media/stir-fried-hoisin-chicken-noodles-3-sketch.webp",
+            "alt": "Stir-fry the chicken",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Mix the hoisin glaze",
+          "blocks": [
+            "Stir together the hoisin, honey, soy sauce and {{sauce-water}} water. If the honey is too stiff, warm its container in a bowl of hot water for 1 minute."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "stir-fried-hoisin-chicken-noodles-4-sketch",
+            "path": "media/stir-fried-hoisin-chicken-noodles-4-sketch.webp",
+            "alt": "Mix the hoisin glaze",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Toss together",
+          "blocks": [
+            "Add the noodles, mangetout and glaze to the chicken. Toss for 2–3 minutes until piping hot and the sauce coats the noodles. Taste and adjust seasoning, adding a splash of water if needed."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Finish the stir-fry",
+              "seconds": [
+                120,
+                180
+              ]
+            }
+          ],
+          "image": {
+            "id": "stir-fried-hoisin-chicken-noodles-5-sketch",
+            "path": "media/stir-fried-hoisin-chicken-noodles-5-sketch.webp",
+            "alt": "Toss together",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Serve",
+          "blocks": [
+            "Divide the noodles between bowls and scatter over the toasted cashews."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "stir-fried-hoisin-chicken-noodles-6-sketch",
+            "path": "media/stir-fried-hoisin-chicken-noodles-6-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1171 @@
+{
+  "id": "chicken-plum-stir-fry",
+  "slug": "chicken-plum-stir-fry",
+  "title": "Chicken & Plum Stir-Fry",
+  "subtitle": "with Bok Choy and Noodles",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 16"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "chicken-plum-stir-fry",
+    "path": "media/chicken-plum-stir-fry.webp",
+    "width": 1120,
+    "height": 832,
+    "alt": "Chicken & Plum Stir-Fry",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/chicken-plum-stir-fry-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer",
+    "Autumn"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 6,
+      "maxMinutes": 9,
+      "provenance": "Chop the vegetables and prepare the aromatics and seasonings.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 10,
+      "maxMinutes": 14,
+      "provenance": "Cook the noodles alongside the stir-fry.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 18,
+      "maxMinutes": 23,
+      "provenance": "Includes initial prep, parallel cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "20 min",
+      "minMinutes": 20,
+      "maxMinutes": 20,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Saucepan",
+    "Sieve or colander",
+    "Large frying pan or wok",
+    "Garlic press or fine grater"
+  ],
+  "before": [],
+  "allergens": [
+    "Peanuts",
+    "Egg",
+    "Soya",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "egg-noodles",
+      "ingredientId": "egg-noodles",
+      "label": "Egg noodle nests",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 nests"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 nests"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 nests"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-thigh",
+      "label": "Diced chicken thigh",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "280 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "420 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "560 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "plum",
+      "ingredientId": "plum",
+      "label": "Plums",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "bok-choy",
+      "ingredientId": "bok-choy",
+      "label": "Bok choy",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "spring-onion",
+      "ingredientId": "spring-onion",
+      "label": "Spring onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ginger-paste",
+      "ingredientId": "ginger-paste",
+      "label": "Ginger purée",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¾ sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 sachet"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "chilli-flakes",
+      "ingredientId": "chilli-flakes",
+      "label": "Chilli flakes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 pinch"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 pinch"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 pinches"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "hoisin-sauce",
+      "ingredientId": "hoisin-sauce",
+      "label": "Hoisin sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ketjap-manis",
+      "ingredientId": "ketjap-manis",
+      "label": "Ketjap manis",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salted-peanuts",
+      "ingredientId": "peanuts",
+      "label": "Salted peanuts",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "noodle-water",
+      "ingredientId": "water",
+      "label": "Water for boiling the noodles",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "noodle-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the noodles",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Cook the noodles",
+      "blocks": [
+        "Bring a saucepan of water with {{noodle-salt}} salt to a boil. Cook the noodles for 4 minutes. Drain, rinse under cold water and return to the pan off the heat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the noodles",
+          "seconds": [
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-plum-stir-fry-1-sketch",
+        "path": "media/chicken-plum-stir-fry-1-sketch.webp",
+        "alt": "Cook the noodles",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Fry the chicken",
+      "blocks": [
+        "Heat a drizzle of oil in a large frying pan or wok over medium-high. Season the chicken and fry for 4–5 minutes, stirring occasionally, until browned."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the chicken",
+          "seconds": [
+            240,
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-plum-stir-fry-2-sketch",
+        "path": "media/chicken-plum-stir-fry-2-sketch.webp",
+        "alt": "Fry the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Prepare the plums and greens",
+      "blocks": [
+        "Halve and stone the plums, then cut each half into three wedges. Trim and thinly slice the bok choy crossways. Trim and thinly slice the spring onion. Peel and grate or press the garlic."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chicken-plum-stir-fry-3-sketch",
+        "path": "media/chicken-plum-stir-fry-3-sketch.webp",
+        "alt": "Prepare the plums and greens",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Stir-fry the plums",
+      "blocks": [
+        "Lower the heat to medium and add the plums and {{sugar}} sugar to the chicken. Stir-fry for 1–2 minutes until the plums start to colour. Add the garlic, ginger purée, half the spring onion and chilli flakes to taste. Stir-fry for 1 more minute."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the plums",
+          "seconds": [
+            60,
+            120
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Fry the aromatics",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-plum-stir-fry-4-sketch",
+        "path": "media/chicken-plum-stir-fry-4-sketch.webp",
+        "alt": "Stir-fry the plums",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Finish the noodles",
+      "blocks": [
+        "Add the bok choy and fry for 1–2 minutes until just softened. Stir in the hoisin, ketjap manis and {{sauce-water}} water. Drain and add the noodles, then toss for 1–2 minutes until piping hot and the chicken is cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Soften the bok choy",
+          "seconds": [
+            60,
+            120
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Finish the stir-fry",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-plum-stir-fry-5-sketch",
+        "path": "media/chicken-plum-stir-fry-5-sketch.webp",
+        "alt": "Finish the noodles",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Divide between bowls and scatter over the peanuts and remaining spring onion."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chicken-plum-stir-fry-6-sketch",
+        "path": "media/chicken-plum-stir-fry-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "swap-chicken-breast",
+      "label": "Swap to diced chicken breast",
+      "ingredients": [
+        {
+          "id": "egg-noodles",
+          "ingredientId": "egg-noodles",
+          "label": "Egg noodle nests",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2 nests"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3 nests"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4 nests"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken",
+          "ingredientId": "chicken-breast",
+          "label": "Diced chicken breast",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "280 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "420 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "560 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "plum",
+          "ingredientId": "plum",
+          "label": "Plums",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "bok-choy",
+          "ingredientId": "bok-choy",
+          "label": "Bok choy",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "spring-onion",
+          "ingredientId": "spring-onion",
+          "label": "Spring onions",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "garlic",
+          "ingredientId": "garlic",
+          "label": "Garlic cloves",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "ginger-paste",
+          "ingredientId": "ginger-paste",
+          "label": "Ginger purée",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "½ sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "¾ sachet"
+            },
+            "4": {
+              "status": "printed",
+              "text": "1 sachet"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sugar",
+          "ingredientId": "sugar",
+          "label": "Sugar",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "chilli-flakes",
+          "ingredientId": "chilli-flakes",
+          "label": "Chilli flakes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 pinch"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1 pinch"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 pinches"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "hoisin-sauce",
+          "ingredientId": "hoisin-sauce",
+          "label": "Hoisin sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "ketjap-manis",
+          "ingredientId": "ketjap-manis",
+          "label": "Ketjap manis",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2 sachets"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sauce-water",
+          "ingredientId": "water",
+          "label": "Water for the sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2 tbsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3 tbsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4 tbsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salted-peanuts",
+          "ingredientId": "peanuts",
+          "label": "Salted peanuts",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "25 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "40 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "50 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "noodle-water",
+          "ingredientId": "water",
+          "label": "Water for boiling the noodles",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "noodle-salt",
+          "ingredientId": "salt",
+          "label": "Salt for the noodles",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "½ tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "½ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "½ tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Cook the noodles",
+          "blocks": [
+            "Bring a saucepan of water with {{noodle-salt}} salt to a boil. Cook the noodles for 4 minutes. Drain, rinse under cold water and return to the pan off the heat."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Cook the noodles",
+              "seconds": [
+                240
+              ]
+            }
+          ],
+          "image": {
+            "id": "chicken-plum-stir-fry-1-sketch",
+            "path": "media/chicken-plum-stir-fry-1-sketch.webp",
+            "alt": "Cook the noodles",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Fry the chicken",
+          "blocks": [
+            "Heat a drizzle of oil in a large frying pan or wok over medium-high. Season the chicken and fry for 4–5 minutes, stirring occasionally, until browned."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Brown the chicken",
+              "seconds": [
+                240,
+                300
+              ]
+            }
+          ],
+          "image": {
+            "id": "chicken-plum-stir-fry-2-sketch",
+            "path": "media/chicken-plum-stir-fry-2-sketch.webp",
+            "alt": "Fry the chicken",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Prepare the plums and greens",
+          "blocks": [
+            "Halve and stone the plums, then cut each half into three wedges. Trim and thinly slice the bok choy crossways. Trim and thinly slice the spring onion. Peel and grate or press the garlic."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "chicken-plum-stir-fry-3-sketch",
+            "path": "media/chicken-plum-stir-fry-3-sketch.webp",
+            "alt": "Prepare the plums and greens",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Stir-fry the plums",
+          "blocks": [
+            "Lower the heat to medium and add the plums and {{sugar}} sugar to the chicken. Stir-fry for 1–2 minutes until the plums start to colour. Add the garlic, ginger purée, half the spring onion and chilli flakes to taste. Stir-fry for 1 more minute."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Fry the plums",
+              "seconds": [
+                60,
+                120
+              ]
+            },
+            {
+              "id": "timer-2",
+              "label": "Fry the aromatics",
+              "seconds": [
+                60
+              ]
+            }
+          ],
+          "image": {
+            "id": "chicken-plum-stir-fry-4-sketch",
+            "path": "media/chicken-plum-stir-fry-4-sketch.webp",
+            "alt": "Stir-fry the plums",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Finish the noodles",
+          "blocks": [
+            "Add the bok choy and fry for 1–2 minutes until just softened. Stir in the hoisin, ketjap manis and {{sauce-water}} water. Drain and add the noodles, then toss for 1–2 minutes until piping hot and the chicken is cooked through."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Soften the bok choy",
+              "seconds": [
+                60,
+                120
+              ]
+            },
+            {
+              "id": "timer-2",
+              "label": "Finish the stir-fry",
+              "seconds": [
+                60,
+                120
+              ]
+            }
+          ],
+          "image": {
+            "id": "chicken-plum-stir-fry-5-sketch",
+            "path": "media/chicken-plum-stir-fry-5-sketch.webp",
+            "alt": "Finish the noodles",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Serve",
+          "blocks": [
+            "Divide between bowls and scatter over the peanuts and remaining spring onion."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "chicken-plum-stir-fry-6-sketch",
+            "path": "media/chicken-plum-stir-fry-6-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

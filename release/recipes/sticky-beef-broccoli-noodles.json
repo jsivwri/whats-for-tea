@@ -1,0 +1,558 @@
+{
+  "id": "sticky-beef-broccoli-noodles",
+  "slug": "sticky-beef-broccoli-noodles",
+  "title": "Sticky Beef & Broccoli Noodle Stir-Fry",
+  "aliases": [],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto",
+    "edition": "Recipe bag 2196"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "sticky-beef-broccoli-noodles",
+    "path": "media/sticky-beef-broccoli-noodles.webp",
+    "width": 1120,
+    "height": 764,
+    "alt": "Sticky Beef & Broccoli Noodle Stir-Fry",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/sticky-beef-broccoli-noodles-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 7,
+      "maxMinutes": 10,
+      "provenance": "Prep time based on the card where stated, or on the chopping and measuring required.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 12,
+      "maxMinutes": 16,
+      "provenance": "Cook time based on the printed method, allowing for tasks in parallel.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 22,
+      "maxMinutes": 30,
+      "provenance": "Elapsed time includes preparation, cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "25–30 min",
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Wide frying pan",
+    "Saucepan",
+    "Colander",
+    "Whisk"
+  ],
+  "before": [],
+  "allergens": [
+    "Egg",
+    "Soya",
+    "Wheat and gluten",
+    "Sesame"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw mince."
+  ],
+  "ingredients": [
+    {
+      "id": "red-chilli",
+      "ingredientId": "red-chilli",
+      "label": "Red chillies",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ginger",
+      "ingredientId": "ginger",
+      "label": "Fresh root ginger",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "spring-onion",
+      "ingredientId": "spring-onion",
+      "label": "Spring onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "five-spice",
+      "ingredientId": "five-spice",
+      "label": "Five-spice mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "hoisin-sauce",
+      "ingredientId": "hoisin-sauce",
+      "label": "Hoisin sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "80 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soy-sauce",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rice-vinegar",
+      "ingredientId": "rice-vinegar",
+      "label": "Rice vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "beef-mince",
+      "ingredientId": "beef-mince",
+      "label": "British beef mince",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "500 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sesame-seeds",
+      "ingredientId": "sesame-seeds",
+      "label": "Toasted sesame seeds",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "10 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cornflour",
+      "ingredientId": "cornflour",
+      "label": "Cornflour",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "egg-noodles",
+      "ingredientId": "egg-noodles",
+      "label": "Medium egg noodle nests",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 nests"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 nests"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tenderstem-broccoli",
+      "ingredientId": "tenderstem-broccoli",
+      "label": "Tenderstem broccoli",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "160 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "320 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Cold water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "125 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "noodle-water",
+      "ingredientId": "water",
+      "label": "Water for cooking the noodles",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Chop the aromatics",
+      "blocks": [
+        "Peel the garlic and ginger. Halve and deseed the chilli. Finely chop the garlic, ginger and chilli to taste. Trim and finely slice the spring onions."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sticky-beef-broccoli-noodles-1-sketch",
+        "path": "media/sticky-beef-broccoli-noodles-1-sketch.webp",
+        "alt": "Chop the aromatics",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Fry the aromatics",
+      "blocks": [
+        "Boil a kettle. Heat a generous drizzle of vegetable oil in a wide frying pan over medium-high. Fry the garlic, ginger and chilli for 1–2 minutes until fragrant."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the aromatics",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "sticky-beef-broccoli-noodles-2-sketch",
+        "path": "media/sticky-beef-broccoli-noodles-2-sketch.webp",
+        "alt": "Fry the aromatics",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Brown the beef",
+      "blocks": [
+        "Add the beef and {{five-spice}} five-spice mix. Fry for 4–5 minutes until the mince starts to brown, breaking it up with a wooden spoon."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the beef",
+          "seconds": [
+            240,
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "sticky-beef-broccoli-noodles-3-sketch",
+        "path": "media/sticky-beef-broccoli-noodles-3-sketch.webp",
+        "alt": "Brown the beef",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Mix the sticky sauce",
+      "blocks": [
+        "Whisk the cornflour with {{sauce-water}} cold water, then stir in the hoisin, rice vinegar, soy sauce and {{sugar}} sugar."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sticky-beef-broccoli-noodles-4-sketch",
+        "path": "media/sticky-beef-broccoli-noodles-4-sketch.webp",
+        "alt": "Mix the sticky sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Prepare the broccoli",
+      "blocks": [
+        "Halve the Tenderstem broccoli."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sticky-beef-broccoli-noodles-5-sketch",
+        "path": "media/sticky-beef-broccoli-noodles-5-sketch.webp",
+        "alt": "Prepare the broccoli",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Boil the noodles and broccoli",
+      "blocks": [
+        "Cover the noodles and broccoli with boiling water in a saucepan. Bring back to the boil over high heat and cook for about 5 minutes until tender. Drain, saving a cup of the cooking water."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the noodles and broccoli",
+          "seconds": [
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "sticky-beef-broccoli-noodles-6-sketch",
+        "path": "media/sticky-beef-broccoli-noodles-6-sketch.webp",
+        "alt": "Boil the noodles and broccoli",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 7,
+      "id": "step-7",
+      "heading": "Toss everything together",
+      "blocks": [
+        "Pour the sticky sauce into the browned beef with half the spring onions. Cook for 3–4 minutes until the beef is cooked through, then add the drained noodles and broccoli and toss. Loosen with a splash of the cooking water if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Finish cooking the beef",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "sticky-beef-broccoli-noodles-7-sketch",
+        "path": "media/sticky-beef-broccoli-noodles-7-sketch.webp",
+        "alt": "Toss everything together",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 8,
+      "id": "step-8",
+      "heading": "Serve",
+      "blocks": [
+        "Divide between bowls and scatter over the remaining spring onions and toasted sesame seeds."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sticky-beef-broccoli-noodles-8-sketch",
+        "path": "media/sticky-beef-broccoli-noodles-8-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

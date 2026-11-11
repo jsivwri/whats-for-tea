@@ -1,0 +1,1046 @@
+{
+  "id": "fragrant-peanut-chicken-curry",
+  "slug": "fragrant-peanut-chicken-curry",
+  "title": "Fragrant Peanut Chicken Curry",
+  "subtitle": "with Jasmine Rice, Baby Corn and Young Pea Pods",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2025-W34 · Card 14"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "fragrant-peanut-chicken-curry",
+    "path": "media/fragrant-peanut-chicken-curry.webp",
+    "width": 1120,
+    "height": 822,
+    "alt": "Fragrant Peanut Chicken Curry",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/fragrant-peanut-chicken-curry-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Spring",
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 3,
+      "maxMinutes": 5,
+      "provenance": "Chop the vegetables and prepare the aromatics and seasonings.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 13,
+      "maxMinutes": 16,
+      "provenance": "Cook the rice alongside the curry.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 15,
+      "maxMinutes": 20,
+      "provenance": "Allows for initial prep, parallel cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "15 min",
+      "minMinutes": 15,
+      "maxMinutes": 15,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Saucepan with lid",
+    "Sieve",
+    "Frying pan"
+  ],
+  "before": [],
+  "allergens": [
+    "Peanuts"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "lime",
+      "ingredientId": "lime",
+      "label": "Lime",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "Diced British chicken breast",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "390 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "480 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "jasmine-rice",
+      "ingredientId": "jasmine-rice",
+      "label": "Jasmine rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "225 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-corn",
+      "ingredientId": "baby-corn",
+      "label": "Baby corn",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "60 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "90 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "120 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "young-pea-pods",
+      "ingredientId": "young-pea-pods",
+      "label": "Young pea pods",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "160 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "160 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ginger-garlic-lemongrass-puree",
+      "ingredientId": "ginger-garlic-lemongrass-puree",
+      "label": "Ginger, garlic and lemongrass purée",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "22 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "indonesian-style-spice-mix",
+      "ingredientId": "indonesian-style-spice-mix",
+      "label": "Indonesian style spice mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "peanut-butter",
+      "ingredientId": "peanut-butter",
+      "label": "Peanut butter",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "45 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "coconut-milk",
+      "ingredientId": "coconut-milk",
+      "label": "Coconut milk",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "180 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "250 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "360 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-paste",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¾ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "curry-water",
+      "ingredientId": "water",
+      "label": "Water for the curry",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "water",
+      "ingredientId": "water",
+      "label": "Water for boiling the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "rice-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "¼ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Fry the chicken",
+      "blocks": [
+        "Boil half a kettle and cut the lime into wedges. Heat a drizzle of oil in a large frying pan on medium-high. Fry the chicken for 8–10 minutes, season and cook through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the chicken",
+          "seconds": [
+            480,
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "fragrant-peanut-chicken-curry-1-sketch",
+        "path": "media/fragrant-peanut-chicken-curry-1-sketch.webp",
+        "alt": "Fry the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Cook the rice and vegetables",
+      "blocks": [
+        "Pour the kettle water into a saucepan with {{rice-salt}} salt. Bring to the boil on high, add the jasmine rice and cook for 10–12 minutes. Drain, return to the pan and cover until serving.",
+        "Halve the baby corn lengthways. Add it to the chicken with the pea pods, ginger, garlic and lemongrass purée, Indonesian spice mix and peanut butter. Stir-fry for 2 minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the rice",
+          "seconds": [
+            600,
+            720
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Stir-fry the vegetables",
+          "seconds": [
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "fragrant-peanut-chicken-curry-2-sketch",
+        "path": "media/fragrant-peanut-chicken-curry-2-sketch.webp",
+        "alt": "Cook the rice and vegetables",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Simmer the sauce",
+      "blocks": [
+        "Stir in the coconut milk, stock paste, {{sugar}} sugar and {{curry-water}} water. Bring to the boil and simmer for 2–3 minutes. Add a squeeze of lime juice."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the curry",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "fragrant-peanut-chicken-curry-3-sketch",
+        "path": "media/fragrant-peanut-chicken-curry-3-sketch.webp",
+        "alt": "Simmer the sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Serve",
+      "blocks": [
+        "Divide the rice among bowls, top with the curry and serve with the remaining lime wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "fragrant-peanut-chicken-curry-4-sketch",
+        "path": "media/fragrant-peanut-chicken-curry-4-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "double-chicken",
+      "label": "Double chicken",
+      "ingredients": [
+        {
+          "id": "lime",
+          "ingredientId": "lime",
+          "label": "Lime",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1"
+            },
+            "4": {
+              "status": "printed",
+              "text": "1"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken",
+          "ingredientId": "chicken-breast",
+          "label": "Diced British chicken breast",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "240 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "390 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "480 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "extra-chicken",
+          "ingredientId": "chicken-breast",
+          "label": "Extra diced British chicken breast",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "240 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "390 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "480 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "jasmine-rice",
+          "ingredientId": "jasmine-rice",
+          "label": "Jasmine rice",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "150 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "225 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "300 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "baby-corn",
+          "ingredientId": "baby-corn",
+          "label": "Baby corn",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "60 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "90 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "120 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "young-pea-pods",
+          "ingredientId": "young-pea-pods",
+          "label": "Young pea pods",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "80 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "160 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "160 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "ginger-garlic-lemongrass-puree",
+          "ingredientId": "ginger-garlic-lemongrass-puree",
+          "label": "Ginger, garlic and lemongrass purée",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "15 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "22 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "30 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "indonesian-style-spice-mix",
+          "ingredientId": "indonesian-style-spice-mix",
+          "label": "Indonesian style spice mix",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2 sachets"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "peanut-butter",
+          "ingredientId": "peanut-butter",
+          "label": "Peanut butter",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "30 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "45 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "60 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "coconut-milk",
+          "ingredientId": "coconut-milk",
+          "label": "Coconut milk",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "180 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "250 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "360 ml"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken-stock-paste",
+          "ingredientId": "chicken-stock-paste",
+          "label": "Chicken stock paste",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "10 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "15 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "20 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sugar",
+          "ingredientId": "sugar",
+          "label": "Sugar",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "½ tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "¾ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "1 tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "curry-water",
+          "ingredientId": "water",
+          "label": "Water for the curry",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "100 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "150 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "200 ml"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "water",
+          "ingredientId": "water",
+          "label": "Water for boiling the rice",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "rice-salt",
+          "ingredientId": "salt",
+          "label": "Salt for the rice",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "¼ tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "¼ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "¼ tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Fry the chicken",
+          "blocks": [
+            "Boil half a kettle and cut the lime into wedges. Heat a drizzle of oil in a large frying pan on medium-high. Fry the chicken for 8–10 minutes, season and cook through.",
+            "Fry the extra chicken in the same way; use batches if the pan is crowded."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Fry the chicken",
+              "seconds": [
+                480,
+                600
+              ]
+            }
+          ],
+          "image": {
+            "id": "fragrant-peanut-chicken-curry-1-sketch",
+            "path": "media/fragrant-peanut-chicken-curry-1-sketch.webp",
+            "alt": "Fry the chicken",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Cook the rice and vegetables",
+          "blocks": [
+            "Pour the kettle water into a saucepan with {{rice-salt}} salt. Bring to the boil on high, add the jasmine rice and cook for 10–12 minutes. Drain, return to the pan and cover until serving.",
+            "Halve the baby corn lengthways. Add it to the chicken with the pea pods, ginger, garlic and lemongrass purée, Indonesian spice mix and peanut butter. Stir-fry for 2 minutes."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Cook the rice",
+              "seconds": [
+                600,
+                720
+              ]
+            },
+            {
+              "id": "timer-2",
+              "label": "Stir-fry the vegetables",
+              "seconds": [
+                120
+              ]
+            }
+          ],
+          "image": {
+            "id": "fragrant-peanut-chicken-curry-2-sketch",
+            "path": "media/fragrant-peanut-chicken-curry-2-sketch.webp",
+            "alt": "Cook the rice and vegetables",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Simmer the sauce",
+          "blocks": [
+            "Stir in the coconut milk, stock paste, {{sugar}} sugar and {{curry-water}} water. Bring to the boil and simmer for 2–3 minutes. Add a squeeze of lime juice."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Simmer the curry",
+              "seconds": [
+                120,
+                180
+              ]
+            }
+          ],
+          "image": {
+            "id": "fragrant-peanut-chicken-curry-3-sketch",
+            "path": "media/fragrant-peanut-chicken-curry-3-sketch.webp",
+            "alt": "Simmer the sauce",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Serve",
+          "blocks": [
+            "Divide the rice among bowls, top with the curry and serve with the remaining lime wedges."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "fragrant-peanut-chicken-curry-4-sketch",
+            "path": "media/fragrant-peanut-chicken-curry-4-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

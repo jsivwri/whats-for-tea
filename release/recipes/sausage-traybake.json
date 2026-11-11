@@ -44,8 +44,20 @@
       "sourceLabel": "Prepped in 10",
       "provenance": "HelloFresh card cover"
     },
-    "cook": null,
-    "total": null,
+    "cook": {
+      "minMinutes": 31,
+      "maxMinutes": 37,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Roast squash, pear and sausages on overlapping trays, then crisp the kale and add dressing and cheese."
+    },
+    "total": {
+      "minMinutes": 35,
+      "maxMinutes": 45,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Roast squash, pear and sausages on overlapping trays, then crisp the kale and add dressing and cheese."
+    },
     "card": {
       "minMinutes": 35,
       "maxMinutes": 40,
@@ -62,8 +74,8 @@
     "id": "sausage-traybake",
     "path": "media/sausage-traybake.webp",
     "width": 1120,
-    "height": 803,
-    "alt": "",
+    "height": 800,
+    "alt": "Honey mustard sausages with roast squash, pear, kale and Greek-style cheese",
     "credit": "HelloFresh recipe card",
     "sizes": [
       {
@@ -498,5 +510,9 @@
         "credit": "Illustration based on the HelloFresh recipe card"
       }
     }
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
   ]
 }

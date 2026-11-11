@@ -1,0 +1,536 @@
+{
+  "id": "chicken-korma-green-beans",
+  "slug": "chicken-korma-green-beans",
+  "title": "Chicken Korma Style Curry",
+  "subtitle": "with Green Beans and Basmati Rice",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 1"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "chicken-korma-green-beans",
+    "path": "media/chicken-korma-green-beans.webp",
+    "width": 1120,
+    "height": 705,
+    "alt": "Chicken Korma Style Curry",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/chicken-korma-green-beans-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 5,
+      "maxMinutes": 8,
+      "provenance": "Chop the vegetables and prepare the aromatics and seasonings.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 19,
+      "maxMinutes": 23,
+      "provenance": "Cook the rice alongside the curry.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "provenance": "Allows for initial prep, parallel cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "25–30 min",
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Saucepan with lid",
+    "Frying pan"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Mustard"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "basmati-rice",
+      "ingredientId": "basmati-rice",
+      "label": "Basmati rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "225 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "echalion-shallot",
+      "ingredientId": "shallot",
+      "label": "Echalion shallot",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "green-beans",
+      "ingredientId": "green-beans",
+      "label": "Green beans",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "Diced British chicken breast",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "390 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "520 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "korma-curry-paste",
+      "ingredientId": "korma-curry-paste",
+      "label": "Korma curry paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-paste",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "creme-fraiche",
+      "ingredientId": "creme-fraiche",
+      "label": "Crème fraîche",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rice-water",
+      "ingredientId": "water",
+      "label": "Water for the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "300 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "450 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "600 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "rice-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "¼ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "curry-water",
+      "ingredientId": "water",
+      "label": "Water for the curry",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Cook the rice",
+      "blocks": [
+        "Bring {{rice-water}} water, the basmati rice and {{rice-salt}} salt to a boil in a saucepan with a tight-fitting lid. Cover and reduce the heat to medium. Cook for 10 minutes, then take the pan off the heat and leave covered for another 10 minutes to steam."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the rice",
+          "seconds": [
+            600
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Steam off the heat",
+          "seconds": [
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-korma-green-beans-1-sketch",
+        "path": "media/chicken-korma-green-beans-1-sketch.webp",
+        "alt": "Cook the rice",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Prep the vegetables",
+      "blocks": [
+        "Halve, peel and finely chop the shallot. Trim the green beans and cut into thirds."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chicken-korma-green-beans-2-sketch",
+        "path": "media/chicken-korma-green-beans-2-sketch.webp",
+        "alt": "Prep the vegetables",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Brown the chicken",
+      "blocks": [
+        "Heat a drizzle of oil in a large frying pan over medium-high. Add the chicken, season and fry for 6–8 minutes, turning occasionally, until browned."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the chicken",
+          "seconds": [
+            360,
+            480
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-korma-green-beans-3-sketch",
+        "path": "media/chicken-korma-green-beans-3-sketch.webp",
+        "alt": "Brown the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Fry the beans and spices",
+      "blocks": [
+        "Add the shallot and green beans and fry for 3–4 minutes until softened. Add the korma paste and fry for 1 minute."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Soften the vegetables",
+          "seconds": [
+            180,
+            240
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Fry the paste",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-korma-green-beans-4-sketch",
+        "path": "media/chicken-korma-green-beans-4-sketch.webp",
+        "alt": "Fry the beans and spices",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Simmer the curry",
+      "blocks": [
+        "Stir the stock paste, crème fraîche, {{sugar}} sugar and {{curry-water}} water into the chicken and bring to a boil. Simmer for 5–6 minutes, stirring occasionally, until the beans are tender and the chicken is cooked through. Taste, season and thin with a splash of water if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the curry",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-korma-green-beans-5-sketch",
+        "path": "media/chicken-korma-green-beans-5-sketch.webp",
+        "alt": "Simmer the curry",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Fluff the rice, divide it between bowls and top with the curry."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chicken-korma-green-beans-6-sketch",
+        "path": "media/chicken-korma-green-beans-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

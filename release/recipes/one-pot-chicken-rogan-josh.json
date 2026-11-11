@@ -1,0 +1,618 @@
+{
+  "id": "one-pot-chicken-rogan-josh",
+  "slug": "one-pot-chicken-rogan-josh",
+  "title": "One Pot Chicken Thigh Rogan Josh with Yoghurt",
+  "aliases": [],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto",
+    "edition": "Card R-3124"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "one-pot-chicken-rogan-josh",
+    "path": "media/one-pot-chicken-rogan-josh.webp",
+    "width": 1041,
+    "height": 750,
+    "alt": "One Pot Chicken Thigh Rogan Josh with Yoghurt",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/one-pot-chicken-rogan-josh-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 5,
+      "maxMinutes": 10,
+      "provenance": "Prep time based on the card where stated, or on the chopping and measuring required.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 31,
+      "maxMinutes": 36,
+      "provenance": "Cook time based on the printed method, allowing for tasks in parallel.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 38,
+      "maxMinutes": 46,
+      "provenance": "Elapsed time includes preparation, cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "40 min",
+      "minMinutes": 40,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Wide hob-safe ovenproof casserole",
+    "Baking tray"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "The card cover says thigh; the ingredient table and method specify diced breast.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "onion",
+      "ingredientId": "onion",
+      "label": "Brown onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cardamom-pods",
+      "ingredientId": "cardamom-pods",
+      "label": "Cardamom pods",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-mix",
+      "ingredientId": "chicken-stock-mix",
+      "label": "Chicken stock mix",
+      "quantities": {
+        "2": {
+          "status": "unused"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "unused"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "intense-chicken-stock-mix",
+      "ingredientId": "intense-chicken-stock-mix",
+      "label": "Intense chicken stock mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "11 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "curry-powder",
+      "ingredientId": "curry-powder",
+      "label": "Curry powder",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "Diced chicken breast",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "375 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "500 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chilli-flakes",
+      "ingredientId": "chilli-flakes",
+      "label": "Dried chilli flakes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chopped-tomatoes",
+      "ingredientId": "chopped-tomatoes",
+      "label": "Finely chopped tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "390 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "390 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ground-coriander",
+      "ingredientId": "ground-coriander",
+      "label": "Ground coriander",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ground-turmeric",
+      "ingredientId": "ground-turmeric",
+      "label": "Ground turmeric",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "natural-yoghurt",
+      "ingredientId": "natural-yoghurt",
+      "label": "Natural yoghurt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "160 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "naan",
+      "ingredientId": "naan",
+      "label": "Plain naan",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tomato",
+      "ingredientId": "tomato",
+      "label": "Fresh tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Boiling water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "195 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "255 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Get ready",
+      "blocks": [
+        "Set out a casserole safe for both the hob and oven. If needed, start in a wide frying pan and transfer to an ovenproof dish. Wash the produce."
+      ],
+      "notes": [],
+      "timers": []
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Heat the oven and casserole",
+      "blocks": [
+        "Preheat the oven to 200°C (180°C fan, gas 6). Boil half a kettle. Heat a drizzle of vegetable oil in the casserole over high heat."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "one-pot-chicken-rogan-josh-1-sketch",
+        "path": "media/one-pot-chicken-rogan-josh-1-sketch.webp",
+        "alt": "Heat the oven and casserole",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Add the onion and tomato",
+      "blocks": [
+        "Peel the onion and cut it and the fresh tomato into wedges. Add them to the casserole with a pinch of salt."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "one-pot-chicken-rogan-josh-2-sketch",
+        "path": "media/one-pot-chicken-rogan-josh-2-sketch.webp",
+        "alt": "Add the onion and tomato",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Crush the aromatics",
+      "blocks": [
+        "Crush the garlic cloves with the flat side of a knife and remove the skins. Lightly crush the cardamom pods open."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "one-pot-chicken-rogan-josh-3-sketch",
+        "path": "media/one-pot-chicken-rogan-josh-3-sketch.webp",
+        "alt": "Crush the aromatics",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Add the spices",
+      "blocks": [
+        "Stir in the garlic, cardamom, turmeric, ground coriander, curry powder and chilli flakes to taste."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "one-pot-chicken-rogan-josh-4-sketch",
+        "path": "media/one-pot-chicken-rogan-josh-4-sketch.webp",
+        "alt": "Add the spices",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Bake the curry",
+      "blocks": [
+        "Add the stock mix listed for your serving size, chopped tomatoes, a pinch of sugar and {{sauce-water}} boiling water. Add the diced chicken breast and bring to the boil. Bake uncovered for 30–35 minutes until the chicken is cooked through and the sauce has thickened."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the curry",
+          "seconds": [
+            1800,
+            2100
+          ]
+        }
+      ],
+      "image": {
+        "id": "one-pot-chicken-rogan-josh-5-sketch",
+        "path": "media/one-pot-chicken-rogan-josh-5-sketch.webp",
+        "alt": "Bake the curry",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 7,
+      "id": "step-7",
+      "heading": "Warm the naan",
+      "blocks": [
+        "When the curry is almost done, remove the cardamom pods. Warm the naan on a baking tray in the oven for 3–4 minutes. Use two trays if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Warm the naan",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "one-pot-chicken-rogan-josh-6-sketch",
+        "path": "media/one-pot-chicken-rogan-josh-6-sketch.webp",
+        "alt": "Warm the naan",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 8,
+      "id": "step-8",
+      "heading": "Serve",
+      "blocks": [
+        "Top the curry with natural yoghurt and serve with the warm naan."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "one-pot-chicken-rogan-josh-7-sketch",
+        "path": "media/one-pot-chicken-rogan-josh-7-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

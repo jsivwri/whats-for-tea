@@ -1,0 +1,532 @@
+{
+  "id": "herby-crispy-skin-chicken",
+  "slug": "herby-crispy-skin-chicken",
+  "title": "Herby Crispy-Skin Chicken",
+  "subtitle": "with Sticky Baked Veg",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 7"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "herby-crispy-skin-chicken",
+    "path": "media/herby-crispy-skin-chicken.webp",
+    "width": 1120,
+    "height": 858,
+    "alt": "Herby Crispy-Skin Chicken",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/herby-crispy-skin-chicken-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 9,
+      "maxMinutes": 14,
+      "provenance": "Cut potatoes and onions, mix the glaze and chop coriander while the oven heats.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 30,
+      "maxMinutes": 42,
+      "provenance": "Roast the vegetables and cook the chicken in parallel, then crisp the kale.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 40,
+      "maxMinutes": 50,
+      "provenance": "Initial chopping, overlapping roasting and a short rest before serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "45 min",
+      "minMinutes": 45,
+      "maxMinutes": 45,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Garlic press",
+    "Bowl",
+    "Frying pan",
+    "Wooden spoon",
+    "Plate"
+  ],
+  "before": [],
+  "allergens": [],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-onion",
+      "ingredientId": "red-onion",
+      "label": "Red onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "dried-thyme",
+      "ingredientId": "dried-thyme",
+      "label": "Dried thyme",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 small sachet",
+          "amount": 1,
+          "unit": "small sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 large sachet",
+          "amount": 1,
+          "unit": "large sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 small sachets",
+          "amount": 2,
+          "unit": "small sachet"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tomato-paste",
+      "ingredientId": "tomato-paste",
+      "label": "Tomato purée",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mango-chutney",
+      "ingredientId": "mango-chutney",
+      "label": "Mango chutney",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "coriander",
+      "ingredientId": "coriander",
+      "label": "Coriander",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 bunch"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-breast",
+      "ingredientId": "chicken-breast",
+      "label": "Skin-on chicken breasts",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "kale",
+      "ingredientId": "kale",
+      "label": "Kale",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the chicken",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "glaze-water",
+      "ingredientId": "water",
+      "label": "Water for the glaze",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Roast the potatoes",
+      "blocks": [
+        "Heat the oven to 200°C. Cut the unpeeled potatoes into 2 cm chunks. Peel and halve the onions, then cut each half into quarters.",
+        "Toss the potatoes and onions on a large baking tray with oil, salt, pepper and dried thyme. Roast on the top shelf for 25–35 minutes, until the potatoes are golden and the onions soft. Turn halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the vegetables",
+          "seconds": [
+            1500,
+            2100
+          ]
+        }
+      ],
+      "image": {
+        "id": "herby-crispy-skin-chicken-1-sketch",
+        "path": "media/herby-crispy-skin-chicken-1-sketch.webp",
+        "alt": "Roast the potatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Finish the prep",
+      "blocks": [
+        "Peel and grate or press the garlic. Mix with the tomato purée, mango chutney and {{glaze-water}} water. Set aside."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "herby-crispy-skin-chicken-2-sketch",
+        "path": "media/herby-crispy-skin-chicken-2-sketch.webp",
+        "alt": "Finish the prep",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Prep the chicken",
+      "blocks": [
+        "Finely chop the coriander, including the stalks. Mix it in a bowl with {{chicken-oil}} olive oil, salt and pepper. Turn the chicken in the mixture to coat it. Wash hands after handling raw meat."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "herby-crispy-skin-chicken-3-sketch",
+        "path": "media/herby-crispy-skin-chicken-3-sketch.webp",
+        "alt": "Prep the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Cook the chicken",
+      "blocks": [
+        "Heat a dry frying pan on medium-high. Fry the chicken breasts skin-side down for 4–5 minutes until golden, then turn and cook for 2 minutes.",
+        "Transfer to a baking tray skin-side up and roast on the middle shelf for 15–20 minutes, until cooked through with no pink in the middle."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Crisp the skin",
+          "seconds": [
+            240,
+            300
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Roast the chicken",
+          "seconds": [
+            900,
+            1200
+          ]
+        }
+      ],
+      "image": {
+        "id": "herby-crispy-skin-chicken-4-sketch",
+        "path": "media/herby-crispy-skin-chicken-4-sketch.webp",
+        "alt": "Cook the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Cook the kale",
+      "blocks": [
+        "When the potatoes and onions are cooked, toss with the tomato and chutney mixture. Lay the kale on top, drizzle with a little oil and season. Roast for 4–5 minutes more, until the kale is crisp."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Crisp the kale",
+          "seconds": [
+            240,
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "herby-crispy-skin-chicken-5-sketch",
+        "path": "media/herby-crispy-skin-chicken-5-sketch.webp",
+        "alt": "Cook the kale",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Finish and serve",
+      "blocks": [
+        "Rest the cooked chicken on a board for a couple of minutes. Mix the potatoes, onions and kale on the tray and spoon onto plates. Thinly slice the chicken and serve on top."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "herby-crispy-skin-chicken-6-sketch",
+        "path": "media/herby-crispy-skin-chicken-6-sketch.webp",
+        "alt": "Finish and serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

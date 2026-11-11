@@ -1,0 +1,487 @@
+{
+  "id": "teriyaki-chicken-traybake",
+  "slug": "teriyaki-chicken-traybake",
+  "title": "Fuss-Free Teriyaki Chicken Traybake",
+  "subtitle": "with Sesame Potatoes and Green Veg",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2026-W06 · Card 32"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "teriyaki-chicken-traybake",
+    "path": "media/teriyaki-chicken-traybake.webp",
+    "width": 1120,
+    "height": 786,
+    "alt": "Fuss-Free Teriyaki Chicken Traybake with Sesame Potatoes and Green Veg",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/teriyaki-chicken-traybake-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Spring",
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "minMinutes": 10,
+      "maxMinutes": 10,
+      "sourceLabel": "Prepped in 10",
+      "provenance": "Printed on the card cover"
+    },
+    "cook": {
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Potatoes take 30–35 minutes with chicken and vegetables roasting alongside",
+      "estimated": true
+    },
+    "total": {
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "sourceLabel": "Estimated elapsed time",
+      "provenance": "Early preparation overlaps oven preheat and roasting",
+      "estimated": true
+    },
+    "card": {
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "sourceLabel": "35–40 Minutes",
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays"
+  ],
+  "before": [],
+  "allergens": [
+    "Sesame",
+    "Soya"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g",
+          "amount": 450,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g",
+          "amount": 700,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g",
+          "amount": 900,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "tenderstem-broccoli",
+      "ingredientId": "tenderstem-broccoli",
+      "label": "Tenderstem broccoli",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g",
+          "amount": 80,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "160 g",
+          "amount": 160,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "160 g",
+          "amount": 160,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "toasted-sesame-seeds",
+      "ingredientId": "toasted-sesame-seeds",
+      "label": "Roasted white sesame seeds",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g",
+          "amount": 5,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "7.5 g",
+          "amount": 7.5,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "10 g",
+          "amount": 10,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "chicken-breast",
+      "ingredientId": "chicken-breast",
+      "label": "British chicken breasts",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2",
+          "amount": 2
+        },
+        "3": {
+          "status": "printed",
+          "text": "3",
+          "amount": 3
+        },
+        "4": {
+          "status": "printed",
+          "text": "4",
+          "amount": 4
+        }
+      }
+    },
+    {
+      "id": "thai-style-spice-mix",
+      "ingredientId": "thai-style-spice-mix",
+      "label": "Thai style spice mix",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet",
+          "amount": 1,
+          "unit": "sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet",
+          "amount": 1,
+          "unit": "sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachet",
+          "amount": 2,
+          "unit": "sachet"
+        }
+      }
+    },
+    {
+      "id": "young-pea-pods",
+      "ingredientId": "young-pea-pods",
+      "label": "Young pea pods",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g",
+          "amount": 80,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "160 g",
+          "amount": 160,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "160 g",
+          "amount": 160,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "teriyaki-sauce",
+      "ingredientId": "teriyaki-sauce",
+      "label": "Teriyaki sauce",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g",
+          "amount": 50,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 g",
+          "amount": 75,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g",
+          "amount": 100,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "mayonnaise",
+      "ingredientId": "mayonnaise",
+      "label": "Mayonnaise",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "4 tbsp",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "6 tbsp",
+          "amount": 6,
+          "unit": "tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "8 tbsp",
+          "amount": 8,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unknown"
+        },
+        "3": {
+          "status": "unknown"
+        },
+        "4": {
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unknown"
+        },
+        "3": {
+          "status": "unknown"
+        },
+        "4": {
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unknown"
+        },
+        "3": {
+          "status": "unknown"
+        },
+        "4": {
+          "status": "unknown"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Get prepped",
+      "blocks": [
+        "Preheat the oven to 220°C / 200°C fan / gas mark 7. Chop the potatoes into 2 cm chunks without peeling. Halve any thick broccoli stems lengthways."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "teriyaki-chicken-traybake-1-sketch",
+        "path": "media/teriyaki-chicken-traybake-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Get prepped",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Roast the potatoes",
+      "blocks": [
+        "Put the potatoes on a large baking tray. Drizzle with oil, season with salt and pepper and toss with the sesame seeds. Spread out in a single layer. Use two trays if needed.",
+        "Roast on the middle shelf for 30–35 minutes until golden, turning halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the potatoes",
+          "seconds": [
+            1800,
+            2100
+          ]
+        }
+      ],
+      "image": {
+        "id": "teriyaki-chicken-traybake-2-sketch",
+        "path": "media/teriyaki-chicken-traybake-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Roast the potatoes",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Spice up the chicken",
+      "blocks": [
+        "Meanwhile, lay the chicken on another baking tray. Sprinkle with the Thai style spice mix, drizzle with oil and season with salt and pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "teriyaki-chicken-traybake-3-sketch",
+        "path": "media/teriyaki-chicken-traybake-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Spice up the chicken",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Ready, steady, roast",
+      "blocks": [
+        "Roast the chicken on the top shelf for 25–30 minutes until cooked through and no longer pink in the middle."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the chicken",
+          "seconds": [
+            1500,
+            1800
+          ]
+        }
+      ],
+      "image": {
+        "id": "teriyaki-chicken-traybake-4-sketch",
+        "path": "media/teriyaki-chicken-traybake-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Ready, steady, roast",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Broccoli time",
+      "blocks": [
+        "When the potatoes and chicken have 10–12 minutes left, add the broccoli and pea pods to the potato tray. Drizzle with oil, season and toss to coat. Spread everything out and roast for the remaining time."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the greens",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "teriyaki-chicken-traybake-5-sketch",
+        "path": "media/teriyaki-chicken-traybake-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Broccoli time",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Serve up",
+      "blocks": [
+        "Turn the cooked chicken in the teriyaki sauce. Serve with sesame potatoes and roasted greens, with {{mayonnaise}} mayonnaise for dipping."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "teriyaki-chicken-traybake-6-sketch",
+        "path": "media/teriyaki-chicken-traybake-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Serve up",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    }
+  ],
+  "variants": []
+}

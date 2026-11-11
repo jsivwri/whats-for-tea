@@ -2,6 +2,8 @@
   "schemaVersion": 1,
   "libraryId": "household-recipe-cards",
   "title": "The household cookbook",
-  "revision": 4,
-  "redirects": {}
+  "revision": 5,
+  "redirects": {
+    "marinara-chicken-bake-w39": "marinara-chicken-bake-w44"
+  }
 }

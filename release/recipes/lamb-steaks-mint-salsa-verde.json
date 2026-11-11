@@ -18,9 +18,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 8,
+      "maxMinutes": 12,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Roast the squash while preparing slaw and mint salsa, then fry and rest the lamb."
+    },
+    "cook": {
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Roast the squash while preparing slaw and mint salsa, then fry and rest the lamb."
+    },
+    "total": {
+      "minMinutes": 32,
+      "maxMinutes": 38,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Roast the squash while preparing slaw and mint salsa, then fry and rest the lamb."
+    },
     "card": {
       "minMinutes": 30,
       "maxMinutes": 35,
@@ -467,7 +485,9 @@
       "blocks": [
         "Heat oil in a large pan on high and season the steaks. Fry for 8–10 minutes total for medium rare, turning every 2 minutes. Adjust for thickness and preferred doneness."
       ],
-      "notes": [],
+      "notes": [
+        "For a more well-done steak, cook for another 1–2 minutes on each side."
+      ],
       "timers": [
         {
           "id": "timer-1",
@@ -536,9 +556,9 @@
   "hero": {
     "id": "lamb-steaks-mint-salsa-verde-hero",
     "path": "media/lamb-steaks-mint-salsa-verde.webp",
-    "width": 960,
-    "height": 676,
-    "alt": "Lamb Steaks and Green Chilli & Mint Salsa Verde with Roasted Butternut Squash and Red Cabbage Slaw",
+    "width": 1120,
+    "height": 790,
+    "alt": "Mint salsa verde lamb with roast butternut squash and red cabbage slaw",
     "credit": "HelloFresh recipe card",
     "sizes": [
       {
@@ -546,5 +566,8 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Autumn"
+  ]
 }

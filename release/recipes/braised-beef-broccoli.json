@@ -24,8 +24,20 @@
       "sourceLabel": "Prepped in 5",
       "provenance": "Printed on the card"
     },
-    "cook": null,
-    "total": null,
+    "cook": {
+      "minMinutes": 69,
+      "maxMinutes": 75,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Brown and braise beef, adding rice and broccoli partway through, then rest"
+    },
+    "total": {
+      "minMinutes": 74,
+      "maxMinutes": 80,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Brown and braise beef, adding rice and broccoli partway through, then rest"
+    },
     "card": {
       "minMinutes": 65,
       "maxMinutes": 75,
@@ -523,8 +535,8 @@
   "hero": {
     "id": "braised-beef-broccoli-hero",
     "path": "media/braised-beef-broccoli.webp",
-    "width": 690,
-    "height": 638,
+    "width": 1120,
+    "height": 528,
     "alt": "Oven Baked Chinese-Style Braised Beef & Broccoli with Rice",
     "credit": "Gousto recipe card",
     "sizes": [
@@ -533,5 +545,9 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ]
 }

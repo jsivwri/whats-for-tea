@@ -18,9 +18,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 15,
+      "maxMinutes": 20,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Prepare the breading, broccoli and sauce, then roast broccoli and boil rice alongside frying"
+    },
+    "cook": {
+      "minMinutes": 21,
+      "maxMinutes": 30,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Prepare the breading, broccoli and sauce, then roast broccoli and boil rice alongside frying"
+    },
+    "total": {
+      "minMinutes": 35,
+      "maxMinutes": 50,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Prepare the breading, broccoli and sauce, then roast broccoli and boil rice alongside frying"
+    },
     "card": {
       "minMinutes": 35,
       "maxMinutes": 50,
@@ -622,8 +640,8 @@
   "hero": {
     "id": "crispy-lemon-chicken-hero",
     "path": "media/crispy-lemon-chicken.webp",
-    "width": 771,
-    "height": 594,
+    "width": 1120,
+    "height": 505,
     "alt": "Crispy Lemon Chicken with Chilli Rice",
     "credit": "Gousto recipe card",
     "sizes": [
@@ -632,5 +650,6 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": []
 }

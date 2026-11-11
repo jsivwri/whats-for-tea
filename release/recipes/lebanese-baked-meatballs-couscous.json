@@ -1,0 +1,662 @@
+{
+  "id": "lebanese-baked-meatballs-couscous",
+  "slug": "lebanese-baked-meatballs-couscous",
+  "title": "Lebanese Style Baked Meatballs in Tomato Sauce",
+  "subtitle": "with Spinach, Couscous and Parsley",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2025-W36 · Card 2"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "lebanese-baked-meatballs-couscous",
+    "path": "media/lebanese-baked-meatballs-couscous.webp",
+    "width": 1120,
+    "height": 800,
+    "alt": "Lebanese Style Baked Meatballs in Tomato Sauce",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/lebanese-baked-meatballs-couscous-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 7,
+      "maxMinutes": 10,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 15,
+      "maxMinutes": 20,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 27,
+      "maxMinutes": 36,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "30–35 min",
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Baking tray",
+    "Mixing bowls",
+    "Frying pan",
+    "Grater"
+  ],
+  "before": [],
+  "allergens": [
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw mince."
+  ],
+  "ingredients": [
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "breadcrumbs",
+      "ingredientId": "breadcrumbs",
+      "label": "Breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chermoula-spice-mix",
+      "ingredientId": "chermoula-spice-mix",
+      "label": "Chermoula spice mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mince",
+      "ingredientId": "beef-mince",
+      "label": "British beef mince",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "360 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "480 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "carrot",
+      "ingredientId": "carrot",
+      "label": "Carrots",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "couscous",
+      "ingredientId": "couscous",
+      "label": "Couscous",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "180 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "240 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-paste",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "passata",
+      "ingredientId": "passata",
+      "label": "Tomato passata",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 carton"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 cartons"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 cartons"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "beef-stock-paste",
+      "ingredientId": "beef-stock-paste",
+      "label": "Beef stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "flat-leaf-parsley",
+      "ingredientId": "flat-leaf-parsley",
+      "label": "Flat leaf parsley",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 bunches"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sun-dried-tomato-paste",
+      "ingredientId": "sun-dried-tomato-paste",
+      "label": "Sun-dried tomato paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "37.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-spinach",
+      "ingredientId": "spinach",
+      "label": "Baby spinach",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "crumb-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "0.3 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "crumb-water",
+      "ingredientId": "water",
+      "label": "Water for the breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "couscous-water",
+      "ingredientId": "water",
+      "label": "Boiling water for the couscous",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "300 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "400 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "0.8 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1.3 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Make the meatballs",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Boil a full kettle. Peel and grate or press the garlic.",
+        "Mix the breadcrumbs with {{crumb-salt}} salt and {{crumb-water}} water, a quarter of the chermoula and half the garlic. Add the mince, season with pepper and mix well. Roll into five even meatballs per serving."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "lebanese-baked-meatballs-couscous-1-sketch",
+        "path": "media/lebanese-baked-meatballs-couscous-1-sketch.webp",
+        "alt": "Make the meatballs",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Bake the meatballs",
+      "blocks": [
+        "Spread the meatballs out on a baking tray. Bake on the top shelf for 12–15 minutes until browned and cooked through. Meanwhile, trim and coarsely grate the unpeeled carrot."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the meatballs",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "lebanese-baked-meatballs-couscous-2-sketch",
+        "path": "media/lebanese-baked-meatballs-couscous-2-sketch.webp",
+        "alt": "Bake the meatballs",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Cook the couscous",
+      "blocks": [
+        "Pour {{couscous-water}} boiling water over the couscous and stir in the chicken stock paste. Cover tightly and leave for 8–10 minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Steam the couscous",
+          "seconds": [
+            480,
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "lebanese-baked-meatballs-couscous-3-sketch",
+        "path": "media/lebanese-baked-meatballs-couscous-3-sketch.webp",
+        "alt": "Cook the couscous",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Make the tomato sauce",
+      "blocks": [
+        "Heat a little oil in a large frying pan over medium-high. Fry the carrot, remaining chermoula to taste and remaining garlic for 1–2 minutes. Stir in the passata, beef stock paste, {{sugar}} sugar and {{sauce-water}} water. Simmer for 6–7 minutes until thickened."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the aromatics",
+          "seconds": [
+            60,
+            120
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Simmer the sauce",
+          "seconds": [
+            360,
+            420
+          ]
+        }
+      ],
+      "image": {
+        "id": "lebanese-baked-meatballs-couscous-4-sketch",
+        "path": "media/lebanese-baked-meatballs-couscous-4-sketch.webp",
+        "alt": "Make the tomato sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Add the spinach and meatballs",
+      "blocks": [
+        "Chop the parsley, stalks included. Stir the sun-dried tomato paste into the thickened sauce. Add the spinach a handful at a time and cook for 1–2 minutes until wilted and piping hot. Add the cooked meatballs and season to taste."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Wilt the spinach",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "lebanese-baked-meatballs-couscous-5-sketch",
+        "path": "media/lebanese-baked-meatballs-couscous-5-sketch.webp",
+        "alt": "Add the spinach and meatballs",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Fluff the couscous, stir through half the parsley and divide among bowls. Spoon over the meatballs and tomato sauce, and finish with the remaining parsley."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "lebanese-baked-meatballs-couscous-6-sketch",
+        "path": "media/lebanese-baked-meatballs-couscous-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

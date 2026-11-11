@@ -1,0 +1,644 @@
+{
+  "id": "fig-balsamic-red-wine-chicken",
+  "slug": "fig-balsamic-red-wine-chicken",
+  "title": "Fantastical Fig, Balsamic & Red Wine Chicken",
+  "subtitle": "with Hasselback Potatoes and Green Beans",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 10"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "fig-balsamic-red-wine-chicken",
+    "path": "media/fig-balsamic-red-wine-chicken.webp",
+    "width": 1086,
+    "height": 756,
+    "alt": "Fantastical Fig, Balsamic & Red Wine Chicken",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/fig-balsamic-red-wine-chicken-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter",
+    "Christmas"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 9,
+      "maxMinutes": 13,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 35,
+      "maxMinutes": 41,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 42,
+      "maxMinutes": 50,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "40–45 min",
+      "minMinutes": 40,
+      "maxMinutes": 45,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Wooden spoons",
+    "Kettle",
+    "Saucepan",
+    "Colander",
+    "Frying pan",
+    "Foil"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "salad-potatoes",
+      "ingredientId": "potatoes",
+      "label": "Salad potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "350 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "500 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "700 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mixed-herbs",
+      "ingredientId": "mixed-herbs",
+      "label": "Mixed herbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "22 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "Chicken breasts",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "green-beans",
+      "ingredientId": "green-beans",
+      "label": "Green beans",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "echalion-shallot",
+      "ingredientId": "shallot",
+      "label": "Echalion shallots",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "balsamic-vinegar",
+      "ingredientId": "balsamic-vinegar",
+      "label": "Balsamic vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "12 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "18 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "24 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "fig-jam",
+      "ingredientId": "fig-jam",
+      "label": "Fig jam",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "60 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "80 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-wine-stock-paste",
+      "ingredientId": "red-wine-stock-paste",
+      "label": "Red wine stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "28 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "42 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "56 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "marinade-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the marinade",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "butter",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "bean-salt",
+      "ingredientId": "salt",
+      "label": "Salt for boiling the beans",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "bean-water",
+      "ingredientId": "water",
+      "label": "Water for boiling the beans",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "olive-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Make the hasselback potatoes",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Place the potatoes between two wooden spoon handles and slice crossways every 3 mm, leaving the bases intact. Toss on a tray with oil, salt and pepper. Roast in one layer on the middle shelf for 35–40 minutes until golden and tender."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the potatoes",
+          "seconds": [
+            2100,
+            2400
+          ]
+        }
+      ],
+      "image": {
+        "id": "fig-balsamic-red-wine-chicken-1-sketch",
+        "path": "media/fig-balsamic-red-wine-chicken-1-sketch.webp",
+        "alt": "Make the hasselback potatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Marinate the chicken",
+      "blocks": [
+        "Peel and grate or press the garlic. Mix with the herbs, honey, {{marinade-oil}} olive oil, salt and pepper. Coat the chicken. If the honey is stiff, warm its container in hot water for 1 minute."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "fig-balsamic-red-wine-chicken-2-sketch",
+        "path": "media/fig-balsamic-red-wine-chicken-2-sketch.webp",
+        "alt": "Marinate the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Roast the chicken",
+      "blocks": [
+        "Put the chicken on a lined tray and roast on the top shelf for 25–30 minutes until cooked through. Boil half a kettle, trim the beans and peel and finely chop the shallot."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the chicken",
+          "seconds": [
+            1500,
+            1800
+          ]
+        }
+      ],
+      "image": {
+        "id": "fig-balsamic-red-wine-chicken-3-sketch",
+        "path": "media/fig-balsamic-red-wine-chicken-3-sketch.webp",
+        "alt": "Roast the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Make the fig sauce",
+      "blocks": [
+        "Heat oil in a medium frying pan over medium-high. Fry the shallot for 3–4 minutes until soft. Add the balsamic vinegar and cook until nearly evaporated. Stir in the fig jam, stock paste and {{sauce-water}} water. Simmer for 4–5 minutes until thickened. Vigorously stir in {{butter}} butter and take off the heat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Soften the shallot",
+          "seconds": [
+            180,
+            240
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Simmer the fig sauce",
+          "seconds": [
+            240,
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "fig-balsamic-red-wine-chicken-4-sketch",
+        "path": "media/fig-balsamic-red-wine-chicken-4-sketch.webp",
+        "alt": "Make the fig sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Cook the green beans",
+      "blocks": [
+        "With about 10 minutes left on the potatoes, bring the kettle water and {{bean-salt}} salt to a boil. Add the beans and boil for 4–6 minutes until just tender. Drain, return to the pan, toss with olive oil and seasoning and cover to keep warm."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the beans",
+          "seconds": [
+            240,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "fig-balsamic-red-wine-chicken-5-sketch",
+        "path": "media/fig-balsamic-red-wine-chicken-5-sketch.webp",
+        "alt": "Cook the green beans",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Rest the chicken loosely covered with foil for a couple of minutes. Reheat the sauce if needed. Thinly slice the chicken, spoon over the fig sauce and serve with the hasselbacks and beans."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "fig-balsamic-red-wine-chicken-6-sketch",
+        "path": "media/fig-balsamic-red-wine-chicken-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

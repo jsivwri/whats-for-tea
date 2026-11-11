@@ -1,0 +1,576 @@
+{
+  "id": "honey-sambal-chicken-noodles",
+  "slug": "honey-sambal-chicken-noodles",
+  "title": "Sweet and Sticky Honey Sambal Chicken Noodles",
+  "subtitle": "with Green Beans and Peanuts",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 39"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "honey-sambal-chicken-noodles",
+    "path": "media/honey-sambal-chicken-noodles.webp",
+    "width": 1120,
+    "height": 781,
+    "alt": "Sweet and Sticky Honey Sambal Chicken Noodles",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/honey-sambal-chicken-noodles-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 6,
+      "maxMinutes": 9,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 14,
+      "maxMinutes": 19,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 23,
+      "maxMinutes": 31,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "25–30 min",
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Saucepan",
+    "Sieve",
+    "Frying pan",
+    "Rolling pin",
+    "Garlic press"
+  ],
+  "before": [],
+  "allergens": [
+    "Egg",
+    "Peanuts",
+    "Soya",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "green-beans",
+      "ingredientId": "green-beans",
+      "label": "Green beans",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "230 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "salted-peanuts",
+      "ingredientId": "peanuts",
+      "label": "Salted peanuts",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "Diced British chicken breast",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "390 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "520 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "egg-noodles",
+      "ingredientId": "egg-noodles",
+      "label": "Egg noodles",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "125 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "187 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ginger-paste",
+      "ingredientId": "ginger-paste",
+      "label": "Ginger purée",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ketjap-manis",
+      "ingredientId": "ketjap-manis",
+      "label": "Ketjap manis",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "37 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soy-sauce",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sambal-paste",
+      "ingredientId": "sambal-paste",
+      "label": "Sambal paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "22 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "45 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "120 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "noodle-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the noodles",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "¼ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "noodle-water",
+      "ingredientId": "water",
+      "label": "Water for boiling the noodles",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Prepare the garlic, beans and peanuts",
+      "blocks": [
+        "Bring a large saucepan of water with {{noodle-salt}} salt to a boil. Peel and grate or press the garlic. Trim and halve the green beans. Crush the peanuts with a rolling pin."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "honey-sambal-chicken-noodles-1-sketch",
+        "path": "media/honey-sambal-chicken-noodles-1-sketch.webp",
+        "alt": "Prepare the garlic, beans and peanuts",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Fry the chicken",
+      "blocks": [
+        "Heat oil in a large frying pan over medium-high. Season and fry the diced chicken for 8–10 minutes until golden and cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the chicken",
+          "seconds": [
+            480,
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "honey-sambal-chicken-noodles-2-sketch",
+        "path": "media/honey-sambal-chicken-noodles-2-sketch.webp",
+        "alt": "Fry the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Cook the noodles and beans",
+      "blocks": [
+        "Boil the noodles and beans for 4 minutes until tender. Drain and rinse under cold water."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the noodles and beans",
+          "seconds": [
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "honey-sambal-chicken-noodles-3-sketch",
+        "path": "media/honey-sambal-chicken-noodles-3-sketch.webp",
+        "alt": "Cook the noodles and beans",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Make the sambal sauce",
+      "blocks": [
+        "Fry the garlic and ginger purée with the cooked chicken for 1 minute. Stir in the ketjap manis, soy sauce, sambal, honey and {{sauce-water}} water. Simmer for 3–4 minutes until thickened."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the aromatics",
+          "seconds": [
+            60
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Simmer the sauce",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "honey-sambal-chicken-noodles-4-sketch",
+        "path": "media/honey-sambal-chicken-noodles-4-sketch.webp",
+        "alt": "Make the sambal sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Toss together",
+      "blocks": [
+        "Add the noodles and beans to the chicken and toss for 1 minute until coated and piping hot."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Toss with the sauce",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "honey-sambal-chicken-noodles-5-sketch",
+        "path": "media/honey-sambal-chicken-noodles-5-sketch.webp",
+        "alt": "Toss together",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Divide among bowls and finish with the crushed peanuts."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "honey-sambal-chicken-noodles-6-sketch",
+        "path": "media/honey-sambal-chicken-noodles-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

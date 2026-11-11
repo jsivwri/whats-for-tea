@@ -1,0 +1,580 @@
+{
+  "id": "fragrant-chicken-coconut-curry",
+  "slug": "fragrant-chicken-coconut-curry",
+  "title": "Fragrant Chicken Coconut Curry",
+  "subtitle": "with Baby Spinach and Zesty Rice",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 1"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "fragrant-chicken-coconut-curry",
+    "path": "media/fragrant-chicken-coconut-curry.webp",
+    "width": 1120,
+    "height": 833,
+    "alt": "Fragrant Chicken Coconut Curry",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/fragrant-chicken-coconut-curry-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Spring",
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 5,
+      "maxMinutes": 7,
+      "provenance": "Chop the vegetables and prepare the aromatics and seasonings.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 21,
+      "maxMinutes": 24,
+      "provenance": "Cook the rice alongside the curry.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "provenance": "Allows for initial prep, parallel cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "25–30 min",
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Saucepan with lid",
+    "Large frying pan",
+    "Fine grater"
+  ],
+  "before": [],
+  "allergens": [
+    "Mustard",
+    "Milk if using dairy butter"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "3": {
+          "status": "printed",
+          "text": "4"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "basmati-rice",
+      "ingredientId": "basmati-rice",
+      "label": "Basmati rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "225 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "Diced British chicken breast",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "390 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "520 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ginger-garlic-lemongrass-puree",
+      "ingredientId": "ginger-garlic-lemongrass-puree",
+      "label": "Ginger, garlic and lemongrass purée",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "22 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "zanzibar-curry-powder",
+      "ingredientId": "zanzibar-curry-powder",
+      "label": "Zanzibar style curry powder",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "coconut-milk",
+      "ingredientId": "coconut-milk",
+      "label": "Coconut milk",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "180 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "250 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "360 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-paste",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "lime",
+      "ingredientId": "lime",
+      "label": "Lime",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-spinach",
+      "ingredientId": "spinach",
+      "label": "Baby spinach",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "butter",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "rice-water",
+      "ingredientId": "water",
+      "label": "Water for the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "300 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "450 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "600 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "rice-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "¼ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Prepare the garlic",
+      "blocks": [
+        "Peel and grate or press the garlic."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "fragrant-chicken-coconut-curry-1-sketch",
+        "path": "media/fragrant-chicken-coconut-curry-1-sketch.webp",
+        "alt": "Prepare the garlic",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Cook the rice",
+      "blocks": [
+        "Melt {{butter}} butter over medium heat in a deep saucepan with a tight-fitting lid. Fry half the garlic for 1 minute, then stir in the rice for 1 minute to coat. Add {{rice-salt}} salt and {{rice-water}} water. Bring to the boil, cover and reduce the heat to medium. Cook for 10 minutes, then remove from the heat and steam, covered, for another 10 minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the rice",
+          "seconds": [
+            600
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Steam off the heat",
+          "seconds": [
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "fragrant-chicken-coconut-curry-2-sketch",
+        "path": "media/fragrant-chicken-coconut-curry-2-sketch.webp",
+        "alt": "Cook the rice",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Brown the chicken",
+      "blocks": [
+        "Meanwhile, heat a drizzle of oil in a large frying pan over medium-high heat. Season the chicken and fry for 5–6 minutes, turning occasionally, until browned all over."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the chicken",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "fragrant-chicken-coconut-curry-3-sketch",
+        "path": "media/fragrant-chicken-coconut-curry-3-sketch.webp",
+        "alt": "Brown the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Simmer the curry",
+      "blocks": [
+        "Add the ginger, garlic and lemongrass purée, the remaining garlic and Zanzibar curry powder to taste. Stir-fry for 1 minute. Add the coconut milk, stock paste and {{sugar}} sugar. Bring to a boil, then simmer gently for 8–10 minutes until the chicken is cooked through and the curry has thickened. Add a splash of water if it looks dry."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the aromatics",
+          "seconds": [
+            60
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Simmer the curry",
+          "seconds": [
+            480,
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "fragrant-chicken-coconut-curry-4-sketch",
+        "path": "media/fragrant-chicken-coconut-curry-4-sketch.webp",
+        "alt": "Simmer the curry",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Add the lime and spinach",
+      "blocks": [
+        "Zest and halve the lime. Fluff the rice with the zest. When the curry is cooked, add the spinach a handful at a time and cook for 1–2 minutes until wilted and piping hot. Stir in half the lime juice, then taste and add more seasoning or lime as needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Wilt the spinach",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "fragrant-chicken-coconut-curry-5-sketch",
+        "path": "media/fragrant-chicken-coconut-curry-5-sketch.webp",
+        "alt": "Add the lime and spinach",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Divide the zesty rice between bowls and spoon the curry over it."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "fragrant-chicken-coconut-curry-6-sketch",
+        "path": "media/fragrant-chicken-coconut-curry-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

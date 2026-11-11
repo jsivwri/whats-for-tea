@@ -18,9 +18,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 10,
+      "maxMinutes": 15,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Prepare the garnish and curry ingredients, then cook curry and coriander rice in parallel"
+    },
+    "cook": {
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Prepare the garnish and curry ingredients, then cook curry and coriander rice in parallel"
+    },
+    "total": {
+      "minMinutes": 35,
+      "maxMinutes": 45,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Prepare the garnish and curry ingredients, then cook curry and coriander rice in parallel"
+    },
     "card": {
       "minMinutes": 35,
       "maxMinutes": 45,
@@ -597,8 +615,8 @@
   "hero": {
     "id": "gousto-chicken-tikka-masala-hero",
     "path": "media/gousto-chicken-tikka-masala.webp",
-    "width": 800,
-    "height": 714,
+    "width": 1120,
+    "height": 609,
     "alt": "Chicken Tikka Masala with Coriander Rice",
     "credit": "Gousto recipe card",
     "sizes": [
@@ -607,5 +625,6 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": []
 }

@@ -1,0 +1,543 @@
+{
+  "id": "crispy-chilli-beef-coriander-noodles",
+  "slug": "crispy-chilli-beef-coriander-noodles",
+  "title": "Crispy Chilli Beef & Coriander Noodles",
+  "aliases": [],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto",
+    "edition": "Recipe bag 1142"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "crispy-chilli-beef-coriander-noodles",
+    "path": "media/crispy-chilli-beef-coriander-noodles.webp",
+    "width": 1120,
+    "height": 731,
+    "alt": "Crispy Chilli Beef & Coriander Noodles",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/crispy-chilli-beef-coriander-noodles-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 9,
+      "maxMinutes": 13,
+      "provenance": "Prep time based on the card where stated, or on the chopping and measuring required.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 15,
+      "maxMinutes": 22,
+      "provenance": "Cook time based on the printed method, allowing for tasks in parallel.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 26,
+      "maxMinutes": 40,
+      "provenance": "Elapsed time includes preparation, cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "30–40 min",
+      "minMinutes": 30,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Wide frying pan",
+    "Saucepan",
+    "Colander",
+    "Fine grater"
+  ],
+  "before": [],
+  "allergens": [
+    "Egg",
+    "Soya",
+    "Wheat and gluten",
+    "Sesame"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw mince."
+  ],
+  "ingredients": [
+    {
+      "id": "shallot",
+      "ingredientId": "shallot",
+      "label": "Shallots",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-chilli",
+      "ingredientId": "red-chilli",
+      "label": "Red chillies",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ginger",
+      "ingredientId": "ginger",
+      "label": "Fresh root ginger",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "spring-onion",
+      "ingredientId": "spring-onion",
+      "label": "Spring onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "coriander",
+      "ingredientId": "coriander",
+      "label": "Coriander",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "egg-noodles",
+      "ingredientId": "egg-noodles",
+      "label": "Fine egg noodle nests",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 nests"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 nests"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "carrot",
+      "ingredientId": "carrot",
+      "label": "Carrots",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chilli-jam",
+      "ingredientId": "chilli-jam",
+      "label": "Chilli jam",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "80 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "toasted-sesame-oil",
+      "ingredientId": "toasted-sesame-oil",
+      "label": "Toasted sesame oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soy-sauce",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rice-vinegar",
+      "ingredientId": "rice-vinegar",
+      "label": "Rice vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "beef-mince",
+      "ingredientId": "beef-mince",
+      "label": "British beef mince",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "500 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sesame-seeds",
+      "ingredientId": "sesame-seeds",
+      "label": "Toasted sesame seeds",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "10 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "noodle-water",
+      "ingredientId": "water",
+      "label": "Water for cooking the noodles",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Prepare the vegetables",
+      "blocks": [
+        "Trim, peel and grate the carrot. Peel and finely chop or grate the garlic and ginger. Peel and finely chop the shallot. Halve, deseed and finely chop the chilli."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "crispy-chilli-beef-coriander-noodles-1-sketch",
+        "path": "media/crispy-chilli-beef-coriander-noodles-1-sketch.webp",
+        "alt": "Prepare the vegetables",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Brown the mince",
+      "blocks": [
+        "Heat a drizzle of vegetable oil in a wide frying pan over high heat. Add the beef mince and shallot and fry for 4 minutes, breaking up the mince as it browns."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the beef",
+          "seconds": [
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "crispy-chilli-beef-coriander-noodles-2-sketch",
+        "path": "media/crispy-chilli-beef-coriander-noodles-2-sketch.webp",
+        "alt": "Brown the mince",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Chop the spring onions and coriander",
+      "blocks": [
+        "Trim and roughly chop the spring onions. Finely chop the coriander, including the stalks, saving a few whole leaves for serving."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "crispy-chilli-beef-coriander-noodles-3-sketch",
+        "path": "media/crispy-chilli-beef-coriander-noodles-3-sketch.webp",
+        "alt": "Chop the spring onions and coriander",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Add the carrot",
+      "blocks": [
+        "Boil a kettle. Stir the grated carrot into the browned beef and fry for another 3 minutes until the mince starts to crisp."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the carrot and beef",
+          "seconds": [
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "crispy-chilli-beef-coriander-noodles-4-sketch",
+        "path": "media/crispy-chilli-beef-coriander-noodles-4-sketch.webp",
+        "alt": "Add the carrot",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Cook the noodles",
+      "blocks": [
+        "Cover the fine egg noodles with boiling water in a saucepan. Return to the boil over high heat and cook for 1–2 minutes until tender. Drain, saving a cup of cooking water, then return the noodles to the pan off the heat."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the noodles",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "crispy-chilli-beef-coriander-noodles-5-sketch",
+        "path": "media/crispy-chilli-beef-coriander-noodles-5-sketch.webp",
+        "alt": "Cook the noodles",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Make the crispy chilli beef",
+      "blocks": [
+        "Add the garlic, ginger and chilli to taste to the crispy beef and fry for 1 minute. Stir in the chilli jam and half the soy sauce and fry for a further 4 minutes until browned and crispy."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the aromatics",
+          "seconds": [
+            60
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Crisp the chilli beef",
+          "seconds": [
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "crispy-chilli-beef-coriander-noodles-6-sketch",
+        "path": "media/crispy-chilli-beef-coriander-noodles-6-sketch.webp",
+        "alt": "Make the crispy chilli beef",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 7,
+      "id": "step-7",
+      "heading": "Dress the coriander noodles",
+      "blocks": [
+        "Return the noodles to medium heat. Stir in the spring onions, remaining soy sauce, rice vinegar and toasted sesame oil. Loosen with a splash of cooking water if needed. Take off the heat and stir through the chopped coriander."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "crispy-chilli-beef-coriander-noodles-7-sketch",
+        "path": "media/crispy-chilli-beef-coriander-noodles-7-sketch.webp",
+        "alt": "Dress the coriander noodles",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 8,
+      "id": "step-8",
+      "heading": "Serve",
+      "blocks": [
+        "Spoon the crispy chilli beef over the noodles and top with the toasted sesame seeds and reserved coriander leaves."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "crispy-chilli-beef-coriander-noodles-8-sketch",
+        "path": "media/crispy-chilli-beef-coriander-noodles-8-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

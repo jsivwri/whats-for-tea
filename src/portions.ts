@@ -4,7 +4,7 @@ export const MAX_SERVINGS = 12
 type PrintedServings = { servings: number[] }
 
 export function servingOptions(recipe: PrintedServings) {
-  const first = Math.min(...recipe.servings)
+  const first = Math.min(2, ...recipe.servings)
   const last = Math.max(MAX_SERVINGS, ...recipe.servings)
   return Array.from({ length: last - first + 1 }, (_, i) => first + i)
 }
@@ -50,7 +50,7 @@ function scaledText(text: string, reference: number, servings: number, amount?: 
   if (baseAmount === undefined) return text
   const value = baseAmount * servings / reference
   const originalUnit = unit ?? parsed?.unit ?? ''
-  const countUnit = originalUnit.match(/^(bunch|sachet|carton|packet|cup|clove|can|tin)(?:es|s)?$/i)?.[1]
+  const countUnit = originalUnit.match(/^(bunch|(?:small |large )?sachet|carton|packet|cup|clove|can|tin|lime|lemon)(?:es|s)?$/i)?.[1]
   const displayUnit = countUnit ? countUnit + (value === 1 ? '' : countUnit === 'bunch' ? 'es' : 's') : originalUnit
   return displayUnit ? `${amountFormat.format(value)} ${displayUnit}` : amountFormat.format(value)
 }

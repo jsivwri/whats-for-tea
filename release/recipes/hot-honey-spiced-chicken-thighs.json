@@ -1,0 +1,910 @@
+{
+  "id": "hot-honey-spiced-chicken-thighs",
+  "slug": "hot-honey-spiced-chicken-thighs",
+  "title": "Hot Honey Spiced Chicken Thighs",
+  "subtitle": "with Rosemary Chips and Baby Gem Salad",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2025-W03 · Card 5"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "hot-honey-spiced-chicken-thighs",
+    "path": "media/hot-honey-spiced-chicken-thighs.webp",
+    "width": 1120,
+    "height": 698,
+    "alt": "Hot Honey Spiced Chicken Thighs",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/hot-honey-spiced-chicken-thighs-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 7,
+      "maxMinutes": 10,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 26,
+      "maxMinutes": 32,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 32,
+      "maxMinutes": 40,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "30–35 min",
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays and foil",
+    "Frying pan",
+    "Mixing bowls"
+  ],
+  "before": [],
+  "allergens": [
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "dried-rosemary",
+      "ingredientId": "dried-rosemary",
+      "label": "Dried rosemary",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-thigh",
+      "label": "British chicken thighs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "4"
+        },
+        "3": {
+          "status": "printed",
+          "text": "6"
+        },
+        "4": {
+          "status": "printed",
+          "text": "8"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "central-american-spice-mix",
+      "ingredientId": "central-american-spice-mix",
+      "label": "Central American style spice mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "22 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "hot-sauce",
+      "ingredientId": "hot-sauce",
+      "label": "Hot sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-gem",
+      "ingredientId": "baby-gem",
+      "label": "Baby gem lettuces",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tomato",
+      "ingredientId": "tomato",
+      "label": "Medium tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-wine-vinegar",
+      "ingredientId": "red-wine-vinegar",
+      "label": "Red wine vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "12 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "18 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "24 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": true
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Bake the rosemary chips",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Cut the unpeeled potatoes into 1 cm chips. Toss with oil, dried rosemary, salt and pepper. Spread in a single layer on one or more trays. Bake on the top shelf for 25–30 minutes until golden."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the chips",
+          "seconds": [
+            1500,
+            1800
+          ]
+        }
+      ],
+      "image": {
+        "id": "hot-honey-spiced-chicken-thighs-1-sketch",
+        "path": "media/hot-honey-spiced-chicken-thighs-1-sketch.webp",
+        "alt": "Bake the rosemary chips",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Season the chicken",
+      "blocks": [
+        "Toss the chicken with the Central American spice mix, a drizzle of oil, salt and pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "hot-honey-spiced-chicken-thighs-2-sketch",
+        "path": "media/hot-honey-spiced-chicken-thighs-2-sketch.webp",
+        "alt": "Season the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Fry the chicken and mix the hot honey",
+      "blocks": [
+        "Heat a drizzle of oil in a large frying pan over medium-high. Lay the chicken flat and fry until browned, 3–4 minutes per side. Meanwhile, mix the honey and hot sauce. If the honey is stiff, warm its container in hot water for 1 minute."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry each side",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "hot-honey-spiced-chicken-thighs-3-sketch",
+        "path": "media/hot-honey-spiced-chicken-thighs-3-sketch.webp",
+        "alt": "Fry the chicken and mix the hot honey",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Bake the chicken",
+      "blocks": [
+        "Transfer the browned chicken to a foil-lined tray. Turn the chips and move them to the middle shelf. Bake the chicken on the top shelf for 12–15 minutes, until cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the chicken",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "hot-honey-spiced-chicken-thighs-4-sketch",
+        "path": "media/hot-honey-spiced-chicken-thighs-4-sketch.webp",
+        "alt": "Bake the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Make the salad",
+      "blocks": [
+        "Trim and halve the baby gem lengthways, then slice it thinly. Cut the tomato into 1 cm chunks. Mix the vinegar with a drizzle of oil, a pinch of sugar if available, and salt and pepper. Toss in the tomato. Add the lettuce just before serving."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "hot-honey-spiced-chicken-thighs-5-sketch",
+        "path": "media/hot-honey-spiced-chicken-thighs-5-sketch.webp",
+        "alt": "Make the salad",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Divide the chicken between plates and drizzle over the hot honey. Serve with the rosemary chips and salad."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "hot-honey-spiced-chicken-thighs-6-sketch",
+        "path": "media/hot-honey-spiced-chicken-thighs-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "swap-chicken-breast",
+      "label": "Swap to chicken breast",
+      "ingredients": [
+        {
+          "id": "potatoes",
+          "ingredientId": "potatoes",
+          "label": "Potatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "450 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "700 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "900 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "dried-rosemary",
+          "ingredientId": "dried-rosemary",
+          "label": "Dried rosemary",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ sachets"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken",
+          "ingredientId": "chicken-breast",
+          "label": "British chicken breasts",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "central-american-spice-mix",
+          "ingredientId": "central-american-spice-mix",
+          "label": "Central American style spice mix",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "honey",
+          "ingredientId": "honey",
+          "label": "Honey",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "15 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "22 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "30 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "hot-sauce",
+          "ingredientId": "hot-sauce",
+          "label": "Hot sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "30 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "50 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "60 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "baby-gem",
+          "ingredientId": "baby-gem",
+          "label": "Baby gem lettuces",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "tomato",
+          "ingredientId": "tomato",
+          "label": "Medium tomatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "red-wine-vinegar",
+          "ingredientId": "red-wine-vinegar",
+          "label": "Red wine vinegar",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "12 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "18 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "24 ml"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sugar",
+          "ingredientId": "sugar",
+          "label": "Sugar",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": true
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Bake the rosemary chips",
+          "blocks": [
+            "Preheat the oven to 220°C (200°C fan, gas 7). Cut the unpeeled potatoes into 1 cm chips. Toss with oil, dried rosemary, salt and pepper. Spread in a single layer on one or more trays. Bake on the top shelf for 25–30 minutes until golden."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Bake the chips",
+              "seconds": [
+                1500,
+                1800
+              ]
+            }
+          ],
+          "image": {
+            "id": "hot-honey-spiced-chicken-thighs-1-sketch",
+            "path": "media/hot-honey-spiced-chicken-thighs-1-sketch.webp",
+            "alt": "Bake the rosemary chips",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Season the chicken",
+          "blocks": [
+            "Toss the chicken with the Central American spice mix, a drizzle of oil, salt and pepper."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "hot-honey-spiced-chicken-thighs-2-sketch",
+            "path": "media/hot-honey-spiced-chicken-thighs-2-sketch.webp",
+            "alt": "Season the chicken",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Fry the chicken and mix the hot honey",
+          "blocks": [
+            "Heat a drizzle of oil in a large frying pan over medium-high. Lay the chicken flat and fry until browned, 5 minutes per side. Meanwhile, mix the honey and hot sauce. If the honey is stiff, warm its container in hot water for 1 minute."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Fry each side",
+              "seconds": [
+                300
+              ]
+            }
+          ],
+          "image": {
+            "id": "hot-honey-spiced-chicken-thighs-3-sketch",
+            "path": "media/hot-honey-spiced-chicken-thighs-3-sketch.webp",
+            "alt": "Fry the chicken and mix the hot honey",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Bake the chicken",
+          "blocks": [
+            "Transfer the browned chicken to a foil-lined tray. Turn the chips and move them to the middle shelf. Bake the chicken on the top shelf for 10–12 minutes, until cooked through."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Bake the chicken",
+              "seconds": [
+                600,
+                720
+              ]
+            }
+          ],
+          "image": {
+            "id": "hot-honey-spiced-chicken-thighs-4-sketch",
+            "path": "media/hot-honey-spiced-chicken-thighs-4-sketch.webp",
+            "alt": "Bake the chicken",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Make the salad",
+          "blocks": [
+            "Trim and halve the baby gem lengthways, then slice it thinly. Cut the tomato into 1 cm chunks. Mix the vinegar with a drizzle of oil, a pinch of sugar if available, and salt and pepper. Toss in the tomato. Add the lettuce just before serving."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "hot-honey-spiced-chicken-thighs-5-sketch",
+            "path": "media/hot-honey-spiced-chicken-thighs-5-sketch.webp",
+            "alt": "Make the salad",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Serve",
+          "blocks": [
+            "Divide the chicken between plates and drizzle over the hot honey. Serve with the rosemary chips and salad."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "hot-honey-spiced-chicken-thighs-6-sketch",
+            "path": "media/hot-honey-spiced-chicken-thighs-6-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

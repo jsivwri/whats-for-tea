@@ -18,9 +18,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 10,
+      "maxMinutes": 15,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Chop the mushrooms and vegetables, brown mince, then simmer the sauce while the pasta boils"
+    },
+    "cook": {
+      "minMinutes": 18,
+      "maxMinutes": 25,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Chop the mushrooms and vegetables, brown mince, then simmer the sauce while the pasta boils"
+    },
+    "total": {
+      "minMinutes": 30,
+      "maxMinutes": 40,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Chop the mushrooms and vegetables, brown mince, then simmer the sauce while the pasta boils"
+    },
     "card": {
       "minMinutes": 30,
       "maxMinutes": 40,
@@ -572,8 +590,8 @@
   "hero": {
     "id": "beef-mushroom-bolognese-hero",
     "path": "media/beef-mushroom-bolognese.webp",
-    "width": 815,
-    "height": 531,
+    "width": 1120,
+    "height": 616,
     "alt": "Beef & Mushroom Bolognese with Wholewheat Tortiglioni",
     "credit": "Gousto recipe card",
     "sizes": [
@@ -582,5 +600,9 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ]
 }

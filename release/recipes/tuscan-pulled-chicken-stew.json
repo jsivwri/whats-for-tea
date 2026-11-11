@@ -18,9 +18,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 6,
+      "maxMinutes": 10,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Fry chicken and onion, bake the stew while warming the bread, then wilt the spinach and pull the chicken."
+    },
+    "cook": {
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Fry chicken and onion, bake the stew while warming the bread, then wilt the spinach and pull the chicken."
+    },
+    "total": {
+      "minMinutes": 36,
+      "maxMinutes": 45,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Fry chicken and onion, bake the stew while warming the bread, then wilt the spinach and pull the chicken."
+    },
     "card": {
       "minMinutes": 25,
       "maxMinutes": 30,
@@ -516,9 +534,9 @@
   "hero": {
     "id": "tuscan-pulled-chicken-stew-hero",
     "path": "media/tuscan-pulled-chicken-stew.webp",
-    "width": 960,
-    "height": 628,
-    "alt": "One Pot Tuscan Inspired Creamy Pulled Chicken Stew with Ciabatta and Cheese",
+    "width": 1120,
+    "height": 790,
+    "alt": "Creamy Tuscan-style pulled chicken stew with toasted ciabatta",
     "credit": "HelloFresh recipe card",
     "sizes": [
       {
@@ -526,5 +544,9 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ]
 }

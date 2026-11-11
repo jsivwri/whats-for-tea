@@ -17,9 +17,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 6,
+      "maxMinutes": 10,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Start the mash and green vegetables, then pan-fry the gammon and make the mustard sauce alongside."
+    },
+    "cook": {
+      "minMinutes": 24,
+      "maxMinutes": 29,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Start the mash and green vegetables, then pan-fry the gammon and make the mustard sauce alongside."
+    },
+    "total": {
+      "minMinutes": 30,
+      "maxMinutes": 36,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Start the mash and green vegetables, then pan-fry the gammon and make the mustard sauce alongside."
+    },
     "card": {
       "minMinutes": 30,
       "maxMinutes": 35,
@@ -392,7 +410,9 @@
       "blocks": [
         "Boil potatoes for 15–20 minutes until tender. Drain and return to the pan off the heat. Mash with a knob of butter and splash of milk if available. Stir through half the mustard, season and cover to keep warm."
       ],
-      "notes": [],
+      "notes": [
+        "Add less mustard to the mash if you prefer."
+      ],
       "timers": [
         {
           "id": "timer-1",
@@ -515,9 +535,9 @@
   "hero": {
     "id": "gammon-parsley-mustard-hero",
     "path": "media/gammon-parsley-mustard.webp",
-    "width": 960,
-    "height": 876,
-    "alt": "Gammon and Creamy Parsley Mustard Sauce with Mash, Green Beans and Peas",
+    "width": 1120,
+    "height": 790,
+    "alt": "Gammon with mash, peas, green beans and creamy parsley mustard sauce",
     "credit": "HelloFresh recipe card",
     "sizes": [
       {
@@ -525,5 +545,9 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Spring",
+    "Easter"
+  ]
 }

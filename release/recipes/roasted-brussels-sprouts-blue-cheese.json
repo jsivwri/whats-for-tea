@@ -1,0 +1,267 @@
+{
+  "id": "roasted-brussels-sprouts-blue-cheese",
+  "slug": "roasted-brussels-sprouts-blue-cheese",
+  "title": "Roasted Brussels Sprouts",
+  "subtitle": "with Blue Cheese, Chilli & Honey",
+  "provider": "JP’s Kitchen",
+  "source": {
+    "label": "JP’s Kitchen · Christmas Sides",
+    "edition": "Serves 6"
+  },
+  "added": "2026-11-10",
+  "description": "Adapted from Tesco Real Food magazine clippings, as credited on the card.",
+  "hero": {
+    "id": "roasted-brussels-sprouts-blue-cheese",
+    "path": "media/roasted-brussels-sprouts-blue-cheese.webp",
+    "width": 613,
+    "height": 591,
+    "alt": "Roasted Brussels sprouts with walnuts, rosemary and blue cheese",
+    "credit": "JP’s Kitchen recipe card",
+    "sizes": [
+      {
+        "path": "media/roasted-brussels-sprouts-blue-cheese-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "aliases": [],
+  "themes": [
+    "Side dishes"
+  ],
+  "seasons": [
+    "Winter",
+    "Christmas"
+  ],
+  "timings": {
+    "prep": {
+      "minMinutes": 7,
+      "maxMinutes": 10,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Trim and halve sprouts, then measure the additions.",
+      "estimated": true
+    },
+    "cook": {
+      "minMinutes": 25,
+      "maxMinutes": 26,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "The two roasts take 20 and 5–6 minutes.",
+      "estimated": true
+    },
+    "total": {
+      "minMinutes": 33,
+      "maxMinutes": 38,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Prep and preheat overlap, followed by the two roasts and plating.",
+      "estimated": true
+    },
+    "card": {
+      "minMinutes": 35,
+      "maxMinutes": 35,
+      "sourceLabel": "35 mins",
+      "provenance": "Printed time on the Christmas Sides cover"
+    }
+  },
+  "servings": [
+    6
+  ],
+  "defaultServings": 6,
+  "equipment": [
+    "Baking tray"
+  ],
+  "before": [
+    "The sprouts roast at a hotter oven setting than the other two Christmas sides."
+  ],
+  "allergens": [
+    "Walnuts",
+    "Milk"
+  ],
+  "cautions": [],
+  "ingredients": [
+    {
+      "id": "brussels-sprouts",
+      "ingredientId": "brussels-sprouts",
+      "label": "Brussels sprouts",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "amount": 600,
+          "text": "600 g",
+          "unit": "g"
+        }
+      },
+      "optional": false,
+      "group": "box"
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "amount": 1,
+          "text": "1 tbsp",
+          "unit": "tbsp"
+        }
+      },
+      "optional": false,
+      "group": "bring"
+    },
+    {
+      "id": "walnuts",
+      "ingredientId": "walnuts",
+      "label": "Walnut halves",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "amount": 75,
+          "text": "75 g",
+          "unit": "g"
+        }
+      },
+      "optional": false,
+      "group": "box"
+    },
+    {
+      "id": "rosemary-sprigs",
+      "ingredientId": "rosemary",
+      "label": "Rosemary sprigs",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "amount": 2,
+          "text": "2"
+        }
+      },
+      "optional": false,
+      "group": "box"
+    },
+    {
+      "id": "chilli-flakes",
+      "ingredientId": "chilli-flakes",
+      "label": "Crushed chillies",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "amount": 0.5,
+          "text": "½ tsp",
+          "unit": "tsp"
+        }
+      },
+      "optional": false,
+      "group": "box"
+    },
+    {
+      "id": "honey",
+      "ingredientId": "honey",
+      "label": "Clear honey",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "amount": 1,
+          "text": "1 tbsp",
+          "unit": "tbsp"
+        }
+      },
+      "optional": false,
+      "group": "box"
+    },
+    {
+      "id": "blue-cheese",
+      "ingredientId": "blue-cheese",
+      "label": "Danish blue cheese",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "amount": 70,
+          "text": "70 g",
+          "unit": "g"
+        }
+      },
+      "optional": false,
+      "group": "box"
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "optional": false,
+      "group": "bring"
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "6": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "optional": false,
+      "group": "bring"
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Roast the sprouts",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7. Trim and halve the sprouts. Toss on a baking tray with {{neutral-oil}} oil and season. Roast for 20 minutes.",
+        "Add the walnuts, rosemary sprigs, {{chilli-flakes}} crushed chillies and {{honey}} honey. Toss and roast for 5–6 minutes more, until golden and crisp."
+      ],
+      "notes": [],
+      "image": {
+        "id": "christmas-sides-5-sketch",
+        "path": "media/christmas-sides-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Roasted Brussels sprouts with walnuts and rosemary",
+        "credit": "Illustration based on the JP’s Kitchen recipe card"
+      },
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the sprouts",
+          "seconds": [
+            1200
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Roast with the walnuts",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "id": "step-1",
+      "number": 1
+    },
+    {
+      "heading": "Finish with blue cheese",
+      "blocks": [
+        "Tip the sprouts onto a platter and crumble the blue cheese over them."
+      ],
+      "notes": [],
+      "image": {
+        "id": "christmas-sides-6-sketch",
+        "path": "media/christmas-sides-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "The three finished Christmas sides",
+        "credit": "Illustration based on the JP’s Kitchen recipe card"
+      },
+      "timers": [],
+      "id": "step-2",
+      "number": 2
+    }
+  ],
+  "variants": []
+}

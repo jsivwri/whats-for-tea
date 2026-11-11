@@ -1,0 +1,1126 @@
+{
+  "id": "pachamanca-chicken-sweet-potato-bulgur",
+  "slug": "pachamanca-chicken-sweet-potato-bulgur",
+  "title": "Perfect Pachamanca Inspired Chicken",
+  "subtitle": "with Sweet Potato and Bulgur",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 5"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "pachamanca-chicken-sweet-potato-bulgur",
+    "path": "media/pachamanca-chicken-sweet-potato-bulgur.webp",
+    "width": 1120,
+    "height": 813,
+    "alt": "Perfect Pachamanca Inspired Chicken",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/pachamanca-chicken-sweet-potato-bulgur-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 7,
+      "maxMinutes": 10,
+      "provenance": "Chop the vegetables and prepare the aromatics and seasonings.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 31,
+      "maxMinutes": 38,
+      "provenance": "Cook the bulgur alongside the chicken.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 40,
+      "maxMinutes": 48,
+      "provenance": "Allows for initial prep, parallel cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "40–45 min",
+      "minMinutes": 40,
+      "maxMinutes": 45,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Two large saucepans, one with lid",
+    "Fine grater"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Wheat and gluten",
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "sweet-potato",
+      "ingredientId": "sweet-potato",
+      "label": "Sweet potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "3": {
+          "status": "printed",
+          "text": "4"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mint",
+      "ingredientId": "mint",
+      "label": "Mint",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ bunches"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 bunches"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-thigh",
+      "label": "British chicken thighs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "4"
+        },
+        "3": {
+          "status": "printed",
+          "text": "6"
+        },
+        "4": {
+          "status": "printed",
+          "text": "8"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chipotle-paste",
+      "ingredientId": "chipotle-paste",
+      "label": "Chipotle paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "dried-oregano",
+      "ingredientId": "dried-oregano",
+      "label": "Dried oregano",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-wine-vinegar",
+      "ingredientId": "red-wine-vinegar",
+      "label": "Red wine vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "12 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "18 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "24 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-paste",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "bulgur",
+      "ingredientId": "bulgur",
+      "label": "Bulgur wheat",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "180 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "240 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-spinach",
+      "ingredientId": "spinach",
+      "label": "Baby spinach",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "70 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "greek-style-salad-cheese",
+      "ingredientId": "greek-style-salad-cheese",
+      "label": "Greek style salad cheese",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "300 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "400 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "bulgur-water",
+      "ingredientId": "water",
+      "label": "Water for the bulgur",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "220 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "330 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "440 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Prepare the sweet potatoes and mint",
+      "blocks": [
+        "Halve the unpeeled sweet potatoes lengthways and slice into 1 cm half moons. Peel and grate or press the garlic. Pick and roughly chop the mint leaves."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "pachamanca-chicken-sweet-potato-bulgur-1-sketch",
+        "path": "media/pachamanca-chicken-sweet-potato-bulgur-1-sketch.webp",
+        "alt": "Prepare the sweet potatoes and mint",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Brown the chicken",
+      "blocks": [
+        "Heat a drizzle of oil in a large saucepan over medium-high. Lay the chicken flat, season and fry for 4–5 minutes per side until browned. Add the sweet potato, chipotle paste to taste, oregano and garlic. Stir-fry for 1 minute."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown each side",
+          "seconds": [
+            240,
+            300
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Fry the aromatics",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "pachamanca-chicken-sweet-potato-bulgur-2-sketch",
+        "path": "media/pachamanca-chicken-sweet-potato-bulgur-2-sketch.webp",
+        "alt": "Brown the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Simmer the chicken",
+      "blocks": [
+        "Stir in the red wine vinegar, half the stock paste, half the mint, {{sugar}} sugar and {{sauce-water}} water. Bring to the boil and reduce to medium. Simmer for 20–25 minutes until the sauce thickens and the chicken is cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the chicken",
+          "seconds": [
+            1200,
+            1500
+          ]
+        }
+      ],
+      "image": {
+        "id": "pachamanca-chicken-sweet-potato-bulgur-3-sketch",
+        "path": "media/pachamanca-chicken-sweet-potato-bulgur-3-sketch.webp",
+        "alt": "Simmer the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Cook the bulgur",
+      "blocks": [
+        "Bring {{bulgur-water}} water and the rest of the stock paste to a boil in a second saucepan. Stir in the bulgur, bring back to a boil and simmer for 1 minute. Cover, take off the heat and leave for 12–15 minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the bulgur",
+          "seconds": [
+            60
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Steam off the heat",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "pachamanca-chicken-sweet-potato-bulgur-4-sketch",
+        "path": "media/pachamanca-chicken-sweet-potato-bulgur-4-sketch.webp",
+        "alt": "Cook the bulgur",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Wilt the spinach",
+      "blocks": [
+        "Stir the spinach into the chicken a handful at a time, cooking for 1–2 minutes until wilted and piping hot. Taste and season."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Wilt the spinach",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "pachamanca-chicken-sweet-potato-bulgur-5-sketch",
+        "path": "media/pachamanca-chicken-sweet-potato-bulgur-5-sketch.webp",
+        "alt": "Wilt the spinach",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Divide the bulgur between bowls, top with the chicken and sauce, and scatter over the crumbled Greek style salad cheese and remaining mint."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "pachamanca-chicken-sweet-potato-bulgur-6-sketch",
+        "path": "media/pachamanca-chicken-sweet-potato-bulgur-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "swap-chicken-breast",
+      "label": "Swap to chicken breast",
+      "ingredients": [
+        {
+          "id": "sweet-potato",
+          "ingredientId": "sweet-potato",
+          "label": "Sweet potatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "garlic",
+          "ingredientId": "garlic",
+          "label": "Garlic cloves",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "3"
+            },
+            "3": {
+              "status": "printed",
+              "text": "4"
+            },
+            "4": {
+              "status": "printed",
+              "text": "6"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "mint",
+          "ingredientId": "mint",
+          "label": "Mint",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 bunch"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ bunches"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 bunches"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken",
+          "ingredientId": "chicken-breast",
+          "label": "British chicken breasts",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chipotle-paste",
+          "ingredientId": "chipotle-paste",
+          "label": "Chipotle paste",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "20 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "30 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "40 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "dried-oregano",
+          "ingredientId": "dried-oregano",
+          "label": "Dried oregano",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "red-wine-vinegar",
+          "ingredientId": "red-wine-vinegar",
+          "label": "Red wine vinegar",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "12 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "18 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "24 ml"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken-stock-paste",
+          "ingredientId": "chicken-stock-paste",
+          "label": "Chicken stock paste",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "20 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "30 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "40 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "bulgur",
+          "ingredientId": "bulgur",
+          "label": "Bulgur wheat",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "120 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "180 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "240 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "baby-spinach",
+          "ingredientId": "spinach",
+          "label": "Baby spinach",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "40 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "70 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "100 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "greek-style-salad-cheese",
+          "ingredientId": "greek-style-salad-cheese",
+          "label": "Greek style salad cheese",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "50 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "75 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "100 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sugar",
+          "ingredientId": "sugar",
+          "label": "Sugar for the sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "sauce-water",
+          "ingredientId": "water",
+          "label": "Water for the sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "200 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "300 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "400 ml"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "bulgur-water",
+          "ingredientId": "water",
+          "label": "Water for the bulgur",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "220 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "330 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "440 ml"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Prepare the sweet potatoes and mint",
+          "blocks": [
+            "Halve the unpeeled sweet potatoes lengthways and slice into 1 cm half moons. Peel and grate or press the garlic. Pick and roughly chop the mint leaves."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "pachamanca-chicken-sweet-potato-bulgur-1-sketch",
+            "path": "media/pachamanca-chicken-sweet-potato-bulgur-1-sketch.webp",
+            "alt": "Prepare the sweet potatoes and mint",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Brown the chicken",
+          "blocks": [
+            "Heat a drizzle of oil in a large saucepan over medium-high. Lay the chicken flat, season and fry for 4–5 minutes per side until browned. Add the sweet potato, chipotle paste to taste, oregano and garlic. Stir-fry for 1 minute."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Brown each side",
+              "seconds": [
+                240,
+                300
+              ]
+            },
+            {
+              "id": "timer-2",
+              "label": "Fry the aromatics",
+              "seconds": [
+                60
+              ]
+            }
+          ],
+          "image": {
+            "id": "pachamanca-chicken-sweet-potato-bulgur-2-sketch",
+            "path": "media/pachamanca-chicken-sweet-potato-bulgur-2-sketch.webp",
+            "alt": "Brown the chicken",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Simmer the chicken",
+          "blocks": [
+            "Stir in the red wine vinegar, half the stock paste, half the mint, {{sugar}} sugar and {{sauce-water}} water. Bring to the boil and reduce to medium. Simmer for 20–25 minutes until the sauce thickens and the chicken is cooked through."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Simmer the chicken",
+              "seconds": [
+                1200,
+                1500
+              ]
+            }
+          ],
+          "image": {
+            "id": "pachamanca-chicken-sweet-potato-bulgur-3-sketch",
+            "path": "media/pachamanca-chicken-sweet-potato-bulgur-3-sketch.webp",
+            "alt": "Simmer the chicken",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Cook the bulgur",
+          "blocks": [
+            "Bring {{bulgur-water}} water and the rest of the stock paste to a boil in a second saucepan. Stir in the bulgur, bring back to a boil and simmer for 1 minute. Cover, take off the heat and leave for 12–15 minutes."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Simmer the bulgur",
+              "seconds": [
+                60
+              ]
+            },
+            {
+              "id": "timer-2",
+              "label": "Steam off the heat",
+              "seconds": [
+                720,
+                900
+              ]
+            }
+          ],
+          "image": {
+            "id": "pachamanca-chicken-sweet-potato-bulgur-4-sketch",
+            "path": "media/pachamanca-chicken-sweet-potato-bulgur-4-sketch.webp",
+            "alt": "Cook the bulgur",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Wilt the spinach",
+          "blocks": [
+            "Stir the spinach into the chicken a handful at a time, cooking for 1–2 minutes until wilted and piping hot. Taste and season."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Wilt the spinach",
+              "seconds": [
+                60,
+                120
+              ]
+            }
+          ],
+          "image": {
+            "id": "pachamanca-chicken-sweet-potato-bulgur-5-sketch",
+            "path": "media/pachamanca-chicken-sweet-potato-bulgur-5-sketch.webp",
+            "alt": "Wilt the spinach",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Serve",
+          "blocks": [
+            "Divide the bulgur between bowls, top with the chicken and sauce, and scatter over the crumbled Greek style salad cheese and remaining mint."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "pachamanca-chicken-sweet-potato-bulgur-6-sketch",
+            "path": "media/pachamanca-chicken-sweet-potato-bulgur-6-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

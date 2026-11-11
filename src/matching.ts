@@ -3,7 +3,7 @@ import type { Dictionary, Summary, TimeKey, Timing } from '../schema/v1.ts'
 
 export const normalise = (s: string) => s.toLowerCase().normalize('NFKD').replace(/\p{M}/gu, '')
   .replace(/[’']/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim()
-export const timeText = (t: Timing) => `${t.minMinutes === t.maxMinutes ? t.maxMinutes : `${t.minMinutes}–${t.maxMinutes}`} min`
+export const timeText = (t: Timing) => `${t.estimated ? 'Est. ' : ''}${t.minMinutes === t.maxMinutes ? t.maxMinutes : `${t.minMinutes}–${t.maxMinutes}`} min`
 const spell = (text: string) => normalise(text).replace(/\bchilis?\b/g, 'chilli')
 const byTitle = (a: Summary, b: Summary) => a.title.localeCompare(b.title, 'en-GB') || a.id.localeCompare(b.id)
 
@@ -20,7 +20,7 @@ export function distance(a: string, b: string) {
 export function titleRank(query: string, recipe: Summary) {
   const q = spell(query)
   if (!q) return 0
-  const fields = [recipe.title, `${recipe.title} ${recipe.subtitle || ''}`, ...recipe.aliases].map(spell)
+  const fields = [recipe.title, `${recipe.title} ${recipe.subtitle || ''}`, ...recipe.aliases, ...(recipe.seasons || [])].map(spell)
   if (fields.includes(q)) return 0
   if (fields.some(s => s.startsWith(q))) return 1
   const words = [...new Set(fields.flatMap(field => field.split(' ')))]
@@ -33,10 +33,10 @@ export function titleRank(query: string, recipe: Summary) {
 export type PantryItem = { id: string; first: boolean }
 export type Pending = { text: string; choices: string[] }
 export type Filters = {
-  query: string; cuisine: string[]; themes: string[]; provider: string[]; ingredients: string[]
+  query: string; cuisine: string[]; themes: string[]; seasons: string[]; provider: string[]; ingredients: string[]
   time: Partial<Record<TimeKey, number>>; unknown: boolean; sort: 'relevance' | 'name' | 'recent' | 'total' | 'prep'
 }
-export const emptyFilters: Filters = { query: '', cuisine: [], themes: [], provider: [], ingredients: [], time: {}, unknown: false, sort: 'relevance' }
+export const emptyFilters: Filters = { query: '', cuisine: [], themes: [], seasons: [], provider: [], ingredients: [], time: {}, unknown: false, sort: 'relevance' }
 export const defaultBasics = ['salt', 'black-pepper', 'neutral-oil', 'water']
 const stripAmount = (s: string) => s.trim()
   .replace(/^(?:(?:i['’]?ve got|i have|we have|we['’]?ve got|i['’]?ve|some|a few)\s+)+/i, '')
@@ -119,7 +119,7 @@ const timeSort = (a: Summary, b: Summary, key: TimeKey) => (a.timings[key]?.maxM
 export function browse(index: Summary[], filters: Filters, tools: Tools) {
   const any = (picked: string[], values: string[]) => !picked.length || picked.some(value => values.includes(value))
   const ranked = index.map(recipe => ({ recipe, rank: titleRank(filters.query, recipe) })).filter(({ recipe, rank }) =>
-    Number.isFinite(rank) && any(filters.themes, recipe.themes) && any(filters.cuisine, [recipe.cuisine || '']) && any(filters.provider, [recipe.provider]) &&
+    Number.isFinite(rank) && any(filters.themes, recipe.themes) && any(filters.seasons, recipe.seasons || []) && any(filters.cuisine, [recipe.cuisine || '']) && any(filters.provider, [recipe.provider]) &&
     filters.ingredients.every(item => Object.values(recipe.requirements).some(version => Object.values(version).some(needs => needs.some(id => tools.within(id, item))))) &&
     (Object.entries(filters.time) as [TimeKey, number][]).every(([key, max]) => {
       const value = recipe.timings[key]

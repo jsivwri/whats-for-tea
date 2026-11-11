@@ -24,8 +24,20 @@
       "sourceLabel": "Prep time",
       "provenance": "Printed on the card"
     },
-    "cook": null,
-    "total": null,
+    "cook": {
+      "minMinutes": 243,
+      "maxMinutes": 250,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Brown the beef, cook on high for two two-hour stages and cook the rice during the final stage."
+    },
+    "total": {
+      "minMinutes": 250,
+      "maxMinutes": 265,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Brown the beef, cook on high for two two-hour stages and cook the rice during the final stage."
+    },
     "card": {
       "minMinutes": 240,
       "maxMinutes": 250,
@@ -476,9 +488,9 @@
   "hero": {
     "id": "slow-cooker-black-bean-beef-hero",
     "path": "media/slow-cooker-black-bean-beef.webp",
-    "width": 679,
-    "height": 637,
-    "alt": "Slow Cooker Beef in Black Bean with Brown Rice",
+    "width": 1081,
+    "height": 616,
+    "alt": "Slow-cooked beef in black bean sauce with peppers and brown rice",
     "credit": "Gousto recipe card",
     "sizes": [
       {
@@ -486,5 +498,9 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ]
 }

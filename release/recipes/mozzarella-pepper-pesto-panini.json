@@ -1,0 +1,476 @@
+{
+  "id": "mozzarella-pepper-pesto-panini",
+  "slug": "mozzarella-pepper-pesto-panini",
+  "title": "Mozzarella, Roasted Pepper and Pesto Panini",
+  "subtitle": "with Herby Fries and Balsamic Rocket",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 4"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "mozzarella-pepper-pesto-panini",
+    "path": "media/mozzarella-pepper-pesto-panini.webp",
+    "width": 1120,
+    "height": 849,
+    "alt": "Mozzarella, Roasted Pepper and Pesto Panini",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/mozzarella-pepper-pesto-panini-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 8,
+      "maxMinutes": 12,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 32,
+      "maxMinutes": 39,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 40,
+      "maxMinutes": 50,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "35–40 min",
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Cheese grater",
+    "Frying pan",
+    "Spatula or heavy pan"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Wheat and gluten",
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact."
+  ],
+  "ingredients": [
+    {
+      "id": "bell-pepper",
+      "ingredientId": "bell-pepper",
+      "label": "Bell peppers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "Potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "450 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "900 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mixed-herbs",
+      "ingredientId": "mixed-herbs",
+      "label": "Mixed herbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ciabatta",
+      "ingredientId": "ciabatta",
+      "label": "Ciabatta rolls",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "pesto",
+      "ingredientId": "pesto",
+      "label": "Fresh pesto",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "82 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mozzarella",
+      "ingredientId": "mozzarella",
+      "label": "Mozzarella",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 ball"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ balls"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 balls"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cheddar",
+      "ingredientId": "cheddar",
+      "label": "Mature Cheddar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rocket",
+      "ingredientId": "rocket",
+      "label": "Rocket",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "balsamic-glaze",
+      "ingredientId": "balsamic-glaze",
+      "label": "Balsamic glaze",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "12 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "18 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "24 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Roast the peppers",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Halve the peppers lengthways and remove the seeds. Put cut-side down on a small baking tray, drizzle with oil and season. Roast on the middle shelf for 18–20 minutes until soft and slightly charred. Turn halfway through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the peppers",
+          "seconds": [
+            1080,
+            1200
+          ]
+        }
+      ],
+      "image": {
+        "id": "mozzarella-pepper-pesto-panini-1-sketch",
+        "path": "media/mozzarella-pepper-pesto-panini-1-sketch.webp",
+        "alt": "Roast the peppers",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Bake the herby fries",
+      "blocks": [
+        "Cut the unpeeled potatoes into 1 cm fries. Toss with oil, salt, pepper and mixed herbs. Spread in a single layer on one or more trays and bake on the top shelf for 30–35 minutes until golden, turning halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the fries",
+          "seconds": [
+            1800,
+            2100
+          ]
+        }
+      ],
+      "image": {
+        "id": "mozzarella-pepper-pesto-panini-2-sketch",
+        "path": "media/mozzarella-pepper-pesto-panini-2-sketch.webp",
+        "alt": "Bake the herby fries",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Prepare the pesto and cheese",
+      "blocks": [
+        "Halve the ciabatta rolls and spread pesto on both cut sides. Grate the Cheddar.",
+        "Drain the mozzarella, squeeze out the liquid with kitchen paper and tear into pieces. Put mozzarella on the roll bases and top with Cheddar. Season with pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "mozzarella-pepper-pesto-panini-3-sketch",
+        "path": "media/mozzarella-pepper-pesto-panini-3-sketch.webp",
+        "alt": "Prepare the pesto and cheese",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Assemble the panini",
+      "blocks": [
+        "Put a roasted pepper half on each cheesy ciabatta base, close and press firmly."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "mozzarella-pepper-pesto-panini-4-sketch",
+        "path": "media/mozzarella-pepper-pesto-panini-4-sketch.webp",
+        "alt": "Assemble the panini",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Toast the panini",
+      "blocks": [
+        "Heat a drizzle of oil in a large frying pan over medium-high. Add the panini and press down with a spatula or heavy pan. Toast for 2–4 minutes per side, pressing occasionally, until golden and the cheese has melted."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Toast each side",
+          "seconds": [
+            120,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "mozzarella-pepper-pesto-panini-5-sketch",
+        "path": "media/mozzarella-pepper-pesto-panini-5-sketch.webp",
+        "alt": "Toast the panini",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Halve the panini diagonally. Serve with herby fries and rocket drizzled with balsamic glaze."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "mozzarella-pepper-pesto-panini-6-sketch",
+        "path": "media/mozzarella-pepper-pesto-panini-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

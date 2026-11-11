@@ -1,0 +1,599 @@
+{
+  "id": "creamy-cajun-chicken-pepper-linguine",
+  "slug": "creamy-cajun-chicken-pepper-linguine",
+  "title": "Creamy Cajun Chicken & Pepper Linguine",
+  "aliases": [],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto",
+    "edition": "Recipe bag 1655"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "creamy-cajun-chicken-pepper-linguine",
+    "path": "media/creamy-cajun-chicken-pepper-linguine.webp",
+    "width": 1120,
+    "height": 1055,
+    "alt": "Creamy Cajun Chicken & Pepper Linguine",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/creamy-cajun-chicken-pepper-linguine-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer",
+    "Autumn"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 7,
+      "maxMinutes": 11,
+      "provenance": "Prep time based on the card where stated, or on the chopping and measuring required.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 17,
+      "maxMinutes": 22,
+      "provenance": "Cook time based on the printed method, allowing for tasks in parallel.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 24,
+      "maxMinutes": 33,
+      "provenance": "Elapsed time includes preparation, cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "20–30 min",
+      "minMinutes": 20,
+      "maxMinutes": 30,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Frying pan",
+    "Baking tray",
+    "Saucepan",
+    "Colander"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "red-onion",
+      "ingredientId": "red-onion",
+      "label": "Red onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ground-cumin",
+      "ingredientId": "ground-cumin",
+      "label": "Ground cumin",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cayenne",
+      "ingredientId": "cayenne",
+      "label": "Cayenne pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ground-coriander",
+      "ingredientId": "ground-coriander",
+      "label": "Ground coriander",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "romano-pepper",
+      "ingredientId": "bell-pepper",
+      "label": "Romano peppers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soft-cheese",
+      "ingredientId": "soft-cheese",
+      "label": "Soft cheese",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "linguine",
+      "ingredientId": "linguine",
+      "label": "Linguine",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "190 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "380 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chinese-rice-wine",
+      "ingredientId": "chinese-rice-wine",
+      "label": "Chinese rice wine",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "British chicken breast fillets (about 125 g each)",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "dried-oregano",
+      "ingredientId": "dried-oregano",
+      "label": "Dried oregano",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "smoked-paprika",
+      "ingredientId": "smoked-paprika",
+      "label": "Smoked paprika",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-mix",
+      "ingredientId": "chicken-stock-mix",
+      "label": "Chicken stock mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "11 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "22 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "stock-water",
+      "ingredientId": "water",
+      "label": "Boiling water for the stock",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "350 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "pasta-water",
+      "ingredientId": "water",
+      "label": "Water for boiling the pasta",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Mix the Cajun spices",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Mix the smoked paprika, cayenne to taste, ground coriander, oregano and cumin on a plate with a pinch of sugar and salt and plenty of black pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "creamy-cajun-chicken-pepper-linguine-1-sketch",
+        "path": "media/creamy-cajun-chicken-pepper-linguine-1-sketch.webp",
+        "alt": "Mix the Cajun spices",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Coat the chicken",
+      "blocks": [
+        "Press one side of each chicken breast into the spice mixture. Keep the remaining spices for the vegetables."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "creamy-cajun-chicken-pepper-linguine-2-sketch",
+        "path": "media/creamy-cajun-chicken-pepper-linguine-2-sketch.webp",
+        "alt": "Coat the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Brown and roast the chicken",
+      "blocks": [
+        "Heat vegetable oil in a large frying pan over medium-high. Fry the chicken spice-side down for 2–3 minutes until slightly charred. Transfer spice-side up to a tray and bake for 14–15 minutes until cooked through. Keep the frying pan."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Char the chicken",
+          "seconds": [
+            120,
+            180
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Roast the chicken",
+          "seconds": [
+            840,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "creamy-cajun-chicken-pepper-linguine-3-sketch",
+        "path": "media/creamy-cajun-chicken-pepper-linguine-3-sketch.webp",
+        "alt": "Brown and roast the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Prepare the vegetables",
+      "blocks": [
+        "Boil a kettle. Peel and finely slice the red onion and peel and chop or grate the garlic. Deseed the Romano pepper and cut into thin strips."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "creamy-cajun-chicken-pepper-linguine-4-sketch",
+        "path": "media/creamy-cajun-chicken-pepper-linguine-4-sketch.webp",
+        "alt": "Prepare the vegetables",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Cook the vegetables",
+      "blocks": [
+        "Fry the onion, garlic, pepper and remaining spice mix in a little oil in the reserved pan over medium heat for 8–10 minutes until starting to soften."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Soften the vegetables",
+          "seconds": [
+            480,
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "creamy-cajun-chicken-pepper-linguine-5-sketch",
+        "path": "media/creamy-cajun-chicken-pepper-linguine-5-sketch.webp",
+        "alt": "Cook the vegetables",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Cook the linguine and mix the stock",
+      "blocks": [
+        "Boil the linguine in salted water for 8–10 minutes until just tender. Drain and reserve a cup of pasta water. Reboil half a kettle and dissolve the stock mix and soft cheese in {{stock-water}} boiling water."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the linguine",
+          "seconds": [
+            480,
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "creamy-cajun-chicken-pepper-linguine-6-sketch",
+        "path": "media/creamy-cajun-chicken-pepper-linguine-6-sketch.webp",
+        "alt": "Cook the linguine and mix the stock",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 7,
+      "id": "step-7",
+      "heading": "Finish the sauce",
+      "blocks": [
+        "Add the rice wine to the softened vegetables and cook for 30 seconds until evaporated. Add the creamy stock and cook for 2–3 minutes until thickened. Stir in the drained linguine and loosen with a splash of pasta water if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Thicken the sauce",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "creamy-cajun-chicken-pepper-linguine-7-sketch",
+        "path": "media/creamy-cajun-chicken-pepper-linguine-7-sketch.webp",
+        "alt": "Finish the sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 8,
+      "id": "step-8",
+      "heading": "Serve",
+      "blocks": [
+        "Thinly slice the chicken and serve over the creamy pepper linguine. Finish with black pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "creamy-cajun-chicken-pepper-linguine-8-sketch",
+        "path": "media/creamy-cajun-chicken-pepper-linguine-8-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

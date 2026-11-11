@@ -1,0 +1,621 @@
+{
+  "id": "mango-chutney-spiced-chicken-bulgur",
+  "slug": "mango-chutney-spiced-chicken-bulgur",
+  "title": "Mango Chutney Glazed Spiced Chicken Breast",
+  "subtitle": "with Cumin Bulgur Wheat and Roasted Carrots",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 7"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "mango-chutney-spiced-chicken-bulgur",
+    "path": "media/mango-chutney-spiced-chicken-bulgur.webp",
+    "width": 1120,
+    "height": 849,
+    "alt": "Mango Chutney Glazed Spiced Chicken Breast",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/mango-chutney-spiced-chicken-bulgur-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Hands-on time (card)",
+      "minMinutes": 20,
+      "maxMinutes": 20,
+      "provenance": "Printed card cover"
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 22,
+      "maxMinutes": 29,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 29,
+      "maxMinutes": 37,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "30 min",
+      "minMinutes": 30,
+      "maxMinutes": 30,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Saucepan with lid",
+    "Baking tray",
+    "Foil",
+    "Frying pan",
+    "Mixing bowls",
+    "Garlic press"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "red-onion",
+      "ingredientId": "red-onion",
+      "label": "Red onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "carrot",
+      "ingredientId": "carrot",
+      "label": "Carrots",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "natural-yoghurt",
+      "ingredientId": "natural-yoghurt",
+      "label": "Natural yoghurt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mint",
+      "ingredientId": "mint",
+      "label": "Mint",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 bunch"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ground-cumin",
+      "ingredientId": "ground-cumin",
+      "label": "Ground cumin",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 small sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 large sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 small sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-powder",
+      "ingredientId": "chicken-stock-powder",
+      "label": "Chicken stock powder",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "bulgur",
+      "ingredientId": "bulgur",
+      "label": "Bulgur wheat",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "180 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "240 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "pasanda-seasoning",
+      "ingredientId": "pasanda-seasoning",
+      "label": "Pasanda seasoning",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 small sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 large sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 small sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the chicken",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "bulgur-water",
+      "ingredientId": "water",
+      "label": "Water for the bulgur",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "360 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "480 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "Skin-on British chicken breasts",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mango-chutney",
+      "ingredientId": "mango-chutney",
+      "label": "Mango chutney",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "butter",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": true
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Soften the onion and prep the carrots",
+      "blocks": [
+        "Preheat the oven to 180°C. Halve, peel and thinly slice the red onion. Heat a drizzle of oil and an optional knob of butter in a saucepan over medium-high. Fry the onion for 8–10 minutes, stirring regularly. Cut the trimmed carrots into 1 cm by 5 cm batons, toss with oil, salt and pepper on a tray and set aside."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Soften the onion",
+          "seconds": [
+            480,
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "mango-chutney-spiced-chicken-bulgur-1-sketch",
+        "path": "media/mango-chutney-spiced-chicken-bulgur-1-sketch.webp",
+        "alt": "Soften the onion and prep the carrots",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Roast the carrots and garlic",
+      "blocks": [
+        "Season the yoghurt. Pick and chop the mint leaves. Peel the garlic. Wrap one clove in foil with a drizzle of oil; grate the rest. Roast the carrots on the top shelf for 20–25 minutes, turning halfway and adding the garlic parcel for the last 10–12 minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the carrots",
+          "seconds": [
+            1200,
+            1500
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Roast the garlic",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "mango-chutney-spiced-chicken-bulgur-2-sketch",
+        "path": "media/mango-chutney-spiced-chicken-bulgur-2-sketch.webp",
+        "alt": "Roast the carrots and garlic",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Cook the cumin bulgur",
+      "blocks": [
+        "Add the grated garlic and cumin to the softened onion and fry for 1 minute. Add {{bulgur-water}} water and bring to a boil. Stir in the stock powder and bulgur, return to the boil and simmer for 1 minute. Cover, take off the heat and leave for 12–15 minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the bulgur",
+          "seconds": [
+            60
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Steam off the heat",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "mango-chutney-spiced-chicken-bulgur-3-sketch",
+        "path": "media/mango-chutney-spiced-chicken-bulgur-3-sketch.webp",
+        "alt": "Cook the cumin bulgur",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Season the chicken",
+      "blocks": [
+        "Heat a dry frying pan over medium-high. Mix the pasanda seasoning with {{chicken-oil}} olive oil, salt and pepper, then coat the chicken."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "mango-chutney-spiced-chicken-bulgur-4-sketch",
+        "path": "media/mango-chutney-spiced-chicken-bulgur-4-sketch.webp",
+        "alt": "Season the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Brown, roast and glaze the chicken",
+      "blocks": [
+        "Fry skin-side down for 4–5 minutes until golden, then turn and fry for 3–4 minutes. Put the chicken on the carrot tray and roast for 8–10 minutes until cooked through. Turn the cooked chicken in the mango chutney."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the skin",
+          "seconds": [
+            240,
+            300
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Fry the other side",
+          "seconds": [
+            180,
+            240
+          ]
+        },
+        {
+          "id": "timer-3",
+          "label": "Roast the chicken",
+          "seconds": [
+            480,
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "mango-chutney-spiced-chicken-bulgur-5-sketch",
+        "path": "media/mango-chutney-spiced-chicken-bulgur-5-sketch.webp",
+        "alt": "Brown, roast and glaze the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Mash the roasted garlic and mix into the yoghurt. Stir half the mint into the bulgur and adjust the seasoning. Slice the chicken and serve on the bulgur with the carrots. Add any tray juices, the garlic yoghurt and the remaining mint."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "mango-chutney-spiced-chicken-bulgur-6-sketch",
+        "path": "media/mango-chutney-spiced-chicken-bulgur-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

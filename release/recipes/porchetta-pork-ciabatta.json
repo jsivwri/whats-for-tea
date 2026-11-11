@@ -18,9 +18,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 8,
+      "maxMinutes": 12,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Roast potatoes while searing and roasting pork and mixing the dressings. Warm the rolls near the end."
+    },
+    "cook": {
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Roast potatoes while searing and roasting pork and mixing the dressings. Warm the rolls near the end."
+    },
+    "total": {
+      "minMinutes": 36,
+      "maxMinutes": 44,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Roast potatoes while searing and roasting pork and mixing the dressings. Warm the rolls near the end."
+    },
     "card": {
       "minMinutes": 35,
       "maxMinutes": 40,
@@ -397,7 +415,9 @@
       "blocks": [
         "Heat the oven to 220°C / 200°C fan / gas mark 7. Halve the unpeeled potatoes, toss with oil and seasoning and roast in a single layer on the middle shelf for 30–35 minutes, turning halfway. Wrap unpeeled garlic with oil in foil and roast for 10–12 minutes until soft."
       ],
-      "notes": [],
+      "notes": [
+        "Use two trays if needed to keep the potatoes in a single layer."
+      ],
       "timers": [
         {
           "id": "timer-1",
@@ -554,9 +574,9 @@
   "hero": {
     "id": "porchetta-pork-ciabatta-hero",
     "path": "media/porchetta-pork-ciabatta.webp",
-    "width": 960,
-    "height": 728,
-    "alt": "Porchetta Inspired Pork Ciabatta Rolls with Rosemary & Garlic Roast Potatoes and Salad",
+    "width": 1120,
+    "height": 790,
+    "alt": "Porchetta-style pork ciabatta with roast potatoes and rocket salad",
     "credit": "HelloFresh recipe card",
     "sizes": [
       {
@@ -564,5 +584,9 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Summer",
+    "Autumn"
+  ]
 }

@@ -1,0 +1,447 @@
+{
+  "id": "mango-chutney-curried-salmon",
+  "slug": "mango-chutney-curried-salmon",
+  "title": "Mango Chutney Glazed Curried Salmon",
+  "subtitle": "with Sweet Potato Wedges and Baby Leaf & Lime Slaw",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2025-W36 · Card 10"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "mango-chutney-curried-salmon",
+    "path": "media/mango-chutney-curried-salmon.webp",
+    "width": 1120,
+    "height": 768,
+    "alt": "Mango Chutney Glazed Curried Salmon",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/mango-chutney-curried-salmon-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer",
+    "Autumn"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 6,
+      "maxMinutes": 10,
+      "provenance": "Cut sweet potatoes, then prepare and roast the fish and mix the slaw while the wedges cook.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 30,
+      "maxMinutes": 40,
+      "provenance": "Cut sweet potatoes, then prepare and roast the fish and mix the slaw while the wedges cook.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 36,
+      "maxMinutes": 48,
+      "provenance": "Cut sweet potatoes, then prepare and roast the fish and mix the slaw while the wedges cook.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "35–40 min",
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Baking paper",
+    "Bowl"
+  ],
+  "before": [],
+  "allergens": [
+    "Fish",
+    "Egg",
+    "Mustard"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw fish."
+  ],
+  "ingredients": [
+    {
+      "id": "sweet-potato",
+      "ingredientId": "sweet-potato",
+      "label": "Sweet potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "salmon-fillet",
+      "ingredientId": "salmon-fillet",
+      "label": "Salmon fillets",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "300 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "400 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "curry-powder-mix",
+      "ingredientId": "curry-powder",
+      "label": "Curry powder mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "lime",
+      "ingredientId": "lime",
+      "label": "Lime",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mayonnaise",
+      "ingredientId": "mayonnaise",
+      "label": "Mayonnaise",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "32 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "48 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "64 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "coleslaw-mix",
+      "ingredientId": "coleslaw-mix",
+      "label": "Coleslaw mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "180 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "240 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-leaf-salad",
+      "ingredientId": "baby-leaf-salad",
+      "label": "Baby leaf mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mango-chutney",
+      "ingredientId": "mango-chutney",
+      "label": "Mango chutney",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "60 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "80 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Cook the wedges",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7. Cut unpeeled sweet potatoes into 2 cm wedges. Toss on a baking tray with oil, salt and pepper. Spread in one layer, using two trays if needed.",
+        "Roast on the middle shelf for 30–40 minutes until golden, turning halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the wedges",
+          "seconds": [
+            1800,
+            2400
+          ]
+        }
+      ],
+      "image": {
+        "id": "mango-chutney-curried-salmon-1-sketch",
+        "path": "media/mango-chutney-curried-salmon-1-sketch.webp",
+        "alt": "Cook the wedges",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Roast the salmon",
+      "blocks": [
+        "Lay the fillets skin-side down on a lined baking tray. Sprinkle with curry powder, drizzle with oil and season. When the wedges are halfway through cooking, roast the fish on the top shelf for 10–15 minutes, until opaque in the middle.",
+        "Wash hands and equipment after handling raw fish."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the salmon",
+          "seconds": [
+            600,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "mango-chutney-curried-salmon-2-sketch",
+        "path": "media/mango-chutney-curried-salmon-2-sketch.webp",
+        "alt": "Roast the salmon",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Mix the slaw",
+      "blocks": [
+        "Halve the lime. Mix the mayonnaise and a squeeze of lime juice in a bowl. Stir in the coleslaw mix and season."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "mango-chutney-curried-salmon-3-sketch",
+        "path": "media/mango-chutney-curried-salmon-3-sketch.webp",
+        "alt": "Mix the slaw",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Finish the slaw",
+      "blocks": [
+        "Just before serving, toss the baby leaves through the slaw."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "mango-chutney-curried-salmon-4-sketch",
+        "path": "media/mango-chutney-curried-salmon-4-sketch.webp",
+        "alt": "Finish the slaw",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Glaze the fish",
+      "blocks": [
+        "Drizzle the mango chutney over the cooked salmon."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "mango-chutney-curried-salmon-5-sketch",
+        "path": "media/mango-chutney-curried-salmon-5-sketch.webp",
+        "alt": "Glaze the fish",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Serve the glazed salmon with sweet potato wedges and slaw."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "mango-chutney-curried-salmon-6-sketch",
+        "path": "media/mango-chutney-curried-salmon-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

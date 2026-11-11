@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState, type SetStateAction } from 'react'
 import type { PantryItem } from './matching.ts'
 
 export type Timer = { id: string; label: string; ends: number }
@@ -12,16 +12,32 @@ export type UserData = {
 }
 export const cleanData: UserData = { pantry: [], basics: null, saved: [], cooked: [], session: null, largeType: false }
 
-export function useUserData(library: string) {
+export function migrateRecipeReferences(data: UserData, redirects: ReadonlyMap<string, { id: string; slug: string }>): UserData {
+  if (!redirects.size) return data
+  const idFor = (id: string) => redirects.get(id)?.id ?? id
+  const saved = [...new Set(data.saved.map(idFor))]
+  const cooked = data.cooked.map(entry => ({ ...entry, id: idFor(entry.id) }))
+    .filter((entry, index, entries) => entries.findIndex(other => other.id === entry.id) === index)
+  const destination = data.session && redirects.get(data.session.slug)
+  const session = destination && data.session ? { ...data.session, slug: destination.slug, recipeId: destination.id } : data.session
+  return { ...data, saved, cooked, session }
+}
+
+export function useUserData(library: string, redirects: ReadonlyMap<string, { id: string; slug: string }>) {
   const key = 'whats-for-tea:v1:' + library
   const [storageError, setStorageError] = useState(false)
   const [value, setValue] = useState<UserData>(() => {
-    try { return { ...cleanData, ...JSON.parse(localStorage.getItem(key) || '{}') } } catch { return cleanData }
+    try {
+      return migrateRecipeReferences({ ...cleanData, ...JSON.parse(localStorage.getItem(key) || '{}') }, redirects)
+    } catch { return cleanData }
   })
   useEffect(() => {
     try { localStorage.setItem(key, JSON.stringify(value)); setStorageError(false) } catch { setStorageError(true) }
   }, [value, key])
-  return [value, setValue, storageError] as const
+  const update = useCallback((next: SetStateAction<UserData>) => {
+    setValue(current => migrateRecipeReferences(typeof next === 'function' ? next(current) : next, redirects))
+  }, [redirects])
+  return [value, update, storageError] as const
 }
 
 export function downloadBackup(library: string, data: UserData) {

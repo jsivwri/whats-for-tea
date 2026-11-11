@@ -1,0 +1,625 @@
+{
+  "id": "herby-meatballs-linguine",
+  "slug": "herby-meatballs-linguine",
+  "title": "Herby Meatballs and Linguine",
+  "subtitle": "with Balsamic Rocket Salad",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 8"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "herby-meatballs-linguine",
+    "path": "media/herby-meatballs-linguine.webp",
+    "width": 1120,
+    "height": 807,
+    "alt": "Herby Meatballs and Linguine",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/herby-meatballs-linguine-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 8,
+      "maxMinutes": 12,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 15,
+      "maxMinutes": 20,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 29,
+      "maxMinutes": 40,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "40 min",
+      "minMinutes": 40,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Large saucepan",
+    "Colander",
+    "Frying pan",
+    "Mixing bowl",
+    "Garlic press",
+    "Lid or foil"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Egg",
+    "Wheat and gluten",
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw mince."
+  ],
+  "ingredients": [
+    {
+      "id": "red-chilli",
+      "ingredientId": "red-chilli",
+      "label": "Red chilli",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¾"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "breadcrumbs",
+      "ingredientId": "breadcrumbs",
+      "label": "Panko breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "25 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "italian-herbs",
+      "ingredientId": "italian-herbs",
+      "label": "Italian herbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "crumb-water",
+      "ingredientId": "water",
+      "label": "Water for the breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "mince",
+      "ingredientId": "beef-mince",
+      "label": "British beef mince",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "360 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "480 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "beef-stock-paste",
+      "ingredientId": "beef-stock-paste",
+      "label": "Beef stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chopped-tomatoes-onion-garlic",
+      "ingredientId": "chopped-tomatoes",
+      "label": "Finely chopped tomatoes with onion and garlic",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 carton"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ cartons"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 cartons"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "linguine",
+      "ingredientId": "linguine",
+      "label": "Linguine",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "180 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "270 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "360 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "balsamic-vinegar",
+      "ingredientId": "balsamic-vinegar",
+      "label": "Balsamic vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "dressing-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the dressing",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "italian-style-hard-cheese",
+      "ingredientId": "italian-style-hard-cheese",
+      "label": "Grated hard Italian style cheese",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "65 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "80 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rocket",
+      "ingredientId": "rocket",
+      "label": "Rocket",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "pasta-water",
+      "ingredientId": "water",
+      "label": "Water for boiling the pasta",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "pasta-salt",
+      "ingredientId": "salt",
+      "label": "Salt for boiling the pasta",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Prepare the garlic and chilli",
+      "blocks": [
+        "Bring a large saucepan of water with {{pasta-salt}} salt to the boil. Halve, deseed and finely chop the chilli. Peel and grate or press the garlic."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "herby-meatballs-linguine-1-sketch",
+        "path": "media/herby-meatballs-linguine-1-sketch.webp",
+        "alt": "Prepare the garlic and chilli",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Shape the meatballs",
+      "blocks": [
+        "Mix the panko, Italian herbs, chilli to taste and {{crumb-water}} water. Add the beef, salt and pepper and mix well. Roll into four even meatballs per serving."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "herby-meatballs-linguine-2-sketch",
+        "path": "media/herby-meatballs-linguine-2-sketch.webp",
+        "alt": "Shape the meatballs",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Brown and simmer the meatballs",
+      "blocks": [
+        "Heat a drizzle of oil over medium-high. Fry the meatballs for 5–6 minutes until browned all over. Add the garlic, season and fry for 1 minute. Stir in {{sauce-water}} water, stock paste and chopped tomatoes. Cover with a lid or foil and simmer for 6–7 minutes until cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the meatballs",
+          "seconds": [
+            300,
+            360
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Simmer the meatballs",
+          "seconds": [
+            360,
+            420
+          ]
+        }
+      ],
+      "image": {
+        "id": "herby-meatballs-linguine-3-sketch",
+        "path": "media/herby-meatballs-linguine-3-sketch.webp",
+        "alt": "Brown and simmer the meatballs",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Cook the pasta",
+      "blocks": [
+        "Boil the linguine for 12 minutes until tender. Drain, return to the saucepan and toss with a little oil to prevent sticking."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the linguine",
+          "seconds": [
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "herby-meatballs-linguine-4-sketch",
+        "path": "media/herby-meatballs-linguine-4-sketch.webp",
+        "alt": "Cook the pasta",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Make the dressing",
+      "blocks": [
+        "Whisk the balsamic vinegar with {{dressing-oil}} olive oil, salt and pepper. Set aside."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "herby-meatballs-linguine-5-sketch",
+        "path": "media/herby-meatballs-linguine-5-sketch.webp",
+        "alt": "Make the dressing",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Toss the linguine and half the grated cheese through the meatballs. Season, divide between bowls and finish with the remaining cheese. Toss the rocket with the dressing just before serving."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "herby-meatballs-linguine-6-sketch",
+        "path": "media/herby-meatballs-linguine-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

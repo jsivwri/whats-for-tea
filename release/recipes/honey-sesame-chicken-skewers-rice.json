@@ -1,0 +1,567 @@
+{
+  "id": "honey-sesame-chicken-skewers-rice",
+  "slug": "honey-sesame-chicken-skewers-rice",
+  "title": "Honey Sesame Chicken Skewers with Rice",
+  "aliases": [],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto",
+    "edition": "Family Kitchen card"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "honey-sesame-chicken-skewers-rice",
+    "path": "media/honey-sesame-chicken-skewers-rice.webp",
+    "width": 835,
+    "height": 672,
+    "alt": "Honey Sesame Chicken Skewers with Rice",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/honey-sesame-chicken-skewers-rice-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 9,
+      "maxMinutes": 13,
+      "provenance": "Prep time based on the card where stated, or on the chopping and measuring required.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 16,
+      "maxMinutes": 23,
+      "provenance": "Cook time based on the printed method, allowing for tasks in parallel.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 32,
+      "maxMinutes": 42,
+      "provenance": "Elapsed time includes preparation, cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "35–40 min",
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Grill",
+    "Skewers",
+    "Foil-lined trays",
+    "Saucepan with lid",
+    "Mixing bowls"
+  ],
+  "before": [],
+  "allergens": [
+    "Egg",
+    "Soya",
+    "Sesame",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "British chicken breast portions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cucumber",
+      "ingredientId": "cucumber",
+      "label": "Cucumbers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¾"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-gem",
+      "ingredientId": "baby-gem",
+      "label": "Gem lettuces",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mayonnaise",
+      "ingredientId": "mayonnaise",
+      "label": "Mayonnaise",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "60 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rice-vinegar",
+      "ingredientId": "rice-vinegar",
+      "label": "Rice vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "bamboo-skewers",
+      "ingredientId": "bamboo-skewers",
+      "label": "Skewers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "4"
+        },
+        "3": {
+          "status": "printed",
+          "text": "6"
+        },
+        "4": {
+          "status": "printed",
+          "text": "8"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soy-sauce",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "23 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "toasted-sesame-oil",
+      "ingredientId": "toasted-sesame-oil",
+      "label": "Toasted sesame oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "10 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sesame-seeds",
+      "ingredientId": "sesame-seeds",
+      "label": "Toasted sesame seeds",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "10 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "long-grain-rice",
+      "ingredientId": "long-grain-rice",
+      "label": "White long grain rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "130 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "195 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "260 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rice-water",
+      "ingredientId": "water",
+      "label": "Cold water for the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "225 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "300 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "450 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "olive-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Heat the grill and prepare the salad",
+      "blocks": [
+        "Heat the grill to medium-high. Soak the skewers in cold water. Cut the cucumber into batons and wash, dry and finely shred the lettuce."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "honey-sesame-chicken-skewers-rice-1-sketch",
+        "path": "media/honey-sesame-chicken-skewers-rice-1-sketch.webp",
+        "alt": "Heat the grill and prepare the salad",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Mix the sesame marinade",
+      "blocks": [
+        "Cut the chicken into bites. Stir together the soy sauce, honey and sesame seeds. For children, you can hold back the sesame seeds and sprinkle them on at serving."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "honey-sesame-chicken-skewers-rice-2-sketch",
+        "path": "media/honey-sesame-chicken-skewers-rice-2-sketch.webp",
+        "alt": "Mix the sesame marinade",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Marinate the chicken",
+      "blocks": [
+        "Turn the chicken pieces in the marinade until coated."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "honey-sesame-chicken-skewers-rice-3-sketch",
+        "path": "media/honey-sesame-chicken-skewers-rice-3-sketch.webp",
+        "alt": "Marinate the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Thread the skewers",
+      "blocks": [
+        "Thread the marinated chicken onto the soaked skewers."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "honey-sesame-chicken-skewers-rice-4-sketch",
+        "path": "media/honey-sesame-chicken-skewers-rice-4-sketch.webp",
+        "alt": "Thread the skewers",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Grill the chicken",
+      "blocks": [
+        "Lay the skewers on a foil-lined tray and turn up the foil edges to catch the juices. Pour the remaining marinade over the skewers. Grill for 14–15 minutes, turning halfway, until golden and cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Grill the chicken skewers",
+          "seconds": [
+            840,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "honey-sesame-chicken-skewers-rice-5-sketch",
+        "path": "media/honey-sesame-chicken-skewers-rice-5-sketch.webp",
+        "alt": "Grill the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Cook the rice",
+      "blocks": [
+        "Put the rice and {{rice-water}} cold water into a saucepan with a lid. Bring to the boil over high heat, then reduce to very low, cover and cook for 12–15 minutes until the water is absorbed and the rice is tender. Take off the heat and leave covered to steam."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the rice",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "honey-sesame-chicken-skewers-rice-6-sketch",
+        "path": "media/honey-sesame-chicken-skewers-rice-6-sketch.webp",
+        "alt": "Cook the rice",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 7,
+      "id": "step-7",
+      "heading": "Make the dressing and mayonnaise",
+      "blocks": [
+        "Stir the rice vinegar and toasted sesame oil with a drizzle of olive oil, a pinch of sugar and a generous pinch of salt. When the chicken is cooked, stir the fully cooked tray juices into the mayonnaise, or keep some plain for serving."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "honey-sesame-chicken-skewers-rice-7-sketch",
+        "path": "media/honey-sesame-chicken-skewers-rice-7-sketch.webp",
+        "alt": "Make the dressing and mayonnaise",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 8,
+      "id": "step-8",
+      "heading": "Serve",
+      "blocks": [
+        "Serve the chicken over the rice with the cucumber and lettuce alongside. Drizzle the chicken and rice with mayonnaise and the salad with the sesame dressing."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "honey-sesame-chicken-skewers-rice-8-sketch",
+        "path": "media/honey-sesame-chicken-skewers-rice-8-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

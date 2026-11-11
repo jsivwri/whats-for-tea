@@ -1,0 +1,529 @@
+{
+  "id": "sweet-chilli-salmon-noodles",
+  "slug": "sweet-chilli-salmon-noodles",
+  "title": "Sweet Chilli Salmon Noodle Bowl",
+  "subtitle": "with Stir-Fried Veg and Sesame Seeds",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2025-W45 · Card 21"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "sweet-chilli-salmon-noodles",
+    "path": "media/sweet-chilli-salmon-noodles.webp",
+    "width": 1120,
+    "height": 760,
+    "alt": "Sweet Chilli Salmon Noodle Bowl",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/sweet-chilli-salmon-noodles-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 5,
+      "maxMinutes": 8,
+      "provenance": "Roast the salmon while boiling noodles and stir-frying the vegetables and sauce.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 12,
+      "maxMinutes": 17,
+      "provenance": "Roast the salmon while boiling noodles and stir-frying the vegetables and sauce.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 19,
+      "maxMinutes": 26,
+      "provenance": "Roast the salmon while boiling noodles and stir-frying the vegetables and sauce.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "20–25 min",
+      "minMinutes": 20,
+      "maxMinutes": 25,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking paper",
+    "Baking tray",
+    "Garlic press",
+    "Kettle",
+    "Frying pan",
+    "Saucepan",
+    "Sieve"
+  ],
+  "before": [],
+  "allergens": [
+    "Fish",
+    "Egg",
+    "Wheat and gluten",
+    "Soya",
+    "Sesame"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw fish."
+  ],
+  "ingredients": [
+    {
+      "id": "salmon-fillet",
+      "ingredientId": "salmon-fillet",
+      "label": "Salmon fillets",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "300 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "400 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "egg-noodles",
+      "ingredientId": "egg-noodles",
+      "label": "Egg noodle nests",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "125 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "187.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "young-pea-pods",
+      "ingredientId": "young-pea-pods",
+      "label": "Young pea pods",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "160 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "160 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "coleslaw-mix",
+      "ingredientId": "coleslaw-mix",
+      "label": "Coleslaw mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "180 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "240 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "hoisin-sauce",
+      "ingredientId": "hoisin-sauce",
+      "label": "Hoisin sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "60 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "90 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "120 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soy-sauce",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "20 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sweet-chilli-sauce",
+      "ingredientId": "sweet-chilli-sauce",
+      "label": "Sweet chilli sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "32 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "48 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "64 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "toasted-sesame-seeds",
+      "ingredientId": "toasted-sesame-seeds",
+      "label": "Roasted white sesame seeds",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "7.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "10 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "125 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "noodle-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the noodle water",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Bake the salmon",
+      "blocks": [
+        "Heat the oven to 220°C / 200°C fan / gas mark 7 and boil a full kettle. Put the fillets skin-side down on a lined baking tray, drizzle with oil and season.",
+        "Roast on the top shelf for 10–15 minutes, until opaque in the middle. Wash hands and equipment after handling raw fish."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the salmon",
+          "seconds": [
+            600,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "sweet-chilli-salmon-noodles-1-sketch",
+        "path": "media/sweet-chilli-salmon-noodles-1-sketch.webp",
+        "alt": "Bake the salmon",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Cook the noodles",
+      "blocks": [
+        "Bring the boiled water and {{noodle-salt}} salt to a boil in a saucepan. Cook the noodles for 4 minutes until tender. Drain and rinse under cold water to stop sticking."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the noodles",
+          "seconds": [
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "sweet-chilli-salmon-noodles-2-sketch",
+        "path": "media/sweet-chilli-salmon-noodles-2-sketch.webp",
+        "alt": "Cook the noodles",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Stir-fry the pea pods",
+      "blocks": [
+        "Peel and grate or press the garlic. Halve the pea pods lengthways. Heat oil in a large frying pan over medium-high and stir-fry the pea pods for 3–4 minutes until tender."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Stir-fry the pea pods",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "sweet-chilli-salmon-noodles-3-sketch",
+        "path": "media/sweet-chilli-salmon-noodles-3-sketch.webp",
+        "alt": "Stir-fry the pea pods",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Add the sauce",
+      "blocks": [
+        "Stir-fry the garlic and coleslaw mix with the pea pods for another 30 seconds. Add hoisin, soy and {{sauce-water}} water. Bring to a boil, then lower the heat and simmer for 2–3 minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the sauce",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "sweet-chilli-salmon-noodles-4-sketch",
+        "path": "media/sweet-chilli-salmon-noodles-4-sketch.webp",
+        "alt": "Add the sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Toss the noodles",
+      "blocks": [
+        "Add the cooked noodles and toss to coat in the sauce."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sweet-chilli-salmon-noodles-5-sketch",
+        "path": "media/sweet-chilli-salmon-noodles-5-sketch.webp",
+        "alt": "Toss the noodles",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Divide the noodles between bowls and top with the salmon. Drizzle the sweet chilli sauce over the fish and sprinkle with sesame seeds."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "sweet-chilli-salmon-noodles-6-sketch",
+        "path": "media/sweet-chilli-salmon-noodles-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

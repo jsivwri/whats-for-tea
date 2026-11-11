@@ -1,0 +1,539 @@
+{
+  "id": "scandi-salmon-dill-garlic-butter",
+  "slug": "scandi-salmon-dill-garlic-butter",
+  "title": "Scandi Style Baked Salmon and Dill Garlic Butter",
+  "subtitle": "with Caper Crispy Potatoes and Dill Cucumber Pickle Salad",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 10"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "scandi-salmon-dill-garlic-butter",
+    "path": "media/scandi-salmon-dill-garlic-butter.webp",
+    "width": 1120,
+    "height": 717,
+    "alt": "Scandi Style Baked Salmon and Dill Garlic Butter",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/scandi-salmon-dill-garlic-butter-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Spring",
+    "Summer",
+    "Easter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 9,
+      "maxMinutes": 13,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 35,
+      "maxMinutes": 41,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 44,
+      "maxMinutes": 52,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "35–40 min",
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays and paper",
+    "Foil",
+    "Mixing bowls"
+  ],
+  "before": [],
+  "allergens": [
+    "Fish",
+    "Sulphites",
+    "Milk in the butter",
+    "Egg if using egg-based mayonnaise"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw fish."
+  ],
+  "ingredients": [
+    {
+      "id": "salad-potatoes",
+      "ingredientId": "potatoes",
+      "label": "Salad potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "500 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "700 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1000 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-cucumber",
+      "ingredientId": "cucumber",
+      "label": "Baby cucumbers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "dill",
+      "ingredientId": "dill",
+      "label": "Dill",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 bunch"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 bunch"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cider-vinegar",
+      "ingredientId": "cider-vinegar",
+      "label": "Cider vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "salmon-fillet",
+      "ingredientId": "salmon-fillet",
+      "label": "Salmon fillets",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "300 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "400 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "capers",
+      "ingredientId": "capers",
+      "label": "Capers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-leaf-mix",
+      "ingredientId": "baby-leaf-mix",
+      "label": "Baby leaf mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "70 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "butter",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "pickle-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the pickle",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "mayonnaise",
+      "ingredientId": "mayonnaise",
+      "label": "Mayonnaise",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Prepare the vegetables",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Soften {{butter}} butter at room temperature. Halve the potatoes crossways and quarter large ones. Wrap the unpeeled garlic with a drizzle of oil in foil. Halve the cucumber lengthways and thinly slice crossways. Roughly chop the dill, stalks included."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "scandi-salmon-dill-garlic-butter-1-sketch",
+        "path": "media/scandi-salmon-dill-garlic-butter-1-sketch.webp",
+        "alt": "Prepare the vegetables",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Roast and smash the potatoes",
+      "blocks": [
+        "Toss the potatoes with oil, salt and pepper. Spread cut-side down on a tray with the garlic parcel. Roast on the top shelf for 20 minutes, removing the garlic after 10 minutes. Lightly crush the roasted potato halves with the bottom of a bowl. Add more oil and roast on the middle shelf for 15–20 minutes until golden and crisp."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the potato halves",
+          "seconds": [
+            1200
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Crisp the smashed potatoes",
+          "seconds": [
+            900,
+            1200
+          ]
+        }
+      ],
+      "image": {
+        "id": "scandi-salmon-dill-garlic-butter-2-sketch",
+        "path": "media/scandi-salmon-dill-garlic-butter-2-sketch.webp",
+        "alt": "Roast and smash the potatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Pickle the cucumber",
+      "blocks": [
+        "Mix the cider vinegar, {{pickle-sugar}} sugar, salt and pepper. Toss with the cucumber and half the dill and set aside."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "scandi-salmon-dill-garlic-butter-3-sketch",
+        "path": "media/scandi-salmon-dill-garlic-butter-3-sketch.webp",
+        "alt": "Pickle the cucumber",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Roast the salmon",
+      "blocks": [
+        "Lay the salmon skin-side down on a lined tray. Season and drizzle with {{honey}} honey. When the smashed potatoes have cooked for 5 minutes, roast the salmon on the top shelf for 10–15 minutes until opaque in the centre."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the salmon",
+          "seconds": [
+            600,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "scandi-salmon-dill-garlic-butter-4-sketch",
+        "path": "media/scandi-salmon-dill-garlic-butter-4-sketch.webp",
+        "alt": "Roast the salmon",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Make the dill garlic butter",
+      "blocks": [
+        "Squeeze the cooled garlic out of its skin and mash it. Mix with the softened butter, remaining dill, salt and pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "scandi-salmon-dill-garlic-butter-5-sketch",
+        "path": "media/scandi-salmon-dill-garlic-butter-5-sketch.webp",
+        "alt": "Make the dill garlic butter",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Toss the capers through the potatoes. Top the salmon with dill garlic butter and serve with the potatoes and cucumber pickle. Stir a drizzle of oil into the leftover pickling liquid and use it to dress the baby leaves. Serve {{mayonnaise}} mayonnaise in total for dipping."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "scandi-salmon-dill-garlic-butter-6-sketch",
+        "path": "media/scandi-salmon-dill-garlic-butter-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

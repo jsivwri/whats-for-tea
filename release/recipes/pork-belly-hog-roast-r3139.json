@@ -18,9 +18,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 8,
+      "maxMinutes": 13,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Sear and roast pork while baking chips and stuffing and simmering the apple sauce. Warm the rolls near the end."
+    },
+    "cook": {
+      "minMinutes": 46,
+      "maxMinutes": 54,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Sear and roast pork while baking chips and stuffing and simmering the apple sauce. Warm the rolls near the end."
+    },
+    "total": {
+      "minMinutes": 54,
+      "maxMinutes": 63,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Sear and roast pork while baking chips and stuffing and simmering the apple sauce. Warm the rolls near the end."
+    },
     "card": {
       "minMinutes": 50,
       "maxMinutes": 60,
@@ -545,7 +563,7 @@
       "number": 6,
       "heading": "Make the carrot slaw",
       "blocks": [
-        "Trim, peel and grate the carrots. Trim and finely slice the spring onions. Mix with half the white wine vinegar."
+        "Trim, peel and grate the carrots. Trim and finely slice the spring onions. Mix with {{slaw-vinegar}} white wine vinegar, half the amount supplied."
       ],
       "notes": [],
       "timers": [],
@@ -556,6 +574,13 @@
         "height": 480,
         "alt": "Sketch of carrot and spring onion slaw in bowl",
         "credit": "Illustration based on the Gousto recipe card"
+      },
+      "quantities": {
+        "slaw-vinegar": {
+          "2": "7.5 ml",
+          "3": "7.5 ml",
+          "4": "15 ml"
+        }
       }
     },
     {
@@ -608,9 +633,9 @@
   "hero": {
     "id": "pork-belly-hog-roast-r3139-hero",
     "path": "media/pork-belly-hog-roast-r3139.webp",
-    "width": 652,
-    "height": 677,
-    "alt": "Pork Belly Hog Roast, Apple Sauce & Stuffing",
+    "width": 1109,
+    "height": 644,
+    "alt": "Pork belly and stuffing ciabatta with chips and carrot slaw",
     "credit": "Gousto recipe card",
     "sizes": [
       {
@@ -618,5 +643,9 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ]
 }

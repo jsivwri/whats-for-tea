@@ -1,0 +1,916 @@
+{
+  "id": "red-pepper-jelly-sausage-bake",
+  "slug": "red-pepper-jelly-sausage-bake",
+  "title": "Red Pepper Chilli Jelly Glazed Sausage Bake",
+  "subtitle": "with Sweet Potato Wedges, Zingy Baby Gem and Peanut Salad",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2025-W39 · Card 17"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "red-pepper-jelly-sausage-bake",
+    "path": "media/red-pepper-jelly-sausage-bake.webp",
+    "width": 1120,
+    "height": 808,
+    "alt": "Red Pepper Chilli Jelly Glazed Sausage Bake",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/red-pepper-jelly-sausage-bake-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 7,
+      "maxMinutes": 10,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 26,
+      "maxMinutes": 36,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 34,
+      "maxMinutes": 43,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "35–40 min",
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking trays",
+    "Mixing bowls"
+  ],
+  "before": [],
+  "allergens": [
+    "Peanuts",
+    "Egg",
+    "Mustard",
+    "Sulphites"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw sausages."
+  ],
+  "ingredients": [
+    {
+      "id": "sweet-potato",
+      "ingredientId": "sweet-potato",
+      "label": "Sweet potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mexican-style-spice-mix",
+      "ingredientId": "mexican-style-spice-mix",
+      "label": "Mexican style spice mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sausage",
+      "ingredientId": "pork-sausage",
+      "label": "British Cumberland sausages",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "4"
+        },
+        "3": {
+          "status": "printed",
+          "text": "6"
+        },
+        "4": {
+          "status": "printed",
+          "text": "8"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-gem",
+      "ingredientId": "baby-gem",
+      "label": "Baby gem lettuces",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "lime",
+      "ingredientId": "lime",
+      "label": "Limes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-pepper-chilli-jelly",
+      "ingredientId": "red-pepper-chilli-jelly",
+      "label": "Red pepper chilli jelly",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "37 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "salted-peanuts",
+      "ingredientId": "peanuts",
+      "label": "Salted peanuts",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mayonnaise",
+      "ingredientId": "mayonnaise",
+      "label": "Mayonnaise",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "32 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "48 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "64 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "dressing-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the dressing",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Roast the sweet potato wedges",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Cut the unpeeled sweet potatoes into 2 cm wedges. Toss with oil, Mexican spice mix, salt and pepper. Spread in one layer on one or more trays and roast on the top shelf for 25–35 minutes, turning halfway."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the sweet potato wedges",
+          "seconds": [
+            1500,
+            2100
+          ]
+        }
+      ],
+      "image": {
+        "id": "red-pepper-jelly-sausage-bake-1-sketch",
+        "path": "media/red-pepper-jelly-sausage-bake-1-sketch.webp",
+        "alt": "Roast the sweet potato wedges",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Add the sausages",
+      "blocks": [
+        "When the wedges have roasted for 5 minutes, put the sausages beside them. Return to the oven for the remaining wedge cooking time. Turn halfway and roast until the sausages are golden and cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the sausages",
+          "seconds": [
+            1200,
+            1800
+          ]
+        }
+      ],
+      "image": {
+        "id": "red-pepper-jelly-sausage-bake-2-sketch",
+        "path": "media/red-pepper-jelly-sausage-bake-2-sketch.webp",
+        "alt": "Add the sausages",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Prepare the lettuce and lime",
+      "blocks": [
+        "Trim the baby gem, separate the leaves and tear into bites. Cut the lime into wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "red-pepper-jelly-sausage-bake-3-sketch",
+        "path": "media/red-pepper-jelly-sausage-bake-3-sketch.webp",
+        "alt": "Prepare the lettuce and lime",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Make the dressing",
+      "blocks": [
+        "Mix a squeeze of lime juice with {{honey}} honey and {{dressing-oil}} olive oil. Season with salt and pepper."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "red-pepper-jelly-sausage-bake-4-sketch",
+        "path": "media/red-pepper-jelly-sausage-bake-4-sketch.webp",
+        "alt": "Make the dressing",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Toss the salad and glaze the sausages",
+      "blocks": [
+        "Toss the lettuce in the dressing just before serving. Turn the roasted sausages in the red pepper chilli jelly to glaze evenly."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "red-pepper-jelly-sausage-bake-5-sketch",
+        "path": "media/red-pepper-jelly-sausage-bake-5-sketch.webp",
+        "alt": "Toss the salad and glaze the sausages",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Serve the sausages with any glaze from the tray, sweet potato wedges, salad and remaining lime wedges. Scatter the peanuts over the salad and add mayonnaise for dipping."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "red-pepper-jelly-sausage-bake-6-sketch",
+        "path": "media/red-pepper-jelly-sausage-bake-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "double-sausages",
+      "label": "Double the sausages",
+      "ingredients": [
+        {
+          "id": "sweet-potato",
+          "ingredientId": "sweet-potato",
+          "label": "Sweet potatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "mexican-style-spice-mix",
+          "ingredientId": "mexican-style-spice-mix",
+          "label": "Mexican style spice mix",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sausage",
+          "ingredientId": "pork-sausage",
+          "label": "British Cumberland sausages",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "4"
+            },
+            "3": {
+              "status": "printed",
+              "text": "6"
+            },
+            "4": {
+              "status": "printed",
+              "text": "8"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "extra-sausages",
+          "ingredientId": "pork-sausage",
+          "label": "Extra Cumberland sausages",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "4"
+            },
+            "3": {
+              "status": "printed",
+              "text": "6"
+            },
+            "4": {
+              "status": "printed",
+              "text": "8"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "baby-gem",
+          "ingredientId": "baby-gem",
+          "label": "Baby gem lettuces",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "lime",
+          "ingredientId": "lime",
+          "label": "Limes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "red-pepper-chilli-jelly",
+          "ingredientId": "red-pepper-chilli-jelly",
+          "label": "Red pepper chilli jelly",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "25 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "37 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "50 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "salted-peanuts",
+          "ingredientId": "peanuts",
+          "label": "Salted peanuts",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "25 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "40 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "40 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "mayonnaise",
+          "ingredientId": "mayonnaise",
+          "label": "Mayonnaise",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "32 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "48 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "64 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "honey",
+          "ingredientId": "honey",
+          "label": "Honey",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 tbsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ tbsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 tbsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "dressing-oil",
+          "ingredientId": "olive-oil",
+          "label": "Olive oil for the dressing",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 tbsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ tbsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 tbsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Roast the sweet potato wedges",
+          "blocks": [
+            "Preheat the oven to 220°C (200°C fan, gas 7). Cut the unpeeled sweet potatoes into 2 cm wedges. Toss with oil, Mexican spice mix, salt and pepper. Spread in one layer on one or more trays and roast on the top shelf for 25–35 minutes, turning halfway."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Roast the sweet potato wedges",
+              "seconds": [
+                1500,
+                2100
+              ]
+            }
+          ],
+          "image": {
+            "id": "red-pepper-jelly-sausage-bake-1-sketch",
+            "path": "media/red-pepper-jelly-sausage-bake-1-sketch.webp",
+            "alt": "Roast the sweet potato wedges",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Add the sausages",
+          "blocks": [
+            "When the wedges have roasted for 5 minutes, put the sausages beside them. Use a second tray if needed. Return to the oven for the remaining wedge cooking time. Turn halfway and roast until the sausages are golden and cooked through."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Roast the sausages",
+              "seconds": [
+                1200,
+                1800
+              ]
+            }
+          ],
+          "image": {
+            "id": "red-pepper-jelly-sausage-bake-2-sketch",
+            "path": "media/red-pepper-jelly-sausage-bake-2-sketch.webp",
+            "alt": "Add the sausages",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Prepare the lettuce and lime",
+          "blocks": [
+            "Trim the baby gem, separate the leaves and tear into bites. Cut the lime into wedges."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "red-pepper-jelly-sausage-bake-3-sketch",
+            "path": "media/red-pepper-jelly-sausage-bake-3-sketch.webp",
+            "alt": "Prepare the lettuce and lime",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Make the dressing",
+          "blocks": [
+            "Mix a squeeze of lime juice with {{honey}} honey and {{dressing-oil}} olive oil. Season with salt and pepper."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "red-pepper-jelly-sausage-bake-4-sketch",
+            "path": "media/red-pepper-jelly-sausage-bake-4-sketch.webp",
+            "alt": "Make the dressing",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Toss the salad and glaze the sausages",
+          "blocks": [
+            "Toss the lettuce in the dressing just before serving. Turn the roasted sausages in the red pepper chilli jelly to glaze evenly."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "red-pepper-jelly-sausage-bake-5-sketch",
+            "path": "media/red-pepper-jelly-sausage-bake-5-sketch.webp",
+            "alt": "Toss the salad and glaze the sausages",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Serve",
+          "blocks": [
+            "Serve the sausages with any glaze from the tray, sweet potato wedges, salad and remaining lime wedges. Scatter the peanuts over the salad and add mayonnaise for dipping."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "red-pepper-jelly-sausage-bake-6-sketch",
+            "path": "media/red-pepper-jelly-sausage-bake-6-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

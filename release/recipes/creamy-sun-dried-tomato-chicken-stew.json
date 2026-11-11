@@ -1,0 +1,503 @@
+{
+  "id": "creamy-sun-dried-tomato-chicken-stew",
+  "slug": "creamy-sun-dried-tomato-chicken-stew",
+  "title": "One-Pot Creamy Sun-Dried Tomato & Chicken Stew",
+  "aliases": [],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto",
+    "edition": "Recipe bag 6685"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "creamy-sun-dried-tomato-chicken-stew",
+    "path": "media/creamy-sun-dried-tomato-chicken-stew.webp",
+    "width": 1120,
+    "height": 973,
+    "alt": "One-Pot Creamy Sun-Dried Tomato & Chicken Stew",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/creamy-sun-dried-tomato-chicken-stew-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 5,
+      "maxMinutes": 10,
+      "provenance": "Prep time based on the card where stated, or on the chopping and measuring required.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 32,
+      "maxMinutes": 39,
+      "provenance": "Cook time based on the printed method, allowing for tasks in parallel.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 36,
+      "maxMinutes": 47,
+      "provenance": "Elapsed time includes preparation, cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "35–40 min",
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Wide hob-safe ovenproof casserole with lid"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Sulphites",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cherry-tomatoes",
+      "ingredientId": "cherry-tomatoes",
+      "label": "Cherry tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "125 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "basil",
+      "ingredientId": "basil",
+      "label": "Basil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "10 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "italian-style-hard-cheese",
+      "ingredientId": "italian-style-hard-cheese",
+      "label": "Grated Italian hard cheese",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "35 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "70 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tomato-paste",
+      "ingredientId": "tomato-paste",
+      "label": "Tomato paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "16 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "32 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "potatoes",
+      "ingredientId": "potatoes",
+      "label": "White potatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-thigh",
+      "label": "Diced British chicken thigh",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "500 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "dried-oregano",
+      "ingredientId": "dried-oregano",
+      "label": "Dried oregano",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sun-dried-tomatoes",
+      "ingredientId": "sun-dried-tomatoes",
+      "label": "Sun-dried tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "creme-fraiche",
+      "ingredientId": "creme-fraiche",
+      "label": "Crème fraîche",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-mix",
+      "ingredientId": "chicken-stock-mix",
+      "label": "Chicken stock mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "11 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "22 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "flour",
+      "ingredientId": "flour",
+      "label": "Plain flour",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "stew-water",
+      "ingredientId": "water",
+      "label": "Boiling water for the stew",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "300 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "550 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "olive-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Get ready",
+      "blocks": [
+        "Set out a casserole safe for both the hob and oven. If needed, start in a wide frying pan and transfer to an ovenproof dish. Wash the produce."
+      ],
+      "notes": [],
+      "timers": []
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Heat the oven and prep the garlic",
+      "blocks": [
+        "Preheat the oven to 220°C (200°C fan, gas 7). Boil half a kettle. Heat a drizzle of olive oil in the casserole over high heat. Crush the garlic cloves, peel and roughly chop."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "creamy-sun-dried-tomato-chicken-stew-1-sketch",
+        "path": "media/creamy-sun-dried-tomato-chicken-stew-1-sketch.webp",
+        "alt": "Heat the oven and prep the garlic",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Brown the chicken",
+      "blocks": [
+        "Add the chicken with a pinch of salt and {{flour}} flour. Cook until very lightly browned."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "creamy-sun-dried-tomato-chicken-stew-2-sketch",
+        "path": "media/creamy-sun-dried-tomato-chicken-stew-2-sketch.webp",
+        "alt": "Brown the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Add the potatoes",
+      "blocks": [
+        "Cut the unpeeled potatoes into small bites. Stir them into the casserole with the garlic."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "creamy-sun-dried-tomato-chicken-stew-3-sketch",
+        "path": "media/creamy-sun-dried-tomato-chicken-stew-3-sketch.webp",
+        "alt": "Add the potatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Add the tomatoes",
+      "blocks": [
+        "Stir in the cherry tomatoes, oregano and tomato paste."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "creamy-sun-dried-tomato-chicken-stew-4-sketch",
+        "path": "media/creamy-sun-dried-tomato-chicken-stew-4-sketch.webp",
+        "alt": "Add the tomatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Add the stock",
+      "blocks": [
+        "Stir in the stock mix, sun-dried tomatoes and {{stew-water}} boiling water. Push the potatoes under the liquid and bring to the boil over high heat."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "creamy-sun-dried-tomato-chicken-stew-5-sketch",
+        "path": "media/creamy-sun-dried-tomato-chicken-stew-5-sketch.webp",
+        "alt": "Add the stock",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 7,
+      "id": "step-7",
+      "heading": "Bake the stew",
+      "blocks": [
+        "Cover and bake for 30–35 minutes until the chicken is cooked through and the potatoes are tender."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the stew",
+          "seconds": [
+            1800,
+            2100
+          ]
+        }
+      ],
+      "image": {
+        "id": "creamy-sun-dried-tomato-chicken-stew-6-sketch",
+        "path": "media/creamy-sun-dried-tomato-chicken-stew-6-sketch.webp",
+        "alt": "Bake the stew",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 8,
+      "id": "step-8",
+      "heading": "Finish and serve",
+      "blocks": [
+        "Stir in the crème fraîche. Tear the basil over the stew, grind over some black pepper and finish with the grated hard cheese."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "creamy-sun-dried-tomato-chicken-stew-7-sketch",
+        "path": "media/creamy-sun-dried-tomato-chicken-stew-7-sketch.webp",
+        "alt": "Finish and serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

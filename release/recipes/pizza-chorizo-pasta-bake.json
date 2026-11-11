@@ -1,0 +1,684 @@
+{
+  "id": "pizza-chorizo-pasta-bake",
+  "slug": "pizza-chorizo-pasta-bake",
+  "title": "Pizza Inspired Chorizo Pasta Bake",
+  "subtitle": "with Spinach, Garlic Ciabatta and Rocket",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2026-W06 · Card 11"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "pizza-chorizo-pasta-bake",
+    "path": "media/pizza-chorizo-pasta-bake.webp",
+    "width": 1120,
+    "height": 597,
+    "alt": "Pizza Inspired Chorizo Pasta Bake",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/pizza-chorizo-pasta-bake-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 8,
+      "maxMinutes": 12,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 22,
+      "maxMinutes": 28,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 34,
+      "maxMinutes": 43,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "35–40 min",
+      "minMinutes": 35,
+      "maxMinutes": 40,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking tray",
+    "Saucepan",
+    "Colander",
+    "Frying pan",
+    "Ovenproof dish",
+    "Grill",
+    "Garlic press"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Wheat and gluten (including barley)"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact."
+  ],
+  "ingredients": [
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "3"
+        },
+        "3": {
+          "status": "printed",
+          "text": "4"
+        },
+        "4": {
+          "status": "printed",
+          "text": "6"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ciabatta",
+      "ingredientId": "ciabatta",
+      "label": "Ciabatta rolls",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rigatoni",
+      "ingredientId": "rigatoni",
+      "label": "Rigatoni",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "180 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "270 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "360 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "onion",
+      "ingredientId": "onion",
+      "label": "Onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chorizo",
+      "ingredientId": "chorizo",
+      "label": "Chorizo slices",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "passata",
+      "ingredientId": "passata",
+      "label": "Tomato passata",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 carton"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ cartons"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 cartons"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sun-dried-tomato-paste",
+      "ingredientId": "sun-dried-tomato-paste",
+      "label": "Sun-dried tomato paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "37.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-paste",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mixed-herbs",
+      "ingredientId": "mixed-herbs",
+      "label": "Mixed herbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mozzarella",
+      "ingredientId": "mozzarella",
+      "label": "Mozzarella",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 ball"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ balls"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 balls"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-spinach",
+      "ingredientId": "spinach",
+      "label": "Baby spinach",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rocket",
+      "ingredientId": "rocket",
+      "label": "Wild rocket",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "bread-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the garlic bread",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "125 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "butter",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "pasta-water",
+      "ingredientId": "water",
+      "label": "Water for boiling the pasta",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "pasta-salt",
+      "ingredientId": "salt",
+      "label": "Salt for boiling the pasta",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Prepare the garlic ciabatta",
+      "blocks": [
+        "Peel and grate or press the garlic. Halve the ciabatta and place cut-side up on a tray. Spread half the garlic over it and drizzle with {{bread-oil}} olive oil. Bring a large saucepan of water with {{pasta-salt}} salt to the boil."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "pizza-chorizo-pasta-bake-1-sketch",
+        "path": "media/pizza-chorizo-pasta-bake-1-sketch.webp",
+        "alt": "Prepare the garlic ciabatta",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Cook the pasta",
+      "blocks": [
+        "Boil the rigatoni for 12 minutes until tender. Drain, return to the saucepan and toss with a little oil to prevent sticking.",
+        "Meanwhile, halve, peel and finely chop the onion. Tear half the chorizo into small pieces. Heat a drizzle of oil in a large frying pan over medium-high."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the rigatoni",
+          "seconds": [
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "pizza-chorizo-pasta-bake-2-sketch",
+        "path": "media/pizza-chorizo-pasta-bake-2-sketch.webp",
+        "alt": "Cook the pasta",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Make the chorizo sauce",
+      "blocks": [
+        "Fry the onion until soft, 4–5 minutes. Add the torn chorizo and remaining garlic and fry for 1 minute. Add the passata, sun-dried tomato paste, stock paste, mixed herbs, {{sugar}} sugar and {{sauce-water}} water. Bring to a boil and simmer for 4–5 minutes until thickened."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Soften the onion",
+          "seconds": [
+            240,
+            300
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Simmer the sauce",
+          "seconds": [
+            240,
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "pizza-chorizo-pasta-bake-3-sketch",
+        "path": "media/pizza-chorizo-pasta-bake-3-sketch.webp",
+        "alt": "Make the chorizo sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Add the spinach and cheese",
+      "blocks": [
+        "Preheat the grill to high. Drain and tear the mozzarella. Stir the spinach into the sauce a handful at a time until wilted and piping hot, 1–2 minutes. Add {{butter}} butter, the pasta and half the mozzarella. Stir until melted. Season and thin with a splash of water if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Wilt the spinach",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "pizza-chorizo-pasta-bake-4-sketch",
+        "path": "media/pizza-chorizo-pasta-bake-4-sketch.webp",
+        "alt": "Add the spinach and cheese",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Grill the pasta and bread",
+      "blocks": [
+        "Transfer the pasta to an ovenproof dish. Top with the remaining mozzarella and chorizo slices. Grill alongside the garlic ciabatta for 5–6 minutes until the bread is golden and the pasta bubbles. Grill in separate batches if needed. Halve the garlic ciabatta diagonally."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Grill the pasta and bread",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "pizza-chorizo-pasta-bake-5-sketch",
+        "path": "media/pizza-chorizo-pasta-bake-5-sketch.webp",
+        "alt": "Grill the pasta and bread",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Divide the pasta between bowls. Top with rocket and a drizzle of oil, and serve the garlic ciabatta alongside."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "pizza-chorizo-pasta-bake-6-sketch",
+        "path": "media/pizza-chorizo-pasta-bake-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

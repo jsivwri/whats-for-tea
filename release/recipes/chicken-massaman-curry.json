@@ -1,0 +1,1135 @@
+{
+  "id": "chicken-massaman-curry",
+  "slug": "chicken-massaman-curry",
+  "title": "Chicken Massaman Curry",
+  "subtitle": "with Zesty Jasmine Rice",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 16"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "chicken-massaman-curry",
+    "path": "media/chicken-massaman-curry.webp",
+    "width": 1120,
+    "height": 894,
+    "alt": "Chicken Massaman Curry",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/chicken-massaman-curry-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 4,
+      "maxMinutes": 6,
+      "provenance": "Chop the vegetables and prepare the aromatics and seasonings.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 15,
+      "maxMinutes": 18,
+      "provenance": "Cook the rice alongside the curry.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 19,
+      "maxMinutes": 24,
+      "provenance": "Allows for initial prep, parallel cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "20 min",
+      "minMinutes": 20,
+      "maxMinutes": 20,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Saucepan with lid",
+    "Sieve",
+    "Frying pan",
+    "Garlic press or fine grater"
+  ],
+  "before": [],
+  "allergens": [
+    "Peanuts",
+    "Soya",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "carrot",
+      "ingredientId": "carrot",
+      "label": "Carrot",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "jasmine-rice",
+      "ingredientId": "jasmine-rice",
+      "label": "Jasmine rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "225 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "massaman-curry-paste",
+      "ingredientId": "massaman-curry-paste",
+      "label": "Massaman curry paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "coconut-milk",
+      "ingredientId": "coconut-milk",
+      "label": "Coconut milk",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "200 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "300 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "400 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-paste",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "peanut-butter",
+      "ingredientId": "peanut-butter",
+      "label": "Peanut butter",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-thigh",
+      "label": "Diced chicken thigh",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "210 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "350 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "420 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "lime",
+      "ingredientId": "lime",
+      "label": "Lime",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-spinach",
+      "ingredientId": "spinach",
+      "label": "Baby spinach",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soy-sauce",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "45 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "225 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "water",
+      "ingredientId": "water",
+      "label": "Water for boiling the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "rice-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "¼ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Start the prep",
+      "blocks": [
+        "Boil a full kettle. Trim the carrot and slice into 1 cm rounds; peeling is optional. Peel and grate or press the garlic."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chicken-massaman-curry-1-sketch",
+        "path": "media/chicken-massaman-curry-1-sketch.webp",
+        "alt": "Start the prep",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Fry the carrot",
+      "blocks": [
+        "Heat a drizzle of oil in a large frying pan over medium-high. Stir-fry the carrot for 2–3 minutes until it starts to soften."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the carrot",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-massaman-curry-2-sketch",
+        "path": "media/chicken-massaman-curry-2-sketch.webp",
+        "alt": "Fry the carrot",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Cook the rice",
+      "blocks": [
+        "Pour the kettle water into a saucepan with {{rice-salt}} salt. Bring to the boil on high, add the jasmine rice and cook for 12–13 minutes. Drain, return to the pan and cover until serving."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the rice",
+          "seconds": [
+            720,
+            780
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-massaman-curry-3-sketch",
+        "path": "media/chicken-massaman-curry-3-sketch.webp",
+        "alt": "Cook the rice",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Build the sauce",
+      "blocks": [
+        "Stir the garlic and massaman paste into the carrot and fry for 1 minute. Add the coconut milk and {{sauce-water}} water. Stir in the stock paste and peanut butter and bring to the boil."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the aromatics",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-massaman-curry-4-sketch",
+        "path": "media/chicken-massaman-curry-4-sketch.webp",
+        "alt": "Build the sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Simmer the curry",
+      "blocks": [
+        "Stir in the chicken. Return to the boil, lower the heat and simmer for 10–12 minutes, until the sauce thickens and the chicken is cooked through. Zest and wedge the lime. In the last 2 minutes add the spinach a handful at a time until wilted and piping hot."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the curry",
+          "seconds": [
+            600,
+            720
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Wilt the spinach",
+          "seconds": [
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "chicken-massaman-curry-5-sketch",
+        "path": "media/chicken-massaman-curry-5-sketch.webp",
+        "alt": "Simmer the curry",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Finish and serve",
+      "blocks": [
+        "Take the curry off the heat. Add the soy sauce and a squeeze of lime juice, with a splash of water if needed. Taste and adjust the salt, pepper and lime. Fluff the rice with the zest and serve in bowls with the curry and a lime wedge."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "chicken-massaman-curry-6-sketch",
+        "path": "media/chicken-massaman-curry-6-sketch.webp",
+        "alt": "Finish and serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "add-king-prawns",
+      "label": "Add king prawns (crustaceans)",
+      "ingredients": [
+        {
+          "id": "carrot",
+          "ingredientId": "carrot",
+          "label": "Carrot",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "garlic",
+          "ingredientId": "garlic",
+          "label": "Garlic cloves",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "jasmine-rice",
+          "ingredientId": "jasmine-rice",
+          "label": "Jasmine rice",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "150 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "225 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "300 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "massaman-curry-paste",
+          "ingredientId": "massaman-curry-paste",
+          "label": "Massaman curry paste",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "50 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "75 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "100 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "coconut-milk",
+          "ingredientId": "coconut-milk",
+          "label": "Coconut milk",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "200 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "300 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "400 ml"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken-stock-paste",
+          "ingredientId": "chicken-stock-paste",
+          "label": "Chicken stock paste",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "10 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "15 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "20 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "peanut-butter",
+          "ingredientId": "peanut-butter",
+          "label": "Peanut butter",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ sachets"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "chicken",
+          "ingredientId": "chicken-thigh",
+          "label": "Diced chicken thigh",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "210 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "350 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "420 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "king-prawns",
+          "ingredientId": "king-prawns",
+          "label": "King prawns",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "150 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "225 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "300 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "lime",
+          "ingredientId": "lime",
+          "label": "Lime",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "½"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1"
+            },
+            "4": {
+              "status": "printed",
+              "text": "1"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "baby-spinach",
+          "ingredientId": "spinach",
+          "label": "Baby spinach",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "40 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "100 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "100 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "soy-sauce",
+          "ingredientId": "soy-sauce",
+          "label": "Soy sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "15 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "30 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "45 ml"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sauce-water",
+          "ingredientId": "water",
+          "label": "Water for the sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "150 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "225 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "300 ml"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "water",
+          "ingredientId": "water",
+          "label": "Water for boiling the rice",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "rice-salt",
+          "ingredientId": "salt",
+          "label": "Salt for the rice",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "¼ tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "¼ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "¼ tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Start the prep",
+          "blocks": [
+            "Boil a full kettle. Trim the carrot and slice into 1 cm rounds; peeling is optional. Peel and grate or press the garlic."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "chicken-massaman-curry-1-sketch",
+            "path": "media/chicken-massaman-curry-1-sketch.webp",
+            "alt": "Start the prep",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Fry the carrot",
+          "blocks": [
+            "Heat a drizzle of oil in a large frying pan over medium-high. Stir-fry the carrot for 2–3 minutes until it starts to soften."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Fry the carrot",
+              "seconds": [
+                120,
+                180
+              ]
+            }
+          ],
+          "image": {
+            "id": "chicken-massaman-curry-2-sketch",
+            "path": "media/chicken-massaman-curry-2-sketch.webp",
+            "alt": "Fry the carrot",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Cook the rice",
+          "blocks": [
+            "Pour the kettle water into a saucepan with {{rice-salt}} salt. Bring to the boil on high, add the jasmine rice and cook for 12–13 minutes. Drain, return to the pan and cover until serving."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Cook the rice",
+              "seconds": [
+                720,
+                780
+              ]
+            }
+          ],
+          "image": {
+            "id": "chicken-massaman-curry-3-sketch",
+            "path": "media/chicken-massaman-curry-3-sketch.webp",
+            "alt": "Cook the rice",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Build the sauce",
+          "blocks": [
+            "Stir the garlic and massaman paste into the carrot and fry for 1 minute. Add the coconut milk and {{sauce-water}} water. Stir in the stock paste and peanut butter and bring to the boil."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Fry the aromatics",
+              "seconds": [
+                60
+              ]
+            }
+          ],
+          "image": {
+            "id": "chicken-massaman-curry-4-sketch",
+            "path": "media/chicken-massaman-curry-4-sketch.webp",
+            "alt": "Build the sauce",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Simmer the curry",
+          "blocks": [
+            "Stir in the chicken. Return to the boil, lower the heat and simmer for 10–12 minutes, until the sauce thickens and the chicken is cooked through. Zest and wedge the lime. In the last 2 minutes add the spinach a handful at a time until wilted and piping hot.",
+            "With 4–5 minutes left in the simmer, bring the curry back to the boil and add the prawns. Cook for the remaining time, until pink outside and opaque inside. Wash hands and utensils after handling raw prawns."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Simmer the curry",
+              "seconds": [
+                600,
+                720
+              ]
+            },
+            {
+              "id": "timer-2",
+              "label": "Wilt the spinach",
+              "seconds": [
+                120
+              ]
+            }
+          ],
+          "image": {
+            "id": "chicken-massaman-curry-5-sketch",
+            "path": "media/chicken-massaman-curry-5-sketch.webp",
+            "alt": "Simmer the curry",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Finish and serve",
+          "blocks": [
+            "Take the curry off the heat. Add the soy sauce and a squeeze of lime juice, with a splash of water if needed. Taste and adjust the salt, pepper and lime. Fluff the rice with the zest and serve in bowls with the curry and a lime wedge."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "chicken-massaman-curry-6-sketch",
+            "path": "media/chicken-massaman-curry-6-sketch.webp",
+            "alt": "Finish and serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

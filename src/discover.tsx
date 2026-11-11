@@ -1,6 +1,6 @@
 import { useMemo, useState, type Dispatch, type SetStateAction } from 'react'
 import { ArrowRight, BookOpen, ChevronDown, Clock3, Flame, Grid2X2, List, Search, SlidersHorizontal, Sparkles, Timer, X } from 'lucide-react'
-import type { Summary, TimeKey } from '../schema/v1.ts'
+import { seasons, type Summary, type TimeKey } from '../schema/v1.ts'
 import type { Catalogue } from './catalogue.ts'
 import { browse, emptyFilters, shortlist, timeText, type Filters, type PantryItem } from './matching.ts'
 import type { Session } from './state.ts'
@@ -14,14 +14,15 @@ type DinnerProps = LibraryProps & {
   filters: Filters; setFilters: Dispatch<SetStateAction<Filters>>
 }
 export const timeLabels: Record<TimeKey, string> = { prep: 'Prep', cook: 'Cook', total: 'Total' }
-const facets = ['cuisine', 'themes', 'ingredients', 'provider'] as const
-const facetLabels = { cuisine: 'Cuisine', themes: 'Theme', ingredients: 'Ingredient', provider: 'Provider' }
+const facets = ['cuisine', 'themes', 'seasons', 'ingredients', 'provider'] as const
+const facetLabels = { cuisine: 'Cuisine', themes: 'Theme', seasons: 'Season', ingredients: 'Ingredient', provider: 'Provider' }
 const unique = (values: string[]) => [...new Set(values)].sort((a, b) => a.localeCompare(b, 'en-GB'))
 
 function useOptions(catalogue: Catalogue, tools: IngredientTools) {
   return useMemo(() => ({
     cuisine: unique(catalogue.index.flatMap(r => r.cuisine ? [r.cuisine] : [])),
     themes: unique(catalogue.index.flatMap(r => r.themes)),
+    seasons,
     ingredients: [...tools.byId.keys()].filter(id => !tools.byId.get(id)?.staple).sort((a, b) => tools.label(a).localeCompare(tools.label(b))),
     provider: unique(catalogue.index.map(r => r.provider)),
   }), [catalogue, tools])
@@ -75,7 +76,7 @@ export function Browse({ catalogue, tools, saved, onSave, filters, setFilters, m
   return <main className="container page">
     <div className="page-intro"><span className="eyebrow"><BookOpen size={15} /> The recipe library</span><h1>Browse recipes</h1><p>Find a remembered favourite or see what looks good.</p></div>
     <div className="browse-tools">
-      <div className="input-wrap"><Search size={20} /><input type="search" aria-label="Search recipe titles" placeholder="Search recipes, e.g. pesto orzo" value={filters.query}
+      <div className="input-wrap"><Search size={20} /><input type="search" aria-label="Search recipes by name or season" placeholder="Search by recipe or season" value={filters.query}
         onChange={event => setFilters(f => ({ ...f, query: event.target.value }))} /></div>
       <button className="button secondary mobile-filter" onClick={() => setOpen(true)}><SlidersHorizontal size={17} /> Filters{chips.length > 0 && <span className="number-pill">{chips.length}</span>}</button>
       <button className="button secondary desktop-filter" aria-expanded={inline} aria-controls="browse-filters" onClick={() => setInline(!inline)}><SlidersHorizontal size={17} /> Filters{chips.length > 0 && <span className="number-pill">{chips.length}</span>}</button>

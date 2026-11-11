@@ -24,8 +24,20 @@
       "sourceLabel": "Prepped in 5",
       "provenance": "Printed on the card"
     },
-    "cook": null,
-    "total": null,
+    "cook": {
+      "minMinutes": 44,
+      "maxMinutes": 51,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Brown the lamb, bring the stew to a boil and bake it before adding feta and mint."
+    },
+    "total": {
+      "minMinutes": 50,
+      "maxMinutes": 60,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Brown the lamb, bring the stew to a boil and bake it before adding feta and mint."
+    },
     "card": {
       "minMinutes": 50,
       "maxMinutes": 60,
@@ -540,9 +552,9 @@
   "hero": {
     "id": "greek-lamb-stew-hero",
     "path": "media/greek-lamb-stew.webp",
-    "width": 741,
-    "height": 641,
-    "alt": "One Pot Greek-Style Lamb Stew with Feta & Mint",
+    "width": 1120,
+    "height": 615,
+    "alt": "Baked lamb and aubergine stew with crumbled feta and mint",
     "credit": "Gousto recipe card",
     "sizes": [
       {
@@ -550,5 +562,9 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ]
 }

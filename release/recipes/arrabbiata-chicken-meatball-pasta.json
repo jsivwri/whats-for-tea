@@ -19,9 +19,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 10,
+      "maxMinutes": 15,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Brown meatballs, start the sauce, then simmer the pasta and meatballs together"
+    },
+    "cook": {
+      "minMinutes": 20,
+      "maxMinutes": 25,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Brown meatballs, start the sauce, then simmer the pasta and meatballs together"
+    },
+    "total": {
+      "minMinutes": 30,
+      "maxMinutes": 40,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Brown meatballs, start the sauce, then simmer the pasta and meatballs together"
+    },
     "card": {
       "minMinutes": 30,
       "maxMinutes": 40,
@@ -602,8 +620,8 @@
   "hero": {
     "id": "arrabbiata-chicken-meatball-pasta-hero",
     "path": "media/arrabbiata-chicken-meatball-pasta.webp",
-    "width": 734,
-    "height": 589,
+    "width": 1120,
+    "height": 624,
     "alt": "One Pan Arrabbiata Chicken Meatball Tortiglioni",
     "credit": "Gousto recipe card",
     "sizes": [
@@ -612,5 +630,9 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ]
 }

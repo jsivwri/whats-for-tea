@@ -17,9 +17,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 6,
+      "maxMinutes": 10,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Prepare the tabbouleh vegetables while steaming bulgur and frying and glazing the beef."
+    },
+    "cook": {
+      "minMinutes": 13,
+      "maxMinutes": 18,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Prepare the tabbouleh vegetables while steaming bulgur and frying and glazing the beef."
+    },
+    "total": {
+      "minMinutes": 20,
+      "maxMinutes": 25,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Prepare the tabbouleh vegetables while steaming bulgur and frying and glazing the beef."
+    },
     "card": {
       "minMinutes": 20,
       "maxMinutes": 20,
@@ -562,9 +580,9 @@
   "hero": {
     "id": "sticky-beef-tabbouleh-hero",
     "path": "media/sticky-beef-tabbouleh.webp",
-    "width": 960,
-    "height": 941,
-    "alt": "Middle Eastern Inspired Sticky Beef with Pomegranate Molasses, Tabbouleh, Parsley and Yoghurt",
+    "width": 1120,
+    "height": 790,
+    "alt": "Sticky beef and bulgur tabbouleh topped with yoghurt",
     "credit": "HelloFresh recipe card",
     "sizes": [
       {
@@ -572,5 +590,9 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Spring",
+    "Summer"
+  ]
 }

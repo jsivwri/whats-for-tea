@@ -1,0 +1,533 @@
+{
+  "id": "gousto-chicken-fajitas-seeded-tortillas",
+  "slug": "gousto-chicken-fajitas-seeded-tortillas",
+  "title": "Chicken Fajitas with Seeded Tortillas and Salsa",
+  "aliases": [],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto",
+    "edition": "Printed Gousto card"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "gousto-chicken-fajitas-seeded-tortillas",
+    "path": "media/gousto-chicken-fajitas-seeded-tortillas.webp",
+    "width": 1120,
+    "height": 663,
+    "alt": "Chicken Fajitas with Seeded Tortillas and Salsa",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/gousto-chicken-fajitas-seeded-tortillas-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 8,
+      "maxMinutes": 12,
+      "provenance": "Prep time based on the card where stated, or on the chopping and measuring required.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 13,
+      "maxMinutes": 17,
+      "provenance": "Cook time based on the printed method, allowing for tasks in parallel.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 23,
+      "maxMinutes": 31,
+      "provenance": "Elapsed time includes preparation, cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "25–30 min",
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Wide frying pan",
+    "Mixing bowls",
+    "Microwave"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-breast",
+      "label": "British chicken breast portions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "coriander",
+      "ingredientId": "coriander",
+      "label": "Coriander",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "10 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-gem",
+      "ingredientId": "baby-gem",
+      "label": "Gem lettuces",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ground-coriander",
+      "ingredientId": "ground-coriander",
+      "label": "Ground coriander",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ground-cumin",
+      "ingredientId": "ground-cumin",
+      "label": "Ground cumin",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "smoked-paprika",
+      "ingredientId": "smoked-paprika",
+      "label": "Ground smoked paprika",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "lime",
+      "ingredientId": "lime",
+      "label": "Limes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "natural-yoghurt",
+      "ingredientId": "natural-yoghurt",
+      "label": "Natural yoghurt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "160 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-onion",
+      "ingredientId": "red-onion",
+      "label": "Red onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-pepper",
+      "ingredientId": "bell-pepper",
+      "label": "Red peppers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "seeded-tortillas",
+      "ingredientId": "seeded-tortillas",
+      "label": "Seeded tortillas",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "6"
+        },
+        "3": {
+          "status": "printed",
+          "text": "9"
+        },
+        "4": {
+          "status": "printed",
+          "text": "12"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tomato",
+      "ingredientId": "tomato",
+      "label": "Tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "fajita-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Vegetable oil for the fajita mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Slice the chicken",
+      "blocks": [
+        "Cut the chicken breast into thin strips."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "gousto-chicken-fajitas-seeded-tortillas-1-sketch",
+        "path": "media/gousto-chicken-fajitas-seeded-tortillas-1-sketch.webp",
+        "alt": "Slice the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Prepare the peppers and onions",
+      "blocks": [
+        "Deseed and thinly slice the peppers. Peel and slice the red onions. Put the chicken, peppers and most of the onion in a large bowl. Save the rest of the onion for the salsa."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "gousto-chicken-fajitas-seeded-tortillas-2-sketch",
+        "path": "media/gousto-chicken-fajitas-seeded-tortillas-2-sketch.webp",
+        "alt": "Prepare the peppers and onions",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Season the fajita mix",
+      "blocks": [
+        "Add the smoked paprika, cumin, ground coriander, {{fajita-oil}} vegetable oil and a generous pinch of salt. Toss well."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "gousto-chicken-fajitas-seeded-tortillas-3-sketch",
+        "path": "media/gousto-chicken-fajitas-seeded-tortillas-3-sketch.webp",
+        "alt": "Season the fajita mix",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Cook the fajita mix",
+      "blocks": [
+        "Heat a large wide frying pan over medium-high. Fry the chicken and vegetables for 12–15 minutes until the chicken is cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the fajita mix",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "gousto-chicken-fajitas-seeded-tortillas-4-sketch",
+        "path": "media/gousto-chicken-fajitas-seeded-tortillas-4-sketch.webp",
+        "alt": "Cook the fajita mix",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Prepare the salad and salsa ingredients",
+      "blocks": [
+        "Wash, dry and finely shred the gem lettuce. Finely dice the tomatoes and reserved onion, and finely chop the coriander, stalks included."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "gousto-chicken-fajitas-seeded-tortillas-5-sketch",
+        "path": "media/gousto-chicken-fajitas-seeded-tortillas-5-sketch.webp",
+        "alt": "Prepare the salad and salsa ingredients",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Mix the tomato salsa",
+      "blocks": [
+        "Toss the tomatoes, onion and coriander with a squeeze of lime and a pinch of salt."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "gousto-chicken-fajitas-seeded-tortillas-6-sketch",
+        "path": "media/gousto-chicken-fajitas-seeded-tortillas-6-sketch.webp",
+        "alt": "Mix the tomato salsa",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 7,
+      "id": "step-7",
+      "heading": "Warm the tortillas",
+      "blocks": [
+        "Microwave the tortillas on a plate on high for 20 seconds, or until warm. Cut the remaining lime into wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "gousto-chicken-fajitas-seeded-tortillas-7-sketch",
+        "path": "media/gousto-chicken-fajitas-seeded-tortillas-7-sketch.webp",
+        "alt": "Warm the tortillas",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 8,
+      "id": "step-8",
+      "heading": "Serve",
+      "blocks": [
+        "Fill the warm tortillas with yoghurt, shredded lettuce, chicken and tomato salsa. Serve with lime wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "gousto-chicken-fajitas-seeded-tortillas-8-sketch",
+        "path": "media/gousto-chicken-fajitas-seeded-tortillas-8-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

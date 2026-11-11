@@ -1,0 +1,515 @@
+{
+  "id": "thai-green-chicken-mushrooms",
+  "slug": "thai-green-chicken-mushrooms",
+  "title": "Thai Green Style Chicken Curry",
+  "subtitle": "with Mushrooms and Jasmine Rice",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 45"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "thai-green-chicken-mushrooms",
+    "path": "media/thai-green-chicken-mushrooms.webp",
+    "width": 1120,
+    "height": 767,
+    "alt": "Thai Green Style Chicken Curry",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/thai-green-chicken-mushrooms-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 4,
+      "maxMinutes": 7,
+      "provenance": "Measure the rice, cut lime and open the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 16,
+      "maxMinutes": 21,
+      "provenance": "Fry mushrooms and simmer chicken while the rice cooks.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 21,
+      "maxMinutes": 27,
+      "provenance": "Boiling and finishing the curry and rice alongside each other.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "20–25 min",
+      "minMinutes": 20,
+      "maxMinutes": 25,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Saucepans",
+    "Sieve",
+    "Lid"
+  ],
+  "before": [],
+  "allergens": [
+    "Sesame"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "jasmine-rice",
+      "ingredientId": "jasmine-rice",
+      "label": "Jasmine rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "225 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "300 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mushrooms",
+      "ingredientId": "mushrooms",
+      "label": "Sliced mushrooms",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "80 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "160 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "lime",
+      "ingredientId": "lime",
+      "label": "Limes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-breast",
+      "ingredientId": "chicken-breast",
+      "label": "Diced British chicken breast",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "390 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "520 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "coconut-milk",
+      "ingredientId": "coconut-milk",
+      "label": "Coconut milk",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "180 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "250 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "360 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "thai-style-spice-blend",
+      "ingredientId": "thai-style-spice-blend",
+      "label": "Thai style spice blend",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "thai-green-style-paste",
+      "ingredientId": "thai-green-style-paste",
+      "label": "Thai green style paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "45 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "67 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "90 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "chicken-stock-paste",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken stock paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rice-water",
+      "ingredientId": "water",
+      "label": "Water for the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "300 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "450 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "600 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¾ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "rice-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "¼ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Cook the rice",
+      "blocks": [
+        "Boil half a kettle. Pour {{rice-water}} boiled water into a large saucepan with {{rice-salt}} salt and heat on high. Add the rice and cook for 12–13 minutes.",
+        "Drain in a sieve, return to the pan and cover until ready to serve."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the rice",
+          "seconds": [
+            720,
+            780
+          ]
+        }
+      ],
+      "image": {
+        "id": "thai-green-chicken-mushrooms-1-sketch",
+        "path": "media/thai-green-chicken-mushrooms-1-sketch.webp",
+        "alt": "Cook the rice",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Fry the mushrooms",
+      "blocks": [
+        "Heat a drizzle of oil in another large saucepan over medium-high heat. Add the mushrooms, season and cook for 3–4 minutes until lightly browned."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the mushrooms",
+          "seconds": [
+            180,
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "thai-green-chicken-mushrooms-2-sketch",
+        "path": "media/thai-green-chicken-mushrooms-2-sketch.webp",
+        "alt": "Fry the mushrooms",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Lime time",
+      "blocks": [
+        "Cut the lime into wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "thai-green-chicken-mushrooms-3-sketch",
+        "path": "media/thai-green-chicken-mushrooms-3-sketch.webp",
+        "alt": "Lime time",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Curry up",
+      "blocks": [
+        "Stir the chicken, coconut milk, Thai spice blend, green curry paste, chicken stock paste and {{sugar}} sugar into the browned mushrooms. Use less spice blend if you prefer a milder curry.",
+        "Bring to a boil, lower the heat and simmer for 10–12 minutes, until the chicken is cooked through with no pink in the middle. Wash hands and equipment after handling raw chicken and its packaging."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the curry",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "thai-green-chicken-mushrooms-4-sketch",
+        "path": "media/thai-green-chicken-mushrooms-4-sketch.webp",
+        "alt": "Curry up",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Finish the curry",
+      "blocks": [
+        "Squeeze in half the lime juice. Taste and season, and add a splash of water if needed."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "thai-green-chicken-mushrooms-5-sketch",
+        "path": "media/thai-green-chicken-mushrooms-5-sketch.webp",
+        "alt": "Finish the curry",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Fluff the rice and divide it between bowls. Spoon the curry over and serve with the remaining lime wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "thai-green-chicken-mushrooms-6-sketch",
+        "path": "media/thai-green-chicken-mushrooms-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

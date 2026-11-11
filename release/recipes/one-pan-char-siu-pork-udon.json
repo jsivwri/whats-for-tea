@@ -1,0 +1,865 @@
+{
+  "id": "one-pan-char-siu-pork-udon",
+  "slug": "one-pan-char-siu-pork-udon",
+  "title": "One Pan Char Siu Pork Udon",
+  "subtitle": "with Carrot, Mushrooms and Spring Onion",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2025-W20 · Card 11"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "one-pan-char-siu-pork-udon",
+    "path": "media/one-pan-char-siu-pork-udon.webp",
+    "width": 1120,
+    "height": 682,
+    "alt": "One Pan Char Siu Pork Udon",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/one-pan-char-siu-pork-udon-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 5,
+      "maxMinutes": 8,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 9,
+      "maxMinutes": 13,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 17,
+      "maxMinutes": 25,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "20–25 min",
+      "minMinutes": 20,
+      "maxMinutes": 25,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Large frying pan",
+    "Garlic press"
+  ],
+  "before": [],
+  "allergens": [
+    "Soya",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw mince."
+  ],
+  "ingredients": [
+    {
+      "id": "carrot",
+      "ingredientId": "carrot",
+      "label": "Carrots",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "spring-onion",
+      "ingredientId": "spring-onion",
+      "label": "Spring onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mince",
+      "ingredientId": "pork-mince",
+      "label": "British pork mince",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "360 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "480 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mushrooms",
+      "ingredientId": "mushrooms",
+      "label": "Sliced mushrooms",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "120 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "180 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "240 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "char-siu-paste",
+      "ingredientId": "char-siu-paste",
+      "label": "Char siu paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "125 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "200 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soy-sauce",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "20 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "udon-noodles",
+      "ingredientId": "udon-noodles",
+      "label": "Udon noodles",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "220 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "330 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "440 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "50 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "75 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "100 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Prepare the carrots and spring onions",
+      "blocks": [
+        "Trim and halve the unpeeled carrots lengthways, then slice crossways about ½ cm thick. Trim and thinly slice the spring onions, separating the white and green parts."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "one-pan-char-siu-pork-udon-1-sketch",
+        "path": "media/one-pan-char-siu-pork-udon-1-sketch.webp",
+        "alt": "Prepare the carrots and spring onions",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Fry the mince and vegetables",
+      "blocks": [
+        "Heat a drizzle of oil in a large frying pan over high heat. Fry the mince, mushrooms, carrot and spring onion whites for 5–6 minutes until the mince browns and the vegetables soften. Break up the mince as it cooks, drain excess fat and season."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the mince and vegetables",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "one-pan-char-siu-pork-udon-2-sketch",
+        "path": "media/one-pan-char-siu-pork-udon-2-sketch.webp",
+        "alt": "Fry the mince and vegetables",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Add the garlic",
+      "blocks": [
+        "Peel and grate or press the garlic. Stir it into the mince and fry for 1 minute until fragrant."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the garlic",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "one-pan-char-siu-pork-udon-3-sketch",
+        "path": "media/one-pan-char-siu-pork-udon-3-sketch.webp",
+        "alt": "Add the garlic",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Make the sauce",
+      "blocks": [
+        "Stir in the char siu paste, soy sauce and {{sauce-water}} water."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "one-pan-char-siu-pork-udon-4-sketch",
+        "path": "media/one-pan-char-siu-pork-udon-4-sketch.webp",
+        "alt": "Make the sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Toss the udon",
+      "blocks": [
+        "Add the noodles and toss to coat, gently separating them with a fork. Simmer for 1–2 minutes until piping hot. Add a splash of water if needed."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Heat the noodles",
+          "seconds": [
+            60,
+            120
+          ]
+        }
+      ],
+      "image": {
+        "id": "one-pan-char-siu-pork-udon-5-sketch",
+        "path": "media/one-pan-char-siu-pork-udon-5-sketch.webp",
+        "alt": "Toss the udon",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Divide the udon between bowls and scatter over the spring onion greens."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "one-pan-char-siu-pork-udon-6-sketch",
+        "path": "media/one-pan-char-siu-pork-udon-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "swap-beef-mince",
+      "label": "Swap to beef mince",
+      "ingredients": [
+        {
+          "id": "carrot",
+          "ingredientId": "carrot",
+          "label": "Carrots",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "spring-onion",
+          "ingredientId": "spring-onion",
+          "label": "Spring onions",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "mince",
+          "ingredientId": "beef-mince",
+          "label": "British beef mince",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "240 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "360 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "480 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "mushrooms",
+          "ingredientId": "mushrooms",
+          "label": "Sliced mushrooms",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "120 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "180 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "240 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "garlic",
+          "ingredientId": "garlic",
+          "label": "Garlic cloves",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "char-siu-paste",
+          "ingredientId": "char-siu-paste",
+          "label": "Char siu paste",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "125 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "200 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "250 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "soy-sauce",
+          "ingredientId": "soy-sauce",
+          "label": "Soy sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "20 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "20 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "40 ml"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "udon-noodles",
+          "ingredientId": "udon-noodles",
+          "label": "Udon noodles",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "220 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "330 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "440 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sauce-water",
+          "ingredientId": "water",
+          "label": "Water for the sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "50 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "75 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "100 ml"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Prepare the carrots and spring onions",
+          "blocks": [
+            "Trim and halve the unpeeled carrots lengthways, then slice crossways about ½ cm thick. Trim and thinly slice the spring onions, separating the white and green parts."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "one-pan-char-siu-pork-udon-1-sketch",
+            "path": "media/one-pan-char-siu-pork-udon-1-sketch.webp",
+            "alt": "Prepare the carrots and spring onions",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Fry the mince and vegetables",
+          "blocks": [
+            "Heat a drizzle of oil in a large frying pan over high heat. Fry the mince, mushrooms, carrot and spring onion whites for 5–6 minutes until the mince browns and the vegetables soften. Break up the mince as it cooks, drain excess fat and season."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Fry the mince and vegetables",
+              "seconds": [
+                300,
+                360
+              ]
+            }
+          ],
+          "image": {
+            "id": "one-pan-char-siu-pork-udon-2-sketch",
+            "path": "media/one-pan-char-siu-pork-udon-2-sketch.webp",
+            "alt": "Fry the mince and vegetables",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Add the garlic",
+          "blocks": [
+            "Peel and grate or press the garlic. Stir it into the mince and fry for 1 minute until fragrant."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Fry the garlic",
+              "seconds": [
+                60
+              ]
+            }
+          ],
+          "image": {
+            "id": "one-pan-char-siu-pork-udon-3-sketch",
+            "path": "media/one-pan-char-siu-pork-udon-3-sketch.webp",
+            "alt": "Add the garlic",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Make the sauce",
+          "blocks": [
+            "Stir in the char siu paste, soy sauce and {{sauce-water}} water."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "one-pan-char-siu-pork-udon-4-sketch",
+            "path": "media/one-pan-char-siu-pork-udon-4-sketch.webp",
+            "alt": "Make the sauce",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Toss the udon",
+          "blocks": [
+            "Add the noodles and toss to coat, gently separating them with a fork. Simmer for 1–2 minutes until piping hot. Add a splash of water if needed."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Heat the noodles",
+              "seconds": [
+                60,
+                120
+              ]
+            }
+          ],
+          "image": {
+            "id": "one-pan-char-siu-pork-udon-5-sketch",
+            "path": "media/one-pan-char-siu-pork-udon-5-sketch.webp",
+            "alt": "Toss the udon",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Serve",
+          "blocks": [
+            "Divide the udon between bowls and scatter over the spring onion greens."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "one-pan-char-siu-pork-udon-6-sketch",
+            "path": "media/one-pan-char-siu-pork-udon-6-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

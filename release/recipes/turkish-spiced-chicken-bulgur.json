@@ -1,0 +1,656 @@
+{
+  "id": "turkish-spiced-chicken-bulgur",
+  "slug": "turkish-spiced-chicken-bulgur",
+  "title": "Turkish Inspired Spiced Chicken and Bulgur",
+  "subtitle": "with Parsley and Yoghurt",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2024-W37 · Card 47"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "turkish-spiced-chicken-bulgur",
+    "path": "media/turkish-spiced-chicken-bulgur.webp",
+    "width": 1120,
+    "height": 699,
+    "alt": "Turkish Inspired Spiced Chicken and Bulgur with Parsley and Yoghurt",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/turkish-spiced-chicken-bulgur-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "minMinutes": 7,
+      "maxMinutes": 10,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Chop the salad, garlic, onion and parsley and measure dressing",
+      "estimated": true
+    },
+    "cook": {
+      "minMinutes": 22,
+      "maxMinutes": 27,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Chicken searing, roasting and resting overlap with the bulgur stages",
+      "estimated": true
+    },
+    "total": {
+      "minMinutes": 28,
+      "maxMinutes": 35,
+      "sourceLabel": "Estimated elapsed time",
+      "provenance": "Initial chopping precedes the chicken and bulgur stages, with remaining preparation during cooking",
+      "estimated": true
+    },
+    "card": {
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "sourceLabel": "25–30 Minutes",
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Bowl",
+    "Garlic press",
+    "Frying pan",
+    "Baking tray",
+    "Foil",
+    "Saucepan and lid"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "baby-plum-tomatoes",
+      "ingredientId": "baby-plum-tomatoes",
+      "label": "Baby plum tomatoes",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "125 g",
+          "amount": 125,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "190 g",
+          "amount": 190,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "250 g",
+          "amount": 250,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2",
+          "amount": 2
+        },
+        "3": {
+          "status": "printed",
+          "text": "3",
+          "amount": 3
+        },
+        "4": {
+          "status": "printed",
+          "text": "4",
+          "amount": 4
+        }
+      }
+    },
+    {
+      "id": "red-onion",
+      "ingredientId": "red-onion",
+      "label": "Red onions",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1",
+          "amount": 1
+        },
+        "3": {
+          "status": "printed",
+          "text": "1.5",
+          "amount": 1.5
+        },
+        "4": {
+          "status": "printed",
+          "text": "2",
+          "amount": 2
+        }
+      }
+    },
+    {
+      "id": "chicken-breast",
+      "ingredientId": "chicken-breast",
+      "label": "British chicken breasts",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2",
+          "amount": 2
+        },
+        "3": {
+          "status": "printed",
+          "text": "3",
+          "amount": 3
+        },
+        "4": {
+          "status": "printed",
+          "text": "4",
+          "amount": 4
+        }
+      }
+    },
+    {
+      "id": "roasted-spice-herb-blend",
+      "ingredientId": "roasted-spice-herb-blend",
+      "label": "Roasted spice and herb blend",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet",
+          "amount": 1,
+          "unit": "sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet",
+          "amount": 1,
+          "unit": "sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachet",
+          "amount": 2,
+          "unit": "sachet"
+        }
+      }
+    },
+    {
+      "id": "tomato-puree",
+      "ingredientId": "tomato-puree",
+      "label": "Tomato purée",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g",
+          "amount": 30,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "45 g",
+          "amount": 45,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g",
+          "amount": 60,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "bulgur-wheat",
+      "ingredientId": "bulgur-wheat",
+      "label": "Bulgur wheat",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "120 g",
+          "amount": 120,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "180 g",
+          "amount": 180,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "240 g",
+          "amount": 240,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "chicken-stock-paste",
+      "ingredientId": "chicken-stock-paste",
+      "label": "Chicken stock paste",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g",
+          "amount": 10,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g",
+          "amount": 15,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g",
+          "amount": 20,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "flat-leaf-parsley",
+      "ingredientId": "flat-leaf-parsley",
+      "label": "Flat leaf parsley",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 bunch",
+          "amount": 1,
+          "unit": "bunch"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 bunch",
+          "amount": 1,
+          "unit": "bunch"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 bunch",
+          "amount": 1,
+          "unit": "bunch"
+        }
+      }
+    },
+    {
+      "id": "greek-style-yoghurt",
+      "ingredientId": "greek-style-yoghurt",
+      "label": "Greek style natural yoghurt",
+      "group": "box",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g",
+          "amount": 75,
+          "unit": "g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 g",
+          "amount": 150,
+          "unit": "g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 g",
+          "amount": 150,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "0.5 tsp",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "0.75 tsp",
+          "amount": 0.75,
+          "unit": "tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1 tsp",
+          "amount": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "id": "olive-oil-dressing",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the dressing",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "0.5 tbsp",
+          "amount": 0.5,
+          "unit": "tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "id": "honey",
+      "ingredientId": "honey",
+      "label": "Honey",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "0.25 tbsp",
+          "amount": 0.25,
+          "unit": "tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "0.5 tbsp",
+          "amount": 0.5,
+          "unit": "tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "0.5 tbsp",
+          "amount": 0.5,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "id": "bulgur-water",
+      "ingredientId": "water",
+      "label": "Water for the bulgur",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "220 ml",
+          "amount": 220,
+          "unit": "ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "330 ml",
+          "amount": 330,
+          "unit": "ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "440 ml",
+          "amount": 440,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unknown"
+        },
+        "3": {
+          "status": "unknown"
+        },
+        "4": {
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unknown"
+        },
+        "3": {
+          "status": "unknown"
+        },
+        "4": {
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "group": "bring",
+      "optional": false,
+      "quantities": {
+        "2": {
+          "status": "unknown"
+        },
+        "3": {
+          "status": "unknown"
+        },
+        "4": {
+          "status": "unknown"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "heading": "Start prepping",
+      "blocks": [
+        "Preheat the oven to 220°C / 200°C fan / gas mark 7. Halve the baby plum tomatoes and toss with {{sugar}} sugar and {{olive-oil-dressing}} olive oil. Season and set aside.",
+        "Peel and grate or press the garlic. Halve and peel the red onion and cut each half into 5 wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "turkish-spiced-chicken-bulgur-1-sketch",
+        "path": "media/turkish-spiced-chicken-bulgur-1-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Start prepping",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "heading": "Sear the chicken",
+      "blocks": [
+        "Heat a drizzle of oil in a large frying pan on medium-high heat. Season the chicken and brown for 5 minutes on each side.",
+        "Move the chicken to a baking tray with the onion. Add the spice and herb blend, a drizzle of oil, {{honey}} honey and half the garlic. Toss to coat. Wash hands and equipment after handling raw chicken."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown each side",
+          "seconds": [
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "turkish-spiced-chicken-bulgur-2-sketch",
+        "path": "media/turkish-spiced-chicken-bulgur-2-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Sear the chicken",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "heading": "Time to roast",
+      "blocks": [
+        "Roast the chicken and onion on the top shelf for 10–12 minutes until the chicken is cooked through and the onion is tender. Cover with foil and rest for a couple of minutes."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Roast the chicken and onion",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "turkish-spiced-chicken-bulgur-3-sketch",
+        "path": "media/turkish-spiced-chicken-bulgur-3-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Time to roast",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "heading": "Bulgur time",
+      "blocks": [
+        "Meanwhile, heat a drizzle of oil in a large saucepan over medium heat. Stir-fry the tomato purée and remaining garlic for 30 seconds.",
+        "Add {{bulgur-water}} water and the stock paste and bring to the boil. Stir in the bulgur, return to the boil and simmer for 1 minute. Cover, remove from the heat and leave for 12–15 minutes or until ready to serve."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the bulgur",
+          "seconds": [
+            60
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Steam the bulgur",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "turkish-spiced-chicken-bulgur-4-sketch",
+        "path": "media/turkish-spiced-chicken-bulgur-4-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Bulgur time",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "heading": "Add the parsley",
+      "blocks": [
+        "Chop the parsley, stalks and all. Stir half into the cooked bulgur and season if needed."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "turkish-spiced-chicken-bulgur-5-sketch",
+        "path": "media/turkish-spiced-chicken-bulgur-5-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Add the parsley",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "heading": "Finish and serve",
+      "blocks": [
+        "Slice the chicken 1 cm thick. Divide the bulgur between bowls, spoon over the dressed tomatoes and juices, then add the chicken and roasted onion. Drizzle over the yoghurt and scatter with the remaining parsley."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "turkish-spiced-chicken-bulgur-6-sketch",
+        "path": "media/turkish-spiced-chicken-bulgur-6-sketch.webp",
+        "width": 640,
+        "height": 480,
+        "alt": "Finish and serve",
+        "credit": "Illustration based on the HelloFresh card"
+      }
+    }
+  ],
+  "variants": []
+}

@@ -17,9 +17,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 14,
+      "maxMinutes": 20,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Shape lamb meatballs and prepare dressing, then cook bulgur during roasting"
+    },
+    "cook": {
+      "minMinutes": 15,
+      "maxMinutes": 22,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Shape lamb meatballs and prepare dressing, then cook bulgur during roasting"
+    },
+    "total": {
+      "minMinutes": 30,
+      "maxMinutes": 42,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Shape lamb meatballs and prepare dressing, then cook bulgur during roasting"
+    },
     "card": {
       "minMinutes": 30,
       "maxMinutes": 45,
@@ -511,8 +529,8 @@
   "hero": {
     "id": "lemony-lamb-meatballs-hero",
     "path": "media/lemony-lamb-meatballs.webp",
-    "width": 764,
-    "height": 768,
+    "width": 1120,
+    "height": 497,
     "alt": "Lemony Lamb Meatballs & Warm Harissa Dressing",
     "credit": "Gousto recipe card",
     "sizes": [
@@ -521,5 +539,10 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Spring",
+    "Summer",
+    "Easter"
+  ]
 }

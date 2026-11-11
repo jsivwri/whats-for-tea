@@ -1,0 +1,1064 @@
+{
+  "id": "spiced-bbq-pork-quesadillas",
+  "slug": "spiced-bbq-pork-quesadillas",
+  "title": "Spiced BBQ Pork Quesadillas Rapidas",
+  "subtitle": "with Bell Pepper, Cheese, Tomato and Rocket",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 3"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "spiced-bbq-pork-quesadillas",
+    "path": "media/spiced-bbq-pork-quesadillas.webp",
+    "width": 1120,
+    "height": 764,
+    "alt": "Spiced BBQ Pork Quesadillas Rapidas",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/spiced-bbq-pork-quesadillas-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 5,
+      "maxMinutes": 8,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 11,
+      "maxMinutes": 16,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 18,
+      "maxMinutes": 24,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "20 min",
+      "minMinutes": 20,
+      "maxMinutes": 20,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking tray",
+    "Frying pan",
+    "Mixing bowl",
+    "Grater"
+  ],
+  "before": [],
+  "allergens": [
+    "Milk",
+    "Wheat and gluten",
+    "Egg if using egg-based mayonnaise"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw mince."
+  ],
+  "ingredients": [
+    {
+      "id": "bell-pepper",
+      "ingredientId": "bell-pepper",
+      "label": "Bell peppers",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mince",
+      "ingredientId": "pork-mince",
+      "label": "British pork mince",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "360 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "480 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "cheddar",
+      "ingredientId": "cheddar",
+      "label": "Mature Cheddar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tomato-paste",
+      "ingredientId": "tomato-paste",
+      "label": "Tomato purée",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "45 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "60 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "central-american-spice-mix",
+      "ingredientId": "central-american-spice-mix",
+      "label": "Central American style spice mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "bbq-sauce",
+      "ingredientId": "bbq-sauce",
+      "label": "BBQ sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "32 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "48 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "64 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "taco-tortillas",
+      "ingredientId": "taco-tortillas",
+      "label": "Plain taco tortillas",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "6"
+        },
+        "3": {
+          "status": "printed",
+          "text": "9"
+        },
+        "4": {
+          "status": "printed",
+          "text": "12"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tomato",
+      "ingredientId": "tomato",
+      "label": "Medium tomatoes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rocket",
+      "ingredientId": "rocket",
+      "label": "Wild rocket",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "40 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "dressing-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the dressing",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "dressing-oil",
+      "ingredientId": "olive-oil",
+      "label": "Olive oil for the dressing",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "mayonnaise",
+      "ingredientId": "mayonnaise",
+      "label": "Mayonnaise",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Fry the mince and pepper",
+      "blocks": [
+        "Preheat the oven to 240°C (220°C fan, gas 9). Deseed the pepper and cut into 1 cm chunks. Fry the mince and pepper in a little oil over medium-high for 5–6 minutes, breaking the mince up with a spoon."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Brown the mince",
+          "seconds": [
+            300,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "spiced-bbq-pork-quesadillas-1-sketch",
+        "path": "media/spiced-bbq-pork-quesadillas-1-sketch.webp",
+        "alt": "Fry the mince and pepper",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Prepare the garlic and cheese",
+      "blocks": [
+        "Peel and grate or press the garlic and grate the Cheddar. Once the mince is cooked through, drain any excess fat and season."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "spiced-bbq-pork-quesadillas-2-sketch",
+        "path": "media/spiced-bbq-pork-quesadillas-2-sketch.webp",
+        "alt": "Prepare the garlic and cheese",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Season the filling",
+      "blocks": [
+        "Stir in the garlic, tomato purée, Central American spice mix and {{sauce-water}} water. Cook briefly, stirring, then stir through the BBQ sauce. Season and take off the heat."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "spiced-bbq-pork-quesadillas-3-sketch",
+        "path": "media/spiced-bbq-pork-quesadillas-3-sketch.webp",
+        "alt": "Season the filling",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Assemble the quesadillas",
+      "blocks": [
+        "Lay the tortillas on a lightly oiled tray. Spoon filling onto half of each tortilla and top with cheese. Fold the other half over and press to close."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "spiced-bbq-pork-quesadillas-4-sketch",
+        "path": "media/spiced-bbq-pork-quesadillas-4-sketch.webp",
+        "alt": "Assemble the quesadillas",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Bake and dress the tomatoes",
+      "blocks": [
+        "Rub the quesadillas with a little oil and bake on the top shelf for 4–6 minutes until golden. Cut the tomatoes into 1 cm chunks and toss with {{dressing-sugar}} sugar, {{dressing-oil}} olive oil, salt and pepper."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the quesadillas",
+          "seconds": [
+            240,
+            360
+          ]
+        }
+      ],
+      "image": {
+        "id": "spiced-bbq-pork-quesadillas-5-sketch",
+        "path": "media/spiced-bbq-pork-quesadillas-5-sketch.webp",
+        "alt": "Bake and dress the tomatoes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Serve the quesadillas with the rocket tossed through the dressed tomatoes and {{mayonnaise}} mayonnaise in total for dipping."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "spiced-bbq-pork-quesadillas-6-sketch",
+        "path": "media/spiced-bbq-pork-quesadillas-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "swap-beef-mince",
+      "label": "Swap to beef mince",
+      "ingredients": [
+        {
+          "id": "bell-pepper",
+          "ingredientId": "bell-pepper",
+          "label": "Bell peppers",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "mince",
+          "ingredientId": "beef-mince",
+          "label": "British beef mince",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "240 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "360 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "480 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "garlic",
+          "ingredientId": "garlic",
+          "label": "Garlic cloves",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "cheddar",
+          "ingredientId": "cheddar",
+          "label": "Mature Cheddar",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "30 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "40 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "60 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "tomato-paste",
+          "ingredientId": "tomato-paste",
+          "label": "Tomato purée",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "30 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "45 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "60 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "central-american-spice-mix",
+          "ingredientId": "central-american-spice-mix",
+          "label": "Central American style spice mix",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "bbq-sauce",
+          "ingredientId": "bbq-sauce",
+          "label": "BBQ sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "32 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "48 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "64 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "taco-tortillas",
+          "ingredientId": "taco-tortillas",
+          "label": "Plain taco tortillas",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "6"
+            },
+            "3": {
+              "status": "printed",
+              "text": "9"
+            },
+            "4": {
+              "status": "printed",
+              "text": "12"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "tomato",
+          "ingredientId": "tomato",
+          "label": "Medium tomatoes",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "rocket",
+          "ingredientId": "rocket",
+          "label": "Wild rocket",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "20 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "40 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "40 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sauce-water",
+          "ingredientId": "water",
+          "label": "Water for the sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2 tbsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3 tbsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4 tbsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "dressing-sugar",
+          "ingredientId": "sugar",
+          "label": "Sugar for the dressing",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "dressing-oil",
+          "ingredientId": "olive-oil",
+          "label": "Olive oil for the dressing",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 tbsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1½ tbsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 tbsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "mayonnaise",
+          "ingredientId": "mayonnaise",
+          "label": "Mayonnaise",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2 tbsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3 tbsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4 tbsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Fry the mince and pepper",
+          "blocks": [
+            "Preheat the oven to 240°C (220°C fan, gas 9). Deseed the pepper and cut into 1 cm chunks. Fry the mince and pepper in a little oil over medium-high for 5–6 minutes, breaking the mince up with a spoon."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Brown the mince",
+              "seconds": [
+                300,
+                360
+              ]
+            }
+          ],
+          "image": {
+            "id": "spiced-bbq-pork-quesadillas-1-sketch",
+            "path": "media/spiced-bbq-pork-quesadillas-1-sketch.webp",
+            "alt": "Fry the mince and pepper",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Prepare the garlic and cheese",
+          "blocks": [
+            "Peel and grate or press the garlic and grate the Cheddar. Once the mince is cooked through, drain any excess fat and season."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "spiced-bbq-pork-quesadillas-2-sketch",
+            "path": "media/spiced-bbq-pork-quesadillas-2-sketch.webp",
+            "alt": "Prepare the garlic and cheese",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Season the filling",
+          "blocks": [
+            "Stir in the garlic, tomato purée, Central American spice mix and {{sauce-water}} water. Cook briefly, stirring, then stir through the BBQ sauce. Season and take off the heat."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "spiced-bbq-pork-quesadillas-3-sketch",
+            "path": "media/spiced-bbq-pork-quesadillas-3-sketch.webp",
+            "alt": "Season the filling",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Assemble the quesadillas",
+          "blocks": [
+            "Lay the tortillas on a lightly oiled tray. Spoon filling onto half of each tortilla and top with cheese. Fold the other half over and press to close."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "spiced-bbq-pork-quesadillas-4-sketch",
+            "path": "media/spiced-bbq-pork-quesadillas-4-sketch.webp",
+            "alt": "Assemble the quesadillas",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Bake and dress the tomatoes",
+          "blocks": [
+            "Rub the quesadillas with a little oil and bake on the top shelf for 4–6 minutes until golden. Cut the tomatoes into 1 cm chunks and toss with {{dressing-sugar}} sugar, {{dressing-oil}} olive oil, salt and pepper."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Bake the quesadillas",
+              "seconds": [
+                240,
+                360
+              ]
+            }
+          ],
+          "image": {
+            "id": "spiced-bbq-pork-quesadillas-5-sketch",
+            "path": "media/spiced-bbq-pork-quesadillas-5-sketch.webp",
+            "alt": "Bake and dress the tomatoes",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Serve",
+          "blocks": [
+            "Serve the quesadillas with the rocket tossed through the dressed tomatoes and {{mayonnaise}} mayonnaise in total for dipping."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "spiced-bbq-pork-quesadillas-6-sketch",
+            "path": "media/spiced-bbq-pork-quesadillas-6-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

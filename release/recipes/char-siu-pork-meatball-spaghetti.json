@@ -1,0 +1,672 @@
+{
+  "id": "char-siu-pork-meatball-spaghetti",
+  "slug": "char-siu-pork-meatball-spaghetti",
+  "title": "Char Siu Spaghetti and Pork Meatballs",
+  "subtitle": "with Pickled Radish and Baby Leaf Salad",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "2025-W32 · Card 13"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "char-siu-pork-meatball-spaghetti",
+    "path": "media/char-siu-pork-meatball-spaghetti.webp",
+    "width": 1120,
+    "height": 735,
+    "alt": "Char Siu Spaghetti and Pork Meatballs",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/char-siu-pork-meatball-spaghetti-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 8,
+      "maxMinutes": 11,
+      "provenance": "Wash, slice and measure the ingredients.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 14,
+      "maxMinutes": 19,
+      "provenance": "Based on the roasting and stovetop instructions, with parallel cooking.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 28,
+      "maxMinutes": 36,
+      "provenance": "Includes prep, cooking and plating.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "30–35 min",
+      "minMinutes": 30,
+      "maxMinutes": 35,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Baking tray",
+    "Large saucepan",
+    "Colander",
+    "Frying pan",
+    "Mixing bowl",
+    "Garlic press"
+  ],
+  "before": [],
+  "allergens": [
+    "Soya",
+    "Wheat and gluten",
+    "Milk in the butter"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw mince."
+  ],
+  "ingredients": [
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "breadcrumbs",
+      "ingredientId": "breadcrumbs",
+      "label": "Breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "mince",
+      "ingredientId": "pork-mince",
+      "label": "British pork mince",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "240 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "360 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "480 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "spaghetti",
+      "ingredientId": "spaghetti",
+      "label": "Spaghetti",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "180 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "270 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "360 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "radishes",
+      "ingredientId": "radishes",
+      "label": "Radishes",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rice-vinegar",
+      "ingredientId": "rice-vinegar",
+      "label": "Rice vinegar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "22.5 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ginger-paste",
+      "ingredientId": "ginger-paste",
+      "label": "Ginger purée",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "22.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "passata",
+      "ingredientId": "passata",
+      "label": "Tomato passata",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 carton"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ cartons"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 cartons"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soy-sauce",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "20 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "char-siu-paste",
+      "ingredientId": "char-siu-paste",
+      "label": "Char siu paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "100 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "125 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "baby-leaf-mix",
+      "ingredientId": "baby-leaf-mix",
+      "label": "Baby leaf mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "50 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "crumb-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "0.3 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "0.3 tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "crumb-water",
+      "ingredientId": "water",
+      "label": "Water for the breadcrumbs",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 tbsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "pickle-sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar for the pickle",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "100 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "150 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "200 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "butter",
+      "ingredientId": "butter",
+      "label": "Butter",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "20 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "30 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "40 g"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "pasta-water",
+      "ingredientId": "water",
+      "label": "Water for boiling the pasta",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "pasta-salt",
+      "ingredientId": "salt",
+      "label": "Salt for boiling the pasta",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "½ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "½ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Get prepared",
+      "blocks": [
+        "Heat the oven to 220°C (200°C fan, gas 7). Bring a large saucepan of water with {{pasta-salt}} salt to a boil for the spaghetti. Peel and grate or press the garlic.",
+        "Mix the breadcrumbs with {{crumb-salt}} salt, {{crumb-water}} water and half the garlic."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "char-siu-pork-meatball-spaghetti-1-sketch",
+        "path": "media/char-siu-pork-meatball-spaghetti-1-sketch.webp",
+        "alt": "Get prepared",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Shape and bake the meatballs",
+      "blocks": [
+        "Add the pork mince to the breadcrumbs, season with pepper and mix well. Roll into five even meatballs per serving. Spread the meatballs out on a baking tray. Bake on the top shelf for 12–15 minutes until browned and cooked through."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Bake the meatballs",
+          "seconds": [
+            720,
+            900
+          ]
+        }
+      ],
+      "image": {
+        "id": "char-siu-pork-meatball-spaghetti-2-sketch",
+        "path": "media/char-siu-pork-meatball-spaghetti-2-sketch.webp",
+        "alt": "Shape and bake the meatballs",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Cook the spaghetti",
+      "blocks": [
+        "Boil the spaghetti for 8 minutes until tender. Drain, return to the saucepan and toss with a little oil to prevent sticking."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the spaghetti",
+          "seconds": [
+            480
+          ]
+        }
+      ],
+      "image": {
+        "id": "char-siu-pork-meatball-spaghetti-3-sketch",
+        "path": "media/char-siu-pork-meatball-spaghetti-3-sketch.webp",
+        "alt": "Cook the spaghetti",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Pickle the radishes",
+      "blocks": [
+        "Trim and thinly slice the radishes. Toss them with rice vinegar, {{pickle-sugar}} sugar and a pinch of salt, and set aside. Heat a drizzle of oil over medium heat and fry the ginger purée and remaining garlic for 30 seconds."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "char-siu-pork-meatball-spaghetti-4-sketch",
+        "path": "media/char-siu-pork-meatball-spaghetti-4-sketch.webp",
+        "alt": "Pickle the radishes",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Make the char siu sauce",
+      "blocks": [
+        "Add the passata, {{sauce-water}} water and soy sauce to the ginger. Bring to a boil and simmer for 4–5 minutes until thickened. Stir in the char siu paste, {{butter}} butter and cooked meatballs and simmer for 1 minute until piping hot. Take off the heat, toss through the spaghetti and season to taste."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the sauce",
+          "seconds": [
+            240,
+            300
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Warm the meatballs in the sauce",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "char-siu-pork-meatball-spaghetti-5-sketch",
+        "path": "media/char-siu-pork-meatball-spaghetti-5-sketch.webp",
+        "alt": "Make the char siu sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Divide the spaghetti and meatballs among bowls. Toss the baby leaves with the pickled radishes and a drizzle of oil. Season and serve alongside."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "char-siu-pork-meatball-spaghetti-6-sketch",
+        "path": "media/char-siu-pork-meatball-spaghetti-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

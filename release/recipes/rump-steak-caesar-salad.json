@@ -18,9 +18,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 6,
+      "maxMinutes": 10,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Boil the potatoes while preparing salad and dressing and frying and resting the steak."
+    },
+    "cook": {
+      "minMinutes": 16,
+      "maxMinutes": 22,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Boil the potatoes while preparing salad and dressing and frying and resting the steak."
+    },
+    "total": {
+      "minMinutes": 24,
+      "maxMinutes": 30,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Boil the potatoes while preparing salad and dressing and frying and resting the steak."
+    },
     "card": {
       "minMinutes": 25,
       "maxMinutes": 25,
@@ -458,7 +476,9 @@
       "blocks": [
         "Heat oil in a frying pan on high. Season the steaks and fry 6–8 minutes for medium rare, turning halfway, or longer for your preference. Rest on a board under foil for a couple of minutes. Wash hands and equipment after handling raw meat."
       ],
-      "notes": [],
+      "notes": [
+        "For a more well-done steak, cook for about 1 minute more on each side."
+      ],
       "timers": [
         {
           "id": "timer-1",
@@ -501,9 +521,9 @@
   "hero": {
     "id": "rump-steak-caesar-salad-hero",
     "path": "media/rump-steak-caesar-salad.webp",
-    "width": 960,
-    "height": 652,
-    "alt": "21 Day Aged Rump Steak and Caesar Style Salad with Garlic and Lemon Potatoes",
+    "width": 1120,
+    "height": 790,
+    "alt": "Sliced rump steak with lemon potatoes and Caesar-style salad",
     "credit": "HelloFresh recipe card",
     "sizes": [
       {
@@ -511,5 +531,9 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Spring",
+    "Summer"
+  ]
 }

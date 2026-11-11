@@ -1,0 +1,1118 @@
+{
+  "id": "peanut-chicken-broccoli-noodles",
+  "slug": "peanut-chicken-broccoli-noodles",
+  "title": "Peanut Chicken and Broccoli Stir-Fry",
+  "subtitle": "with Noodles, Pepper and Spring Onion",
+  "aliases": [],
+  "provider": "HelloFresh",
+  "source": {
+    "label": "HelloFresh UK",
+    "edition": "Card 16"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "peanut-chicken-broccoli-noodles",
+    "path": "media/peanut-chicken-broccoli-noodles.webp",
+    "width": 1120,
+    "height": 895,
+    "alt": "Peanut Chicken and Broccoli Stir-Fry",
+    "credit": "HelloFresh recipe card",
+    "sizes": [
+      {
+        "path": "media/peanut-chicken-broccoli-noodles-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Summer",
+    "Autumn"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 6,
+      "maxMinutes": 9,
+      "provenance": "Chop the vegetables and prepare the aromatics and seasonings.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 14,
+      "maxMinutes": 18,
+      "provenance": "Cook the noodles alongside the stir-fry.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 20,
+      "maxMinutes": 25,
+      "provenance": "Includes initial prep, parallel cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "20 min",
+      "minMinutes": 20,
+      "maxMinutes": 20,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Kettle",
+    "Saucepan",
+    "Sieve or colander",
+    "Large frying pan or wok",
+    "Jug",
+    "Foil or frying pan lid",
+    "Fine grater"
+  ],
+  "before": [],
+  "allergens": [
+    "Peanuts",
+    "Egg",
+    "Soya",
+    "Wheat and gluten"
+  ],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact. Wash hands and equipment after handling raw chicken."
+  ],
+  "ingredients": [
+    {
+      "id": "chicken",
+      "ingredientId": "chicken-thigh",
+      "label": "Diced chicken thigh",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "280 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "420 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "560 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "spring-onion",
+      "ingredientId": "spring-onion",
+      "label": "Spring onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "red-chilli",
+      "ingredientId": "red-chilli",
+      "label": "Red chilli",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¾"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "lime",
+      "ingredientId": "lime",
+      "label": "Lime",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "broccoli",
+      "ingredientId": "broccoli",
+      "label": "Broccoli heads",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "½"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "bell-pepper",
+      "ingredientId": "bell-pepper",
+      "label": "Bell pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "sauce-water",
+      "ingredientId": "water",
+      "label": "Water for the sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "75 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "100 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "150 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "egg-noodles",
+      "ingredientId": "egg-noodles",
+      "label": "Egg noodle nests",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 nests"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 nests"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 nests"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ketjap-manis",
+      "ingredientId": "ketjap-manis",
+      "label": "Ketjap manis",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "soy-sauce",
+      "ingredientId": "soy-sauce",
+      "label": "Soy sauce",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "25 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "25 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "50 ml"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "peanut-butter",
+      "ingredientId": "peanut-butter",
+      "label": "Peanut butter",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 sachet"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2 sachets"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 sachets"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "noodle-water",
+      "ingredientId": "water",
+      "label": "Water for boiling the noodles",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "noodle-salt",
+      "ingredientId": "salt",
+      "label": "Salt for the noodles",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "¼ tsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "¼ tsp"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Fry the chicken",
+      "blocks": [
+        "Boil a full kettle. Heat a drizzle of oil in a large frying pan over medium-high and fry the chicken for 8–10 minutes until browned and cooked through. Meanwhile, peel and grate or press the garlic. Trim and thinly slice the spring onion. Deseed and finely chop the chilli."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the chicken",
+          "seconds": [
+            480,
+            600
+          ]
+        }
+      ],
+      "image": {
+        "id": "peanut-chicken-broccoli-noodles-1-sketch",
+        "path": "media/peanut-chicken-broccoli-noodles-1-sketch.webp",
+        "alt": "Fry the chicken",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Finish the prep",
+      "blocks": [
+        "Zest and wedge the lime. Cut the broccoli into florets and halve them. Deseed the pepper and slice into strips. Transfer the cooked chicken to a bowl and cover with foil. Keep the pan for the vegetables."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "peanut-chicken-broccoli-noodles-2-sketch",
+        "path": "media/peanut-chicken-broccoli-noodles-2-sketch.webp",
+        "alt": "Finish the prep",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Cook the noodles",
+      "blocks": [
+        "Measure {{sauce-water}} boiling water into a jug for the sauce. Put the rest of the kettle water in a large saucepan over high heat. Add {{noodle-salt}} salt and the noodles, return to the boil and cook for 4 minutes. Drain and rinse under cold water."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Cook the noodles",
+          "seconds": [
+            240
+          ]
+        }
+      ],
+      "image": {
+        "id": "peanut-chicken-broccoli-noodles-3-sketch",
+        "path": "media/peanut-chicken-broccoli-noodles-3-sketch.webp",
+        "alt": "Cook the noodles",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Stir-fry the vegetables",
+      "blocks": [
+        "Return the frying pan to high heat with a little more oil if needed. Fry the broccoli and pepper for 2–3 minutes. Stir in the garlic and up to half the chilli for 30 seconds, then add a splash of water, cover and cook for 1–3 minutes until tender."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Stir-fry the vegetables",
+          "seconds": [
+            120,
+            180
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Steam until tender",
+          "seconds": [
+            60,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "peanut-chicken-broccoli-noodles-4-sketch",
+        "path": "media/peanut-chicken-broccoli-noodles-4-sketch.webp",
+        "alt": "Stir-fry the vegetables",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Add the peanut sauce",
+      "blocks": [
+        "Whisk the ketjap manis, soy sauce and peanut butter into the measured hot water. Add the chicken, noodles and sauce to the vegetables. Toss for 2–3 minutes until piping hot."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Finish the stir-fry",
+          "seconds": [
+            120,
+            180
+          ]
+        }
+      ],
+      "image": {
+        "id": "peanut-chicken-broccoli-noodles-5-sketch",
+        "path": "media/peanut-chicken-broccoli-noodles-5-sketch.webp",
+        "alt": "Add the peanut sauce",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Serve",
+      "blocks": [
+        "Divide between bowls. Garnish with lime zest, spring onion and any remaining chilli to taste. Serve with the lime wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "peanut-chicken-broccoli-noodles-6-sketch",
+        "path": "media/peanut-chicken-broccoli-noodles-6-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "swap-chicken-breast",
+      "label": "Swap to diced chicken breast",
+      "ingredients": [
+        {
+          "id": "chicken",
+          "ingredientId": "chicken-breast",
+          "label": "Diced chicken breast",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "280 g"
+            },
+            "3": {
+              "status": "printed",
+              "text": "420 g"
+            },
+            "4": {
+              "status": "printed",
+              "text": "560 g"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "garlic",
+          "ingredientId": "garlic",
+          "label": "Garlic cloves",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "spring-onion",
+          "ingredientId": "spring-onion",
+          "label": "Spring onions",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "red-chilli",
+          "ingredientId": "red-chilli",
+          "label": "Red chilli",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "½"
+            },
+            "3": {
+              "status": "printed",
+              "text": "¾"
+            },
+            "4": {
+              "status": "printed",
+              "text": "1"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "lime",
+          "ingredientId": "lime",
+          "label": "Lime",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "½"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1"
+            },
+            "4": {
+              "status": "printed",
+              "text": "1"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "broccoli",
+          "ingredientId": "broccoli",
+          "label": "Broccoli heads",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "½"
+            },
+            "3": {
+              "status": "printed",
+              "text": "1"
+            },
+            "4": {
+              "status": "printed",
+              "text": "1"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "bell-pepper",
+          "ingredientId": "bell-pepper",
+          "label": "Bell pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "sauce-water",
+          "ingredientId": "water",
+          "label": "Water for the sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "75 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "100 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "150 ml"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "egg-noodles",
+          "ingredientId": "egg-noodles",
+          "label": "Egg noodle nests",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2 nests"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3 nests"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4 nests"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "ketjap-manis",
+          "ingredientId": "ketjap-manis",
+          "label": "Ketjap manis",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "2 sachets"
+            },
+            "3": {
+              "status": "printed",
+              "text": "3 sachets"
+            },
+            "4": {
+              "status": "printed",
+              "text": "4 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "soy-sauce",
+          "ingredientId": "soy-sauce",
+          "label": "Soy sauce",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "25 ml"
+            },
+            "3": {
+              "status": "printed",
+              "text": "25 ml"
+            },
+            "4": {
+              "status": "printed",
+              "text": "50 ml"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "peanut-butter",
+          "ingredientId": "peanut-butter",
+          "label": "Peanut butter",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "1 sachet"
+            },
+            "3": {
+              "status": "printed",
+              "text": "2 sachets"
+            },
+            "4": {
+              "status": "printed",
+              "text": "2 sachets"
+            }
+          },
+          "group": "box",
+          "optional": false
+        },
+        {
+          "id": "noodle-water",
+          "ingredientId": "water",
+          "label": "Water for boiling the noodles",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "noodle-salt",
+          "ingredientId": "salt",
+          "label": "Salt for the noodles",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "¼ tsp"
+            },
+            "3": {
+              "status": "printed",
+              "text": "¼ tsp"
+            },
+            "4": {
+              "status": "printed",
+              "text": "¼ tsp"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "neutral-oil",
+          "ingredientId": "neutral-oil",
+          "label": "Cooking oil",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "salt",
+          "ingredientId": "salt",
+          "label": "Salt",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        },
+        {
+          "id": "black-pepper",
+          "ingredientId": "black-pepper",
+          "label": "Black pepper",
+          "quantities": {
+            "2": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "3": {
+              "status": "printed",
+              "text": "As needed"
+            },
+            "4": {
+              "status": "printed",
+              "text": "As needed"
+            }
+          },
+          "group": "bring",
+          "optional": false
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "id": "step-1",
+          "heading": "Fry the chicken",
+          "blocks": [
+            "Boil a full kettle. Heat a drizzle of oil in a large frying pan over medium-high and fry the chicken for 8–10 minutes until browned and cooked through. Meanwhile, peel and grate or press the garlic. Trim and thinly slice the spring onion. Deseed and finely chop the chilli."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Fry the chicken",
+              "seconds": [
+                480,
+                600
+              ]
+            }
+          ],
+          "image": {
+            "id": "peanut-chicken-broccoli-noodles-1-sketch",
+            "path": "media/peanut-chicken-broccoli-noodles-1-sketch.webp",
+            "alt": "Fry the chicken",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 2,
+          "id": "step-2",
+          "heading": "Finish the prep",
+          "blocks": [
+            "Zest and wedge the lime. Cut the broccoli into florets and halve them. Deseed the pepper and slice into strips. Transfer the cooked chicken to a bowl and cover with foil. Keep the pan for the vegetables."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "peanut-chicken-broccoli-noodles-2-sketch",
+            "path": "media/peanut-chicken-broccoli-noodles-2-sketch.webp",
+            "alt": "Finish the prep",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 3,
+          "id": "step-3",
+          "heading": "Cook the noodles",
+          "blocks": [
+            "Measure {{sauce-water}} boiling water into a jug for the sauce. Put the rest of the kettle water in a large saucepan over high heat. Add {{noodle-salt}} salt and the noodles, return to the boil and cook for 4 minutes. Drain and rinse under cold water."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Cook the noodles",
+              "seconds": [
+                240
+              ]
+            }
+          ],
+          "image": {
+            "id": "peanut-chicken-broccoli-noodles-3-sketch",
+            "path": "media/peanut-chicken-broccoli-noodles-3-sketch.webp",
+            "alt": "Cook the noodles",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 4,
+          "id": "step-4",
+          "heading": "Stir-fry the vegetables",
+          "blocks": [
+            "Return the frying pan to high heat with a little more oil if needed. Fry the broccoli and pepper for 2–3 minutes. Stir in the garlic and up to half the chilli for 30 seconds, then add a splash of water, cover and cook for 1–3 minutes until tender."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Stir-fry the vegetables",
+              "seconds": [
+                120,
+                180
+              ]
+            },
+            {
+              "id": "timer-2",
+              "label": "Steam until tender",
+              "seconds": [
+                60,
+                180
+              ]
+            }
+          ],
+          "image": {
+            "id": "peanut-chicken-broccoli-noodles-4-sketch",
+            "path": "media/peanut-chicken-broccoli-noodles-4-sketch.webp",
+            "alt": "Stir-fry the vegetables",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 5,
+          "id": "step-5",
+          "heading": "Add the peanut sauce",
+          "blocks": [
+            "Whisk the ketjap manis, soy sauce and peanut butter into the measured hot water. Add the chicken, noodles and sauce to the vegetables. Toss for 2–3 minutes until piping hot."
+          ],
+          "notes": [],
+          "timers": [
+            {
+              "id": "timer-1",
+              "label": "Finish the stir-fry",
+              "seconds": [
+                120,
+                180
+              ]
+            }
+          ],
+          "image": {
+            "id": "peanut-chicken-broccoli-noodles-5-sketch",
+            "path": "media/peanut-chicken-broccoli-noodles-5-sketch.webp",
+            "alt": "Add the peanut sauce",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        },
+        {
+          "number": 6,
+          "id": "step-6",
+          "heading": "Serve",
+          "blocks": [
+            "Divide between bowls. Garnish with lime zest, spring onion and any remaining chilli to taste. Serve with the lime wedges."
+          ],
+          "notes": [],
+          "timers": [],
+          "image": {
+            "id": "peanut-chicken-broccoli-noodles-6-sketch",
+            "path": "media/peanut-chicken-broccoli-noodles-6-sketch.webp",
+            "alt": "Serve",
+            "width": 640,
+            "height": 480,
+            "credit": "Illustration based on the printed recipe card"
+          }
+        }
+      ]
+    }
+  ]
+}

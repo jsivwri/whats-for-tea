@@ -39,9 +39,27 @@
     "edition": "R-15105"
   },
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 8,
+      "maxMinutes": 12,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Toast almonds, brown chicken, soften onion, then simmer rice and chicken and warm the peas."
+    },
+    "cook": {
+      "minMinutes": 26,
+      "maxMinutes": 32,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Toast almonds, brown chicken, soften onion, then simmer rice and chicken and warm the peas."
+    },
+    "total": {
+      "minMinutes": 33,
+      "maxMinutes": 42,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Toast almonds, brown chicken, soften onion, then simmer rice and chicken and warm the peas."
+    },
     "card": {
       "minMinutes": 30,
       "maxMinutes": 40,
@@ -58,8 +76,8 @@
     "id": "chicken-korma-pilaf",
     "path": "media/chicken-korma-pilaf.webp",
     "width": 1120,
-    "height": 885,
-    "alt": "",
+    "height": 555,
+    "alt": "Creamy korma chicken and pea pilaf topped with toasted almonds",
     "credit": "Gousto recipe card",
     "sizes": [
       {
@@ -650,5 +668,6 @@
         "credit": "Illustration based on the Gousto recipe card"
       }
     }
-  ]
+  ],
+  "seasons": []
 }

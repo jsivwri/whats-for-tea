@@ -18,9 +18,27 @@
   ],
   "tagSource": "reviewed",
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 6,
+      "maxMinutes": 10,
+      "estimated": true,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Chop chips and carrots, then roast them while charring pineapple, frying gammon and making the glaze."
+    },
+    "cook": {
+      "minMinutes": 26,
+      "maxMinutes": 32,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Chop chips and carrots, then roast them while charring pineapple, frying gammon and making the glaze."
+    },
+    "total": {
+      "minMinutes": 32,
+      "maxMinutes": 38,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Chop chips and carrots, then roast them while charring pineapple, frying gammon and making the glaze."
+    },
     "card": {
       "minMinutes": 30,
       "maxMinutes": 35,
@@ -288,7 +306,9 @@
       "blocks": [
         "Heat the oven to 220°C / 200°C fan / gas mark 7. Cut unpeeled potatoes into 1 cm chips. Toss with oil, salt and pepper and spread on a tray in a single layer. Bake on the top shelf for 25–30 minutes until golden, turning halfway."
       ],
-      "notes": [],
+      "notes": [
+        "Use two baking trays if needed to spread the chips in a single layer."
+      ],
       "timers": [
         {
           "id": "timer-1",
@@ -403,7 +423,9 @@
       "blocks": [
         "Clean the pan again and return to high heat. Simmer honey and pineapple juice for 3–4 minutes until syrupy. Stir in mustard and {{glaze-butter}} butter until melted, then remove from the heat."
       ],
-      "notes": [],
+      "notes": [
+        "If the honey has hardened, put the sachet in hot water for 1 minute to loosen it."
+      ],
       "timers": [
         {
           "id": "timer-1",
@@ -446,9 +468,9 @@
   "hero": {
     "id": "gammon-charred-pineapple-hero",
     "path": "media/gammon-charred-pineapple.webp",
-    "width": 960,
-    "height": 531,
-    "alt": "Pan-Fried Gammon and Charred Pineapple Rings with Chips, Sticky Honey-Mustard Glaze and Roasted Veg",
+    "width": 1120,
+    "height": 790,
+    "alt": "Charred pineapple and gammon with golden chips and roasted vegetables",
     "credit": "HelloFresh recipe card",
     "sizes": [
       {
@@ -456,5 +478,8 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Summer"
+  ]
 }

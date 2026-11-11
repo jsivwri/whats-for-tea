@@ -40,9 +40,27 @@
     "edition": "2026-W37 · Card 24"
   },
   "timings": {
-    "prep": null,
-    "cook": null,
-    "total": null,
+    "prep": {
+      "minMinutes": 12,
+      "maxMinutes": 18,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Prepare vegetables, raita, and garlic butter for the naan during cooking",
+      "estimated": true
+    },
+    "cook": {
+      "minMinutes": 25,
+      "maxMinutes": 30,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Steam rice while bringing the curry to a boil and simmering it, then warm the naans",
+      "estimated": true
+    },
+    "total": {
+      "minMinutes": 40,
+      "maxMinutes": 50,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Allow for initial prep, simultaneous rice and curry stages, and finishing the sides",
+      "estimated": true
+    },
     "card": {
       "minMinutes": 40,
       "maxMinutes": 45,
@@ -59,8 +77,8 @@
     "id": "ultimate-chicken-tikka",
     "path": "media/ultimate-chicken-tikka.webp",
     "width": 1120,
-    "height": 776,
-    "alt": "",
+    "height": 684,
+    "alt": "Chicken tikka with basmati rice, garlic naan, cucumber and tomato salad, and mango chutney",
     "credit": "HelloFresh recipe card",
     "sizes": [
       {
@@ -726,5 +744,6 @@
         "credit": "Illustration based on the HelloFresh recipe card"
       }
     }
-  ]
+  ],
+  "seasons": []
 }

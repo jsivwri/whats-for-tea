@@ -41,13 +41,31 @@
     "url": "https://www.hellofresh.co.uk/recipes/mediterranean-style-chicken-and-creamy-pesto-orzo-69f21377d52e296f6a387fb7"
   },
   "timings": {
-    "prep": null,
-    "cook": null,
+    "prep": {
+      "minMinutes": 5,
+      "maxMinutes": 8,
+      "sourceLabel": "Estimated prep time",
+      "provenance": "Trim and chop the leek, carrot and spring onion while the chicken starts to cook",
+      "estimated": true
+    },
+    "cook": {
+      "minMinutes": 17,
+      "maxMinutes": 22,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "The chicken sear and roast overlap the vegetable and orzo stages, followed by resting and finishing the sauce",
+      "estimated": true
+    },
     "total": {
       "minMinutes": 25,
       "maxMinutes": 25,
       "sourceLabel": "25 Minutes",
       "provenance": "Same-edition HelloFresh recipe page labels this Total"
+    },
+    "card": {
+      "minMinutes": 25,
+      "maxMinutes": 25,
+      "sourceLabel": "25 Minutes",
+      "provenance": "Printed card cover"
     }
   },
   "servings": [
@@ -59,8 +77,8 @@
     "id": "pesto-orzo",
     "path": "media/pesto-orzo.webp",
     "width": 1120,
-    "height": 717,
-    "alt": "",
+    "height": 727,
+    "alt": "Sliced roast chicken over creamy pesto orzo in two bowls",
     "credit": "HelloFresh recipe card",
     "sizes": [
       {
@@ -536,5 +554,9 @@
         "credit": "Illustration based on the HelloFresh recipe card"
       }
     }
+  ],
+  "seasons": [
+    "Spring",
+    "Summer"
   ]
 }

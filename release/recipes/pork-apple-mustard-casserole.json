@@ -24,8 +24,20 @@
       "sourceLabel": "Prepped in 5",
       "provenance": "Printed on the card"
     },
-    "cook": null,
-    "total": null,
+    "cook": {
+      "minMinutes": 60,
+      "maxMinutes": 65,
+      "estimated": true,
+      "sourceLabel": "Estimated cook time",
+      "provenance": "Brown pork and vegetables, bake casserole and finish with mustard and cream"
+    },
+    "total": {
+      "minMinutes": 65,
+      "maxMinutes": 70,
+      "estimated": true,
+      "sourceLabel": "Estimated total time",
+      "provenance": "Brown pork and vegetables, bake casserole and finish with mustard and cream"
+    },
     "card": {
       "minMinutes": 65,
       "maxMinutes": 70,
@@ -534,8 +546,8 @@
   "hero": {
     "id": "pork-apple-mustard-casserole-hero",
     "path": "media/pork-apple-mustard-casserole.webp",
-    "width": 684,
-    "height": 657,
+    "width": 1120,
+    "height": 468,
     "alt": "Creamy Pork, Apple & Mustard Casserole",
     "credit": "Gousto recipe card",
     "sizes": [
@@ -544,5 +556,9 @@
         "width": 480
       }
     ]
-  }
+  },
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ]
 }

@@ -90,6 +90,7 @@ export function RecipePage({ recipe, catalogue, data, setData, tools, saved, onS
       <div className="recipe-hero-copy"><span className="eyebrow"><span className="short-rule" /> {recipe.provider} {recipe.source.edition && `· ${recipe.source.edition}`}</span>
         <h1>{recipe.title}</h1>{recipe.subtitle && <p className="recipe-subtitle">{recipe.subtitle}</p>}
         {recipe.description && <p>{recipe.description}</p>}
+        {!!recipe.seasons?.length && <p className="season-labels">{recipe.seasons.join(' · ')}</p>}
         <div className="timing-row">{(['prep', 'cook', 'total'] as TimeKey[]).map(key => <div key={key}><small>{timeLabels[key]}</small><strong>{recipe.timings[key] ? timeText(recipe.timings[key]!) : 'Unknown'}</strong></div>)}
           {recipe.timings.card && <div><small>Card time</small><strong>{timeText(recipe.timings.card)}</strong></div>}</div>
         <div className="recipe-actions">

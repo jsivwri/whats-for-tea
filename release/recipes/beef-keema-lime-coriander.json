@@ -1,0 +1,616 @@
+{
+  "id": "beef-keema-lime-coriander",
+  "slug": "beef-keema-lime-coriander",
+  "title": "Beef Keema with Lime and Coriander",
+  "aliases": [],
+  "provider": "Gousto",
+  "source": {
+    "label": "Gousto",
+    "edition": "Card R-11606"
+  },
+  "added": "2026-11-10",
+  "hero": {
+    "id": "beef-keema-lime-coriander",
+    "path": "media/beef-keema-lime-coriander.webp",
+    "width": 1025,
+    "height": 700,
+    "alt": "Beef Keema with Lime and Coriander",
+    "credit": "Gousto recipe card",
+    "sizes": [
+      {
+        "path": "media/beef-keema-lime-coriander-thumb.webp",
+        "width": 480
+      }
+    ]
+  },
+  "themes": [
+    "Family favourites"
+  ],
+  "seasons": [
+    "Autumn",
+    "Winter"
+  ],
+  "timings": {
+    "prep": {
+      "sourceLabel": "Estimated prep time",
+      "minMinutes": 6,
+      "maxMinutes": 10,
+      "provenance": "Prep time based on the card where stated, or on the chopping and measuring required.",
+      "estimated": true
+    },
+    "cook": {
+      "sourceLabel": "Estimated cook time",
+      "minMinutes": 18,
+      "maxMinutes": 23,
+      "provenance": "Cook time based on the printed method, allowing for tasks in parallel.",
+      "estimated": true
+    },
+    "total": {
+      "sourceLabel": "Estimated total time",
+      "minMinutes": 22,
+      "maxMinutes": 33,
+      "provenance": "Elapsed time includes preparation, cooking and serving.",
+      "estimated": true
+    },
+    "card": {
+      "sourceLabel": "20–35 min",
+      "minMinutes": 20,
+      "maxMinutes": 35,
+      "provenance": "Printed card cover"
+    }
+  },
+  "servings": [
+    2,
+    3,
+    4
+  ],
+  "defaultServings": 2,
+  "equipment": [
+    "Wide frying pan with lid",
+    "Wooden spoon",
+    "Fine grater"
+  ],
+  "before": [],
+  "allergens": [],
+  "cautions": [
+    "Check the ingredient packaging for allergens and cross-contact.",
+    "Wash hands and utensils after handling raw mince."
+  ],
+  "ingredients": [
+    {
+      "id": "beef-mince",
+      "ingredientId": "beef-mince",
+      "label": "Beef mince",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "250 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "375 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "500 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "beef-stock-mix",
+      "ingredientId": "beef-stock-mix",
+      "label": "Beef stock mix",
+      "quantities": {
+        "2": {
+          "status": "unused"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "unused"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "intense-beef-stock-mix",
+      "ingredientId": "intense-beef-stock-mix",
+      "label": "Intense beef stock mix",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "5.5 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "11 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "onion",
+      "ingredientId": "onion",
+      "label": "Brown onions",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "2"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "carrot",
+      "ingredientId": "carrot",
+      "label": "Carrots",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "coriander",
+      "ingredientId": "coriander",
+      "label": "Coriander",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "10 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "10 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "curry-powder",
+      "ingredientId": "curry-powder",
+      "label": "Curry powder",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1 tbsp"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1½ tbsp"
+        },
+        "4": {
+          "status": "printed",
+          "text": "2 tbsp"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "ginger",
+      "ingredientId": "ginger",
+      "label": "Fresh root ginger",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "15 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "30 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "garlic",
+      "ingredientId": "garlic",
+      "label": "Garlic cloves",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "2"
+        },
+        "3": {
+          "status": "printed",
+          "text": "3"
+        },
+        "4": {
+          "status": "printed",
+          "text": "4"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "lime",
+      "ingredientId": "lime",
+      "label": "Lime",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "1"
+        },
+        "3": {
+          "status": "printed",
+          "text": "1"
+        },
+        "4": {
+          "status": "printed",
+          "text": "1"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "tomato-paste",
+      "ingredientId": "tomato-paste",
+      "label": "Tomato paste",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "32 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "48 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "64 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "basmati-rice",
+      "ingredientId": "basmati-rice",
+      "label": "White basmati rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "130 g"
+        },
+        "3": {
+          "status": "printed",
+          "text": "195 g"
+        },
+        "4": {
+          "status": "printed",
+          "text": "260 g"
+        }
+      },
+      "group": "box",
+      "optional": false
+    },
+    {
+      "id": "rice-water",
+      "ingredientId": "water",
+      "label": "Cold water for the rice",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "300 ml"
+        },
+        "3": {
+          "status": "printed",
+          "text": "390 ml"
+        },
+        "4": {
+          "status": "printed",
+          "text": "600 ml"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "sugar",
+      "ingredientId": "sugar",
+      "label": "Sugar",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "neutral-oil",
+      "ingredientId": "neutral-oil",
+      "label": "Cooking oil",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "salt",
+      "ingredientId": "salt",
+      "label": "Salt",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    },
+    {
+      "id": "black-pepper",
+      "ingredientId": "black-pepper",
+      "label": "Black pepper",
+      "quantities": {
+        "2": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "3": {
+          "status": "printed",
+          "text": "As needed"
+        },
+        "4": {
+          "status": "printed",
+          "text": "As needed"
+        }
+      },
+      "group": "bring",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "id": "step-1",
+      "heading": "Brown the onions and beef",
+      "blocks": [
+        "Peel and finely slice the onion. Heat a drizzle of oil in a wide pan with a matching lid over medium-high heat. Add the onion with a pinch of salt and sugar and fry for about 3 minutes until it starts to soften. Increase the heat to high and fry the beef mince for another 4–5 minutes, breaking it up with a wooden spoon."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Soften the onion",
+          "seconds": [
+            180
+          ]
+        },
+        {
+          "id": "timer-2",
+          "label": "Brown the beef",
+          "seconds": [
+            240,
+            300
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-keema-lime-coriander-1-sketch",
+        "path": "media/beef-keema-lime-coriander-1-sketch.webp",
+        "alt": "Brown the onions and beef",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 2,
+      "id": "step-2",
+      "heading": "Prepare the carrots and aromatics",
+      "blocks": [
+        "Trim, peel and chop the carrots into small bites. Peel and grate or finely chop the ginger and garlic."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "beef-keema-lime-coriander-2-sketch",
+        "path": "media/beef-keema-lime-coriander-2-sketch.webp",
+        "alt": "Prepare the carrots and aromatics",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 3,
+      "id": "step-3",
+      "heading": "Add the carrots and aromatics",
+      "blocks": [
+        "Stir the carrots, ginger and garlic into the beef and cook for 1 minute."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Fry the carrots and aromatics",
+          "seconds": [
+            60
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-keema-lime-coriander-3-sketch",
+        "path": "media/beef-keema-lime-coriander-3-sketch.webp",
+        "alt": "Add the carrots and aromatics",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 4,
+      "id": "step-4",
+      "heading": "Season the mince",
+      "blocks": [
+        "Stir in the stock mix listed for your serving size, the tomato paste and the curry powder."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "beef-keema-lime-coriander-4-sketch",
+        "path": "media/beef-keema-lime-coriander-4-sketch.webp",
+        "alt": "Season the mince",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 5,
+      "id": "step-5",
+      "heading": "Add the rice",
+      "blocks": [
+        "Stir the basmati rice into the pan."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "beef-keema-lime-coriander-5-sketch",
+        "path": "media/beef-keema-lime-coriander-5-sketch.webp",
+        "alt": "Add the rice",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 6,
+      "id": "step-6",
+      "heading": "Simmer",
+      "blocks": [
+        "Add {{rice-water}} cold water and bring to a boil over high heat. Reduce to very low, cover and cook for 10–12 minutes until the water is absorbed and the rice and mince are cooked through. Stir occasionally to prevent sticking. Add a splash of water if it looks dry."
+      ],
+      "notes": [],
+      "timers": [
+        {
+          "id": "timer-1",
+          "label": "Simmer the rice and mince",
+          "seconds": [
+            600,
+            720
+          ]
+        }
+      ],
+      "image": {
+        "id": "beef-keema-lime-coriander-6-sketch",
+        "path": "media/beef-keema-lime-coriander-6-sketch.webp",
+        "alt": "Simmer",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 7,
+      "id": "step-7",
+      "heading": "Finish with lime and coriander",
+      "blocks": [
+        "Finely chop the coriander, including the stalks, saving some leaves. Stir the chopped coriander and the juice of half the lime into the rice. Taste and adjust the seasoning. Cut the remaining lime into one wedge per serving."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "beef-keema-lime-coriander-7-sketch",
+        "path": "media/beef-keema-lime-coriander-7-sketch.webp",
+        "alt": "Finish with lime and coriander",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    },
+    {
+      "number": 8,
+      "id": "step-8",
+      "heading": "Serve",
+      "blocks": [
+        "Divide the keema between bowls, scatter with the reserved coriander leaves and serve with lime wedges."
+      ],
+      "notes": [],
+      "timers": [],
+      "image": {
+        "id": "beef-keema-lime-coriander-8-sketch",
+        "path": "media/beef-keema-lime-coriander-8-sketch.webp",
+        "alt": "Serve",
+        "width": 640,
+        "height": 480,
+        "credit": "Illustration based on the printed recipe card"
+      }
+    }
+  ],
+  "variants": []
+}

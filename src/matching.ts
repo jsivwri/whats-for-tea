@@ -54,16 +54,32 @@ export function ingredientTools(dictionary: Dictionary) {
     for (let cursor: string | undefined = item; cursor; cursor = byId.get(cursor)?.family) if (cursor === ancestor) return true
     return false
   }
-  function suggest(raw: string) {
-    const key = normalise(stripAmount(raw))
-    const direct = names.get(key)
-    if (direct || !key) return direct || []
+  function rankNames(scoreOf: (name: string) => number) {
     const ranked = new Map<string, number>()
     for (const [name, ids] of names) {
-      const score = name.startsWith(key) ? 0 : key.length >= 4 && Math.abs(name.length - key.length) <= 2 && distance(name, key) <= (key.length > 7 ? 2 : 1) ? 1 : Infinity
+      const score = scoreOf(name)
       if (Number.isFinite(score)) for (const id of ids) ranked.set(id, Math.min(score, ranked.get(id) ?? Infinity))
     }
-    return [...ranked].sort(([a, x], [b, y]) => x - y || label(a).localeCompare(label(b))).slice(0, 3).map(([id]) => id)
+    return [...ranked].sort(([a, x], [b, y]) => x - y || label(a).localeCompare(label(b))).map(([id]) => id)
+  }
+  function search(raw: string) {
+    const key = normalise(raw)
+    if (!key) return []
+    return rankNames(name => {
+      if (name === key) return 0
+      if (name.startsWith(key)) return 1
+      if (name.includes(' ' + key)) return 2
+      return name.includes(key) ? 3 : Infinity
+    })
+  }
+  function suggest(raw: string) {
+    const query = normalise(raw)
+    const key = normalise(stripAmount(raw))
+    const literal = search(query)
+    if (literal.length) return literal
+    const matches = key === query ? literal : search(key)
+    if (matches.length || key.length < 4) return matches
+    return rankNames(name => Math.abs(name.length - key.length) <= 2 && distance(name, key) <= (key.length > 7 ? 2 : 1) ? 0 : Infinity).slice(0, 3)
   }
   function parse(raw: string) {
     const ids = new Set<string>()
@@ -92,7 +108,7 @@ export function ingredientTools(dictionary: Dictionary) {
     for (const part of rest.split(/[,;\n]+/)) resolve(part.replace(/\u0001(\d+)\u0002/g, (_, i) => protectedPhrases[Number(i)]))
     return { ids: [...ids], pending }
   }
-  return { byId, label, within, suggest, parse }
+  return { byId, label, within, search, suggest, parse }
 }
 
 type Tools = ReturnType<typeof ingredientTools>

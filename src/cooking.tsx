@@ -4,7 +4,7 @@ import type { IngredientLine, Recipe, Step, TimeKey } from '../schema/v1.ts'
 import { matchRequirements, timeText } from './matching.ts'
 import { formatAmount, servingOptions, textAt, usable } from './portions.ts'
 import type { Session, UserData } from './state.ts'
-import { Empty, Panel, Photo, cookLink, recipeLink, type IngredientTools } from './ui.tsx'
+import { Empty, Panel, Photo, RecipeTags, cookLink, recipeLink, type IngredientTools } from './ui.tsx'
 import { timeLabels, type LibraryProps } from './discover.tsx'
 
 type CookingProps = LibraryProps & { recipe: Recipe; data: UserData; setData: Dispatch<SetStateAction<UserData>>; basics: string[] }
@@ -90,7 +90,6 @@ export function RecipePage({ recipe, catalogue, data, setData, tools, saved, onS
       <div className="recipe-hero-copy"><span className="eyebrow"><span className="short-rule" /> {recipe.provider} {recipe.source.edition && `· ${recipe.source.edition}`}</span>
         <h1>{recipe.title}</h1>{recipe.subtitle && <p className="recipe-subtitle">{recipe.subtitle}</p>}
         {recipe.description && <p>{recipe.description}</p>}
-        {!!recipe.seasons?.length && <p className="season-labels">{recipe.seasons.join(' · ')}</p>}
         <div className="timing-row">{(['prep', 'cook', 'total'] as TimeKey[]).map(key => <div key={key}><small>{timeLabels[key]}</small><strong>{recipe.timings[key] ? timeText(recipe.timings[key]!) : 'Unknown'}</strong></div>)}
           {recipe.timings.card && <div><small>Card time</small><strong>{timeText(recipe.timings.card)}</strong></div>}</div>
         <div className="recipe-actions">
@@ -118,6 +117,7 @@ export function RecipePage({ recipe, catalogue, data, setData, tools, saved, onS
           <h3>In the box</h3><IngredientList lines={lines.filter(line => line.group === 'box')} servings={servings} />
           {lines.some(line => line.group === 'bring') && <><h3>Bring your own</h3><IngredientList lines={lines.filter(line => line.group === 'bring')} servings={servings} /></>}
         </>}
+        {(recipe.seasons?.length || recipe.themes.length) ? <div className="recipe-note"><h3>Tags</h3><RecipeTags recipe={recipe} /></div> : null}
         {recipe.equipment.length > 0 && <div className="recipe-note"><h3>Equipment</h3><p>{recipe.equipment.join(', ')}</p></div>}
         {(recipe.allergens.length > 0 || recipe.cautions.length > 0) && <div className="recipe-note"><h3>Allergens and cautions</h3>
           {recipe.allergens.length > 0 && <p><strong>{recipe.allergens.join(', ')}</strong></p>}

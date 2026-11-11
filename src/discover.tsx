@@ -1,10 +1,10 @@
 import { useMemo, useState, type Dispatch, type SetStateAction } from 'react'
-import { ArrowRight, BookOpen, ChevronDown, Clock3, Flame, Grid2X2, List, Search, SlidersHorizontal, Sparkles, Timer, X } from 'lucide-react'
+import { ArrowRight, BookOpen, CalendarDays, ChevronDown, Clock3, Flame, Grid2X2, List, Search, SlidersHorizontal, Sparkles, Timer, X } from 'lucide-react'
 import { seasons, type Summary, type TimeKey } from '../schema/v1.ts'
 import type { Catalogue } from './catalogue.ts'
 import { browse, emptyFilters, shortlist, timeText, type Filters, type PantryItem } from './matching.ts'
 import type { Session } from './state.ts'
-import { Card, Empty, Panel, PantryField, Photo, ResultCount, ShowMore, cookLink, plural, recipeLink, titleOf, type IngredientTools } from './ui.tsx'
+import { Card, Empty, Panel, PantryField, Photo, RecipeTags, ResultCount, ShowMore, cookLink, plural, recipeLink, titleOf, type IngredientTools } from './ui.tsx'
 
 export type LibraryProps = {
   catalogue: Catalogue; tools: IngredientTools; saved: string[]; onSave: (id: string) => void
@@ -32,12 +32,13 @@ function FiltersForm({ filters, setFilters, options, tools }: {
   filters: Filters; setFilters: Dispatch<SetStateAction<Filters>>; options: ReturnType<typeof useOptions>; tools: IngredientTools
 }) {
   const [ingredientQuery, setIngredientQuery] = useState('')
+  const ingredientMatches = new Set(tools.search(ingredientQuery))
   return <div className="filter-groups">
     {facets.map(key => <fieldset key={key}>
       <legend>{facetLabels[key]}</legend>
       {key === 'ingredients' && <input className="small-input" value={ingredientQuery} onChange={event => setIngredientQuery(event.target.value)} aria-label="Find an ingredient filter" placeholder="Find ingredient…" />}
       <div className={key === 'ingredients' ? 'facet-options ingredient-options' : 'facet-options'}>
-        {options[key].filter(value => key !== 'ingredients' || tools.label(value).toLowerCase().includes(ingredientQuery.toLowerCase())).map(value =>
+        {options[key].filter(value => key !== 'ingredients' || !ingredientQuery.trim() || ingredientMatches.has(value)).map(value =>
           <label className="check-label" key={value}><input type="checkbox" checked={filters[key].includes(value)}
             onChange={() => setFilters(f => ({ ...f, [key]: f[key].includes(value) ? f[key].filter(v => v !== value) : [...f[key], value] }))} />
             {key === 'ingredients' ? tools.label(value) : value}</label>)}
@@ -105,16 +106,19 @@ export function Browse({ catalogue, tools, saved, onSave, filters, setFilters, m
 }
 
 function Shortcuts({ filters, setFilters, themes }: { filters: Filters; setFilters: Dispatch<SetStateAction<Filters>>; themes: string[] }) {
-  const [choose, setChoose] = useState(false)
+  const [choose, setChoose] = useState<'themes' | 'seasons' | null>(null)
+  const title = choose === 'themes' ? 'Pick a theme' : 'Pick a season'
   return <>
     <div className="shortcuts" aria-label="Dinner shortcuts">
       <button className="shortcut" aria-pressed={filters.time.total === 30} onClick={() => setFilters(f => ({ ...f, time: { ...f.time, total: f.time.total === 30 ? undefined : 30 } }))}><Clock3 size={17} /> Ready in 30 min</button>
       <button className="shortcut" aria-pressed={filters.time.prep === 15} onClick={() => setFilters(f => ({ ...f, time: { ...f.time, prep: f.time.prep === 15 ? undefined : 15 } }))}><Flame size={17} /> Low prep</button>
-      <button className="shortcut" aria-pressed={filters.themes.length > 0} onClick={() => setChoose(true)}><Sparkles size={17} /> {filters.themes.length === 1 ? filters.themes[0] : 'Pick a theme'} <ChevronDown size={15} /></button>
+      <button className="shortcut" aria-haspopup="dialog" aria-pressed={filters.themes.length > 0} onClick={() => setChoose('themes')}><Sparkles size={17} /> {filters.themes.length === 1 ? filters.themes[0] : 'Pick a theme'} <ChevronDown size={15} /></button>
+      <button className="shortcut" aria-haspopup="dialog" aria-pressed={filters.seasons.length > 0} onClick={() => setChoose('seasons')}><CalendarDays size={17} /> {filters.seasons.length === 1 ? filters.seasons[0] : filters.seasons.length > 1 ? plural(filters.seasons.length, 'season') : 'Pick a season'} <ChevronDown size={15} /></button>
     </div>
-    {choose && <Panel title="Pick a theme" onClose={() => setChoose(false)}>
-      <div className="theme-choices">{themes.map(theme => <button key={theme} className="button secondary" aria-pressed={filters.themes.includes(theme)} onClick={() => setFilters(f => ({ ...f, themes: f.themes.includes(theme) ? f.themes.filter(t => t !== theme) : [...f.themes, theme] }))}>{theme}</button>)}</div>
-      <div className="filter-footer"><button className="text-button" onClick={() => setFilters(f => ({ ...f, themes: [] }))}>Clear themes</button><button className="button primary" onClick={() => setChoose(false)}>Done</button></div>
+    {choose && <Panel title={title} onClose={() => setChoose(null)}>
+      <div className="theme-choices">{(choose === 'themes' ? themes : seasons).map(value => <button key={value} className="button secondary" aria-pressed={filters[choose].includes(value)}
+        onClick={() => setFilters(f => ({ ...f, [choose]: f[choose].includes(value) ? f[choose].filter(item => item !== value) : [...f[choose], value] }))}>{value}</button>)}</div>
+      <div className="filter-footer"><button className="text-button" onClick={() => setFilters(f => ({ ...f, [choose]: [] }))}>Clear {choose}</button><button className="button primary" onClick={() => setChoose(null)}>Done</button></div>
     </Panel>}
   </>
 }
@@ -135,7 +139,7 @@ function DinnerResults({ catalogue, tools, pantry, basics, filters, setFilters, 
     {pantry.length > 0 && <div className="dinner-explain"><div><p>Matches use the recipe’s default serving size. <strong>Check quantities.</strong></p>
       <details><summary>Cupboard assumptions</summary><p>{basics.length ? basics.map(tools.label).join(', ') : 'Cupboard assumptions are off.'} <a href="#/settings">Edit in Settings</a></p></details></div>
       <label className="check-label"><input type="checkbox" checked={showAll} onChange={event => setShowAll(event.target.checked)} /> Show all matching filters</label></div>}
-    {!hits.length && <Empty title="Nothing fits just yet"><p>{pantry.length ? 'Try adding another ingredient or show dishes without a pantry connection.' : 'Try changing your time or theme choices.'}</p>
+    {!hits.length && <Empty title="Nothing fits just yet"><p>{pantry.length ? 'Try adding another ingredient or show dishes without a pantry connection.' : 'Try changing your shortcuts.'}</p>
       {!showAll && pantry.length > 0 && <button className="button secondary" onClick={() => setShowAll(true)}>Show all matching filters</button>}
       {key && !filters.unknown && <button className="button secondary" onClick={() => setFilters(f => ({ ...f, unknown: true }))}>Include unknown times</button>}
       <button className="text-button" onClick={() => setFilters(emptyFilters)}>Clear dinner shortcuts</button></Empty>}
@@ -151,8 +155,9 @@ function DinnerResults({ catalogue, tools, pantry, basics, filters, setFilters, 
             <details><summary>Shopping gap for {recipe.defaultServings}</summary>
               <p>{match.missing.length ? match.missing.map(tools.label).join(', ') : 'Everything required is covered.'}</p>
               {match.assumed.length > 0 && <p>Assuming {match.assumed.map(tools.label).join(', ')}.</p>}
-            </details></> : <p>{key ? (recipe.timings[key] ? `${timeText(recipe.timings[key]!)} ${key}` : `${timeLabels[key]} time unknown`) : recipe.themes.join(' · ')}</p>}
+            </details></> : key && <p>{recipe.timings[key] ? `${timeText(recipe.timings[key]!)} ${key}` : `${timeLabels[key]} time unknown`}</p>}
           {pantry.length > 0 && key && !recipe.timings[key] && <p className="unknown-time">{timeLabels[key]} time unknown</p>}
+          <RecipeTags recipe={recipe} />
         </div>
         <div className="dinner-actions"><a className="button secondary" href={recipeLink(recipe.slug)}>View recipe <ArrowRight size={17} /></a>
           <button className="text-button" aria-pressed={saved.includes(recipe.id)} onClick={() => onSave(recipe.id)}>{saved.includes(recipe.id) ? 'Saved' : 'Save'}</button></div>
@@ -167,7 +172,7 @@ export function Today(props: DinnerProps & { session: Session | null; browseThem
   const { catalogue, tools, pantry, setPantry, filters, setFilters, saved, onSave, session, browseTheme, basics } = props
   const featured = catalogue.index.find(r => r.slug === 'pesto-orzo') || catalogue.index.find(r => r.hero) || catalogue.index[0]
   const resume = catalogue.index.find(r => r.id === session?.recipeId)
-  const constrained = filters.themes.length > 0 || Object.values(filters.time).some(Boolean) || pantry.length > 0
+  const constrained = filters.themes.length > 0 || filters.seasons.length > 0 || Object.values(filters.time).some(Boolean) || pantry.length > 0
   const [shelf, setShelf] = useState('Recently added')
   const shelfNames = ['Recently added', 'One pan', 'Comfort food'].filter(name => name === 'Recently added' || catalogue.index.some(r => r.themes.includes(name)))
   const shelfRecipes = shelf === 'Recently added' ? catalogue.index : catalogue.index.filter(r => r.themes.includes(shelf))
@@ -206,7 +211,7 @@ export function Pantry(props: DinnerProps) {
       <p className="muted">Add several items at once. Select an ingredient chip to correct it or mark it <strong>Use first</strong>.</p>
       <Shortcuts filters={props.filters} setFilters={props.setFilters} themes={themes} />
     </section>
-    {props.pantry.length || props.filters.themes.length || Object.values(props.filters.time).some(Boolean) ? <DinnerResults {...props} /> :
+    {props.pantry.length || props.filters.themes.length || props.filters.seasons.length || Object.values(props.filters.time).some(Boolean) ? <DinnerResults {...props} /> :
       <Empty title="What’s in the fridge?"><p>Start with an ingredient you want to use up, or pick one of the shortcuts.</p><a href="#/browse" className="button secondary">Browse recipes <ArrowRight size={16} /></a></Empty>}
   </main>
 }

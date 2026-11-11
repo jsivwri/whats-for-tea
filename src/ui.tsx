@@ -38,6 +38,12 @@ export function Photo({ asset, catalogue, title, theme, eager, sizes = '(max-wid
     onError={() => setFailed(path)} /> : <div className="photo-fallback"><CookingPot size={28} aria-hidden /><small>{theme || 'Recipe collection'}</small><span>{title}</span></div>
 }
 
+export function RecipeTags({ recipe }: { recipe: Pick<Summary, 'themes' | 'seasons'> }) {
+  const tags = [...new Set([...(recipe.seasons ?? []), ...recipe.themes])]
+  if (!tags.length) return null
+  return <ul className="recipe-tags" aria-label="Recipe tags">{tags.map(tag => <li key={tag}>{tag}</li>)}</ul>
+}
+
 export function Card({ recipe, catalogue, saved, onSave, compact, match, tools }: {
   recipe: Summary; catalogue: Catalogue; saved: boolean; onSave: (id: string) => void; compact?: boolean; match?: Match; tools?: IngredientTools
 }) {
@@ -49,8 +55,8 @@ export function Card({ recipe, catalogue, saved, onSave, compact, match, tools }
       <div className="card-copy">
         <div className="card-meta"><span>{recipe.provider}</span>{timing && <span className="time-tag"><Clock3 size={14} /> {timeText(timing)} {kind}</span>}</div>
         <h3>{recipe.title}</h3>
-        {!!recipe.seasons?.length && <p className="season-labels">{recipe.seasons.join(' · ')}</p>}
-        {!compact && <p className="card-caption">{recipe.description || recipe.subtitle || recipe.themes[0]}</p>}
+        {!compact && (recipe.description || recipe.subtitle) && <p className="card-caption">{recipe.description || recipe.subtitle}</p>}
+        <RecipeTags recipe={recipe} />
         {match && tools && <p className="match-preview">{match.matched.length ? `Uses your ${match.matched.slice(0, 3).map(tools.label).join(', ')}` : 'Possible match'}<span> · </span>
           {match.missing.length ? `${plural(match.missing.length, 'item')} needed` : 'No missing items'}</p>}
       </div>
@@ -75,7 +81,10 @@ export function PantryField({ tools, pantry, setPantry, dark = false, after }: {
   const [status, setStatus] = useState('')
   const id = useId()
   const input = useRef<HTMLInputElement>(null)
-  const suggestions = open && raw.trim() && !/[,;\n]|\sand\s/i.test(raw) ? tools.suggest(raw) : []
+  const suggestions = open && raw.trim() && !/[,;\n]/.test(raw) ? tools.suggest(raw) : []
+  useEffect(() => {
+    if (open && active >= 0) document.getElementById(id + '-option-' + active)?.scrollIntoView({ block: 'nearest' })
+  }, [active, id, open])
   const add = (ids: string[]) => setPantry([...pantry, ...ids.filter(item => !pantry.some(p => p.id === item)).map(item => ({ id: item, first: false }))])
   const commit = (text = raw) => {
     if (!text.trim()) { input.current?.focus(); return }

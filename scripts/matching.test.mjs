@@ -30,6 +30,14 @@ test('parses pasted quantities and asks for confirmation on fuzzy and vague matc
   assert.ok(parsed.pending[1].choices.includes('double-cream'))
 })
 
+test('finds ingredient suggestions within the full label without auto-adding partial matches', () => {
+  assert.ok(tools.suggest('sau').includes('pork-sausage'))
+  assert.ok(tools.suggest('age').includes('pork-sausage'))
+  assert.ok(tools.search('rk sau').includes('pork-sausage'))
+  assert.deepEqual(tools.parse('sau').ids, [])
+  assert.ok(tools.parse('sau').pending[0].choices.includes('pork-sausage'))
+})
+
 test('treats a broad chicken as a lead and respects ingredient specificity', () => {
   const needs = requirementsFor(orzo)
   assert.ok(matchRequirements(needs, pantry('chicken'), [], tools).leads.includes('chicken-breast'))

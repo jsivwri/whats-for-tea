@@ -100,6 +100,7 @@ select, .small-input { min-height: 37px; padding: .35rem .55rem; background: var
 .suggestions { position: absolute; z-index: 4; top: calc(100% + 5px); left: 0; right: 0; background: var(--surface); color: var(--green); box-shadow: 0 8px 20px #172a2525; border: 1px solid var(--line); padding: .3rem; margin: 0; list-style: none; border-radius: 9px; }
 .suggestions li { display: flex; align-items: center; gap: .5rem; padding: .6rem .5rem; cursor: pointer; border-radius: 5px; font-size: .89rem; }
 .suggestions li:hover, .suggestions li[aria-selected=true] { background: var(--pale); }
+.suggestions { max-height: min(17rem, 40vh); overflow-y: auto; }
 .pantry-chips, .active-filters { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: .8rem; }
 .ingredient-chip { display: inline-flex; align-items: stretch; border-radius: 999px; overflow: hidden; background: var(--pale); border: 1px solid #bdc6af; color: var(--deep); }
 .ingredient-chip .chip { border: 0; border-radius: 0; }
@@ -388,4 +389,5 @@ summary { cursor: pointer; font-weight: 680; padding-block: .23rem; color: var(-
 }
 .dinner-photo { width: 100%; min-width: 0; overflow: hidden; }
 
-.season-labels { color: var(--muted); font-size: .8rem; margin: .35rem 0; }
+.recipe-tags { display: flex; flex-wrap: wrap; gap: .3rem; margin: .4rem 0 0; padding: 0; list-style: none; }
+.recipe-tags li { border-radius: 999px; background: var(--pale); color: var(--green); padding: .2rem .5rem; font-size: .75rem; font-weight: 600; }
